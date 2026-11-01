@@ -1,0 +1,62 @@
+{
+  "status": "UNROUNDED_DERIVED_CSV_SUBSETS",
+  "date": "2026-10-31",
+  "files": [
+    {
+      "source_relative_to_E1_finalization": "statistics/bucket_stability_all_users_summary.csv",
+      "source_sha256": "dfb031da3af264c53c2d91140357dfe06de0e77c67dca47f88ae0d27b3a488cc",
+      "file": "bucket_stability_all_users_summary.csv",
+      "rows": 24,
+      "minimal_input_sha256": "9d5444ccb5816446d6ad12ed549b5e3daacda037cd0e02f050e5a04ba41b0693",
+      "rounding_performed": false
+    },
+    {
+      "source_relative_to_E1_finalization": "statistics/seed_reference_summary.csv",
+      "source_sha256": "43d6c170db1f02dc0ba44002791b212c7147ba64ffd370a7db6f2b0b1febf0f6",
+      "file": "seed_reference_summary.csv",
+      "rows": 6,
+      "minimal_input_sha256": "0c3075a2ab0f3dba6ea575430d5076eb1dc1f198f017b020abb81782b9ad61f9",
+      "rounding_performed": false
+    },
+    {
+      "source_relative_to_E1_finalization": "statistics/method_summary.csv",
+      "source_sha256": "f4390e982d0469cf772164abb9ebdef5603ef50e6c251883737a6f21719aeede",
+      "file": "method_summary.csv",
+      "rows": 16,
+      "minimal_input_sha256": "89bd498e962fe41b7a3edcfb1d86efabe1b76cdec087854e40adbd2b0cbbfecf",
+      "rounding_performed": false
+    },
+    {
+      "source_relative_to_E1_finalization": "statistics/paired_difference_summary.csv",
+      "source_sha256": "6c8f4a4eafdd0d72f36eb1a3cc412115018a72362d64feddfaae80db8cdc80e9",
+      "file": "paired_difference_summary.csv",
+      "rows": 16,
+      "minimal_input_sha256": "09d3d42abf4327d7f47582289e176d726c25f3377fef8cba4ed9a40143e3d9b8",
+      "rounding_performed": false
+    },
+    {
+      "source_relative_to_E1_finalization": "statistics/paired_per_seed_user_bootstrap.csv",
+      "source_sha256": "eef8644d85cdba02d2537bc6b32ba1ec7f286c221e87da563aad3756377b5189",
+      "file": "paired_per_seed_user_bootstrap.csv",
+      "rows": 36,
+      "minimal_input_sha256": "e394b20826925c264c656def423edd2316636b36309fd63574d15ac410a43d1f",
+      "rounding_performed": false
+    },
+    {
+      "source_relative_to_E1_finalization": "X7/training/epoch_validation_curves.csv",
+      "source_sha256": "9eb5b332c251d71f21add4de84476e93d9f71a200a44d3fcb7c76abfdd28fd0c",
+      "file": "epoch_validation_curves.csv",
+      "rows": 381,
+      "minimal_input_sha256": "0f77ffad8977363e12af519ddd605cd08209ff06ff8c824b3aebda584c051ebf",
+      "rounding_performed": false
+    },
+    {
+      "source_relative_to_E1_finalization": "X7/training/training_run_summary.csv",
+      "source_sha256": "b53cbd9e9d6ebd552ddaf76dd8147f73a67d81a18ed963acde9045297a895dd3",
+      "file": "training_run_summary.csv",
+      "rows": 6,
+      "minimal_input_sha256": "df6cfa752a7fde03ba7b7643294ce98dfc03448922cec934bfe68093381d7448",
+      "rounding_performed": false
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "dataset": "Beauty",
+  "sample_id": "Amazon_Beauty__test__348184",
+  "training_seed": 42,
+  "best_epoch": 77,
+  "target_asin": "B000NWDSAE",
+  "target_date_utc": "2014-06-25",
+  "last_bucket_date_utc": "2014-04-17",
+  "fixed_prefix_events": 21,
+  "last_bucket_size": 2,
+  "selection": "First saved prediction-row user whose hit@10 flips across five permutations, preferring final buckets of size2 or3; descriptive example, not an average effect.",
+  "selection_is_random": false,
+  "orders": [
+    {
+      "label": "A",
+      "internal_permutation_seed_not_displayed": 101,
+      "last_bucket_asins": [
+        "B0020HEBX8",
+        "B004AIAVYS"
+      ],
+      "target_rank": 1,
+      "top10_asins": [
+        "B000NWDSAE",
+        "B000052YOX",
+        "B001FWXJ4G",
+        "B0043OYFKU",
+        "B0000530LP",
+        "B0063A432W",
+        "B001ET76EY",
+        "B000ODNSR0",
+        "B004DBXKWW",
+        "B00AO4E9E0"
+      ],
+      "display_top3_asins": [
+        "B000NWDSAE",
+        "B000052YOX",
+        "B001FWXJ4G"
+      ]
+    },
+    {
+      "label": "B",
+      "internal_permutation_seed_not_displayed": 202,
+      "last_bucket_asins": [
+        "B004AIAVYS",
+        "B0020HEBX8"
+      ],
+      "target_rank": 335,
+      "top10_asins": [
+        "B001G7PLBY",
+        "B001CTQMIC",
+        "B0010XUU9M",
+        "B002PMLGOU",
+        "B00A0J09G6",
+        "B002TSA90M",
+        "B0000535RD",
+        "B00A99XF0Y",
+        "B001ADOV4W",
+        "B0067YTJ0K"
+      ],
+      "display_top3_asins": [
+        "B001G7PLBY",
+        "B001CTQMIC",
+        "B0010XUU9M"
+      ]
+    }
+  ],
+  "labels": {
+    "B0020HEBX8": {
+      "source_title": "Ecotools Bamboo Bristle Bath Brush",
+      "verified_display_label": "Ecotools Bamboo Bristle Bath Brush",
+      "short_display_label": "Ecotools bath brush"
+    },
+    "B004AIAVYS": {
+      "source_title": "Neutrogena Hand Cream Norwegian Formula Fragrance Free 2 Oz (Pack of 3)",
+      "verified_display_label": "Neutrogena Hand Cream Norwegian Formula Fragrance Free 2 Oz (Pack of 3)",
+      "short_display_label": "Neutrogena hand cream"
+    },
+    "B000NWDSAE": {
+      "source_title": "Neutrogena Oil-Free Acne Wash Daily Scrub, 4.2 Ounce",
+      "verified_display_label": "Neutrogena Oil-Free Acne Wash Daily Scrub, 4.2 Ounce",
+      "short_display_label": "Neutrogena Acne Wash Scrub"
+    },
+    "B000052YOX": {
+      "source_title": "Neutrogena Oil-Free Moisture, Sensitive Skin, 4 Ounce",
+      "verified_display_label": "Neutrogena Oil-Free Moisture, Sensitive Skin, 4 Ounce",
+      "short_display_label": "Neutrogena Oil-Free Moisture"
+    },
+    "B001FWXJ4G": {
+      "source_title": "Sunburnt Therapeutic After Sun Relief, 6-Ounce Tube",
+      "verified_display_label": "Sunburnt Therapeutic After Sun Relief, 6-Ounce Tube",
+      "short_display_label": "Sunburnt After Sun Relief"
+    },
+    "B001G7PLBY": {
+      "source_title": "Gold Bond Ultimate Skin Therapy Lotion, Healing, Aloe, 5.5 oz , (Pack of 3)",
+      "verified_display_label": "Gold Bond Ultimate Skin Therapy Lotion, Healing, Aloe, 5.5 oz , (Pack of 3)",
+      "short_display_label": "Gold Bond Healing Lotion"
+    },
+    "B001CTQMIC": {
+      "source_title": "Aquasentials Mesh Pouf Bath Sponge (8 Pack)",
+      "verified_display_label": "Aquasentials Mesh Pouf Bath Sponge (8 Pack)",
+      "short_display_label": "Aquasentials bath sponge"
+    },
+    "B0010XUU9M": {
+      "source_title": "Neutrogena Makeup Remover Cleansing Towelettes, Refill Pack, 25 Count",
+      "verified_display_label": "Neutrogena Makeup Remover Cleansing Towelettes, Refill Pack, 25 Count",
+      "short_display_label": "Neutrogena cleansing towelettes"
+    }
+  },
+  "full_top10_intersection_count": 0,
+  "body_shows_only_top3": true,
+  "source_records": {
+    "D:\\time_uncertainty_rec\\paper_revision_20261004\\fig1_metadata_reports_20261028T094512Z_09f79e6a\\fig1_metadata_report.json": "4001607d07a390d29b5ab738835f21e936c5ffaefc9662786c9129fde89dfc6e",
+    "D:\\time_uncertainty_rec\\kais_revision_outline_20261022\\g2_closure_20261027\\H_manuscript\\figure1_redraw\\figure1_product_label_map.csv": "710999f7bd6be481b18925db8b3a8b4a7ac27cd5f71942d3b8f1309d62ed4818",
+    "D:\\time_uncertainty_rec\\kais_revision_outline_20261022\\g2_closure_20261027\\H_manuscript\\figure1_redraw\\figure1_provenance.json": "005dd2d226d040be22857b329f7ea1b7851c3489f0b3437dc7a6a0c4f8f8cd4a",
+    "D:\\time_uncertainty_rec\\kais_revision_outline_20261022\\g2_closure_20261027\\H_manuscript\\figure1_redraw\\figure1_verification.json": "d89d4a0355509a77144cc1ce4a87327e20dc13fc5b15bff1b9bb8cd048a6e870",
+    "D:\\time_uncertainty_rec\\kais_revision_outline_20261022\\g2_closure_20261027\\H_manuscript\\figure1_redraw\\build_figure1.py": "1688bda187cf5473f1a2a954e30f900db1ae88a2ac4fa8fa42e81335c867dc97",
+    "D:\\time_uncertainty_rec\\kais_revision_outline_20261022\\g2_closure_20261027\\H_manuscript\\figure2_redraw\\build_figure2.py": "a9782e44e5dd887c94d13fcda95934254e952572b0b777c38d6ba5c8476e4576",
+    "D:\\time_uncertainty_rec\\kais_revision_outline_20261022\\formal_revision_20261031\\baseline_project\\main.tex": "89645d23fd59f14f50c8ff49766872010959b77478b7a5c251433212b2444b9d"
+  },
+  "protocol_contract": {
+    "strict_target": "tau(y)>tau_m; same-time targets excluded",
+    "evaluation_scope": "last bucket only; earlier prefix fixed",
+    "Shuffle_training_scope": "all visible tied buckets",
+    "Ensemble_training": "reuse corresponding Control checkpoint",
+    "Ensemble_recommendation": "five raw-score vectors averaged before common candidate masking and ranking",
+    "Ensemble_stability": "five fixed groups; five views per final output",
+    "LBSP_stage": "mean-pool B_m before positional encoding in training and inference",
+    "candidate_mask": "from uncompressed visible history"
+  }
+}
