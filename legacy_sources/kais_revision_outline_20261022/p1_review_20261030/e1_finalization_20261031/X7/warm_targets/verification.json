@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-31",
+  "status": "PASS_X7_24_CURRENT_WARM_COLD_TARGET_DIAGNOSTICS",
+  "model_configurations": 24,
+  "new_E1_models": 10,
+  "retained_models": 14,
+  "prediction_rows": 400212,
+  "rank10_top10_membership_mismatches_preserved": 0,
+  "stale_X5_model_rank_columns_used": false,
+  "frozen_populations_unchanged": true,
+  "Beauty_results_unchanged": true,
+  "rows": {
+    "per_seed_metrics": 1296,
+    "method_summary": 432,
+    "paired_differences_per_seed": 648,
+    "paired_difference_summary": 216,
+    "population_counts": 24,
+    "analytic_baselines": 336
+  },
+  "raw_interaction_or_checkpoint_read_or_stat": false,
+  "new_model_training_or_inference": false,
+  "submitted_research_code_executed": false,
+  "source_files": 275,
+  "checks": 815055,
+  "numeric_comparisons": 864
+}

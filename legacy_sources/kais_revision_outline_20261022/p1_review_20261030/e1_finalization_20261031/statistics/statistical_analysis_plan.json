@@ -1,0 +1,61 @@
+{
+  "fixed_before_computation": true,
+  "registration_scope": "Analysis plan fixed before this closing-stage computation; main experimental results had already been inspected. This is not a preregistration before conducting the experiments.",
+  "date": "2026-10-27",
+  "scope": "Previously audited saved predictions and metadata only; no interaction data, models, checkpoints, tensor library, submitted collector or research code is accessed or executed.",
+  "training_seeds": [42, 2026, 3407],
+  "methods": ["Control", "LBSP", "Shuffle", "Ensemble", "TiSASRec"],
+  "datasets": ["ml1m", "beauty", "sports", "toys"],
+  "accuracy": {
+    "metrics": ["ndcg10", "hr10", "hr20", "recall50", "mrr", "mrr10", "mean_rank"],
+    "primary_view": "canonical for Control/LBSP/Shuffle/TiSASRec; average of five final ensemble-group metrics within each training seed for Ensemble",
+    "rank": "strict-greater saved target rank, unchanged even when independently saved Top10 membership differs",
+    "ndcg10": "mean(1/log2(rank+1) when rank<=10 else 0)",
+    "hr10_hr20_recall50": "fraction with rank<=10, <=20, <=50 respectively; one positive per sample",
+    "mrr": "mean(1/rank) over all legal ranks",
+    "mrr10": "mean(1/rank when rank<=10 else 0)",
+    "mean_rank": "mean saved target rank"
+  },
+  "populations": {
+    "full": "fixed complete test sample panel",
+    "affected": "at least two distinct raw history sequence hashes among fixed five permutations 101/202/303/404/505; canonical excluded; before LBSP canonicalization; same mask for methods and seeds",
+    "pooled": "last visible bucket size>=2; separate from affected",
+    "singleton": "last visible bucket size=1",
+    "bucket2": "last visible bucket size=2, regardless of affected mask",
+    "bucket3": "last visible bucket size=3, regardless of affected mask",
+    "bucket4": "last visible bucket size=4, regardless of affected mask",
+    "bucket5plus": "last visible bucket size>=5, regardless of affected mask",
+    "affected_bucket2": "affected and last visible bucket size=2",
+    "affected_bucket3": "affected and last visible bucket size=3",
+    "affected_bucket4": "affected and last visible bucket size=4",
+    "affected_bucket5plus": "affected and last visible bucket size>=5",
+    "empty_strata": "retain n=0, missing numerical estimates; never impute zero"
+  },
+  "stability": {
+    "panels": "five fixed permutation outputs; for Ensemble five final score-mean group outputs",
+    "overlap10": "for each user average intersection size/10 over all 10 unordered pairs, then average users",
+    "hitflip": "fraction of users with both saved-rank hit@10 and non-hit among five outputs; not pairwise flip"
+  },
+  "aggregation_and_intervals": {
+    "independent_unit": "training seed (n=3)",
+    "center": "arithmetic mean of three training-seed values",
+    "dispersion": "sample standard deviation, denominator n-1",
+    "confidence_level": 0.95,
+    "interval": "mean +/- 4.302652729749464 * sample_sd/sqrt(3)",
+    "student_t_df": 2,
+    "student_t_two_sided_critical": 4.302652729749464,
+    "paired_control_comparison": "within each dataset/population/training seed subtract Control from the method metric; aggregate the three paired differences with the same sample SD and t interval",
+    "no_interval_truncation": true,
+    "interpretation": "Conditional on fixed data, protocol and the three specified training seeds. Intervals describe hypothetical independent approximately Gaussian training-seed variation; the fixed chosen seeds are not a random sample of all possible seeds. n=3 gives imprecise intervals. No multiplicity correction is made. No significance, superiority, equivalence or causal claims or confirmatory inference.",
+    "forbidden_pseudoreplication": ["users as independent training repeats", "permutations as training repeats", "15 ensemble groups as 15 training seeds", "three overlapping seed pairs as three independent runs"],
+    "bootstrap": "not used; no resampling count or random seed is needed"
+  },
+  "training_seed_reference": {
+    "pairs": [[42,2026],[42,3407],[2026,3407]],
+    "view": "canonical for trained non-ensemble methods; for Ensemble pair same group then average five group comparisons",
+    "reference_line": "mean of the three seed-pair user-average Top10 overlaps, separately by dataset, method and population",
+    "pair_intervals": "none; three pairs share models and are dependent"
+  },
+  "analytic_baselines": "Saved Random and Popularity analytic expectations have no training-seed SD or training-seed confidence interval.",
+  "figure5": "x=affected overlap10, y=affected paired Control delta ndcg10; both training-seed means and prespecified 95% t intervals. Timing marker sizes are measured inference costs with different repetition units."
+}

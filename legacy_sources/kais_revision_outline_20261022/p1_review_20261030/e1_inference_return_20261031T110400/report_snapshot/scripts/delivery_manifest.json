@@ -1,0 +1,15 @@
+{
+  "version": "e1_inference_v1",
+  "date": "2026-10-31",
+  "runtime_sha256": {
+    "run_e1_inference.py": "001d4805720c5fca16ab85385e428f30f99c8fe02c3eed78275a6f1c5db64339",
+    "e1_inference_inputs.json": "1a10ac2d3ddbe898269b8144404888b24f6b5e49902f394489dc01f25a38bb8f",
+    "frozen_x3_inference.py": "b5550a6f3342176a3f3eca688ed4955e2a65d448cbe6de6a1d24202d2f3ee781",
+    "x3_inference_adapter.py": "845b497ae948ca65c0dcde7fba0c212da75bb81989b4c82d2cce777cac9241ce",
+    "x3_inference_protocol.py": "dea712e72a28f196aa8eabd09e5dc3bdd7774002779b3546a73a1fdc6413366a",
+    "x6_model_definitions.py": "cec07d7839491edf72eb577bd83144b0e28966d5511113acd1bb43de8fe78ca9",
+    "frozen_x6_inference.py": "09d786e075e3558d54f4a0b933124c45a9f69f0d5a34f42134a31b6f07af1903",
+    "x3_core_helpers.py": "b5550a6f3342176a3f3eca688ed4955e2a65d448cbe6de6a1d24202d2f3ee781"
+  },
+  "scope": "Inference-only18evaluations+7pairedseed42costprofiles; frozen scientific and timing workers reused; no training and original outputs read only."
+}

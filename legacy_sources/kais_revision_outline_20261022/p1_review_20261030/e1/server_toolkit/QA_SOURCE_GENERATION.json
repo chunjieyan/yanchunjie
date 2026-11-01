@@ -1,0 +1,106 @@
+{
+  "status": "PASS_LOCAL_STANDARD_LIBRARY_GENERATION_ONLY",
+  "all19_trainers_generated": true,
+  "unchanged_scientific_asts": true,
+  "existing_stage_overwrite_rejected": true,
+  "mutated_source_rejected": true,
+  "plan_no_project_access": true,
+  "torch_or_real_data_loaded": false,
+  "reviews": [
+    {
+      "id": "ml1m_lbsp_seed42",
+      "scientific_definitions": 7,
+      "status": "PASS_GENERATION_AND_AST"
+    },
+    {
+      "id": "ml1m_lbsp_seed2026",
+      "scientific_definitions": 7,
+      "status": "PASS_GENERATION_AND_AST"
+    },
+    {
+      "id": "ml1m_lbsp_seed3407",
+      "scientific_definitions": 7,
+      "status": "PASS_GENERATION_AND_AST"
+    },
+    {
+      "id": "ml1m_shuffle_seed42",
+      "scientific_definitions": 22,
+      "status": "PASS_GENERATION_AND_AST"
+    },
+    {
+      "id": "ml1m_shuffle_seed3407",
+      "scientific_definitions": 22,
+      "status": "PASS_GENERATION_AND_AST"
+    },
+    {
+      "id": "ml1m_tisasrec_seed42",
+      "scientific_definitions": 20,
+      "status": "PASS_GENERATION_AND_AST"
+    },
+    {
+      "id": "ml1m_tisasrec_seed2026",
+      "scientific_definitions": 20,
+      "status": "PASS_GENERATION_AND_AST"
+    },
+    {
+      "id": "beauty_tisasrec_seed42",
+      "scientific_definitions": 20,
+      "status": "PASS_GENERATION_AND_AST"
+    },
+    {
+      "id": "beauty_tisasrec_seed2026",
+      "scientific_definitions": 20,
+      "status": "PASS_GENERATION_AND_AST"
+    },
+    {
+      "id": "beauty_tisasrec_seed3407",
+      "scientific_definitions": 20,
+      "status": "PASS_GENERATION_AND_AST"
+    },
+    {
+      "id": "sports_control_seed2026",
+      "scientific_definitions": 7,
+      "status": "PASS_GENERATION_AND_AST"
+    },
+    {
+      "id": "sports_lbsp_seed42",
+      "scientific_definitions": 12,
+      "status": "PASS_GENERATION_AND_AST"
+    },
+    {
+      "id": "sports_lbsp_seed2026",
+      "scientific_definitions": 12,
+      "status": "PASS_GENERATION_AND_AST"
+    },
+    {
+      "id": "toys_control_seed42",
+      "scientific_definitions": 7,
+      "status": "PASS_GENERATION_AND_AST"
+    },
+    {
+      "id": "toys_control_seed2026",
+      "scientific_definitions": 7,
+      "status": "PASS_GENERATION_AND_AST"
+    },
+    {
+      "id": "toys_control_seed3407",
+      "scientific_definitions": 7,
+      "status": "PASS_GENERATION_AND_AST"
+    },
+    {
+      "id": "toys_lbsp_seed42",
+      "scientific_definitions": 12,
+      "status": "PASS_GENERATION_AND_AST"
+    },
+    {
+      "id": "toys_shuffle_seed42",
+      "scientific_definitions": 16,
+      "status": "PASS_GENERATION_AND_AST"
+    },
+    {
+      "id": "toys_shuffle_seed3407",
+      "scientific_definitions": 16,
+      "status": "PASS_GENERATION_AND_AST"
+    }
+  ]
+}

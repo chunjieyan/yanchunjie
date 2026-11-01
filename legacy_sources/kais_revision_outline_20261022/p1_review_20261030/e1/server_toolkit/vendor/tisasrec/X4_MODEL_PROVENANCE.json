@@ -1,0 +1,25 @@
+{
+  "upstream": "https://github.com/RUCAIBox/RecBole-TRM",
+  "commit": "18b47f8ff98980bed2f2113b398e55b484e748b9",
+  "license": "MIT",
+  "upstream_sha256": {
+    "LICENSE": "2c33dad5fede86236b54db22e0be64e72095d151f324bcadd354ab88f40c52fe",
+    "recbole/model/transformer_recommender/tisasrec.py": "e749713fdf2f7a75f62a68353e5013558b3359662594da0f71cc81b2c2a6a4e6",
+    "recbole/model/transformer_layers.py": "f59b3b94431dbfeac257e8786e32040a6f51f6df929b3f4bceb72faeab2c4179",
+    "recbole/model/layers.py": "992f0aeb103020c398d95620687ca48776dc41119623d4800650fe585438b8b9",
+    "recbole/model/abstract_recommender.py": "f63c05eac8606495a58f5866ce93a057dc810da7d0d50dd16cfac2b3a4ff8a12",
+    "recbole/properties/model/TiSASRec.yaml": "001df1caeaeb32de46c575b81a23dce5c5a770e28e54491696d74f99acbb24f6"
+  },
+  "model_sha256": "3c82fff77e698599f04eadf4d93b4169d2b8b544dae364e23039cb0b7b258212",
+  "source_ast_checks": 64,
+  "scope": "Retained RecBole time-aware model math; independent strict-panel prefix-time adaptation. Not reproduction of original sampled-candidate paper results.",
+  "adaptation": {
+    "version": "x4_tisasrec_v1",
+    "name": "TiSASRecModel",
+    "source": "MIT RecBole-TRM TiSASRec; pinned commit, not original-paper numerical reproduction",
+    "padding": "valid-first right padding; item index 0; gather length-1",
+    "time_protocol": "Caller: only already-truncated visible history; minimum positive visible chronological gap, or 1; floor(abs(ti-tj)/scale), clip 256; zero for same bucket and padding pairs; no target time.",
+    "preserved": "TimeAware attention/layer/encoder and FeedForward AST; initialization; upstream forward computation; inherited causal mask and gather.",
+    "score_all": "Unmasked full-catalog logits including padding index 0; caller masks index 0 and evaluation seen items except target."
+  }
+}

@@ -1,0 +1,573 @@
+{
+  "status": "COMPLETE_WARM_TARGET_DIAGNOSTIC_DESCRIPTIVE_RESULTS",
+  "population_counts": [
+    {
+      "dataset": "ml1m",
+      "population": "full",
+      "n": 945,
+      "full_n": 945,
+      "affected_n": 163,
+      "warm_n": 940,
+      "cold_n": 5
+    },
+    {
+      "dataset": "ml1m",
+      "population": "warm",
+      "n": 940,
+      "full_n": 945,
+      "affected_n": 163,
+      "warm_n": 940,
+      "cold_n": 5
+    },
+    {
+      "dataset": "ml1m",
+      "population": "cold",
+      "n": 5,
+      "full_n": 945,
+      "affected_n": 163,
+      "warm_n": 940,
+      "cold_n": 5
+    },
+    {
+      "dataset": "ml1m",
+      "population": "affected",
+      "n": 163,
+      "full_n": 945,
+      "affected_n": 163,
+      "warm_n": 940,
+      "cold_n": 5
+    },
+    {
+      "dataset": "ml1m",
+      "population": "warm_affected",
+      "n": 163,
+      "full_n": 945,
+      "affected_n": 163,
+      "warm_n": 940,
+      "cold_n": 5
+    },
+    {
+      "dataset": "ml1m",
+      "population": "cold_affected",
+      "n": 0,
+      "full_n": 945,
+      "affected_n": 163,
+      "warm_n": 940,
+      "cold_n": 5
+    },
+    {
+      "dataset": "beauty",
+      "population": "full",
+      "n": 2966,
+      "full_n": 2966,
+      "affected_n": 922,
+      "warm_n": 2037,
+      "cold_n": 929
+    },
+    {
+      "dataset": "beauty",
+      "population": "warm",
+      "n": 2037,
+      "full_n": 2966,
+      "affected_n": 922,
+      "warm_n": 2037,
+      "cold_n": 929
+    },
+    {
+      "dataset": "beauty",
+      "population": "cold",
+      "n": 929,
+      "full_n": 2966,
+      "affected_n": 922,
+      "warm_n": 2037,
+      "cold_n": 929
+    },
+    {
+      "dataset": "beauty",
+      "population": "affected",
+      "n": 922,
+      "full_n": 2966,
+      "affected_n": 922,
+      "warm_n": 2037,
+      "cold_n": 929
+    },
+    {
+      "dataset": "beauty",
+      "population": "warm_affected",
+      "n": 718,
+      "full_n": 2966,
+      "affected_n": 922,
+      "warm_n": 2037,
+      "cold_n": 929
+    },
+    {
+      "dataset": "beauty",
+      "population": "cold_affected",
+      "n": 204,
+      "full_n": 2966,
+      "affected_n": 922,
+      "warm_n": 2037,
+      "cold_n": 929
+    },
+    {
+      "dataset": "sports",
+      "population": "full",
+      "n": 4659,
+      "full_n": 4659,
+      "affected_n": 1624,
+      "warm_n": 4020,
+      "cold_n": 639
+    },
+    {
+      "dataset": "sports",
+      "population": "warm",
+      "n": 4020,
+      "full_n": 4659,
+      "affected_n": 1624,
+      "warm_n": 4020,
+      "cold_n": 639
+    },
+    {
+      "dataset": "sports",
+      "population": "cold",
+      "n": 639,
+      "full_n": 4659,
+      "affected_n": 1624,
+      "warm_n": 4020,
+      "cold_n": 639
+    },
+    {
+      "dataset": "sports",
+      "population": "affected",
+      "n": 1624,
+      "full_n": 4659,
+      "affected_n": 1624,
+      "warm_n": 4020,
+      "cold_n": 639
+    },
+    {
+      "dataset": "sports",
+      "population": "warm_affected",
+      "n": 1483,
+      "full_n": 4659,
+      "affected_n": 1624,
+      "warm_n": 4020,
+      "cold_n": 639
+    },
+    {
+      "dataset": "sports",
+      "population": "cold_affected",
+      "n": 141,
+      "full_n": 4659,
+      "affected_n": 1624,
+      "warm_n": 4020,
+      "cold_n": 639
+    },
+    {
+      "dataset": "toys",
+      "population": "full",
+      "n": 2547,
+      "full_n": 2547,
+      "affected_n": 842,
+      "warm_n": 1740,
+      "cold_n": 807
+    },
+    {
+      "dataset": "toys",
+      "population": "warm",
+      "n": 1740,
+      "full_n": 2547,
+      "affected_n": 842,
+      "warm_n": 1740,
+      "cold_n": 807
+    },
+    {
+      "dataset": "toys",
+      "population": "cold",
+      "n": 807,
+      "full_n": 2547,
+      "affected_n": 842,
+      "warm_n": 1740,
+      "cold_n": 807
+    },
+    {
+      "dataset": "toys",
+      "population": "affected",
+      "n": 842,
+      "full_n": 2547,
+      "affected_n": 842,
+      "warm_n": 1740,
+      "cold_n": 807
+    },
+    {
+      "dataset": "toys",
+      "population": "warm_affected",
+      "n": 683,
+      "full_n": 2547,
+      "affected_n": 842,
+      "warm_n": 1740,
+      "cold_n": 807
+    },
+    {
+      "dataset": "toys",
+      "population": "cold_affected",
+      "n": 159,
+      "full_n": 2547,
+      "affected_n": 842,
+      "warm_n": 1740,
+      "cold_n": 807
+    }
+  ],
+  "warm_accuracy_and_stability": [
+    {
+      "dataset": "ml1m",
+      "population": "warm",
+      "n": 940,
+      "Control_ndcg10": {
+        "mean": 0.04906587423593389,
+        "sample_sd": 0.0026372534217229448
+      },
+      "Control_mean_rank": {
+        "mean": 625.5734042553191,
+        "sample_sd": 4.365384667541804
+      },
+      "Control_overlap10": {
+        "mean": 0.9468120567375886,
+        "sample_sd": 0.0004946903834969865
+      },
+      "Control_hitflip": {
+        "mean": 0.016666666666666666,
+        "sample_sd": 0.0032500536843658454
+      },
+      "LBSP_ndcg10": {
+        "mean": 0.054949884443575195,
+        "sample_sd": 0.001316895259617767
+      },
+      "LBSP_mean_rank": {
+        "mean": 626.0755319148936,
+        "sample_sd": 11.717616007454085
+      },
+      "LBSP_overlap10": {
+        "mean": 1.0,
+        "sample_sd": 0.0
+      },
+      "LBSP_hitflip": {
+        "mean": 0,
+        "sample_sd": 0.0
+      },
+      "paired_ndcg10_difference": {
+        "mean_delta": 0.005884010207641302,
+        "sample_sd_delta": 0.001813114314481107,
+        "ci95_lower": 0.0013799845633244347,
+        "ci95_upper": 0.01038803585195817
+      }
+    },
+    {
+      "dataset": "ml1m",
+      "population": "warm_affected",
+      "n": 163,
+      "Control_ndcg10": {
+        "mean": 0.0744623816852389,
+        "sample_sd": 0.005051130016364601
+      },
+      "Control_mean_rank": {
+        "mean": 513.7055214723927,
+        "sample_sd": 6.209204242166453
+      },
+      "Control_overlap10": {
+        "mean": 0.6932719836400818,
+        "sample_sd": 0.002852815708510097
+      },
+      "Control_hitflip": {
+        "mean": 0.09611451942740286,
+        "sample_sd": 0.01874264087916499
+      },
+      "LBSP_ndcg10": {
+        "mean": 0.08247699777672013,
+        "sample_sd": 0.006190634460529147
+      },
+      "LBSP_mean_rank": {
+        "mean": 540.7402862985685,
+        "sample_sd": 22.039841509705628
+      },
+      "LBSP_overlap10": {
+        "mean": 1.0,
+        "sample_sd": 0.0
+      },
+      "LBSP_hitflip": {
+        "mean": 0,
+        "sample_sd": 0.0
+      },
+      "paired_ndcg10_difference": {
+        "mean_delta": 0.008014616091481222,
+        "sample_sd_delta": 0.009387653401127832,
+        "ci95_lower": -0.01530560774710168,
+        "ci95_upper": 0.031334839930064126
+      }
+    },
+    {
+      "dataset": "beauty",
+      "population": "warm",
+      "n": 2037,
+      "Control_ndcg10": {
+        "mean": 0.011217380463408613,
+        "sample_sd": 0.000694249104200475
+      },
+      "Control_mean_rank": {
+        "mean": 4136.82343315333,
+        "sample_sd": 25.023657491186952
+      },
+      "Control_overlap10": {
+        "mean": 0.7981263295696285,
+        "sample_sd": 0.00229865164304684
+      },
+      "Control_hitflip": {
+        "mean": 0.012763868433971527,
+        "sample_sd": 0.0029861377173776246
+      },
+      "LBSP_ndcg10": {
+        "mean": 0.010223321322508364,
+        "sample_sd": 0.0013102571470149484
+      },
+      "LBSP_mean_rank": {
+        "mean": 4131.142202585502,
+        "sample_sd": 41.58666614907866
+      },
+      "LBSP_overlap10": {
+        "mean": 1.0,
+        "sample_sd": 0.0
+      },
+      "LBSP_hitflip": {
+        "mean": 0,
+        "sample_sd": 0.0
+      },
+      "paired_ndcg10_difference": {
+        "mean_delta": -0.0009940591409002494,
+        "sample_sd_delta": 0.0018980137028931732,
+        "ci95_lower": -0.0057089865576760695,
+        "ci95_upper": 0.003720868275875571
+      }
+    },
+    {
+      "dataset": "beauty",
+      "population": "warm_affected",
+      "n": 718,
+      "Control_ndcg10": {
+        "mean": 0.015415915821101658,
+        "sample_sd": 0.002102631409464524
+      },
+      "Control_mean_rank": {
+        "mean": 4038.450324976787,
+        "sample_sd": 157.91641603113112
+      },
+      "Control_overlap10": {
+        "mean": 0.42727483751160633,
+        "sample_sd": 0.0065213835611230685
+      },
+      "Control_hitflip": {
+        "mean": 0.036211699164345405,
+        "sample_sd": 0.008471814109050445
+      },
+      "LBSP_ndcg10": {
+        "mean": 0.015686193568408217,
+        "sample_sd": 0.0016383061135998946
+      },
+      "LBSP_mean_rank": {
+        "mean": 3906.912720519963,
+        "sample_sd": 54.25357182110873
+      },
+      "LBSP_overlap10": {
+        "mean": 1.0,
+        "sample_sd": 0.0
+      },
+      "LBSP_hitflip": {
+        "mean": 0,
+        "sample_sd": 0.0
+      },
+      "paired_ndcg10_difference": {
+        "mean_delta": 0.0002702777473065603,
+        "sample_sd_delta": 0.0036727531338387755,
+        "ci95_lower": -0.008853346818411554,
+        "ci95_upper": 0.009393902313024673
+      }
+    },
+    {
+      "dataset": "sports",
+      "population": "warm",
+      "n": 4020,
+      "Control_ndcg10": {
+        "mean": 0.010024758864684504,
+        "sample_sd": 0.000678252026343679
+      },
+      "Control_mean_rank": {
+        "mean": 5210.300995024875,
+        "sample_sd": 127.2140255821139
+      },
+      "Control_overlap10": {
+        "mean": 0.7933880597014925,
+        "sample_sd": 0.005404613999065867
+      },
+      "Control_hitflip": {
+        "mean": 0.014759535655058043,
+        "sample_sd": 0.001005336289633676
+      },
+      "LBSP_ndcg10": {
+        "mean": 0.010979885680840146,
+        "sample_sd": 0.0004759250688812951
+      },
+      "LBSP_mean_rank": {
+        "mean": 5112.516666666666,
+        "sample_sd": 22.927763168057012
+      },
+      "LBSP_overlap10": {
+        "mean": 1.0,
+        "sample_sd": 0.0
+      },
+      "LBSP_hitflip": {
+        "mean": 0,
+        "sample_sd": 0.0
+      },
+      "paired_ndcg10_difference": {
+        "mean_delta": 0.0009551268161556419,
+        "sample_sd_delta": 0.0007793507668676465,
+        "ci95_lower": -0.0009808878145018192,
+        "ci95_upper": 0.002891141446813103
+      }
+    },
+    {
+      "dataset": "sports",
+      "population": "warm_affected",
+      "n": 1483,
+      "Control_ndcg10": {
+        "mean": 0.011669758083356246,
+        "sample_sd": 0.0005328592299549145
+      },
+      "Control_mean_rank": {
+        "mean": 5135.9222297145425,
+        "sample_sd": 134.85927740510016
+      },
+      "Control_overlap10": {
+        "mean": 0.43993256911665546,
+        "sample_sd": 0.014650403422956764
+      },
+      "Control_hitflip": {
+        "mean": 0.04000899078444594,
+        "sample_sd": 0.002725186705547795
+      },
+      "LBSP_ndcg10": {
+        "mean": 0.012268763606160915,
+        "sample_sd": 0.0007762002656667385
+      },
+      "LBSP_mean_rank": {
+        "mean": 4705.8642391548665,
+        "sample_sd": 58.99553691094416
+      },
+      "LBSP_overlap10": {
+        "mean": 1.0,
+        "sample_sd": 0.0
+      },
+      "LBSP_hitflip": {
+        "mean": 0,
+        "sample_sd": 0.0
+      },
+      "paired_ndcg10_difference": {
+        "mean_delta": 0.0005990055228046685,
+        "sample_sd_delta": 0.001148568270006559,
+        "ci95_lower": -0.002254196231238461,
+        "ci95_upper": 0.0034522072768477983
+      }
+    },
+    {
+      "dataset": "toys",
+      "population": "warm",
+      "n": 1740,
+      "Control_ndcg10": {
+        "mean": 0.011840705475884113,
+        "sample_sd": 0.0015962131207620973
+      },
+      "Control_mean_rank": {
+        "mean": 3888.8959770114943,
+        "sample_sd": 99.30931468475124
+      },
+      "Control_overlap10": {
+        "mean": 0.7643793103448276,
+        "sample_sd": 0.004086877743726313
+      },
+      "Control_hitflip": {
+        "mean": 0.01532567049808429,
+        "sample_sd": 0.0026544839962741413
+      },
+      "LBSP_ndcg10": {
+        "mean": 0.01438410715260305,
+        "sample_sd": 0.0005310597401183826
+      },
+      "LBSP_mean_rank": {
+        "mean": 3702.990038314176,
+        "sample_sd": 129.96035878467356
+      },
+      "LBSP_overlap10": {
+        "mean": 1.0,
+        "sample_sd": 0.0
+      },
+      "LBSP_hitflip": {
+        "mean": 0,
+        "sample_sd": 0.0
+      },
+      "paired_ndcg10_difference": {
+        "mean_delta": 0.0025434016767189372,
+        "sample_sd_delta": 0.0010755705888544915,
+        "ci95_lower": -0.0001284637847040154,
+        "ci95_upper": 0.005215267138141889
+      }
+    },
+    {
+      "dataset": "toys",
+      "population": "warm_affected",
+      "n": 683,
+      "Control_ndcg10": {
+        "mean": 0.010968282759987917,
+        "sample_sd": 0.0024478350712972444
+      },
+      "Control_mean_rank": {
+        "mean": 3782.5100048804293,
+        "sample_sd": 41.31766398118718
+      },
+      "Control_overlap10": {
+        "mean": 0.39973645680819914,
+        "sample_sd": 0.01041166511578882
+      },
+      "Control_hitflip": {
+        "mean": 0.03904343582235237,
+        "sample_sd": 0.006762521454636905
+      },
+      "LBSP_ndcg10": {
+        "mean": 0.017262171803741108,
+        "sample_sd": 0.002259917382349699
+      },
+      "LBSP_mean_rank": {
+        "mean": 3452.35822352367,
+        "sample_sd": 154.74893032945909
+      },
+      "LBSP_overlap10": {
+        "mean": 1.0,
+        "sample_sd": 0.0
+      },
+      "LBSP_hitflip": {
+        "mean": 0,
+        "sample_sd": 0.0
+      },
+      "paired_ndcg10_difference": {
+        "mean_delta": 0.006293889043753191,
+        "sample_sd_delta": 0.003889767426764065,
+        "ci95_lower": -0.0033688289110094683,
+        "ci95_upper": 0.01595660699851585
+      }
+    }
+  ],
+  "interpretation": [
+    "Fixed target exposure and affected masks retained; model-specific staleX5 rank columns are not reused.",
+    "Positive training exposure is not randomized; these subgroup directions do not identify causal effects.",
+    "Warm target exposure does not guarantee positive LBSP-minus-Control accuracy.",
+    "A zero training-positive count does not imply no embedding updates under full-item CE."
+  ]
+}

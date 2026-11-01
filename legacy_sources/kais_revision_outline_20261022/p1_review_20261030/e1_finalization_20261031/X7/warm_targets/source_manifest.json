@@ -1,0 +1,1923 @@
+{
+  "scope": "Accepted10new +14old prediction lineages andfixedX5label/candidate metadata; no raw/checkpoints",
+  "files": {
+    "kais_revision_outline_20261022/g2_x7_diagnostics_20261029/training/training_source_contract.json": {
+      "sha256": "302fa92871150a1592a88e9dbda70e2b5639cf28daa44a9b54c0f6f9f421c16b",
+      "bytes": 31080
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1/server_toolkit/e1_policy.json": {
+      "sha256": "a17cc41f3e38d83abe74e6152106d547d3582147d6673a2376f2c6b72b1abcb4",
+      "bytes": 32721
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_return_20261031T092136/report_snapshot/driver.json": {
+      "sha256": "ee923702fd01a171746f2d85e3d3796951643cc830c4337544d5014391e2b03f",
+      "bytes": 16782
+    },
+    "g2_control_stability_20261023/snapshot/references/ml1m_seed42/config.json": {
+      "sha256": "04e73d16f5d6f36521355498c9713d7c95b15119fef37f749a6b8a3b09765ad4",
+      "bytes": 655
+    },
+    "g2_control_stability_20261023/snapshot/references/ml1m_seed42/metrics.json": {
+      "sha256": "1dc82d20bd5c896c6e976abdb0b00b8fd9369eea3df6a6f3dc8d26e63077b6f8",
+      "bytes": 2017
+    },
+    "g2_control_stability_20261023/snapshot/references/ml1m_seed42/training_log.csv": {
+      "sha256": "26ce50511ba2217a03111c3a7969002771dda2d8b54710919ac439d722ca16c2",
+      "bytes": 11495
+    },
+    "g2_control_stability_20261023/snapshot/references/ml1m_seed2026/config.json": {
+      "sha256": "e52e64d7bf444d369b559d4f3960d55dccb3a5c60f7916639836d13a98ef4113",
+      "bytes": 657
+    },
+    "g2_control_stability_20261023/snapshot/references/ml1m_seed2026/metrics.json": {
+      "sha256": "c543590deb882b7ca3e55aa2ddbb89402dace2056cb7e397e6fb7b00d10feea7",
+      "bytes": 2016
+    },
+    "g2_control_stability_20261023/snapshot/references/ml1m_seed2026/training_log.csv": {
+      "sha256": "6982d6619d1c3e9b28959ded6d7f90831668bbd27c2ba90310092cc6178f3f13",
+      "bytes": 9494
+    },
+    "g2_control_stability_20261023/snapshot/references/ml1m_seed3407/config.json": {
+      "sha256": "b5a124a30960b0a7cbbe3aa2c0a93109f6d1a3f98e3e741da584dcf485f9cf8b",
+      "bytes": 657
+    },
+    "g2_control_stability_20261023/snapshot/references/ml1m_seed3407/metrics.json": {
+      "sha256": "49a79bf0fa2521d68921e98dad15a28991f72a0b28f13c4679a207e0cac59ed9",
+      "bytes": 2020
+    },
+    "g2_control_stability_20261023/snapshot/references/ml1m_seed3407/training_log.csv": {
+      "sha256": "d8b0376883648d0ccd54d545f384a9a897c7eea8e49df0c9cd5a84dc8c6381d8",
+      "bytes": 8403
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_return_20261031T092136/report_snapshot/attempts/ml1m_lbsp_seed42_a1/verification/E1_COMPLETED.json": {
+      "sha256": "a53f03459268cde1c2a910faeb93300e6dab7c08d2472c1bef6a2909f8e12d87",
+      "bytes": 1550
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_return_20261031T092136/report_snapshot/attempts/ml1m_lbsp_seed42_a1/outputs/ml1m_lbsp_seed42/config.json": {
+      "sha256": "a1d93c29bee1fa35fb288eb76fb0f86e795a784c6e77a6513d8b15b0b0e9c2a9",
+      "bytes": 1042
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_return_20261031T092136/report_snapshot/attempts/ml1m_lbsp_seed42_a1/outputs/ml1m_lbsp_seed42/metrics.json": {
+      "sha256": "32b24136826e8a40e32eed7ad1885d69b810e3612e7fd4a057f5be81c0a00af3",
+      "bytes": 503
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_return_20261031T092136/report_snapshot/attempts/ml1m_lbsp_seed42_a1/outputs/ml1m_lbsp_seed42/training_log.csv": {
+      "sha256": "d78b629d7ae335d65e6fa5ad2b7cf570bc759b68d89373afb5c8c2a1bcca8de0",
+      "bytes": 6508
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_return_20261031T092136/report_snapshot/attempts/ml1m_lbsp_seed2026_a1/verification/E1_COMPLETED.json": {
+      "sha256": "d4a3b0990ecad750ee80470099fa7ab42176be558116ac0665440088a2b131be",
+      "bytes": 1561
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_return_20261031T092136/report_snapshot/attempts/ml1m_lbsp_seed2026_a1/outputs/ml1m_lbsp_seed2026/config.json": {
+      "sha256": "bde193dd9b8be81432d0cddf90ccf5ceb043a6a065b8baaa00fb66ca186d407c",
+      "bytes": 1044
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_return_20261031T092136/report_snapshot/attempts/ml1m_lbsp_seed2026_a1/outputs/ml1m_lbsp_seed2026/metrics.json": {
+      "sha256": "bd288f34ea5587a6a5dc9de3a80c908051137b0f184f9901563423da54e7413b",
+      "bytes": 506
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_return_20261031T092136/report_snapshot/attempts/ml1m_lbsp_seed2026_a1/outputs/ml1m_lbsp_seed2026/training_log.csv": {
+      "sha256": "65d06cf6d7f53348fc9b42173a75d5fa1659edf075b47cadf8f476abeb6cdffa",
+      "bytes": 6920
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_return_20261031T092136/report_snapshot/attempts/ml1m_lbsp_seed3407_a1/verification/E1_COMPLETED.json": {
+      "sha256": "01378100d95c2333ee0883144f8bdc9bd6fd0fc2b2a3d3b32bffeaeb2cf207ae",
+      "bytes": 1556
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_return_20261031T092136/report_snapshot/attempts/ml1m_lbsp_seed3407_a1/outputs/ml1m_lbsp_seed3407/config.json": {
+      "sha256": "0f5043bfd032832c5a49153391509515b1941c7332d56ebebe6dfcf4d966bcf3",
+      "bytes": 1044
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_return_20261031T092136/report_snapshot/attempts/ml1m_lbsp_seed3407_a1/outputs/ml1m_lbsp_seed3407/metrics.json": {
+      "sha256": "9bdc845fef355492affed93ee101f3edf10d8598e29d092bc4dd4409b1e57c69",
+      "bytes": 507
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_return_20261031T092136/report_snapshot/attempts/ml1m_lbsp_seed3407_a1/outputs/ml1m_lbsp_seed3407/training_log.csv": {
+      "sha256": "6f7639166fb2ca03407ef5c764fc9a60ea3710979dd333fe877c6b5beb151549",
+      "bytes": 6565
+    },
+    "g2_control_stability_20261023/snapshot/references/beauty_seed42/config.json": {
+      "sha256": "a453f393b09d374f25868d8d2a205953b2d0da064c41aad443568bc693ad8425",
+      "bytes": 656
+    },
+    "g2_control_stability_20261023/snapshot/references/beauty_seed42/metrics.json": {
+      "sha256": "5e10b55ec8c550344e66c092ef6511ed524527f00d02d006627b8ec9206f9b2b",
+      "bytes": 2037
+    },
+    "g2_control_stability_20261023/snapshot/references/beauty_seed42/training_log.csv": {
+      "sha256": "2b22f6ad9d8be45e775c053d65ff2f34b4392c14ebaa571d8e0e353341a9d887",
+      "bytes": 13335
+    },
+    "g2_control_stability_20261023/snapshot/references/beauty_seed2026/config.json": {
+      "sha256": "91bee4e74de57f9ad5932f039e70e54533273f598b7ce8e8d68253da452fc34c",
+      "bytes": 1953
+    },
+    "g2_control_stability_20261023/snapshot/references/beauty_seed2026/metrics.json": {
+      "sha256": "2add072cd058b9dbe5daefa051c88447ca75cb79a3f813dffd057070fbadc023",
+      "bytes": 2045
+    },
+    "g2_control_stability_20261023/snapshot/references/beauty_seed2026/training_log.csv": {
+      "sha256": "fe6ae82bf202b64fd5389feed496dac4ae8474831fa8a2824636daf2f3cbd434",
+      "bytes": 12037
+    },
+    "g2_control_stability_20261023/snapshot/references/beauty_seed3407/config.json": {
+      "sha256": "e7537c767b705424817cdb03f1bb1e436eb4b2168765c8cd090df057bd91b9ec",
+      "bytes": 1953
+    },
+    "g2_control_stability_20261023/snapshot/references/beauty_seed3407/metrics.json": {
+      "sha256": "2929e170f4e12b3ca05b70bb812ebd12d19f721144136581eb53f859516e06f8",
+      "bytes": 2033
+    },
+    "g2_control_stability_20261023/snapshot/references/beauty_seed3407/training_log.csv": {
+      "sha256": "3893e04992ec2ebf04530b3e3daf7df256cc7c9b343c90ef1de20b632e8655c9",
+      "bytes": 16716
+    },
+    "g2_lbsp_amazon_train_20261025/snapshot/outputs/beauty_lbsp_seed42/config.json": {
+      "sha256": "31e7900ec88f8d37ba06bac63b6745d8c0ebdbc446024480375b62030dd71e7c",
+      "bytes": 5869
+    },
+    "g2_lbsp_amazon_train_20261025/snapshot/outputs/beauty_lbsp_seed42/metrics.json": {
+      "sha256": "76774b29012bc58c7334e48d6b3ca68393446ae2eb2a0fdc72859bad96eeb3bb",
+      "bytes": 512
+    },
+    "g2_lbsp_amazon_train_20261025/snapshot/outputs/beauty_lbsp_seed42/training_log.csv": {
+      "sha256": "bcee697b8b864327e77fbf8fe431e5991569c387a36c05c95e2f929f79a75d33",
+      "bytes": 10920
+    },
+    "g2_lbsp_amazon_train_20261025/snapshot/outputs/beauty_lbsp_seed2026/config.json": {
+      "sha256": "f9e780913519eba05bcab0b31d9553b9435fd939e6963da6dd4cbac266d166f3",
+      "bytes": 5871
+    },
+    "g2_lbsp_amazon_train_20261025/snapshot/outputs/beauty_lbsp_seed2026/metrics.json": {
+      "sha256": "4948f418ee3241eb4821c91f917b48cda9d93dc66d68f970b0e4328d97d6638f",
+      "bytes": 512
+    },
+    "g2_lbsp_amazon_train_20261025/snapshot/outputs/beauty_lbsp_seed2026/training_log.csv": {
+      "sha256": "52ea18fe840548692544e72a58d09432f5b4c80aa60d1a9ab3e0a65fe642cbaf",
+      "bytes": 11577
+    },
+    "g2_lbsp_amazon_train_20261025/snapshot/outputs/beauty_lbsp_seed3407/config.json": {
+      "sha256": "4463b95f40ec62b15cab9442e883c43dfd05c8c18eb3d98171a85ececdd9609c",
+      "bytes": 5871
+    },
+    "g2_lbsp_amazon_train_20261025/snapshot/outputs/beauty_lbsp_seed3407/metrics.json": {
+      "sha256": "a1897ec9baa3e8a0b925ca05337c1c142e2db64536c9cf7a70eb2d46eb726836",
+      "bytes": 513
+    },
+    "g2_lbsp_amazon_train_20261025/snapshot/outputs/beauty_lbsp_seed3407/training_log.csv": {
+      "sha256": "67e8bc488b09080b7a9c69daacde5f73f177dae45164fa6e2ad703b1cc4339a5",
+      "bytes": 15829
+    },
+    "g2_control_stability_20261023/snapshot/references/sports_seed42/config.json": {
+      "sha256": "95963620e83b1e06dcda21f947394b2adad4b0c7259b3f7b4f99a759d9493989",
+      "bytes": 2666
+    },
+    "g2_control_stability_20261023/snapshot/references/sports_seed42/metrics.json": {
+      "sha256": "ba3afef8d2451b67d6b4cd3d7cfde2479129288cdfb4bf305b545d3780e67d5b",
+      "bytes": 472
+    },
+    "g2_control_stability_20261023/snapshot/references/sports_seed42/training_log.csv": {
+      "sha256": "798891b74b0df856d8fc5122570a514a3c3819bfa62d3e1f6fb6c676b6284581",
+      "bytes": 9102
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_return_20261031T092136/report_snapshot/attempts/sports_control_seed2026_a2/verification/E1_COMPLETED.json": {
+      "sha256": "75d376b66545b90a9acc025d9dcc18a5847a8653c03f7d01f4f173e4d94f0124",
+      "bytes": 1607
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_return_20261031T092136/report_snapshot/attempts/sports_control_seed2026_a2/outputs/amazon_sports_control_orderfix_seed2026/config.json": {
+      "sha256": "4db9f4e024eabf2419d51ef2e1e30730d6544298b96608cd47928482e0082af3",
+      "bytes": 2704
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_return_20261031T092136/report_snapshot/attempts/sports_control_seed2026_a2/outputs/amazon_sports_control_orderfix_seed2026/metrics.json": {
+      "sha256": "fbe3117a5b199e6ce2d770754c70cf1119d7a5b297ed3d3ad313bf5176445065",
+      "bytes": 479
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_return_20261031T092136/report_snapshot/attempts/sports_control_seed2026_a2/outputs/amazon_sports_control_orderfix_seed2026/training_log.csv": {
+      "sha256": "a16bc193c053bc2c684f6a319825fca9bfb0416c1b0ff3750c54ec2cc5da971f",
+      "bytes": 11603
+    },
+    "g2_control_stability_20261023/snapshot/references/sports_seed3407/config.json": {
+      "sha256": "0234af09fccef24382d9b19c6da32faefb553140606822da2efcb9fe75aa8858",
+      "bytes": 2668
+    },
+    "g2_control_stability_20261023/snapshot/references/sports_seed3407/metrics.json": {
+      "sha256": "a5cbcb983e152db7a7c9d599ca203eeeb5b58a03868827dd37c183b9faf7ed26",
+      "bytes": 477
+    },
+    "g2_control_stability_20261023/snapshot/references/sports_seed3407/training_log.csv": {
+      "sha256": "c25c05321bf6a86aa4beed56e31f937d8d4646b4c7c566908c5fb71f9e53211f",
+      "bytes": 7696
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_return_20261031T092136/report_snapshot/attempts/sports_lbsp_seed42_a1/verification/E1_COMPLETED.json": {
+      "sha256": "65791d36c4105096af1786914d44bdc4d6e8a003c245bb0cd071791592530265",
+      "bytes": 1568
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_return_20261031T092136/report_snapshot/attempts/sports_lbsp_seed42_a1/outputs/sports_lbsp_seed42/config.json": {
+      "sha256": "364548f7d34a1d583d8b93fe6d6f58f1641cc9c812b8690276a4099bf0114062",
+      "bytes": 5913
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_return_20261031T092136/report_snapshot/attempts/sports_lbsp_seed42_a1/outputs/sports_lbsp_seed42/metrics.json": {
+      "sha256": "41d9782ef0eab79306f95d2a9042019d111c6ee44ee8b2cbd4169306eb1158d6",
+      "bytes": 514
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_return_20261031T092136/report_snapshot/attempts/sports_lbsp_seed42_a1/outputs/sports_lbsp_seed42/training_log.csv": {
+      "sha256": "a2a8ba74086a2f5d8d391f66dbdf00ee9e142c9c0c258b90116efa5a7ae3afd9",
+      "bytes": 7714
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_return_20261031T092136/report_snapshot/attempts/sports_lbsp_seed2026_a1/verification/E1_COMPLETED.json": {
+      "sha256": "74f624063d344543d7d21dea9b051f7f1b36e5a8c14b3216fae3c9a20a433120",
+      "bytes": 1570
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_return_20261031T092136/report_snapshot/attempts/sports_lbsp_seed2026_a1/outputs/sports_lbsp_seed2026/config.json": {
+      "sha256": "cf8d3afce08e5c471a925fbfa1ddf22ad2baa3a67d16f9974de9dc9e664974ca",
+      "bytes": 5915
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_return_20261031T092136/report_snapshot/attempts/sports_lbsp_seed2026_a1/outputs/sports_lbsp_seed2026/metrics.json": {
+      "sha256": "abae86dca5407f30dd981d0aa10b20378ecb5cfef10f9238a9b92ea837e2cc1c",
+      "bytes": 512
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_return_20261031T092136/report_snapshot/attempts/sports_lbsp_seed2026_a1/outputs/sports_lbsp_seed2026/training_log.csv": {
+      "sha256": "f7a358412879c3a82b3d34492fc1e00ac2652042a3a60aeab88ad56155834cd5",
+      "bytes": 8935
+    },
+    "g2_lbsp_amazon_train_20261025/snapshot/outputs/sports_lbsp_seed3407/config.json": {
+      "sha256": "c9613f9eca3ab741f3890b9224c7bdcf213b842af211705cec19bff7286e7d84",
+      "bytes": 5879
+    },
+    "g2_lbsp_amazon_train_20261025/snapshot/outputs/sports_lbsp_seed3407/metrics.json": {
+      "sha256": "2879b7d5a574dfbd9389a706da630caf51f16d92f5ebb4f4c1d49fd0d1f2d206",
+      "bytes": 511
+    },
+    "g2_lbsp_amazon_train_20261025/snapshot/outputs/sports_lbsp_seed3407/training_log.csv": {
+      "sha256": "4df6c5cb16467e5f103a41cbdbcb869169fa66a3e6e41dcb9154ee5f2c22f603",
+      "bytes": 7088
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_return_20261031T092136/report_snapshot/attempts/toys_control_seed42_a1/verification/E1_COMPLETED.json": {
+      "sha256": "9df1c3f85e9c38c0ec230ed4dfa48996e56bfba317932a3d3847967caf056c42",
+      "bytes": 1596
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_return_20261031T092136/report_snapshot/attempts/toys_control_seed42_a1/outputs/amazon_toys_control_orderfix_seed42/config.json": {
+      "sha256": "eb4948dabe05db6108b0935e37e4d54fd7f6954e58a9b92f964d6cf7fa0c543c",
+      "bytes": 2692
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_return_20261031T092136/report_snapshot/attempts/toys_control_seed42_a1/outputs/amazon_toys_control_orderfix_seed42/metrics.json": {
+      "sha256": "6bc7db35f30ed11fbbc8febd83fadc7fa8a95dd267047d28d7cedac1e8328797",
+      "bytes": 476
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_return_20261031T092136/report_snapshot/attempts/toys_control_seed42_a1/outputs/amazon_toys_control_orderfix_seed42/training_log.csv": {
+      "sha256": "2c4cf77894df9954392e110bb8032c4336991cb2e61cbef8a12771bc703bcaa4",
+      "bytes": 12706
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_return_20261031T092136/report_snapshot/attempts/toys_control_seed2026_a1/verification/E1_COMPLETED.json": {
+      "sha256": "b7c1551f5b36b83eaf1f93472f4e30c0695ccb41ae9e7cbe01d06221409f5057",
+      "bytes": 1604
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_return_20261031T092136/report_snapshot/attempts/toys_control_seed2026_a1/outputs/amazon_toys_control_orderfix_seed2026/config.json": {
+      "sha256": "315374302a0317de9890ffd14b99100610f74021a739b675cf0f57ce4cfa4a4d",
+      "bytes": 2694
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_return_20261031T092136/report_snapshot/attempts/toys_control_seed2026_a1/outputs/amazon_toys_control_orderfix_seed2026/metrics.json": {
+      "sha256": "e8036c93eee39ebcd3fd69f6e6c3b8bd07f4069013f6cfb3141db505a101a197",
+      "bytes": 477
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_return_20261031T092136/report_snapshot/attempts/toys_control_seed2026_a1/outputs/amazon_toys_control_orderfix_seed2026/training_log.csv": {
+      "sha256": "8a4b30dd7c1b533496ffd7c0de80bdfb174b12aa146746e1fe3188b2bfa80bcb",
+      "bytes": 11496
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_return_20261031T092136/report_snapshot/attempts/toys_control_seed3407_a1/verification/E1_COMPLETED.json": {
+      "sha256": "38d1b5ba007bfeae81e6a86aa2dd42e5b1c0b0e49ec257449ebe02c20bedd57a",
+      "bytes": 1599
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_return_20261031T092136/report_snapshot/attempts/toys_control_seed3407_a1/outputs/amazon_toys_control_orderfix_seed3407/config.json": {
+      "sha256": "531d422a05b72b5bd8a9bcb6b4b2af03368587c3f4d16e4dd8f455d0aea4c8fa",
+      "bytes": 2694
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_return_20261031T092136/report_snapshot/attempts/toys_control_seed3407_a1/outputs/amazon_toys_control_orderfix_seed3407/metrics.json": {
+      "sha256": "7872037001c19818ce2ea4f61a9f56b80bbce0eebaf23aea83ee56ec365749b0",
+      "bytes": 476
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_return_20261031T092136/report_snapshot/attempts/toys_control_seed3407_a1/outputs/amazon_toys_control_orderfix_seed3407/training_log.csv": {
+      "sha256": "6dd712ef09d3a5a0dbe2b5c46a64a540410c30c080e10acb48106c7cc39bd2a8",
+      "bytes": 14018
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_return_20261031T092136/report_snapshot/attempts/toys_lbsp_seed42_a1/verification/E1_COMPLETED.json": {
+      "sha256": "d9d2b20a4064b879ccd677a5c6bd0d80c8c4e04a1a33e885707209dd2062f6a1",
+      "bytes": 1559
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_return_20261031T092136/report_snapshot/attempts/toys_lbsp_seed42_a1/outputs/toys_lbsp_seed42/config.json": {
+      "sha256": "148cd516bcda8b7448338d557977922f7027774a4694603243154bf743f02e81",
+      "bytes": 5897
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_return_20261031T092136/report_snapshot/attempts/toys_lbsp_seed42_a1/outputs/toys_lbsp_seed42/metrics.json": {
+      "sha256": "b63ae6235a0ed5df58d1380de6c8b39162d013e9fb1e98f57f64d14686cf9047",
+      "bytes": 510
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_return_20261031T092136/report_snapshot/attempts/toys_lbsp_seed42_a1/outputs/toys_lbsp_seed42/training_log.csv": {
+      "sha256": "fc280597be71daa0d45f4d8450462b9019635980ee91e2d53300c7cf3bd64b3a",
+      "bytes": 9656
+    },
+    "g2_lbsp_amazon_train_20261025/snapshot/outputs/toys_lbsp_seed2026/config.json": {
+      "sha256": "b5aa136886e17fe2fbf407a9cb0194f31c95270607344bf0e0e4944588c12980",
+      "bytes": 5863
+    },
+    "g2_lbsp_amazon_train_20261025/snapshot/outputs/toys_lbsp_seed2026/metrics.json": {
+      "sha256": "f64959f92648d31f57d46284101fe665a9bdcb1c0e3ae2b938eee0e36c249e5a",
+      "bytes": 513
+    },
+    "g2_lbsp_amazon_train_20261025/snapshot/outputs/toys_lbsp_seed2026/training_log.csv": {
+      "sha256": "f64836deec69fb88727c713ecf28ef0a59619c121c0a74588ca014edc0dfde11",
+      "bytes": 10256
+    },
+    "g2_lbsp_amazon_train_20261025/snapshot/outputs/toys_lbsp_seed3407/config.json": {
+      "sha256": "5321ea691f6b25e5c038ad8c34ea30ec4cc1b17a687b7ea1e413ef4f025082f4",
+      "bytes": 5863
+    },
+    "g2_lbsp_amazon_train_20261025/snapshot/outputs/toys_lbsp_seed3407/metrics.json": {
+      "sha256": "34aa3cbf961526559b256fd789b9b0d5bd51ae73b930342d413e76e1c371c49e",
+      "bytes": 508
+    },
+    "g2_lbsp_amazon_train_20261025/snapshot/outputs/toys_lbsp_seed3407/training_log.csv": {
+      "sha256": "161564f0c7699fb150228c6df414f356b501a8b04427533333d1f01f0df66411",
+      "bytes": 9864
+    },
+    "kais_revision_outline_20261022/g2_closure_20261027/C_statistics/source_manifest.json": {
+      "sha256": "d537ab89d70887b1bffce271d095a0c1ab127c89fb5005e1ab14ea7ecb36f803",
+      "bytes": 88137
+    },
+    "g2_x5_results_20261025/REPORT_SHA256.csv": {
+      "sha256": "4d895daa1c3e898b466b65d75a7e4d3963510feb961d76869b9c60d64ab543a5",
+      "bytes": 3914
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/scripts/e1_inference_inputs.json": {
+      "sha256": "1a10ac2d3ddbe898269b8144404888b24f6b5e49902f394489dc01f25a38bb8f",
+      "bytes": 119036
+    },
+    "g2_lbsp_ml1m_20261023/snapshot/outputs/ml1m_seed42/panel_labels.csv": {
+      "sha256": "ebaa7d9ff9039b0446bf5304367f64d85377dff40e76e83f127ca93377c7cac2",
+      "bytes": 408810
+    },
+    "g2_x5_results_20261025/derived/ml1m_test.csv": {
+      "sha256": "399f7f29b3768e800ccc9617e4b3d1e5daebe2a893ebf504cc2549196abe7c05",
+      "bytes": 266558
+    },
+    "g2_lbsp_ml1m_20261023/snapshot/control_reference/outputs/ml1m_seed42/panel_labels.csv": {
+      "sha256": "ebaa7d9ff9039b0446bf5304367f64d85377dff40e76e83f127ca93377c7cac2",
+      "bytes": 408810
+    },
+    "g2_lbsp_ml1m_20261023/snapshot/control_reference/outputs/ml1m_seed42/predictions_original.csv": {
+      "sha256": "e3dcf095cba1b8ed6cb47804089335d1acdbbf0f6710a0585ce4ace42c095822",
+      "bytes": 189404
+    },
+    "g2_lbsp_ml1m_20261023/snapshot/control_reference/outputs/ml1m_seed42/predictions_perm_seed101.csv": {
+      "sha256": "05f2fbd29919b0c9a76610397bf59ca8f637c0e339fdb81a522ee3e1d9a91bd0",
+      "bytes": 189474
+    },
+    "g2_lbsp_ml1m_20261023/snapshot/control_reference/outputs/ml1m_seed42/predictions_perm_seed202.csv": {
+      "sha256": "069cb960f3ed6c5022677451d3b4645946f37c3381d25020e9ad69986a41711a",
+      "bytes": 189488
+    },
+    "g2_lbsp_ml1m_20261023/snapshot/control_reference/outputs/ml1m_seed42/predictions_perm_seed303.csv": {
+      "sha256": "66bf46179a6942c2f91f4ed876125bd84bc77f44bce9f02cf9015d03b5cd0e88",
+      "bytes": 189470
+    },
+    "g2_lbsp_ml1m_20261023/snapshot/control_reference/outputs/ml1m_seed42/predictions_perm_seed404.csv": {
+      "sha256": "c5b506b47666403163119833264665af30e80f2f92009ada1f0751228b44406c",
+      "bytes": 189475
+    },
+    "g2_lbsp_ml1m_20261023/snapshot/control_reference/outputs/ml1m_seed42/predictions_perm_seed505.csv": {
+      "sha256": "f40e12ab3b238f9e4ff54f836364b947801590ad362bf2010bab3a5d23a2f4a3",
+      "bytes": 189491
+    },
+    "g2_lbsp_ml1m_20261023/snapshot/control_reference/outputs/ml1m_seed2026/panel_labels.csv": {
+      "sha256": "ebaa7d9ff9039b0446bf5304367f64d85377dff40e76e83f127ca93377c7cac2",
+      "bytes": 408810
+    },
+    "g2_lbsp_ml1m_20261023/snapshot/control_reference/outputs/ml1m_seed2026/predictions_original.csv": {
+      "sha256": "ffffcba167c1ffe3f5ab19b9d594504d7d1bc400ef946064acc53e8e8928eff0",
+      "bytes": 189526
+    },
+    "g2_lbsp_ml1m_20261023/snapshot/control_reference/outputs/ml1m_seed2026/predictions_perm_seed101.csv": {
+      "sha256": "4d6bec69c04752b32c7bcbdc86c602cf13ac04a12f25e92b60599ca8de0f115e",
+      "bytes": 189605
+    },
+    "g2_lbsp_ml1m_20261023/snapshot/control_reference/outputs/ml1m_seed2026/predictions_perm_seed202.csv": {
+      "sha256": "7e56d276335a96d24a408ad0b41f9c2a6ad59f11d7c59b1a812ea1e85a8b1d0f",
+      "bytes": 189598
+    },
+    "g2_lbsp_ml1m_20261023/snapshot/control_reference/outputs/ml1m_seed2026/predictions_perm_seed303.csv": {
+      "sha256": "710c1db6516785bb970f8e96140cc723e568238075a403bb40971255a003ef5a",
+      "bytes": 189572
+    },
+    "g2_lbsp_ml1m_20261023/snapshot/control_reference/outputs/ml1m_seed2026/predictions_perm_seed404.csv": {
+      "sha256": "82161cb67dcea5a5a9849c5fa1a84afd96547405bd2146591f22bfa57422acdb",
+      "bytes": 189631
+    },
+    "g2_lbsp_ml1m_20261023/snapshot/control_reference/outputs/ml1m_seed2026/predictions_perm_seed505.csv": {
+      "sha256": "8e0558975042ab924d75d78079a8ddcd9994e88821ec407acaacc6ed92cce6e8",
+      "bytes": 189633
+    },
+    "g2_lbsp_ml1m_20261023/snapshot/control_reference/outputs/ml1m_seed3407/panel_labels.csv": {
+      "sha256": "ebaa7d9ff9039b0446bf5304367f64d85377dff40e76e83f127ca93377c7cac2",
+      "bytes": 408810
+    },
+    "g2_lbsp_ml1m_20261023/snapshot/control_reference/outputs/ml1m_seed3407/predictions_original.csv": {
+      "sha256": "aa28ca63138a85220b3d274a2921aaf899e9e1f4aad324c335df6e1116fb9b31",
+      "bytes": 189553
+    },
+    "g2_lbsp_ml1m_20261023/snapshot/control_reference/outputs/ml1m_seed3407/predictions_perm_seed101.csv": {
+      "sha256": "740e8120e140e164f8fe005b6c8fdd01ee45754ce83d949fcffa7658a56e7cef",
+      "bytes": 189629
+    },
+    "g2_lbsp_ml1m_20261023/snapshot/control_reference/outputs/ml1m_seed3407/predictions_perm_seed202.csv": {
+      "sha256": "c1f630f98e362b7aec8f9a81fc531b2dc2542a1faa852257f4e057c6d31330bb",
+      "bytes": 189630
+    },
+    "g2_lbsp_ml1m_20261023/snapshot/control_reference/outputs/ml1m_seed3407/predictions_perm_seed303.csv": {
+      "sha256": "40212d0a42e9bf1febf4e417fea8b18c980e8894bded31246f558e3fd5fe5d80",
+      "bytes": 189599
+    },
+    "g2_lbsp_ml1m_20261023/snapshot/control_reference/outputs/ml1m_seed3407/predictions_perm_seed404.csv": {
+      "sha256": "a4ad948454ffce337f14c5cfe5e3b1d20e35d4c3845779fa357f5af1fd4314a6",
+      "bytes": 189636
+    },
+    "g2_lbsp_ml1m_20261023/snapshot/control_reference/outputs/ml1m_seed3407/predictions_perm_seed505.csv": {
+      "sha256": "e02df8cbef3114d33647a269b42ab73bcd087744f3a585ad355316b3c3a875b0",
+      "bytes": 189613
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/ml1m_lbsp_seed42_a1/verification/COMPLETED.json": {
+      "sha256": "71a5818625157c6424158db4f721886f163ef7757ef179c6d5f9b26c1281b5bc",
+      "bytes": 2440
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/ml1m_lbsp_seed42_a1/outputs/ml1m_lbsp_seed42/panel_labels.csv": {
+      "sha256": "6337969df95ac6f20effdd2f22b36097c874a0786150ff0438cdeccc07ec8af7",
+      "bytes": 409753
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/ml1m_lbsp_seed42_a1/outputs/ml1m_lbsp_seed42/predictions_original.csv": {
+      "sha256": "6828e403c1f25783ec76928b675089afe7675300e02b0e514f8ecf4c0599761d",
+      "bytes": 199612
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/ml1m_lbsp_seed42_a1/outputs/ml1m_lbsp_seed42/predictions_perm_seed101.csv": {
+      "sha256": "6828e403c1f25783ec76928b675089afe7675300e02b0e514f8ecf4c0599761d",
+      "bytes": 199612
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/ml1m_lbsp_seed42_a1/outputs/ml1m_lbsp_seed42/predictions_perm_seed202.csv": {
+      "sha256": "6828e403c1f25783ec76928b675089afe7675300e02b0e514f8ecf4c0599761d",
+      "bytes": 199612
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/ml1m_lbsp_seed42_a1/outputs/ml1m_lbsp_seed42/predictions_perm_seed303.csv": {
+      "sha256": "6828e403c1f25783ec76928b675089afe7675300e02b0e514f8ecf4c0599761d",
+      "bytes": 199612
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/ml1m_lbsp_seed42_a1/outputs/ml1m_lbsp_seed42/predictions_perm_seed404.csv": {
+      "sha256": "6828e403c1f25783ec76928b675089afe7675300e02b0e514f8ecf4c0599761d",
+      "bytes": 199612
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/ml1m_lbsp_seed42_a1/outputs/ml1m_lbsp_seed42/predictions_perm_seed505.csv": {
+      "sha256": "6828e403c1f25783ec76928b675089afe7675300e02b0e514f8ecf4c0599761d",
+      "bytes": 199612
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/ml1m_lbsp_seed2026_a1/verification/COMPLETED.json": {
+      "sha256": "bcf6d9d5bf96db19bcc47a2704e71460cb767b741942bc7fb6ff1b6954ef146d",
+      "bytes": 2446
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/ml1m_lbsp_seed2026_a1/outputs/ml1m_lbsp_seed2026/panel_labels.csv": {
+      "sha256": "6337969df95ac6f20effdd2f22b36097c874a0786150ff0438cdeccc07ec8af7",
+      "bytes": 409753
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/ml1m_lbsp_seed2026_a1/outputs/ml1m_lbsp_seed2026/predictions_original.csv": {
+      "sha256": "d436350138e7d07fe68527bdb7bf1ce1cf07bff3f74e96ef7f7796b9200905a5",
+      "bytes": 199472
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/ml1m_lbsp_seed2026_a1/outputs/ml1m_lbsp_seed2026/predictions_perm_seed101.csv": {
+      "sha256": "d436350138e7d07fe68527bdb7bf1ce1cf07bff3f74e96ef7f7796b9200905a5",
+      "bytes": 199472
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/ml1m_lbsp_seed2026_a1/outputs/ml1m_lbsp_seed2026/predictions_perm_seed202.csv": {
+      "sha256": "d436350138e7d07fe68527bdb7bf1ce1cf07bff3f74e96ef7f7796b9200905a5",
+      "bytes": 199472
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/ml1m_lbsp_seed2026_a1/outputs/ml1m_lbsp_seed2026/predictions_perm_seed303.csv": {
+      "sha256": "d436350138e7d07fe68527bdb7bf1ce1cf07bff3f74e96ef7f7796b9200905a5",
+      "bytes": 199472
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/ml1m_lbsp_seed2026_a1/outputs/ml1m_lbsp_seed2026/predictions_perm_seed404.csv": {
+      "sha256": "d436350138e7d07fe68527bdb7bf1ce1cf07bff3f74e96ef7f7796b9200905a5",
+      "bytes": 199472
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/ml1m_lbsp_seed2026_a1/outputs/ml1m_lbsp_seed2026/predictions_perm_seed505.csv": {
+      "sha256": "d436350138e7d07fe68527bdb7bf1ce1cf07bff3f74e96ef7f7796b9200905a5",
+      "bytes": 199472
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/ml1m_lbsp_seed3407_a1/verification/COMPLETED.json": {
+      "sha256": "eb29bb542a59e049b41cbd3835ed6b6e1a037078ad1dd6f43f057c76819a95ae",
+      "bytes": 2446
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/ml1m_lbsp_seed3407_a1/outputs/ml1m_lbsp_seed3407/panel_labels.csv": {
+      "sha256": "6337969df95ac6f20effdd2f22b36097c874a0786150ff0438cdeccc07ec8af7",
+      "bytes": 409753
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/ml1m_lbsp_seed3407_a1/outputs/ml1m_lbsp_seed3407/predictions_original.csv": {
+      "sha256": "882c5778f79256c4bf7d8ace2b33f08892ebaeaec6307b183634ef7b255111d6",
+      "bytes": 199714
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/ml1m_lbsp_seed3407_a1/outputs/ml1m_lbsp_seed3407/predictions_perm_seed101.csv": {
+      "sha256": "882c5778f79256c4bf7d8ace2b33f08892ebaeaec6307b183634ef7b255111d6",
+      "bytes": 199714
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/ml1m_lbsp_seed3407_a1/outputs/ml1m_lbsp_seed3407/predictions_perm_seed202.csv": {
+      "sha256": "882c5778f79256c4bf7d8ace2b33f08892ebaeaec6307b183634ef7b255111d6",
+      "bytes": 199714
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/ml1m_lbsp_seed3407_a1/outputs/ml1m_lbsp_seed3407/predictions_perm_seed303.csv": {
+      "sha256": "882c5778f79256c4bf7d8ace2b33f08892ebaeaec6307b183634ef7b255111d6",
+      "bytes": 199714
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/ml1m_lbsp_seed3407_a1/outputs/ml1m_lbsp_seed3407/predictions_perm_seed404.csv": {
+      "sha256": "882c5778f79256c4bf7d8ace2b33f08892ebaeaec6307b183634ef7b255111d6",
+      "bytes": 199714
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/ml1m_lbsp_seed3407_a1/outputs/ml1m_lbsp_seed3407/predictions_perm_seed505.csv": {
+      "sha256": "882c5778f79256c4bf7d8ace2b33f08892ebaeaec6307b183634ef7b255111d6",
+      "bytes": 199714
+    },
+    "g2_lbsp_amazon_stability_20261025/snapshot/outputs/beauty_seed42/panel_labels.csv": {
+      "sha256": "cec4d8ce8a429dbfb4e953afdd9a4fb1aa10012a573f6b7186ea1fcd0c7d6626",
+      "bytes": 1336296
+    },
+    "g2_x5_results_20261025/derived/beauty_test.csv": {
+      "sha256": "c8c2b44babc1d0504e8a967ebe319694c5391253f8fe58c610b98cf80d200345",
+      "bytes": 920867
+    },
+    "g2_lbsp_amazon_stability_20261025/snapshot/control_reference/outputs/beauty_seed42/panel_labels.csv": {
+      "sha256": "cec4d8ce8a429dbfb4e953afdd9a4fb1aa10012a573f6b7186ea1fcd0c7d6626",
+      "bytes": 1336296
+    },
+    "g2_lbsp_amazon_stability_20261025/snapshot/control_reference/outputs/beauty_seed42/predictions_original.csv": {
+      "sha256": "4140a5e57dd9cf3a73212118a39565e78661c7961eeac8bce667592dbabd2c0a",
+      "bytes": 854178
+    },
+    "g2_lbsp_amazon_stability_20261025/snapshot/control_reference/outputs/beauty_seed42/predictions_perm_seed101.csv": {
+      "sha256": "b5c5fcef8d850aaed16ab4da95ce6d38fd9e312904f0f58a528def2326cdaebf",
+      "bytes": 853767
+    },
+    "g2_lbsp_amazon_stability_20261025/snapshot/control_reference/outputs/beauty_seed42/predictions_perm_seed202.csv": {
+      "sha256": "e980712d0d3464e1550312f025b811d43ccfdfe59808bd54b54d0122d5d7db7a",
+      "bytes": 853616
+    },
+    "g2_lbsp_amazon_stability_20261025/snapshot/control_reference/outputs/beauty_seed42/predictions_perm_seed303.csv": {
+      "sha256": "8ec7497e81db1385b4c060e45a51a3c39315c0767a4eed758116dabf7ee9e834",
+      "bytes": 853640
+    },
+    "g2_lbsp_amazon_stability_20261025/snapshot/control_reference/outputs/beauty_seed42/predictions_perm_seed404.csv": {
+      "sha256": "3649e3701775795e611b96122f33a9165e6912c9eeac28182dd45977983878c5",
+      "bytes": 853669
+    },
+    "g2_lbsp_amazon_stability_20261025/snapshot/control_reference/outputs/beauty_seed42/predictions_perm_seed505.csv": {
+      "sha256": "cef6fad6b5f58565adc297f0fe4a7b7b60a6ea3bc55753d7f0ac3a440462bcc1",
+      "bytes": 853711
+    },
+    "g2_lbsp_amazon_stability_20261025/snapshot/control_reference/outputs/beauty_seed2026/panel_labels.csv": {
+      "sha256": "cec4d8ce8a429dbfb4e953afdd9a4fb1aa10012a573f6b7186ea1fcd0c7d6626",
+      "bytes": 1336296
+    },
+    "g2_lbsp_amazon_stability_20261025/snapshot/control_reference/outputs/beauty_seed2026/predictions_original.csv": {
+      "sha256": "74bcccaf6729cb280659545e6732b4c5f66ae522839b4f973c80a913e65f62a7",
+      "bytes": 854144
+    },
+    "g2_lbsp_amazon_stability_20261025/snapshot/control_reference/outputs/beauty_seed2026/predictions_perm_seed101.csv": {
+      "sha256": "339825532494aa1b37bb2fea9b9469aba4b6322f818c243975af73e4c72033cb",
+      "bytes": 853645
+    },
+    "g2_lbsp_amazon_stability_20261025/snapshot/control_reference/outputs/beauty_seed2026/predictions_perm_seed202.csv": {
+      "sha256": "ca23538adef5f2e1da0e2b1a5cd5ddb1c442e49046f0d7c83908ec2b1c34b6c3",
+      "bytes": 853548
+    },
+    "g2_lbsp_amazon_stability_20261025/snapshot/control_reference/outputs/beauty_seed2026/predictions_perm_seed303.csv": {
+      "sha256": "729ca65b25757a7ffbed66ba6b57f4ba344218421a3a74b4597d93be14ac50fe",
+      "bytes": 853620
+    },
+    "g2_lbsp_amazon_stability_20261025/snapshot/control_reference/outputs/beauty_seed2026/predictions_perm_seed404.csv": {
+      "sha256": "30992105b83d0e2ca58e6c7900bedc3c572149a82bacf99add398deec8f17b86",
+      "bytes": 853543
+    },
+    "g2_lbsp_amazon_stability_20261025/snapshot/control_reference/outputs/beauty_seed2026/predictions_perm_seed505.csv": {
+      "sha256": "a5b74aa2bf89820599b3244d8b716d84d244cfe2c77db49aef64ceeda55cb253",
+      "bytes": 853628
+    },
+    "g2_lbsp_amazon_stability_20261025/snapshot/control_reference/outputs/beauty_seed3407/panel_labels.csv": {
+      "sha256": "cec4d8ce8a429dbfb4e953afdd9a4fb1aa10012a573f6b7186ea1fcd0c7d6626",
+      "bytes": 1336296
+    },
+    "g2_lbsp_amazon_stability_20261025/snapshot/control_reference/outputs/beauty_seed3407/predictions_original.csv": {
+      "sha256": "b9bb1912706e049836c328e3c91afc71f01b7326954f043bb1c848d91fd601d8",
+      "bytes": 854640
+    },
+    "g2_lbsp_amazon_stability_20261025/snapshot/control_reference/outputs/beauty_seed3407/predictions_perm_seed101.csv": {
+      "sha256": "6172dc7a01d9e6b259230a916867ee3bc2f834e488c6e0567152c022c352ba3b",
+      "bytes": 854192
+    },
+    "g2_lbsp_amazon_stability_20261025/snapshot/control_reference/outputs/beauty_seed3407/predictions_perm_seed202.csv": {
+      "sha256": "872cb047c594fbd0d62c23f39dedc519447b7c0700dbcc2a8ba3f9815af5662b",
+      "bytes": 854047
+    },
+    "g2_lbsp_amazon_stability_20261025/snapshot/control_reference/outputs/beauty_seed3407/predictions_perm_seed303.csv": {
+      "sha256": "586cb78c8871322c39e2908b5ce46e36c706d0d0282afb5fc488b5d76436fbae",
+      "bytes": 854212
+    },
+    "g2_lbsp_amazon_stability_20261025/snapshot/control_reference/outputs/beauty_seed3407/predictions_perm_seed404.csv": {
+      "sha256": "d53fef9dd395b6471a38ecc0ca4e983510dc8a5203bcfb52b86e9479fdea764a",
+      "bytes": 854161
+    },
+    "g2_lbsp_amazon_stability_20261025/snapshot/control_reference/outputs/beauty_seed3407/predictions_perm_seed505.csv": {
+      "sha256": "b323fb61fbfeb7c00436d3fcdf16e5b610fecdad59a06ce63e58db384abccbbb",
+      "bytes": 854161
+    },
+    "g2_lbsp_amazon_stability_20261025/snapshot/outputs/beauty_seed42/predictions_original.csv": {
+      "sha256": "3556f47245c558a6583ca9fc188c76c29ffe3e6ef5f2117e378db5b894d7c589",
+      "bytes": 853121
+    },
+    "g2_lbsp_amazon_stability_20261025/snapshot/outputs/beauty_seed42/predictions_perm_seed101.csv": {
+      "sha256": "3556f47245c558a6583ca9fc188c76c29ffe3e6ef5f2117e378db5b894d7c589",
+      "bytes": 853121
+    },
+    "g2_lbsp_amazon_stability_20261025/snapshot/outputs/beauty_seed42/predictions_perm_seed202.csv": {
+      "sha256": "3556f47245c558a6583ca9fc188c76c29ffe3e6ef5f2117e378db5b894d7c589",
+      "bytes": 853121
+    },
+    "g2_lbsp_amazon_stability_20261025/snapshot/outputs/beauty_seed42/predictions_perm_seed303.csv": {
+      "sha256": "3556f47245c558a6583ca9fc188c76c29ffe3e6ef5f2117e378db5b894d7c589",
+      "bytes": 853121
+    },
+    "g2_lbsp_amazon_stability_20261025/snapshot/outputs/beauty_seed42/predictions_perm_seed404.csv": {
+      "sha256": "3556f47245c558a6583ca9fc188c76c29ffe3e6ef5f2117e378db5b894d7c589",
+      "bytes": 853121
+    },
+    "g2_lbsp_amazon_stability_20261025/snapshot/outputs/beauty_seed42/predictions_perm_seed505.csv": {
+      "sha256": "3556f47245c558a6583ca9fc188c76c29ffe3e6ef5f2117e378db5b894d7c589",
+      "bytes": 853121
+    },
+    "g2_lbsp_amazon_stability_20261025/snapshot/outputs/beauty_seed2026/panel_labels.csv": {
+      "sha256": "cec4d8ce8a429dbfb4e953afdd9a4fb1aa10012a573f6b7186ea1fcd0c7d6626",
+      "bytes": 1336296
+    },
+    "g2_lbsp_amazon_stability_20261025/snapshot/outputs/beauty_seed2026/predictions_original.csv": {
+      "sha256": "ce829428265b28827f2503ed7e08480f0c540ceabbb2b4f31db889f2760741b3",
+      "bytes": 853388
+    },
+    "g2_lbsp_amazon_stability_20261025/snapshot/outputs/beauty_seed2026/predictions_perm_seed101.csv": {
+      "sha256": "ce829428265b28827f2503ed7e08480f0c540ceabbb2b4f31db889f2760741b3",
+      "bytes": 853388
+    },
+    "g2_lbsp_amazon_stability_20261025/snapshot/outputs/beauty_seed2026/predictions_perm_seed202.csv": {
+      "sha256": "ce829428265b28827f2503ed7e08480f0c540ceabbb2b4f31db889f2760741b3",
+      "bytes": 853388
+    },
+    "g2_lbsp_amazon_stability_20261025/snapshot/outputs/beauty_seed2026/predictions_perm_seed303.csv": {
+      "sha256": "ce829428265b28827f2503ed7e08480f0c540ceabbb2b4f31db889f2760741b3",
+      "bytes": 853388
+    },
+    "g2_lbsp_amazon_stability_20261025/snapshot/outputs/beauty_seed2026/predictions_perm_seed404.csv": {
+      "sha256": "ce829428265b28827f2503ed7e08480f0c540ceabbb2b4f31db889f2760741b3",
+      "bytes": 853388
+    },
+    "g2_lbsp_amazon_stability_20261025/snapshot/outputs/beauty_seed2026/predictions_perm_seed505.csv": {
+      "sha256": "ce829428265b28827f2503ed7e08480f0c540ceabbb2b4f31db889f2760741b3",
+      "bytes": 853388
+    },
+    "g2_lbsp_amazon_stability_20261025/snapshot/outputs/beauty_seed3407/panel_labels.csv": {
+      "sha256": "cec4d8ce8a429dbfb4e953afdd9a4fb1aa10012a573f6b7186ea1fcd0c7d6626",
+      "bytes": 1336296
+    },
+    "g2_lbsp_amazon_stability_20261025/snapshot/outputs/beauty_seed3407/predictions_original.csv": {
+      "sha256": "99c0b3677c787814c5523a8f4c2848c5310d8298ab4e685065f46c3fddc8e458",
+      "bytes": 852701
+    },
+    "g2_lbsp_amazon_stability_20261025/snapshot/outputs/beauty_seed3407/predictions_perm_seed101.csv": {
+      "sha256": "99c0b3677c787814c5523a8f4c2848c5310d8298ab4e685065f46c3fddc8e458",
+      "bytes": 852701
+    },
+    "g2_lbsp_amazon_stability_20261025/snapshot/outputs/beauty_seed3407/predictions_perm_seed202.csv": {
+      "sha256": "99c0b3677c787814c5523a8f4c2848c5310d8298ab4e685065f46c3fddc8e458",
+      "bytes": 852701
+    },
+    "g2_lbsp_amazon_stability_20261025/snapshot/outputs/beauty_seed3407/predictions_perm_seed303.csv": {
+      "sha256": "99c0b3677c787814c5523a8f4c2848c5310d8298ab4e685065f46c3fddc8e458",
+      "bytes": 852701
+    },
+    "g2_lbsp_amazon_stability_20261025/snapshot/outputs/beauty_seed3407/predictions_perm_seed404.csv": {
+      "sha256": "99c0b3677c787814c5523a8f4c2848c5310d8298ab4e685065f46c3fddc8e458",
+      "bytes": 852701
+    },
+    "g2_lbsp_amazon_stability_20261025/snapshot/outputs/beauty_seed3407/predictions_perm_seed505.csv": {
+      "sha256": "99c0b3677c787814c5523a8f4c2848c5310d8298ab4e685065f46c3fddc8e458",
+      "bytes": 852701
+    },
+    "g2_lbsp_amazon_stability_20261025/snapshot/outputs/sports_seed42/panel_labels.csv": {
+      "sha256": "673c8d48470bbe1d5d0b02056ee55a8c9222ef4ef208dbcf5eb2523a676a70b9",
+      "bytes": 2094352
+    },
+    "g2_x5_results_20261025/derived/sports_test.csv": {
+      "sha256": "c87ea707888e4f183cac3a425a4f27753d25a73439db5ec6701b9993b9171373",
+      "bytes": 1439578
+    },
+    "g2_lbsp_amazon_stability_20261025/snapshot/control_reference/outputs/sports_seed42/panel_labels.csv": {
+      "sha256": "673c8d48470bbe1d5d0b02056ee55a8c9222ef4ef208dbcf5eb2523a676a70b9",
+      "bytes": 2094352
+    },
+    "g2_lbsp_amazon_stability_20261025/snapshot/control_reference/outputs/sports_seed42/predictions_original.csv": {
+      "sha256": "9ef7554252ff843a1b5bf7e3809aba4827c96427aee66744f06de70852119e5e",
+      "bytes": 1344647
+    },
+    "g2_lbsp_amazon_stability_20261025/snapshot/control_reference/outputs/sports_seed42/predictions_perm_seed101.csv": {
+      "sha256": "4fb86caf2911f467f25193cea878189dd6bbf9b4f648648a07673a2999034eb9",
+      "bytes": 1343683
+    },
+    "g2_lbsp_amazon_stability_20261025/snapshot/control_reference/outputs/sports_seed42/predictions_perm_seed202.csv": {
+      "sha256": "d24a242df65cb3d9ffbd6e1414ff1d8857eee02cfe80a34bcb1064fa3a672671",
+      "bytes": 1343653
+    },
+    "g2_lbsp_amazon_stability_20261025/snapshot/control_reference/outputs/sports_seed42/predictions_perm_seed303.csv": {
+      "sha256": "406d41efa5b40170c5a32cbff9c32d2d99db2386a225ef37b65b471f5f404652",
+      "bytes": 1343601
+    },
+    "g2_lbsp_amazon_stability_20261025/snapshot/control_reference/outputs/sports_seed42/predictions_perm_seed404.csv": {
+      "sha256": "d5e8bcbdf69908f3aaa98d6d57a5c4758beaf7d399ff06c4989bed187d9a03bd",
+      "bytes": 1343696
+    },
+    "g2_lbsp_amazon_stability_20261025/snapshot/control_reference/outputs/sports_seed42/predictions_perm_seed505.csv": {
+      "sha256": "e844aa6237a39c8bf64caac4cee4f223127facf907b3e474737a0e3ab4484f9f",
+      "bytes": 1343625
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/sports_control_seed2026_a1/verification/COMPLETED.json": {
+      "sha256": "d6318192a821f908db99b434257cd8a6654aaa1ba67413c920ff28803215cf61",
+      "bytes": 2467
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/sports_control_seed2026_a1/outputs/sports_control_seed2026/panel_labels.csv": {
+      "sha256": "308025bff10e46d0e8e046931af71f36645a40537f10c78faf8f49b266a6fd3f",
+      "bytes": 2099009
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/sports_control_seed2026_a1/outputs/sports_control_seed2026/predictions_original.csv": {
+      "sha256": "45480214e71792ba784be309a451595a4432cfffa360bd89240b4468440a82cb",
+      "bytes": 1403752
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/sports_control_seed2026_a1/outputs/sports_control_seed2026/predictions_perm_seed101.csv": {
+      "sha256": "4cd28fa7ec1206d45d3caccf09ccf88a37a642477c896192cb07df69fe0984b0",
+      "bytes": 1402851
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/sports_control_seed2026_a1/outputs/sports_control_seed2026/predictions_perm_seed202.csv": {
+      "sha256": "8bcec03a51ceb95cee29c24526ec4f4b2cabb78e9e5cfff7f5e3c766f18680ef",
+      "bytes": 1402722
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/sports_control_seed2026_a1/outputs/sports_control_seed2026/predictions_perm_seed303.csv": {
+      "sha256": "e551c0a7b40952ff80baf9e34530e6f12e4083b851ef330d5faa76197c2680b1",
+      "bytes": 1402750
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/sports_control_seed2026_a1/outputs/sports_control_seed2026/predictions_perm_seed404.csv": {
+      "sha256": "796f922e471bacacb69f9637db94724047c6914632b7c8d5da0b23cb2870ac31",
+      "bytes": 1402764
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/sports_control_seed2026_a1/outputs/sports_control_seed2026/predictions_perm_seed505.csv": {
+      "sha256": "5efa99cdc3a634f8f9a00a040287fdbb529fb9183c22f15274e129e5cda1363b",
+      "bytes": 1402841
+    },
+    "g2_lbsp_amazon_stability_20261025/snapshot/control_reference/outputs/sports_seed3407/panel_labels.csv": {
+      "sha256": "673c8d48470bbe1d5d0b02056ee55a8c9222ef4ef208dbcf5eb2523a676a70b9",
+      "bytes": 2094352
+    },
+    "g2_lbsp_amazon_stability_20261025/snapshot/control_reference/outputs/sports_seed3407/predictions_original.csv": {
+      "sha256": "68db693ced7634bbb1fd18faf2152b62114ecaea80f3a5a5474b80ec431f7474",
+      "bytes": 1343049
+    },
+    "g2_lbsp_amazon_stability_20261025/snapshot/control_reference/outputs/sports_seed3407/predictions_perm_seed101.csv": {
+      "sha256": "8a7123f3187711eddb260ee6dd54092a6c546875bc79b9540cf6d837fad41dfc",
+      "bytes": 1342533
+    },
+    "g2_lbsp_amazon_stability_20261025/snapshot/control_reference/outputs/sports_seed3407/predictions_perm_seed202.csv": {
+      "sha256": "bd591190c90cdc36b77f4dedf9d19c9e74d88d54cba75c734a5e3c5df2b518b2",
+      "bytes": 1342379
+    },
+    "g2_lbsp_amazon_stability_20261025/snapshot/control_reference/outputs/sports_seed3407/predictions_perm_seed303.csv": {
+      "sha256": "80713ecd7a1fa5bd1692e227a3e137b307823af5f95b6c650c158ddfe878861f",
+      "bytes": 1342405
+    },
+    "g2_lbsp_amazon_stability_20261025/snapshot/control_reference/outputs/sports_seed3407/predictions_perm_seed404.csv": {
+      "sha256": "5c51692081ddfec9952e28759f263dc11f684c323051c394335f0d7a0f5fc7e1",
+      "bytes": 1342514
+    },
+    "g2_lbsp_amazon_stability_20261025/snapshot/control_reference/outputs/sports_seed3407/predictions_perm_seed505.csv": {
+      "sha256": "cc923653815db276ac5b9dc31808ad23684f1219b79d091b274303107840010d",
+      "bytes": 1342337
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/sports_lbsp_seed42_a1/verification/COMPLETED.json": {
+      "sha256": "87f70e19faa91e8580eede55347aeb33f62c81db804abc3ed12fedf5e63cde22",
+      "bytes": 2452
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/sports_lbsp_seed42_a1/outputs/sports_lbsp_seed42/panel_labels.csv": {
+      "sha256": "308025bff10e46d0e8e046931af71f36645a40537f10c78faf8f49b266a6fd3f",
+      "bytes": 2099009
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/sports_lbsp_seed42_a1/outputs/sports_lbsp_seed42/predictions_original.csv": {
+      "sha256": "39c20207b58d39c11b01a7c9f4bfe9c16f5644fddf556936497034f85004bbc7",
+      "bytes": 1402810
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/sports_lbsp_seed42_a1/outputs/sports_lbsp_seed42/predictions_perm_seed101.csv": {
+      "sha256": "39c20207b58d39c11b01a7c9f4bfe9c16f5644fddf556936497034f85004bbc7",
+      "bytes": 1402810
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/sports_lbsp_seed42_a1/outputs/sports_lbsp_seed42/predictions_perm_seed202.csv": {
+      "sha256": "39c20207b58d39c11b01a7c9f4bfe9c16f5644fddf556936497034f85004bbc7",
+      "bytes": 1402810
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/sports_lbsp_seed42_a1/outputs/sports_lbsp_seed42/predictions_perm_seed303.csv": {
+      "sha256": "39c20207b58d39c11b01a7c9f4bfe9c16f5644fddf556936497034f85004bbc7",
+      "bytes": 1402810
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/sports_lbsp_seed42_a1/outputs/sports_lbsp_seed42/predictions_perm_seed404.csv": {
+      "sha256": "39c20207b58d39c11b01a7c9f4bfe9c16f5644fddf556936497034f85004bbc7",
+      "bytes": 1402810
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/sports_lbsp_seed42_a1/outputs/sports_lbsp_seed42/predictions_perm_seed505.csv": {
+      "sha256": "39c20207b58d39c11b01a7c9f4bfe9c16f5644fddf556936497034f85004bbc7",
+      "bytes": 1402810
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/sports_lbsp_seed2026_a1/verification/COMPLETED.json": {
+      "sha256": "6ae1d0e40df3974e53740c12cfa2afb131c20ef3c4f996b72c657cbeffaa7778",
+      "bytes": 2458
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/sports_lbsp_seed2026_a1/outputs/sports_lbsp_seed2026/panel_labels.csv": {
+      "sha256": "308025bff10e46d0e8e046931af71f36645a40537f10c78faf8f49b266a6fd3f",
+      "bytes": 2099009
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/sports_lbsp_seed2026_a1/outputs/sports_lbsp_seed2026/predictions_original.csv": {
+      "sha256": "f53662d8dbdac73eed100f2a844e622ffbb1e83b09dc66aedbe4ed4ed3128e83",
+      "bytes": 1403181
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/sports_lbsp_seed2026_a1/outputs/sports_lbsp_seed2026/predictions_perm_seed101.csv": {
+      "sha256": "f53662d8dbdac73eed100f2a844e622ffbb1e83b09dc66aedbe4ed4ed3128e83",
+      "bytes": 1403181
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/sports_lbsp_seed2026_a1/outputs/sports_lbsp_seed2026/predictions_perm_seed202.csv": {
+      "sha256": "f53662d8dbdac73eed100f2a844e622ffbb1e83b09dc66aedbe4ed4ed3128e83",
+      "bytes": 1403181
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/sports_lbsp_seed2026_a1/outputs/sports_lbsp_seed2026/predictions_perm_seed303.csv": {
+      "sha256": "f53662d8dbdac73eed100f2a844e622ffbb1e83b09dc66aedbe4ed4ed3128e83",
+      "bytes": 1403181
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/sports_lbsp_seed2026_a1/outputs/sports_lbsp_seed2026/predictions_perm_seed404.csv": {
+      "sha256": "f53662d8dbdac73eed100f2a844e622ffbb1e83b09dc66aedbe4ed4ed3128e83",
+      "bytes": 1403181
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/sports_lbsp_seed2026_a1/outputs/sports_lbsp_seed2026/predictions_perm_seed505.csv": {
+      "sha256": "f53662d8dbdac73eed100f2a844e622ffbb1e83b09dc66aedbe4ed4ed3128e83",
+      "bytes": 1403181
+    },
+    "g2_lbsp_amazon_stability_20261025/snapshot/outputs/sports_seed3407/panel_labels.csv": {
+      "sha256": "673c8d48470bbe1d5d0b02056ee55a8c9222ef4ef208dbcf5eb2523a676a70b9",
+      "bytes": 2094352
+    },
+    "g2_lbsp_amazon_stability_20261025/snapshot/outputs/sports_seed3407/predictions_original.csv": {
+      "sha256": "490f1ff1ffd970ba16ee855bfe8e5198f3aef7ca32234e6e09f117d50e1ebd95",
+      "bytes": 1344991
+    },
+    "g2_lbsp_amazon_stability_20261025/snapshot/outputs/sports_seed3407/predictions_perm_seed101.csv": {
+      "sha256": "490f1ff1ffd970ba16ee855bfe8e5198f3aef7ca32234e6e09f117d50e1ebd95",
+      "bytes": 1344991
+    },
+    "g2_lbsp_amazon_stability_20261025/snapshot/outputs/sports_seed3407/predictions_perm_seed202.csv": {
+      "sha256": "490f1ff1ffd970ba16ee855bfe8e5198f3aef7ca32234e6e09f117d50e1ebd95",
+      "bytes": 1344991
+    },
+    "g2_lbsp_amazon_stability_20261025/snapshot/outputs/sports_seed3407/predictions_perm_seed303.csv": {
+      "sha256": "490f1ff1ffd970ba16ee855bfe8e5198f3aef7ca32234e6e09f117d50e1ebd95",
+      "bytes": 1344991
+    },
+    "g2_lbsp_amazon_stability_20261025/snapshot/outputs/sports_seed3407/predictions_perm_seed404.csv": {
+      "sha256": "490f1ff1ffd970ba16ee855bfe8e5198f3aef7ca32234e6e09f117d50e1ebd95",
+      "bytes": 1344991
+    },
+    "g2_lbsp_amazon_stability_20261025/snapshot/outputs/sports_seed3407/predictions_perm_seed505.csv": {
+      "sha256": "490f1ff1ffd970ba16ee855bfe8e5198f3aef7ca32234e6e09f117d50e1ebd95",
+      "bytes": 1344991
+    },
+    "g2_lbsp_amazon_stability_20261025/snapshot/outputs/toys_seed42/panel_labels.csv": {
+      "sha256": "dd5d4d50cfe897e344c92e5da7f14830a995d812942865887ffdd4e0d94b1e26",
+      "bytes": 1139705
+    },
+    "g2_x5_results_20261025/derived/toys_test.csv": {
+      "sha256": "57184e61eb67ed8b51b927c7b89fadbb6792967473cbcf4a956caa7be51fa442",
+      "bytes": 781148
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/toys_control_seed42_a1/verification/COMPLETED.json": {
+      "sha256": "12e91df5dd00439656ef2fd06babcd32f905a3a29c1d423acaeb91d616e37a80",
+      "bytes": 2453
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/toys_control_seed42_a1/outputs/toys_control_seed42/panel_labels.csv": {
+      "sha256": "dc7a3fc9141bbf060b4706314835e1da4612aa404596d79867d814a2e25bf61a",
+      "bytes": 1142250
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/toys_control_seed42_a1/outputs/toys_control_seed42/predictions_original.csv": {
+      "sha256": "bf8e0f05c9b11ab93d9f0465e6b70138fa6026ff167582fd9442e69fd8f43689",
+      "bytes": 758307
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/toys_control_seed42_a1/outputs/toys_control_seed42/predictions_perm_seed101.csv": {
+      "sha256": "341a03a761c7c66700f2b08b87a6500f6397a929dad57ada871382bdb258434d",
+      "bytes": 757711
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/toys_control_seed42_a1/outputs/toys_control_seed42/predictions_perm_seed202.csv": {
+      "sha256": "824022c071043836d2de77f2b4b09e319cb285984e268aa130a134050eb0807c",
+      "bytes": 757609
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/toys_control_seed42_a1/outputs/toys_control_seed42/predictions_perm_seed303.csv": {
+      "sha256": "318c1e6c12db1161477b234f909a5acdce2c6e96fdf10a154a90db6a80ba465f",
+      "bytes": 757717
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/toys_control_seed42_a1/outputs/toys_control_seed42/predictions_perm_seed404.csv": {
+      "sha256": "dd0612500e6e849bb725672bed0f226e742458b9df364b7e7b4b301a5ac5ae02",
+      "bytes": 757693
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/toys_control_seed42_a1/outputs/toys_control_seed42/predictions_perm_seed505.csv": {
+      "sha256": "93548c45d35593f98e8984b922e9d529d70f6fa0f670df4bf61c39cf28b03b0c",
+      "bytes": 757698
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/toys_control_seed2026_a1/verification/COMPLETED.json": {
+      "sha256": "6dc136bfe86e505fb628d924823c6d657c690817f368fdc173d9f7935daf7eec",
+      "bytes": 2459
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/toys_control_seed2026_a1/outputs/toys_control_seed2026/panel_labels.csv": {
+      "sha256": "dc7a3fc9141bbf060b4706314835e1da4612aa404596d79867d814a2e25bf61a",
+      "bytes": 1142250
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/toys_control_seed2026_a1/outputs/toys_control_seed2026/predictions_original.csv": {
+      "sha256": "9065108eb0db7b7acfa9101016e7b3e2e17db4054f759446d965cbc6e22101a8",
+      "bytes": 759393
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/toys_control_seed2026_a1/outputs/toys_control_seed2026/predictions_perm_seed101.csv": {
+      "sha256": "a17647b35c4cb894946f54a6c5fb5d606f47fb4bb1b3b1594c3279d6328443fb",
+      "bytes": 758741
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/toys_control_seed2026_a1/outputs/toys_control_seed2026/predictions_perm_seed202.csv": {
+      "sha256": "39ab463a1c87686e64424bb295dc6866331c327404c086ee07a9050240019663",
+      "bytes": 758679
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/toys_control_seed2026_a1/outputs/toys_control_seed2026/predictions_perm_seed303.csv": {
+      "sha256": "af1bea6ccb16cf1c388a210911fa46de8c9a65d2e23c75a51922f5efa7011b20",
+      "bytes": 758744
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/toys_control_seed2026_a1/outputs/toys_control_seed2026/predictions_perm_seed404.csv": {
+      "sha256": "f24b29c33d505f9e3c05e1a4c7782e6b435e4b7179f3d282eebcf0f84ddbc795",
+      "bytes": 758683
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/toys_control_seed2026_a1/outputs/toys_control_seed2026/predictions_perm_seed505.csv": {
+      "sha256": "b817fa95a3d109760cd054aa94530dcc2a1114469b2dffe7e8dcdd6d762a470f",
+      "bytes": 758734
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/toys_control_seed3407_a1/verification/COMPLETED.json": {
+      "sha256": "2bc8194d490a7381fc983d78fc230808c238562be7b03079144d3973eb6c670a",
+      "bytes": 2459
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/toys_control_seed3407_a1/outputs/toys_control_seed3407/panel_labels.csv": {
+      "sha256": "dc7a3fc9141bbf060b4706314835e1da4612aa404596d79867d814a2e25bf61a",
+      "bytes": 1142250
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/toys_control_seed3407_a1/outputs/toys_control_seed3407/predictions_original.csv": {
+      "sha256": "23ad1030bff1994253325e812ae2b612cb24b40f39d1ac595cc0560bd20de21d",
+      "bytes": 758966
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/toys_control_seed3407_a1/outputs/toys_control_seed3407/predictions_perm_seed101.csv": {
+      "sha256": "9a2fcf8cb3030a839c697c3f0adb1e77516d66ed987e9d6110c38e57df680f01",
+      "bytes": 758249
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/toys_control_seed3407_a1/outputs/toys_control_seed3407/predictions_perm_seed202.csv": {
+      "sha256": "51ac56df56657f37120c8cb43080d93a5dc11b3af81a7ccd0c622a321c04d049",
+      "bytes": 758197
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/toys_control_seed3407_a1/outputs/toys_control_seed3407/predictions_perm_seed303.csv": {
+      "sha256": "ca79c761fd3388eef08582c569fd4e2791c397a5bcac1cc125282e0e157acc02",
+      "bytes": 758273
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/toys_control_seed3407_a1/outputs/toys_control_seed3407/predictions_perm_seed404.csv": {
+      "sha256": "d42b081119c3b1b2cc869e7e269ab662229c63d5f138c02c097bbf1ba51c1724",
+      "bytes": 758289
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/toys_control_seed3407_a1/outputs/toys_control_seed3407/predictions_perm_seed505.csv": {
+      "sha256": "15af6cb2ca5e0fe2865f1284f7f297afb4a61f030b9e63a337f6f9af9f5a7203",
+      "bytes": 758318
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/toys_lbsp_seed42_a1/verification/COMPLETED.json": {
+      "sha256": "3a7b4f0c3cb09793798fc236faf86e1dfd3e8c8e12b14af814be307d238bf6d5",
+      "bytes": 2444
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/toys_lbsp_seed42_a1/outputs/toys_lbsp_seed42/panel_labels.csv": {
+      "sha256": "dc7a3fc9141bbf060b4706314835e1da4612aa404596d79867d814a2e25bf61a",
+      "bytes": 1142250
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/toys_lbsp_seed42_a1/outputs/toys_lbsp_seed42/predictions_original.csv": {
+      "sha256": "f6115ad65ffb926de143f83e7cf2ab2b9c05813ade451fb3246cbf3dc77ad61f",
+      "bytes": 756405
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/toys_lbsp_seed42_a1/outputs/toys_lbsp_seed42/predictions_perm_seed101.csv": {
+      "sha256": "f6115ad65ffb926de143f83e7cf2ab2b9c05813ade451fb3246cbf3dc77ad61f",
+      "bytes": 756405
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/toys_lbsp_seed42_a1/outputs/toys_lbsp_seed42/predictions_perm_seed202.csv": {
+      "sha256": "f6115ad65ffb926de143f83e7cf2ab2b9c05813ade451fb3246cbf3dc77ad61f",
+      "bytes": 756405
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/toys_lbsp_seed42_a1/outputs/toys_lbsp_seed42/predictions_perm_seed303.csv": {
+      "sha256": "f6115ad65ffb926de143f83e7cf2ab2b9c05813ade451fb3246cbf3dc77ad61f",
+      "bytes": 756405
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/toys_lbsp_seed42_a1/outputs/toys_lbsp_seed42/predictions_perm_seed404.csv": {
+      "sha256": "f6115ad65ffb926de143f83e7cf2ab2b9c05813ade451fb3246cbf3dc77ad61f",
+      "bytes": 756405
+    },
+    "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/toys_lbsp_seed42_a1/outputs/toys_lbsp_seed42/predictions_perm_seed505.csv": {
+      "sha256": "f6115ad65ffb926de143f83e7cf2ab2b9c05813ade451fb3246cbf3dc77ad61f",
+      "bytes": 756405
+    },
+    "g2_lbsp_amazon_stability_20261025/snapshot/outputs/toys_seed2026/panel_labels.csv": {
+      "sha256": "dd5d4d50cfe897e344c92e5da7f14830a995d812942865887ffdd4e0d94b1e26",
+      "bytes": 1139705
+    },
+    "g2_lbsp_amazon_stability_20261025/snapshot/outputs/toys_seed2026/predictions_original.csv": {
+      "sha256": "f8c0db82a532bba9a4db43b2ea51b24db542f495c639e2fbe53b4a164d721642",
+      "bytes": 726629
+    },
+    "g2_lbsp_amazon_stability_20261025/snapshot/outputs/toys_seed2026/predictions_perm_seed101.csv": {
+      "sha256": "f8c0db82a532bba9a4db43b2ea51b24db542f495c639e2fbe53b4a164d721642",
+      "bytes": 726629
+    },
+    "g2_lbsp_amazon_stability_20261025/snapshot/outputs/toys_seed2026/predictions_perm_seed202.csv": {
+      "sha256": "f8c0db82a532bba9a4db43b2ea51b24db542f495c639e2fbe53b4a164d721642",
+      "bytes": 726629
+    },
+    "g2_lbsp_amazon_stability_20261025/snapshot/outputs/toys_seed2026/predictions_perm_seed303.csv": {
+      "sha256": "f8c0db82a532bba9a4db43b2ea51b24db542f495c639e2fbe53b4a164d721642",
+      "bytes": 726629
+    },
+    "g2_lbsp_amazon_stability_20261025/snapshot/outputs/toys_seed2026/predictions_perm_seed404.csv": {
+      "sha256": "f8c0db82a532bba9a4db43b2ea51b24db542f495c639e2fbe53b4a164d721642",
+      "bytes": 726629
+    },
+    "g2_lbsp_amazon_stability_20261025/snapshot/outputs/toys_seed2026/predictions_perm_seed505.csv": {
+      "sha256": "f8c0db82a532bba9a4db43b2ea51b24db542f495c639e2fbe53b4a164d721642",
+      "bytes": 726629
+    },
+    "g2_lbsp_amazon_stability_20261025/snapshot/outputs/toys_seed3407/panel_labels.csv": {
+      "sha256": "dd5d4d50cfe897e344c92e5da7f14830a995d812942865887ffdd4e0d94b1e26",
+      "bytes": 1139705
+    },
+    "g2_lbsp_amazon_stability_20261025/snapshot/outputs/toys_seed3407/predictions_original.csv": {
+      "sha256": "3d037bbc35ba60ab3227f1b8e78f148eb0a57877f260ac697ffdc8aa145a1de6",
+      "bytes": 728029
+    },
+    "g2_lbsp_amazon_stability_20261025/snapshot/outputs/toys_seed3407/predictions_perm_seed101.csv": {
+      "sha256": "3d037bbc35ba60ab3227f1b8e78f148eb0a57877f260ac697ffdc8aa145a1de6",
+      "bytes": 728029
+    },
+    "g2_lbsp_amazon_stability_20261025/snapshot/outputs/toys_seed3407/predictions_perm_seed202.csv": {
+      "sha256": "3d037bbc35ba60ab3227f1b8e78f148eb0a57877f260ac697ffdc8aa145a1de6",
+      "bytes": 728029
+    },
+    "g2_lbsp_amazon_stability_20261025/snapshot/outputs/toys_seed3407/predictions_perm_seed303.csv": {
+      "sha256": "3d037bbc35ba60ab3227f1b8e78f148eb0a57877f260ac697ffdc8aa145a1de6",
+      "bytes": 728029
+    },
+    "g2_lbsp_amazon_stability_20261025/snapshot/outputs/toys_seed3407/predictions_perm_seed404.csv": {
+      "sha256": "3d037bbc35ba60ab3227f1b8e78f148eb0a57877f260ac697ffdc8aa145a1de6",
+      "bytes": 728029
+    },
+    "g2_lbsp_amazon_stability_20261025/snapshot/outputs/toys_seed3407/predictions_perm_seed505.csv": {
+      "sha256": "3d037bbc35ba60ab3227f1b8e78f148eb0a57877f260ac697ffdc8aa145a1de6",
+      "bytes": 728029
+    },
+    "kais_revision_outline_20261022/g2_x7_diagnostics_20261029/warm_targets/population_counts.csv": {
+      "sha256": "c40948fe5be492eab1fbdd860a50f41ee029f32f7dc01a0f6215a03a5a109f40",
+      "bytes": 944
+    },
+    "kais_revision_outline_20261022/g2_x7_diagnostics_20261029/warm_targets/method_summary.csv": {
+      "sha256": "f65b421eb998537d4913aacb38ceba95feadffc6905bbdcba39acb0a83834516",
+      "bytes": 54406
+    }
+  },
+  "models": [
+    {
+      "id": "ml1m_control_seed42",
+      "dataset": "ml1m",
+      "method": "Control",
+      "training_seed": 42,
+      "origin": "RETAINED_ACCEPTED_INFERENCE",
+      "source_files": {
+        "predictions_original.csv": {
+          "path": "g2_lbsp_ml1m_20261023/snapshot/control_reference/outputs/ml1m_seed42/predictions_original.csv",
+          "sha256": "e3dcf095cba1b8ed6cb47804089335d1acdbbf0f6710a0585ce4ace42c095822"
+        },
+        "predictions_perm_seed101.csv": {
+          "path": "g2_lbsp_ml1m_20261023/snapshot/control_reference/outputs/ml1m_seed42/predictions_perm_seed101.csv",
+          "sha256": "05f2fbd29919b0c9a76610397bf59ca8f637c0e339fdb81a522ee3e1d9a91bd0"
+        },
+        "predictions_perm_seed202.csv": {
+          "path": "g2_lbsp_ml1m_20261023/snapshot/control_reference/outputs/ml1m_seed42/predictions_perm_seed202.csv",
+          "sha256": "069cb960f3ed6c5022677451d3b4645946f37c3381d25020e9ad69986a41711a"
+        },
+        "predictions_perm_seed303.csv": {
+          "path": "g2_lbsp_ml1m_20261023/snapshot/control_reference/outputs/ml1m_seed42/predictions_perm_seed303.csv",
+          "sha256": "66bf46179a6942c2f91f4ed876125bd84bc77f44bce9f02cf9015d03b5cd0e88"
+        },
+        "predictions_perm_seed404.csv": {
+          "path": "g2_lbsp_ml1m_20261023/snapshot/control_reference/outputs/ml1m_seed42/predictions_perm_seed404.csv",
+          "sha256": "c5b506b47666403163119833264665af30e80f2f92009ada1f0751228b44406c"
+        },
+        "predictions_perm_seed505.csv": {
+          "path": "g2_lbsp_ml1m_20261023/snapshot/control_reference/outputs/ml1m_seed42/predictions_perm_seed505.csv",
+          "sha256": "f40e12ab3b238f9e4ff54f836364b947801590ad362bf2010bab3a5d23a2f4a3"
+        }
+      },
+      "label_sha256": "ebaa7d9ff9039b0446bf5304367f64d85377dff40e76e83f127ca93377c7cac2"
+    },
+    {
+      "id": "ml1m_control_seed2026",
+      "dataset": "ml1m",
+      "method": "Control",
+      "training_seed": 2026,
+      "origin": "RETAINED_ACCEPTED_INFERENCE",
+      "source_files": {
+        "predictions_original.csv": {
+          "path": "g2_lbsp_ml1m_20261023/snapshot/control_reference/outputs/ml1m_seed2026/predictions_original.csv",
+          "sha256": "ffffcba167c1ffe3f5ab19b9d594504d7d1bc400ef946064acc53e8e8928eff0"
+        },
+        "predictions_perm_seed101.csv": {
+          "path": "g2_lbsp_ml1m_20261023/snapshot/control_reference/outputs/ml1m_seed2026/predictions_perm_seed101.csv",
+          "sha256": "4d6bec69c04752b32c7bcbdc86c602cf13ac04a12f25e92b60599ca8de0f115e"
+        },
+        "predictions_perm_seed202.csv": {
+          "path": "g2_lbsp_ml1m_20261023/snapshot/control_reference/outputs/ml1m_seed2026/predictions_perm_seed202.csv",
+          "sha256": "7e56d276335a96d24a408ad0b41f9c2a6ad59f11d7c59b1a812ea1e85a8b1d0f"
+        },
+        "predictions_perm_seed303.csv": {
+          "path": "g2_lbsp_ml1m_20261023/snapshot/control_reference/outputs/ml1m_seed2026/predictions_perm_seed303.csv",
+          "sha256": "710c1db6516785bb970f8e96140cc723e568238075a403bb40971255a003ef5a"
+        },
+        "predictions_perm_seed404.csv": {
+          "path": "g2_lbsp_ml1m_20261023/snapshot/control_reference/outputs/ml1m_seed2026/predictions_perm_seed404.csv",
+          "sha256": "82161cb67dcea5a5a9849c5fa1a84afd96547405bd2146591f22bfa57422acdb"
+        },
+        "predictions_perm_seed505.csv": {
+          "path": "g2_lbsp_ml1m_20261023/snapshot/control_reference/outputs/ml1m_seed2026/predictions_perm_seed505.csv",
+          "sha256": "8e0558975042ab924d75d78079a8ddcd9994e88821ec407acaacc6ed92cce6e8"
+        }
+      },
+      "label_sha256": "ebaa7d9ff9039b0446bf5304367f64d85377dff40e76e83f127ca93377c7cac2"
+    },
+    {
+      "id": "ml1m_control_seed3407",
+      "dataset": "ml1m",
+      "method": "Control",
+      "training_seed": 3407,
+      "origin": "RETAINED_ACCEPTED_INFERENCE",
+      "source_files": {
+        "predictions_original.csv": {
+          "path": "g2_lbsp_ml1m_20261023/snapshot/control_reference/outputs/ml1m_seed3407/predictions_original.csv",
+          "sha256": "aa28ca63138a85220b3d274a2921aaf899e9e1f4aad324c335df6e1116fb9b31"
+        },
+        "predictions_perm_seed101.csv": {
+          "path": "g2_lbsp_ml1m_20261023/snapshot/control_reference/outputs/ml1m_seed3407/predictions_perm_seed101.csv",
+          "sha256": "740e8120e140e164f8fe005b6c8fdd01ee45754ce83d949fcffa7658a56e7cef"
+        },
+        "predictions_perm_seed202.csv": {
+          "path": "g2_lbsp_ml1m_20261023/snapshot/control_reference/outputs/ml1m_seed3407/predictions_perm_seed202.csv",
+          "sha256": "c1f630f98e362b7aec8f9a81fc531b2dc2542a1faa852257f4e057c6d31330bb"
+        },
+        "predictions_perm_seed303.csv": {
+          "path": "g2_lbsp_ml1m_20261023/snapshot/control_reference/outputs/ml1m_seed3407/predictions_perm_seed303.csv",
+          "sha256": "40212d0a42e9bf1febf4e417fea8b18c980e8894bded31246f558e3fd5fe5d80"
+        },
+        "predictions_perm_seed404.csv": {
+          "path": "g2_lbsp_ml1m_20261023/snapshot/control_reference/outputs/ml1m_seed3407/predictions_perm_seed404.csv",
+          "sha256": "a4ad948454ffce337f14c5cfe5e3b1d20e35d4c3845779fa357f5af1fd4314a6"
+        },
+        "predictions_perm_seed505.csv": {
+          "path": "g2_lbsp_ml1m_20261023/snapshot/control_reference/outputs/ml1m_seed3407/predictions_perm_seed505.csv",
+          "sha256": "e02df8cbef3114d33647a269b42ab73bcd087744f3a585ad355316b3c3a875b0"
+        }
+      },
+      "label_sha256": "ebaa7d9ff9039b0446bf5304367f64d85377dff40e76e83f127ca93377c7cac2"
+    },
+    {
+      "id": "ml1m_lbsp_seed42",
+      "dataset": "ml1m",
+      "method": "LBSP",
+      "training_seed": 42,
+      "origin": "NEW_E1_ACCEPTED_INFERENCE",
+      "source_files": {
+        "predictions_original.csv": {
+          "path": "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/ml1m_lbsp_seed42_a1/outputs/ml1m_lbsp_seed42/predictions_original.csv",
+          "sha256": "6828e403c1f25783ec76928b675089afe7675300e02b0e514f8ecf4c0599761d"
+        },
+        "predictions_perm_seed101.csv": {
+          "path": "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/ml1m_lbsp_seed42_a1/outputs/ml1m_lbsp_seed42/predictions_perm_seed101.csv",
+          "sha256": "6828e403c1f25783ec76928b675089afe7675300e02b0e514f8ecf4c0599761d"
+        },
+        "predictions_perm_seed202.csv": {
+          "path": "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/ml1m_lbsp_seed42_a1/outputs/ml1m_lbsp_seed42/predictions_perm_seed202.csv",
+          "sha256": "6828e403c1f25783ec76928b675089afe7675300e02b0e514f8ecf4c0599761d"
+        },
+        "predictions_perm_seed303.csv": {
+          "path": "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/ml1m_lbsp_seed42_a1/outputs/ml1m_lbsp_seed42/predictions_perm_seed303.csv",
+          "sha256": "6828e403c1f25783ec76928b675089afe7675300e02b0e514f8ecf4c0599761d"
+        },
+        "predictions_perm_seed404.csv": {
+          "path": "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/ml1m_lbsp_seed42_a1/outputs/ml1m_lbsp_seed42/predictions_perm_seed404.csv",
+          "sha256": "6828e403c1f25783ec76928b675089afe7675300e02b0e514f8ecf4c0599761d"
+        },
+        "predictions_perm_seed505.csv": {
+          "path": "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/ml1m_lbsp_seed42_a1/outputs/ml1m_lbsp_seed42/predictions_perm_seed505.csv",
+          "sha256": "6828e403c1f25783ec76928b675089afe7675300e02b0e514f8ecf4c0599761d"
+        }
+      },
+      "label_sha256": "6337969df95ac6f20effdd2f22b36097c874a0786150ff0438cdeccc07ec8af7"
+    },
+    {
+      "id": "ml1m_lbsp_seed2026",
+      "dataset": "ml1m",
+      "method": "LBSP",
+      "training_seed": 2026,
+      "origin": "NEW_E1_ACCEPTED_INFERENCE",
+      "source_files": {
+        "predictions_original.csv": {
+          "path": "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/ml1m_lbsp_seed2026_a1/outputs/ml1m_lbsp_seed2026/predictions_original.csv",
+          "sha256": "d436350138e7d07fe68527bdb7bf1ce1cf07bff3f74e96ef7f7796b9200905a5"
+        },
+        "predictions_perm_seed101.csv": {
+          "path": "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/ml1m_lbsp_seed2026_a1/outputs/ml1m_lbsp_seed2026/predictions_perm_seed101.csv",
+          "sha256": "d436350138e7d07fe68527bdb7bf1ce1cf07bff3f74e96ef7f7796b9200905a5"
+        },
+        "predictions_perm_seed202.csv": {
+          "path": "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/ml1m_lbsp_seed2026_a1/outputs/ml1m_lbsp_seed2026/predictions_perm_seed202.csv",
+          "sha256": "d436350138e7d07fe68527bdb7bf1ce1cf07bff3f74e96ef7f7796b9200905a5"
+        },
+        "predictions_perm_seed303.csv": {
+          "path": "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/ml1m_lbsp_seed2026_a1/outputs/ml1m_lbsp_seed2026/predictions_perm_seed303.csv",
+          "sha256": "d436350138e7d07fe68527bdb7bf1ce1cf07bff3f74e96ef7f7796b9200905a5"
+        },
+        "predictions_perm_seed404.csv": {
+          "path": "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/ml1m_lbsp_seed2026_a1/outputs/ml1m_lbsp_seed2026/predictions_perm_seed404.csv",
+          "sha256": "d436350138e7d07fe68527bdb7bf1ce1cf07bff3f74e96ef7f7796b9200905a5"
+        },
+        "predictions_perm_seed505.csv": {
+          "path": "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/ml1m_lbsp_seed2026_a1/outputs/ml1m_lbsp_seed2026/predictions_perm_seed505.csv",
+          "sha256": "d436350138e7d07fe68527bdb7bf1ce1cf07bff3f74e96ef7f7796b9200905a5"
+        }
+      },
+      "label_sha256": "6337969df95ac6f20effdd2f22b36097c874a0786150ff0438cdeccc07ec8af7"
+    },
+    {
+      "id": "ml1m_lbsp_seed3407",
+      "dataset": "ml1m",
+      "method": "LBSP",
+      "training_seed": 3407,
+      "origin": "NEW_E1_ACCEPTED_INFERENCE",
+      "source_files": {
+        "predictions_original.csv": {
+          "path": "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/ml1m_lbsp_seed3407_a1/outputs/ml1m_lbsp_seed3407/predictions_original.csv",
+          "sha256": "882c5778f79256c4bf7d8ace2b33f08892ebaeaec6307b183634ef7b255111d6"
+        },
+        "predictions_perm_seed101.csv": {
+          "path": "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/ml1m_lbsp_seed3407_a1/outputs/ml1m_lbsp_seed3407/predictions_perm_seed101.csv",
+          "sha256": "882c5778f79256c4bf7d8ace2b33f08892ebaeaec6307b183634ef7b255111d6"
+        },
+        "predictions_perm_seed202.csv": {
+          "path": "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/ml1m_lbsp_seed3407_a1/outputs/ml1m_lbsp_seed3407/predictions_perm_seed202.csv",
+          "sha256": "882c5778f79256c4bf7d8ace2b33f08892ebaeaec6307b183634ef7b255111d6"
+        },
+        "predictions_perm_seed303.csv": {
+          "path": "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/ml1m_lbsp_seed3407_a1/outputs/ml1m_lbsp_seed3407/predictions_perm_seed303.csv",
+          "sha256": "882c5778f79256c4bf7d8ace2b33f08892ebaeaec6307b183634ef7b255111d6"
+        },
+        "predictions_perm_seed404.csv": {
+          "path": "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/ml1m_lbsp_seed3407_a1/outputs/ml1m_lbsp_seed3407/predictions_perm_seed404.csv",
+          "sha256": "882c5778f79256c4bf7d8ace2b33f08892ebaeaec6307b183634ef7b255111d6"
+        },
+        "predictions_perm_seed505.csv": {
+          "path": "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/ml1m_lbsp_seed3407_a1/outputs/ml1m_lbsp_seed3407/predictions_perm_seed505.csv",
+          "sha256": "882c5778f79256c4bf7d8ace2b33f08892ebaeaec6307b183634ef7b255111d6"
+        }
+      },
+      "label_sha256": "6337969df95ac6f20effdd2f22b36097c874a0786150ff0438cdeccc07ec8af7"
+    },
+    {
+      "id": "beauty_control_seed42",
+      "dataset": "beauty",
+      "method": "Control",
+      "training_seed": 42,
+      "origin": "RETAINED_ACCEPTED_INFERENCE",
+      "source_files": {
+        "predictions_original.csv": {
+          "path": "g2_lbsp_amazon_stability_20261025/snapshot/control_reference/outputs/beauty_seed42/predictions_original.csv",
+          "sha256": "4140a5e57dd9cf3a73212118a39565e78661c7961eeac8bce667592dbabd2c0a"
+        },
+        "predictions_perm_seed101.csv": {
+          "path": "g2_lbsp_amazon_stability_20261025/snapshot/control_reference/outputs/beauty_seed42/predictions_perm_seed101.csv",
+          "sha256": "b5c5fcef8d850aaed16ab4da95ce6d38fd9e312904f0f58a528def2326cdaebf"
+        },
+        "predictions_perm_seed202.csv": {
+          "path": "g2_lbsp_amazon_stability_20261025/snapshot/control_reference/outputs/beauty_seed42/predictions_perm_seed202.csv",
+          "sha256": "e980712d0d3464e1550312f025b811d43ccfdfe59808bd54b54d0122d5d7db7a"
+        },
+        "predictions_perm_seed303.csv": {
+          "path": "g2_lbsp_amazon_stability_20261025/snapshot/control_reference/outputs/beauty_seed42/predictions_perm_seed303.csv",
+          "sha256": "8ec7497e81db1385b4c060e45a51a3c39315c0767a4eed758116dabf7ee9e834"
+        },
+        "predictions_perm_seed404.csv": {
+          "path": "g2_lbsp_amazon_stability_20261025/snapshot/control_reference/outputs/beauty_seed42/predictions_perm_seed404.csv",
+          "sha256": "3649e3701775795e611b96122f33a9165e6912c9eeac28182dd45977983878c5"
+        },
+        "predictions_perm_seed505.csv": {
+          "path": "g2_lbsp_amazon_stability_20261025/snapshot/control_reference/outputs/beauty_seed42/predictions_perm_seed505.csv",
+          "sha256": "cef6fad6b5f58565adc297f0fe4a7b7b60a6ea3bc55753d7f0ac3a440462bcc1"
+        }
+      },
+      "label_sha256": "cec4d8ce8a429dbfb4e953afdd9a4fb1aa10012a573f6b7186ea1fcd0c7d6626"
+    },
+    {
+      "id": "beauty_control_seed2026",
+      "dataset": "beauty",
+      "method": "Control",
+      "training_seed": 2026,
+      "origin": "RETAINED_ACCEPTED_INFERENCE",
+      "source_files": {
+        "predictions_original.csv": {
+          "path": "g2_lbsp_amazon_stability_20261025/snapshot/control_reference/outputs/beauty_seed2026/predictions_original.csv",
+          "sha256": "74bcccaf6729cb280659545e6732b4c5f66ae522839b4f973c80a913e65f62a7"
+        },
+        "predictions_perm_seed101.csv": {
+          "path": "g2_lbsp_amazon_stability_20261025/snapshot/control_reference/outputs/beauty_seed2026/predictions_perm_seed101.csv",
+          "sha256": "339825532494aa1b37bb2fea9b9469aba4b6322f818c243975af73e4c72033cb"
+        },
+        "predictions_perm_seed202.csv": {
+          "path": "g2_lbsp_amazon_stability_20261025/snapshot/control_reference/outputs/beauty_seed2026/predictions_perm_seed202.csv",
+          "sha256": "ca23538adef5f2e1da0e2b1a5cd5ddb1c442e49046f0d7c83908ec2b1c34b6c3"
+        },
+        "predictions_perm_seed303.csv": {
+          "path": "g2_lbsp_amazon_stability_20261025/snapshot/control_reference/outputs/beauty_seed2026/predictions_perm_seed303.csv",
+          "sha256": "729ca65b25757a7ffbed66ba6b57f4ba344218421a3a74b4597d93be14ac50fe"
+        },
+        "predictions_perm_seed404.csv": {
+          "path": "g2_lbsp_amazon_stability_20261025/snapshot/control_reference/outputs/beauty_seed2026/predictions_perm_seed404.csv",
+          "sha256": "30992105b83d0e2ca58e6c7900bedc3c572149a82bacf99add398deec8f17b86"
+        },
+        "predictions_perm_seed505.csv": {
+          "path": "g2_lbsp_amazon_stability_20261025/snapshot/control_reference/outputs/beauty_seed2026/predictions_perm_seed505.csv",
+          "sha256": "a5b74aa2bf89820599b3244d8b716d84d244cfe2c77db49aef64ceeda55cb253"
+        }
+      },
+      "label_sha256": "cec4d8ce8a429dbfb4e953afdd9a4fb1aa10012a573f6b7186ea1fcd0c7d6626"
+    },
+    {
+      "id": "beauty_control_seed3407",
+      "dataset": "beauty",
+      "method": "Control",
+      "training_seed": 3407,
+      "origin": "RETAINED_ACCEPTED_INFERENCE",
+      "source_files": {
+        "predictions_original.csv": {
+          "path": "g2_lbsp_amazon_stability_20261025/snapshot/control_reference/outputs/beauty_seed3407/predictions_original.csv",
+          "sha256": "b9bb1912706e049836c328e3c91afc71f01b7326954f043bb1c848d91fd601d8"
+        },
+        "predictions_perm_seed101.csv": {
+          "path": "g2_lbsp_amazon_stability_20261025/snapshot/control_reference/outputs/beauty_seed3407/predictions_perm_seed101.csv",
+          "sha256": "6172dc7a01d9e6b259230a916867ee3bc2f834e488c6e0567152c022c352ba3b"
+        },
+        "predictions_perm_seed202.csv": {
+          "path": "g2_lbsp_amazon_stability_20261025/snapshot/control_reference/outputs/beauty_seed3407/predictions_perm_seed202.csv",
+          "sha256": "872cb047c594fbd0d62c23f39dedc519447b7c0700dbcc2a8ba3f9815af5662b"
+        },
+        "predictions_perm_seed303.csv": {
+          "path": "g2_lbsp_amazon_stability_20261025/snapshot/control_reference/outputs/beauty_seed3407/predictions_perm_seed303.csv",
+          "sha256": "586cb78c8871322c39e2908b5ce46e36c706d0d0282afb5fc488b5d76436fbae"
+        },
+        "predictions_perm_seed404.csv": {
+          "path": "g2_lbsp_amazon_stability_20261025/snapshot/control_reference/outputs/beauty_seed3407/predictions_perm_seed404.csv",
+          "sha256": "d53fef9dd395b6471a38ecc0ca4e983510dc8a5203bcfb52b86e9479fdea764a"
+        },
+        "predictions_perm_seed505.csv": {
+          "path": "g2_lbsp_amazon_stability_20261025/snapshot/control_reference/outputs/beauty_seed3407/predictions_perm_seed505.csv",
+          "sha256": "b323fb61fbfeb7c00436d3fcdf16e5b610fecdad59a06ce63e58db384abccbbb"
+        }
+      },
+      "label_sha256": "cec4d8ce8a429dbfb4e953afdd9a4fb1aa10012a573f6b7186ea1fcd0c7d6626"
+    },
+    {
+      "id": "beauty_lbsp_seed42",
+      "dataset": "beauty",
+      "method": "LBSP",
+      "training_seed": 42,
+      "origin": "RETAINED_ACCEPTED_INFERENCE",
+      "source_files": {
+        "predictions_original.csv": {
+          "path": "g2_lbsp_amazon_stability_20261025/snapshot/outputs/beauty_seed42/predictions_original.csv",
+          "sha256": "3556f47245c558a6583ca9fc188c76c29ffe3e6ef5f2117e378db5b894d7c589"
+        },
+        "predictions_perm_seed101.csv": {
+          "path": "g2_lbsp_amazon_stability_20261025/snapshot/outputs/beauty_seed42/predictions_perm_seed101.csv",
+          "sha256": "3556f47245c558a6583ca9fc188c76c29ffe3e6ef5f2117e378db5b894d7c589"
+        },
+        "predictions_perm_seed202.csv": {
+          "path": "g2_lbsp_amazon_stability_20261025/snapshot/outputs/beauty_seed42/predictions_perm_seed202.csv",
+          "sha256": "3556f47245c558a6583ca9fc188c76c29ffe3e6ef5f2117e378db5b894d7c589"
+        },
+        "predictions_perm_seed303.csv": {
+          "path": "g2_lbsp_amazon_stability_20261025/snapshot/outputs/beauty_seed42/predictions_perm_seed303.csv",
+          "sha256": "3556f47245c558a6583ca9fc188c76c29ffe3e6ef5f2117e378db5b894d7c589"
+        },
+        "predictions_perm_seed404.csv": {
+          "path": "g2_lbsp_amazon_stability_20261025/snapshot/outputs/beauty_seed42/predictions_perm_seed404.csv",
+          "sha256": "3556f47245c558a6583ca9fc188c76c29ffe3e6ef5f2117e378db5b894d7c589"
+        },
+        "predictions_perm_seed505.csv": {
+          "path": "g2_lbsp_amazon_stability_20261025/snapshot/outputs/beauty_seed42/predictions_perm_seed505.csv",
+          "sha256": "3556f47245c558a6583ca9fc188c76c29ffe3e6ef5f2117e378db5b894d7c589"
+        }
+      },
+      "label_sha256": "cec4d8ce8a429dbfb4e953afdd9a4fb1aa10012a573f6b7186ea1fcd0c7d6626"
+    },
+    {
+      "id": "beauty_lbsp_seed2026",
+      "dataset": "beauty",
+      "method": "LBSP",
+      "training_seed": 2026,
+      "origin": "RETAINED_ACCEPTED_INFERENCE",
+      "source_files": {
+        "predictions_original.csv": {
+          "path": "g2_lbsp_amazon_stability_20261025/snapshot/outputs/beauty_seed2026/predictions_original.csv",
+          "sha256": "ce829428265b28827f2503ed7e08480f0c540ceabbb2b4f31db889f2760741b3"
+        },
+        "predictions_perm_seed101.csv": {
+          "path": "g2_lbsp_amazon_stability_20261025/snapshot/outputs/beauty_seed2026/predictions_perm_seed101.csv",
+          "sha256": "ce829428265b28827f2503ed7e08480f0c540ceabbb2b4f31db889f2760741b3"
+        },
+        "predictions_perm_seed202.csv": {
+          "path": "g2_lbsp_amazon_stability_20261025/snapshot/outputs/beauty_seed2026/predictions_perm_seed202.csv",
+          "sha256": "ce829428265b28827f2503ed7e08480f0c540ceabbb2b4f31db889f2760741b3"
+        },
+        "predictions_perm_seed303.csv": {
+          "path": "g2_lbsp_amazon_stability_20261025/snapshot/outputs/beauty_seed2026/predictions_perm_seed303.csv",
+          "sha256": "ce829428265b28827f2503ed7e08480f0c540ceabbb2b4f31db889f2760741b3"
+        },
+        "predictions_perm_seed404.csv": {
+          "path": "g2_lbsp_amazon_stability_20261025/snapshot/outputs/beauty_seed2026/predictions_perm_seed404.csv",
+          "sha256": "ce829428265b28827f2503ed7e08480f0c540ceabbb2b4f31db889f2760741b3"
+        },
+        "predictions_perm_seed505.csv": {
+          "path": "g2_lbsp_amazon_stability_20261025/snapshot/outputs/beauty_seed2026/predictions_perm_seed505.csv",
+          "sha256": "ce829428265b28827f2503ed7e08480f0c540ceabbb2b4f31db889f2760741b3"
+        }
+      },
+      "label_sha256": "cec4d8ce8a429dbfb4e953afdd9a4fb1aa10012a573f6b7186ea1fcd0c7d6626"
+    },
+    {
+      "id": "beauty_lbsp_seed3407",
+      "dataset": "beauty",
+      "method": "LBSP",
+      "training_seed": 3407,
+      "origin": "RETAINED_ACCEPTED_INFERENCE",
+      "source_files": {
+        "predictions_original.csv": {
+          "path": "g2_lbsp_amazon_stability_20261025/snapshot/outputs/beauty_seed3407/predictions_original.csv",
+          "sha256": "99c0b3677c787814c5523a8f4c2848c5310d8298ab4e685065f46c3fddc8e458"
+        },
+        "predictions_perm_seed101.csv": {
+          "path": "g2_lbsp_amazon_stability_20261025/snapshot/outputs/beauty_seed3407/predictions_perm_seed101.csv",
+          "sha256": "99c0b3677c787814c5523a8f4c2848c5310d8298ab4e685065f46c3fddc8e458"
+        },
+        "predictions_perm_seed202.csv": {
+          "path": "g2_lbsp_amazon_stability_20261025/snapshot/outputs/beauty_seed3407/predictions_perm_seed202.csv",
+          "sha256": "99c0b3677c787814c5523a8f4c2848c5310d8298ab4e685065f46c3fddc8e458"
+        },
+        "predictions_perm_seed303.csv": {
+          "path": "g2_lbsp_amazon_stability_20261025/snapshot/outputs/beauty_seed3407/predictions_perm_seed303.csv",
+          "sha256": "99c0b3677c787814c5523a8f4c2848c5310d8298ab4e685065f46c3fddc8e458"
+        },
+        "predictions_perm_seed404.csv": {
+          "path": "g2_lbsp_amazon_stability_20261025/snapshot/outputs/beauty_seed3407/predictions_perm_seed404.csv",
+          "sha256": "99c0b3677c787814c5523a8f4c2848c5310d8298ab4e685065f46c3fddc8e458"
+        },
+        "predictions_perm_seed505.csv": {
+          "path": "g2_lbsp_amazon_stability_20261025/snapshot/outputs/beauty_seed3407/predictions_perm_seed505.csv",
+          "sha256": "99c0b3677c787814c5523a8f4c2848c5310d8298ab4e685065f46c3fddc8e458"
+        }
+      },
+      "label_sha256": "cec4d8ce8a429dbfb4e953afdd9a4fb1aa10012a573f6b7186ea1fcd0c7d6626"
+    },
+    {
+      "id": "sports_control_seed42",
+      "dataset": "sports",
+      "method": "Control",
+      "training_seed": 42,
+      "origin": "RETAINED_ACCEPTED_INFERENCE",
+      "source_files": {
+        "predictions_original.csv": {
+          "path": "g2_lbsp_amazon_stability_20261025/snapshot/control_reference/outputs/sports_seed42/predictions_original.csv",
+          "sha256": "9ef7554252ff843a1b5bf7e3809aba4827c96427aee66744f06de70852119e5e"
+        },
+        "predictions_perm_seed101.csv": {
+          "path": "g2_lbsp_amazon_stability_20261025/snapshot/control_reference/outputs/sports_seed42/predictions_perm_seed101.csv",
+          "sha256": "4fb86caf2911f467f25193cea878189dd6bbf9b4f648648a07673a2999034eb9"
+        },
+        "predictions_perm_seed202.csv": {
+          "path": "g2_lbsp_amazon_stability_20261025/snapshot/control_reference/outputs/sports_seed42/predictions_perm_seed202.csv",
+          "sha256": "d24a242df65cb3d9ffbd6e1414ff1d8857eee02cfe80a34bcb1064fa3a672671"
+        },
+        "predictions_perm_seed303.csv": {
+          "path": "g2_lbsp_amazon_stability_20261025/snapshot/control_reference/outputs/sports_seed42/predictions_perm_seed303.csv",
+          "sha256": "406d41efa5b40170c5a32cbff9c32d2d99db2386a225ef37b65b471f5f404652"
+        },
+        "predictions_perm_seed404.csv": {
+          "path": "g2_lbsp_amazon_stability_20261025/snapshot/control_reference/outputs/sports_seed42/predictions_perm_seed404.csv",
+          "sha256": "d5e8bcbdf69908f3aaa98d6d57a5c4758beaf7d399ff06c4989bed187d9a03bd"
+        },
+        "predictions_perm_seed505.csv": {
+          "path": "g2_lbsp_amazon_stability_20261025/snapshot/control_reference/outputs/sports_seed42/predictions_perm_seed505.csv",
+          "sha256": "e844aa6237a39c8bf64caac4cee4f223127facf907b3e474737a0e3ab4484f9f"
+        }
+      },
+      "label_sha256": "673c8d48470bbe1d5d0b02056ee55a8c9222ef4ef208dbcf5eb2523a676a70b9"
+    },
+    {
+      "id": "sports_control_seed2026",
+      "dataset": "sports",
+      "method": "Control",
+      "training_seed": 2026,
+      "origin": "NEW_E1_ACCEPTED_INFERENCE",
+      "source_files": {
+        "predictions_original.csv": {
+          "path": "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/sports_control_seed2026_a1/outputs/sports_control_seed2026/predictions_original.csv",
+          "sha256": "45480214e71792ba784be309a451595a4432cfffa360bd89240b4468440a82cb"
+        },
+        "predictions_perm_seed101.csv": {
+          "path": "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/sports_control_seed2026_a1/outputs/sports_control_seed2026/predictions_perm_seed101.csv",
+          "sha256": "4cd28fa7ec1206d45d3caccf09ccf88a37a642477c896192cb07df69fe0984b0"
+        },
+        "predictions_perm_seed202.csv": {
+          "path": "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/sports_control_seed2026_a1/outputs/sports_control_seed2026/predictions_perm_seed202.csv",
+          "sha256": "8bcec03a51ceb95cee29c24526ec4f4b2cabb78e9e5cfff7f5e3c766f18680ef"
+        },
+        "predictions_perm_seed303.csv": {
+          "path": "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/sports_control_seed2026_a1/outputs/sports_control_seed2026/predictions_perm_seed303.csv",
+          "sha256": "e551c0a7b40952ff80baf9e34530e6f12e4083b851ef330d5faa76197c2680b1"
+        },
+        "predictions_perm_seed404.csv": {
+          "path": "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/sports_control_seed2026_a1/outputs/sports_control_seed2026/predictions_perm_seed404.csv",
+          "sha256": "796f922e471bacacb69f9637db94724047c6914632b7c8d5da0b23cb2870ac31"
+        },
+        "predictions_perm_seed505.csv": {
+          "path": "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/sports_control_seed2026_a1/outputs/sports_control_seed2026/predictions_perm_seed505.csv",
+          "sha256": "5efa99cdc3a634f8f9a00a040287fdbb529fb9183c22f15274e129e5cda1363b"
+        }
+      },
+      "label_sha256": "308025bff10e46d0e8e046931af71f36645a40537f10c78faf8f49b266a6fd3f"
+    },
+    {
+      "id": "sports_control_seed3407",
+      "dataset": "sports",
+      "method": "Control",
+      "training_seed": 3407,
+      "origin": "RETAINED_ACCEPTED_INFERENCE",
+      "source_files": {
+        "predictions_original.csv": {
+          "path": "g2_lbsp_amazon_stability_20261025/snapshot/control_reference/outputs/sports_seed3407/predictions_original.csv",
+          "sha256": "68db693ced7634bbb1fd18faf2152b62114ecaea80f3a5a5474b80ec431f7474"
+        },
+        "predictions_perm_seed101.csv": {
+          "path": "g2_lbsp_amazon_stability_20261025/snapshot/control_reference/outputs/sports_seed3407/predictions_perm_seed101.csv",
+          "sha256": "8a7123f3187711eddb260ee6dd54092a6c546875bc79b9540cf6d837fad41dfc"
+        },
+        "predictions_perm_seed202.csv": {
+          "path": "g2_lbsp_amazon_stability_20261025/snapshot/control_reference/outputs/sports_seed3407/predictions_perm_seed202.csv",
+          "sha256": "bd591190c90cdc36b77f4dedf9d19c9e74d88d54cba75c734a5e3c5df2b518b2"
+        },
+        "predictions_perm_seed303.csv": {
+          "path": "g2_lbsp_amazon_stability_20261025/snapshot/control_reference/outputs/sports_seed3407/predictions_perm_seed303.csv",
+          "sha256": "80713ecd7a1fa5bd1692e227a3e137b307823af5f95b6c650c158ddfe878861f"
+        },
+        "predictions_perm_seed404.csv": {
+          "path": "g2_lbsp_amazon_stability_20261025/snapshot/control_reference/outputs/sports_seed3407/predictions_perm_seed404.csv",
+          "sha256": "5c51692081ddfec9952e28759f263dc11f684c323051c394335f0d7a0f5fc7e1"
+        },
+        "predictions_perm_seed505.csv": {
+          "path": "g2_lbsp_amazon_stability_20261025/snapshot/control_reference/outputs/sports_seed3407/predictions_perm_seed505.csv",
+          "sha256": "cc923653815db276ac5b9dc31808ad23684f1219b79d091b274303107840010d"
+        }
+      },
+      "label_sha256": "673c8d48470bbe1d5d0b02056ee55a8c9222ef4ef208dbcf5eb2523a676a70b9"
+    },
+    {
+      "id": "sports_lbsp_seed42",
+      "dataset": "sports",
+      "method": "LBSP",
+      "training_seed": 42,
+      "origin": "NEW_E1_ACCEPTED_INFERENCE",
+      "source_files": {
+        "predictions_original.csv": {
+          "path": "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/sports_lbsp_seed42_a1/outputs/sports_lbsp_seed42/predictions_original.csv",
+          "sha256": "39c20207b58d39c11b01a7c9f4bfe9c16f5644fddf556936497034f85004bbc7"
+        },
+        "predictions_perm_seed101.csv": {
+          "path": "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/sports_lbsp_seed42_a1/outputs/sports_lbsp_seed42/predictions_perm_seed101.csv",
+          "sha256": "39c20207b58d39c11b01a7c9f4bfe9c16f5644fddf556936497034f85004bbc7"
+        },
+        "predictions_perm_seed202.csv": {
+          "path": "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/sports_lbsp_seed42_a1/outputs/sports_lbsp_seed42/predictions_perm_seed202.csv",
+          "sha256": "39c20207b58d39c11b01a7c9f4bfe9c16f5644fddf556936497034f85004bbc7"
+        },
+        "predictions_perm_seed303.csv": {
+          "path": "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/sports_lbsp_seed42_a1/outputs/sports_lbsp_seed42/predictions_perm_seed303.csv",
+          "sha256": "39c20207b58d39c11b01a7c9f4bfe9c16f5644fddf556936497034f85004bbc7"
+        },
+        "predictions_perm_seed404.csv": {
+          "path": "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/sports_lbsp_seed42_a1/outputs/sports_lbsp_seed42/predictions_perm_seed404.csv",
+          "sha256": "39c20207b58d39c11b01a7c9f4bfe9c16f5644fddf556936497034f85004bbc7"
+        },
+        "predictions_perm_seed505.csv": {
+          "path": "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/sports_lbsp_seed42_a1/outputs/sports_lbsp_seed42/predictions_perm_seed505.csv",
+          "sha256": "39c20207b58d39c11b01a7c9f4bfe9c16f5644fddf556936497034f85004bbc7"
+        }
+      },
+      "label_sha256": "308025bff10e46d0e8e046931af71f36645a40537f10c78faf8f49b266a6fd3f"
+    },
+    {
+      "id": "sports_lbsp_seed2026",
+      "dataset": "sports",
+      "method": "LBSP",
+      "training_seed": 2026,
+      "origin": "NEW_E1_ACCEPTED_INFERENCE",
+      "source_files": {
+        "predictions_original.csv": {
+          "path": "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/sports_lbsp_seed2026_a1/outputs/sports_lbsp_seed2026/predictions_original.csv",
+          "sha256": "f53662d8dbdac73eed100f2a844e622ffbb1e83b09dc66aedbe4ed4ed3128e83"
+        },
+        "predictions_perm_seed101.csv": {
+          "path": "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/sports_lbsp_seed2026_a1/outputs/sports_lbsp_seed2026/predictions_perm_seed101.csv",
+          "sha256": "f53662d8dbdac73eed100f2a844e622ffbb1e83b09dc66aedbe4ed4ed3128e83"
+        },
+        "predictions_perm_seed202.csv": {
+          "path": "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/sports_lbsp_seed2026_a1/outputs/sports_lbsp_seed2026/predictions_perm_seed202.csv",
+          "sha256": "f53662d8dbdac73eed100f2a844e622ffbb1e83b09dc66aedbe4ed4ed3128e83"
+        },
+        "predictions_perm_seed303.csv": {
+          "path": "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/sports_lbsp_seed2026_a1/outputs/sports_lbsp_seed2026/predictions_perm_seed303.csv",
+          "sha256": "f53662d8dbdac73eed100f2a844e622ffbb1e83b09dc66aedbe4ed4ed3128e83"
+        },
+        "predictions_perm_seed404.csv": {
+          "path": "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/sports_lbsp_seed2026_a1/outputs/sports_lbsp_seed2026/predictions_perm_seed404.csv",
+          "sha256": "f53662d8dbdac73eed100f2a844e622ffbb1e83b09dc66aedbe4ed4ed3128e83"
+        },
+        "predictions_perm_seed505.csv": {
+          "path": "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/sports_lbsp_seed2026_a1/outputs/sports_lbsp_seed2026/predictions_perm_seed505.csv",
+          "sha256": "f53662d8dbdac73eed100f2a844e622ffbb1e83b09dc66aedbe4ed4ed3128e83"
+        }
+      },
+      "label_sha256": "308025bff10e46d0e8e046931af71f36645a40537f10c78faf8f49b266a6fd3f"
+    },
+    {
+      "id": "sports_lbsp_seed3407",
+      "dataset": "sports",
+      "method": "LBSP",
+      "training_seed": 3407,
+      "origin": "RETAINED_ACCEPTED_INFERENCE",
+      "source_files": {
+        "predictions_original.csv": {
+          "path": "g2_lbsp_amazon_stability_20261025/snapshot/outputs/sports_seed3407/predictions_original.csv",
+          "sha256": "490f1ff1ffd970ba16ee855bfe8e5198f3aef7ca32234e6e09f117d50e1ebd95"
+        },
+        "predictions_perm_seed101.csv": {
+          "path": "g2_lbsp_amazon_stability_20261025/snapshot/outputs/sports_seed3407/predictions_perm_seed101.csv",
+          "sha256": "490f1ff1ffd970ba16ee855bfe8e5198f3aef7ca32234e6e09f117d50e1ebd95"
+        },
+        "predictions_perm_seed202.csv": {
+          "path": "g2_lbsp_amazon_stability_20261025/snapshot/outputs/sports_seed3407/predictions_perm_seed202.csv",
+          "sha256": "490f1ff1ffd970ba16ee855bfe8e5198f3aef7ca32234e6e09f117d50e1ebd95"
+        },
+        "predictions_perm_seed303.csv": {
+          "path": "g2_lbsp_amazon_stability_20261025/snapshot/outputs/sports_seed3407/predictions_perm_seed303.csv",
+          "sha256": "490f1ff1ffd970ba16ee855bfe8e5198f3aef7ca32234e6e09f117d50e1ebd95"
+        },
+        "predictions_perm_seed404.csv": {
+          "path": "g2_lbsp_amazon_stability_20261025/snapshot/outputs/sports_seed3407/predictions_perm_seed404.csv",
+          "sha256": "490f1ff1ffd970ba16ee855bfe8e5198f3aef7ca32234e6e09f117d50e1ebd95"
+        },
+        "predictions_perm_seed505.csv": {
+          "path": "g2_lbsp_amazon_stability_20261025/snapshot/outputs/sports_seed3407/predictions_perm_seed505.csv",
+          "sha256": "490f1ff1ffd970ba16ee855bfe8e5198f3aef7ca32234e6e09f117d50e1ebd95"
+        }
+      },
+      "label_sha256": "673c8d48470bbe1d5d0b02056ee55a8c9222ef4ef208dbcf5eb2523a676a70b9"
+    },
+    {
+      "id": "toys_control_seed42",
+      "dataset": "toys",
+      "method": "Control",
+      "training_seed": 42,
+      "origin": "NEW_E1_ACCEPTED_INFERENCE",
+      "source_files": {
+        "predictions_original.csv": {
+          "path": "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/toys_control_seed42_a1/outputs/toys_control_seed42/predictions_original.csv",
+          "sha256": "bf8e0f05c9b11ab93d9f0465e6b70138fa6026ff167582fd9442e69fd8f43689"
+        },
+        "predictions_perm_seed101.csv": {
+          "path": "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/toys_control_seed42_a1/outputs/toys_control_seed42/predictions_perm_seed101.csv",
+          "sha256": "341a03a761c7c66700f2b08b87a6500f6397a929dad57ada871382bdb258434d"
+        },
+        "predictions_perm_seed202.csv": {
+          "path": "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/toys_control_seed42_a1/outputs/toys_control_seed42/predictions_perm_seed202.csv",
+          "sha256": "824022c071043836d2de77f2b4b09e319cb285984e268aa130a134050eb0807c"
+        },
+        "predictions_perm_seed303.csv": {
+          "path": "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/toys_control_seed42_a1/outputs/toys_control_seed42/predictions_perm_seed303.csv",
+          "sha256": "318c1e6c12db1161477b234f909a5acdce2c6e96fdf10a154a90db6a80ba465f"
+        },
+        "predictions_perm_seed404.csv": {
+          "path": "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/toys_control_seed42_a1/outputs/toys_control_seed42/predictions_perm_seed404.csv",
+          "sha256": "dd0612500e6e849bb725672bed0f226e742458b9df364b7e7b4b301a5ac5ae02"
+        },
+        "predictions_perm_seed505.csv": {
+          "path": "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/toys_control_seed42_a1/outputs/toys_control_seed42/predictions_perm_seed505.csv",
+          "sha256": "93548c45d35593f98e8984b922e9d529d70f6fa0f670df4bf61c39cf28b03b0c"
+        }
+      },
+      "label_sha256": "dc7a3fc9141bbf060b4706314835e1da4612aa404596d79867d814a2e25bf61a"
+    },
+    {
+      "id": "toys_control_seed2026",
+      "dataset": "toys",
+      "method": "Control",
+      "training_seed": 2026,
+      "origin": "NEW_E1_ACCEPTED_INFERENCE",
+      "source_files": {
+        "predictions_original.csv": {
+          "path": "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/toys_control_seed2026_a1/outputs/toys_control_seed2026/predictions_original.csv",
+          "sha256": "9065108eb0db7b7acfa9101016e7b3e2e17db4054f759446d965cbc6e22101a8"
+        },
+        "predictions_perm_seed101.csv": {
+          "path": "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/toys_control_seed2026_a1/outputs/toys_control_seed2026/predictions_perm_seed101.csv",
+          "sha256": "a17647b35c4cb894946f54a6c5fb5d606f47fb4bb1b3b1594c3279d6328443fb"
+        },
+        "predictions_perm_seed202.csv": {
+          "path": "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/toys_control_seed2026_a1/outputs/toys_control_seed2026/predictions_perm_seed202.csv",
+          "sha256": "39ab463a1c87686e64424bb295dc6866331c327404c086ee07a9050240019663"
+        },
+        "predictions_perm_seed303.csv": {
+          "path": "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/toys_control_seed2026_a1/outputs/toys_control_seed2026/predictions_perm_seed303.csv",
+          "sha256": "af1bea6ccb16cf1c388a210911fa46de8c9a65d2e23c75a51922f5efa7011b20"
+        },
+        "predictions_perm_seed404.csv": {
+          "path": "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/toys_control_seed2026_a1/outputs/toys_control_seed2026/predictions_perm_seed404.csv",
+          "sha256": "f24b29c33d505f9e3c05e1a4c7782e6b435e4b7179f3d282eebcf0f84ddbc795"
+        },
+        "predictions_perm_seed505.csv": {
+          "path": "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/toys_control_seed2026_a1/outputs/toys_control_seed2026/predictions_perm_seed505.csv",
+          "sha256": "b817fa95a3d109760cd054aa94530dcc2a1114469b2dffe7e8dcdd6d762a470f"
+        }
+      },
+      "label_sha256": "dc7a3fc9141bbf060b4706314835e1da4612aa404596d79867d814a2e25bf61a"
+    },
+    {
+      "id": "toys_control_seed3407",
+      "dataset": "toys",
+      "method": "Control",
+      "training_seed": 3407,
+      "origin": "NEW_E1_ACCEPTED_INFERENCE",
+      "source_files": {
+        "predictions_original.csv": {
+          "path": "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/toys_control_seed3407_a1/outputs/toys_control_seed3407/predictions_original.csv",
+          "sha256": "23ad1030bff1994253325e812ae2b612cb24b40f39d1ac595cc0560bd20de21d"
+        },
+        "predictions_perm_seed101.csv": {
+          "path": "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/toys_control_seed3407_a1/outputs/toys_control_seed3407/predictions_perm_seed101.csv",
+          "sha256": "9a2fcf8cb3030a839c697c3f0adb1e77516d66ed987e9d6110c38e57df680f01"
+        },
+        "predictions_perm_seed202.csv": {
+          "path": "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/toys_control_seed3407_a1/outputs/toys_control_seed3407/predictions_perm_seed202.csv",
+          "sha256": "51ac56df56657f37120c8cb43080d93a5dc11b3af81a7ccd0c622a321c04d049"
+        },
+        "predictions_perm_seed303.csv": {
+          "path": "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/toys_control_seed3407_a1/outputs/toys_control_seed3407/predictions_perm_seed303.csv",
+          "sha256": "ca79c761fd3388eef08582c569fd4e2791c397a5bcac1cc125282e0e157acc02"
+        },
+        "predictions_perm_seed404.csv": {
+          "path": "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/toys_control_seed3407_a1/outputs/toys_control_seed3407/predictions_perm_seed404.csv",
+          "sha256": "d42b081119c3b1b2cc869e7e269ab662229c63d5f138c02c097bbf1ba51c1724"
+        },
+        "predictions_perm_seed505.csv": {
+          "path": "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/toys_control_seed3407_a1/outputs/toys_control_seed3407/predictions_perm_seed505.csv",
+          "sha256": "15af6cb2ca5e0fe2865f1284f7f297afb4a61f030b9e63a337f6f9af9f5a7203"
+        }
+      },
+      "label_sha256": "dc7a3fc9141bbf060b4706314835e1da4612aa404596d79867d814a2e25bf61a"
+    },
+    {
+      "id": "toys_lbsp_seed42",
+      "dataset": "toys",
+      "method": "LBSP",
+      "training_seed": 42,
+      "origin": "NEW_E1_ACCEPTED_INFERENCE",
+      "source_files": {
+        "predictions_original.csv": {
+          "path": "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/toys_lbsp_seed42_a1/outputs/toys_lbsp_seed42/predictions_original.csv",
+          "sha256": "f6115ad65ffb926de143f83e7cf2ab2b9c05813ade451fb3246cbf3dc77ad61f"
+        },
+        "predictions_perm_seed101.csv": {
+          "path": "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/toys_lbsp_seed42_a1/outputs/toys_lbsp_seed42/predictions_perm_seed101.csv",
+          "sha256": "f6115ad65ffb926de143f83e7cf2ab2b9c05813ade451fb3246cbf3dc77ad61f"
+        },
+        "predictions_perm_seed202.csv": {
+          "path": "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/toys_lbsp_seed42_a1/outputs/toys_lbsp_seed42/predictions_perm_seed202.csv",
+          "sha256": "f6115ad65ffb926de143f83e7cf2ab2b9c05813ade451fb3246cbf3dc77ad61f"
+        },
+        "predictions_perm_seed303.csv": {
+          "path": "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/toys_lbsp_seed42_a1/outputs/toys_lbsp_seed42/predictions_perm_seed303.csv",
+          "sha256": "f6115ad65ffb926de143f83e7cf2ab2b9c05813ade451fb3246cbf3dc77ad61f"
+        },
+        "predictions_perm_seed404.csv": {
+          "path": "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/toys_lbsp_seed42_a1/outputs/toys_lbsp_seed42/predictions_perm_seed404.csv",
+          "sha256": "f6115ad65ffb926de143f83e7cf2ab2b9c05813ade451fb3246cbf3dc77ad61f"
+        },
+        "predictions_perm_seed505.csv": {
+          "path": "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/toys_lbsp_seed42_a1/outputs/toys_lbsp_seed42/predictions_perm_seed505.csv",
+          "sha256": "f6115ad65ffb926de143f83e7cf2ab2b9c05813ade451fb3246cbf3dc77ad61f"
+        }
+      },
+      "label_sha256": "dc7a3fc9141bbf060b4706314835e1da4612aa404596d79867d814a2e25bf61a"
+    },
+    {
+      "id": "toys_lbsp_seed2026",
+      "dataset": "toys",
+      "method": "LBSP",
+      "training_seed": 2026,
+      "origin": "RETAINED_ACCEPTED_INFERENCE",
+      "source_files": {
+        "predictions_original.csv": {
+          "path": "g2_lbsp_amazon_stability_20261025/snapshot/outputs/toys_seed2026/predictions_original.csv",
+          "sha256": "f8c0db82a532bba9a4db43b2ea51b24db542f495c639e2fbe53b4a164d721642"
+        },
+        "predictions_perm_seed101.csv": {
+          "path": "g2_lbsp_amazon_stability_20261025/snapshot/outputs/toys_seed2026/predictions_perm_seed101.csv",
+          "sha256": "f8c0db82a532bba9a4db43b2ea51b24db542f495c639e2fbe53b4a164d721642"
+        },
+        "predictions_perm_seed202.csv": {
+          "path": "g2_lbsp_amazon_stability_20261025/snapshot/outputs/toys_seed2026/predictions_perm_seed202.csv",
+          "sha256": "f8c0db82a532bba9a4db43b2ea51b24db542f495c639e2fbe53b4a164d721642"
+        },
+        "predictions_perm_seed303.csv": {
+          "path": "g2_lbsp_amazon_stability_20261025/snapshot/outputs/toys_seed2026/predictions_perm_seed303.csv",
+          "sha256": "f8c0db82a532bba9a4db43b2ea51b24db542f495c639e2fbe53b4a164d721642"
+        },
+        "predictions_perm_seed404.csv": {
+          "path": "g2_lbsp_amazon_stability_20261025/snapshot/outputs/toys_seed2026/predictions_perm_seed404.csv",
+          "sha256": "f8c0db82a532bba9a4db43b2ea51b24db542f495c639e2fbe53b4a164d721642"
+        },
+        "predictions_perm_seed505.csv": {
+          "path": "g2_lbsp_amazon_stability_20261025/snapshot/outputs/toys_seed2026/predictions_perm_seed505.csv",
+          "sha256": "f8c0db82a532bba9a4db43b2ea51b24db542f495c639e2fbe53b4a164d721642"
+        }
+      },
+      "label_sha256": "dd5d4d50cfe897e344c92e5da7f14830a995d812942865887ffdd4e0d94b1e26"
+    },
+    {
+      "id": "toys_lbsp_seed3407",
+      "dataset": "toys",
+      "method": "LBSP",
+      "training_seed": 3407,
+      "origin": "RETAINED_ACCEPTED_INFERENCE",
+      "source_files": {
+        "predictions_original.csv": {
+          "path": "g2_lbsp_amazon_stability_20261025/snapshot/outputs/toys_seed3407/predictions_original.csv",
+          "sha256": "3d037bbc35ba60ab3227f1b8e78f148eb0a57877f260ac697ffdc8aa145a1de6"
+        },
+        "predictions_perm_seed101.csv": {
+          "path": "g2_lbsp_amazon_stability_20261025/snapshot/outputs/toys_seed3407/predictions_perm_seed101.csv",
+          "sha256": "3d037bbc35ba60ab3227f1b8e78f148eb0a57877f260ac697ffdc8aa145a1de6"
+        },
+        "predictions_perm_seed202.csv": {
+          "path": "g2_lbsp_amazon_stability_20261025/snapshot/outputs/toys_seed3407/predictions_perm_seed202.csv",
+          "sha256": "3d037bbc35ba60ab3227f1b8e78f148eb0a57877f260ac697ffdc8aa145a1de6"
+        },
+        "predictions_perm_seed303.csv": {
+          "path": "g2_lbsp_amazon_stability_20261025/snapshot/outputs/toys_seed3407/predictions_perm_seed303.csv",
+          "sha256": "3d037bbc35ba60ab3227f1b8e78f148eb0a57877f260ac697ffdc8aa145a1de6"
+        },
+        "predictions_perm_seed404.csv": {
+          "path": "g2_lbsp_amazon_stability_20261025/snapshot/outputs/toys_seed3407/predictions_perm_seed404.csv",
+          "sha256": "3d037bbc35ba60ab3227f1b8e78f148eb0a57877f260ac697ffdc8aa145a1de6"
+        },
+        "predictions_perm_seed505.csv": {
+          "path": "g2_lbsp_amazon_stability_20261025/snapshot/outputs/toys_seed3407/predictions_perm_seed505.csv",
+          "sha256": "3d037bbc35ba60ab3227f1b8e78f148eb0a57877f260ac697ffdc8aa145a1de6"
+        }
+      },
+      "label_sha256": "dd5d4d50cfe897e344c92e5da7f14830a995d812942865887ffdd4e0d94b1e26"
+    }
+  ]
+}

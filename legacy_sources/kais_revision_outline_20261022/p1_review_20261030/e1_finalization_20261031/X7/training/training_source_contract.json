@@ -1,0 +1,608 @@
+{
+  "date": "2026-10-31",
+  "scope": "Four datasets xControl/LBSP x3 seeds;10newE1 +14retained, noShuffle/Ensemble/TiSAS/F mixed.",
+  "minimum_stopping_epochs": 50,
+  "checkpoint_selection": "All-time validation best; no counter reset at50; no test-based selection.",
+  "runs": [
+    {
+      "dataset": "ml1m",
+      "method": "Control",
+      "training_seed": 42,
+      "source_collection": "g2_control_stability_20261023",
+      "source_files": {
+        "config.json": {
+          "local_path": "g2_control_stability_20261023/snapshot/references/ml1m_seed42/config.json",
+          "sha256": "04e73d16f5d6f36521355498c9713d7c95b15119fef37f749a6b8a3b09765ad4",
+          "server_path": "step38_kais_retrain/outputs/ml1m_sasrec_control_ce_bs128_lr1em3_max200_seed42/config.json"
+        },
+        "metrics.json": {
+          "local_path": "g2_control_stability_20261023/snapshot/references/ml1m_seed42/metrics.json",
+          "sha256": "1dc82d20bd5c896c6e976abdb0b00b8fd9369eea3df6a6f3dc8d26e63077b6f8",
+          "server_path": "step38_kais_retrain/outputs/ml1m_sasrec_control_ce_bs128_lr1em3_max200_seed42/metrics.json"
+        },
+        "training_log.csv": {
+          "local_path": "g2_control_stability_20261023/snapshot/references/ml1m_seed42/training_log.csv",
+          "sha256": "26ce50511ba2217a03111c3a7969002771dda2d8b54710919ac439d722ca16c2",
+          "server_path": "step38_kais_retrain/outputs/ml1m_sasrec_control_ce_bs128_lr1em3_max200_seed42/training_log.csv"
+        }
+      },
+      "minimum_stopping_epochs": 50,
+      "new_E1_model": false
+    },
+    {
+      "dataset": "ml1m",
+      "method": "Control",
+      "training_seed": 2026,
+      "source_collection": "g2_control_stability_20261023",
+      "source_files": {
+        "config.json": {
+          "local_path": "g2_control_stability_20261023/snapshot/references/ml1m_seed2026/config.json",
+          "sha256": "e52e64d7bf444d369b559d4f3960d55dccb3a5c60f7916639836d13a98ef4113",
+          "server_path": "step38_kais_retrain/outputs/ml1m_sasrec_control_ce_bs128_lr1em3_max200_seed2026/config.json"
+        },
+        "metrics.json": {
+          "local_path": "g2_control_stability_20261023/snapshot/references/ml1m_seed2026/metrics.json",
+          "sha256": "c543590deb882b7ca3e55aa2ddbb89402dace2056cb7e397e6fb7b00d10feea7",
+          "server_path": "step38_kais_retrain/outputs/ml1m_sasrec_control_ce_bs128_lr1em3_max200_seed2026/metrics.json"
+        },
+        "training_log.csv": {
+          "local_path": "g2_control_stability_20261023/snapshot/references/ml1m_seed2026/training_log.csv",
+          "sha256": "6982d6619d1c3e9b28959ded6d7f90831668bbd27c2ba90310092cc6178f3f13",
+          "server_path": "step38_kais_retrain/outputs/ml1m_sasrec_control_ce_bs128_lr1em3_max200_seed2026/training_log.csv"
+        }
+      },
+      "minimum_stopping_epochs": 50,
+      "new_E1_model": false
+    },
+    {
+      "dataset": "ml1m",
+      "method": "Control",
+      "training_seed": 3407,
+      "source_collection": "g2_control_stability_20261023",
+      "source_files": {
+        "config.json": {
+          "local_path": "g2_control_stability_20261023/snapshot/references/ml1m_seed3407/config.json",
+          "sha256": "b5a124a30960b0a7cbbe3aa2c0a93109f6d1a3f98e3e741da584dcf485f9cf8b",
+          "server_path": "step38_kais_retrain/outputs/ml1m_sasrec_control_ce_bs128_lr1em3_max200_seed3407/config.json"
+        },
+        "metrics.json": {
+          "local_path": "g2_control_stability_20261023/snapshot/references/ml1m_seed3407/metrics.json",
+          "sha256": "49a79bf0fa2521d68921e98dad15a28991f72a0b28f13c4679a207e0cac59ed9",
+          "server_path": "step38_kais_retrain/outputs/ml1m_sasrec_control_ce_bs128_lr1em3_max200_seed3407/metrics.json"
+        },
+        "training_log.csv": {
+          "local_path": "g2_control_stability_20261023/snapshot/references/ml1m_seed3407/training_log.csv",
+          "sha256": "d8b0376883648d0ccd54d545f384a9a897c7eea8e49df0c9cd5a84dc8c6381d8",
+          "server_path": "step38_kais_retrain/outputs/ml1m_sasrec_control_ce_bs128_lr1em3_max200_seed3407/training_log.csv"
+        }
+      },
+      "minimum_stopping_epochs": 50,
+      "new_E1_model": false
+    },
+    {
+      "dataset": "ml1m",
+      "method": "LBSP",
+      "training_seed": 42,
+      "source_collection": "E1_MIN50_ACCEPTED_NEW_TRAINING",
+      "source_files": {
+        "config.json": {
+          "local_path": "kais_revision_outline_20261022/p1_review_20261030/e1_return_20261031T092136/report_snapshot/attempts/ml1m_lbsp_seed42_a1/outputs/ml1m_lbsp_seed42/config.json",
+          "sha256": "a1d93c29bee1fa35fb288eb76fb0f86e795a784c6e77a6513d8b15b0b0e9c2a9",
+          "server_path": "/root/autodl-tmp/time_uncertainty_rec/kais_e1_min50_v1_20261030T045527Z_3fca1af177/attempts/ml1m_lbsp_seed42_a1/outputs/ml1m_lbsp_seed42/config.json"
+        },
+        "metrics.json": {
+          "local_path": "kais_revision_outline_20261022/p1_review_20261030/e1_return_20261031T092136/report_snapshot/attempts/ml1m_lbsp_seed42_a1/outputs/ml1m_lbsp_seed42/metrics.json",
+          "sha256": "32b24136826e8a40e32eed7ad1885d69b810e3612e7fd4a057f5be81c0a00af3",
+          "server_path": "/root/autodl-tmp/time_uncertainty_rec/kais_e1_min50_v1_20261030T045527Z_3fca1af177/attempts/ml1m_lbsp_seed42_a1/outputs/ml1m_lbsp_seed42/metrics.json"
+        },
+        "training_log.csv": {
+          "local_path": "kais_revision_outline_20261022/p1_review_20261030/e1_return_20261031T092136/report_snapshot/attempts/ml1m_lbsp_seed42_a1/outputs/ml1m_lbsp_seed42/training_log.csv",
+          "sha256": "d78b629d7ae335d65e6fa5ad2b7cf570bc759b68d89373afb5c8c2a1bcca8de0",
+          "server_path": "/root/autodl-tmp/time_uncertainty_rec/kais_e1_min50_v1_20261030T045527Z_3fca1af177/attempts/ml1m_lbsp_seed42_a1/outputs/ml1m_lbsp_seed42/training_log.csv"
+        }
+      },
+      "minimum_stopping_epochs": 50,
+      "new_E1_model": true
+    },
+    {
+      "dataset": "ml1m",
+      "method": "LBSP",
+      "training_seed": 2026,
+      "source_collection": "E1_MIN50_ACCEPTED_NEW_TRAINING",
+      "source_files": {
+        "config.json": {
+          "local_path": "kais_revision_outline_20261022/p1_review_20261030/e1_return_20261031T092136/report_snapshot/attempts/ml1m_lbsp_seed2026_a1/outputs/ml1m_lbsp_seed2026/config.json",
+          "sha256": "bde193dd9b8be81432d0cddf90ccf5ceb043a6a065b8baaa00fb66ca186d407c",
+          "server_path": "/root/autodl-tmp/time_uncertainty_rec/kais_e1_min50_v1_20261030T045527Z_3fca1af177/attempts/ml1m_lbsp_seed2026_a1/outputs/ml1m_lbsp_seed2026/config.json"
+        },
+        "metrics.json": {
+          "local_path": "kais_revision_outline_20261022/p1_review_20261030/e1_return_20261031T092136/report_snapshot/attempts/ml1m_lbsp_seed2026_a1/outputs/ml1m_lbsp_seed2026/metrics.json",
+          "sha256": "bd288f34ea5587a6a5dc9de3a80c908051137b0f184f9901563423da54e7413b",
+          "server_path": "/root/autodl-tmp/time_uncertainty_rec/kais_e1_min50_v1_20261030T045527Z_3fca1af177/attempts/ml1m_lbsp_seed2026_a1/outputs/ml1m_lbsp_seed2026/metrics.json"
+        },
+        "training_log.csv": {
+          "local_path": "kais_revision_outline_20261022/p1_review_20261030/e1_return_20261031T092136/report_snapshot/attempts/ml1m_lbsp_seed2026_a1/outputs/ml1m_lbsp_seed2026/training_log.csv",
+          "sha256": "65d06cf6d7f53348fc9b42173a75d5fa1659edf075b47cadf8f476abeb6cdffa",
+          "server_path": "/root/autodl-tmp/time_uncertainty_rec/kais_e1_min50_v1_20261030T045527Z_3fca1af177/attempts/ml1m_lbsp_seed2026_a1/outputs/ml1m_lbsp_seed2026/training_log.csv"
+        }
+      },
+      "minimum_stopping_epochs": 50,
+      "new_E1_model": true
+    },
+    {
+      "dataset": "ml1m",
+      "method": "LBSP",
+      "training_seed": 3407,
+      "source_collection": "E1_MIN50_ACCEPTED_NEW_TRAINING",
+      "source_files": {
+        "config.json": {
+          "local_path": "kais_revision_outline_20261022/p1_review_20261030/e1_return_20261031T092136/report_snapshot/attempts/ml1m_lbsp_seed3407_a1/outputs/ml1m_lbsp_seed3407/config.json",
+          "sha256": "0f5043bfd032832c5a49153391509515b1941c7332d56ebebe6dfcf4d966bcf3",
+          "server_path": "/root/autodl-tmp/time_uncertainty_rec/kais_e1_min50_v1_20261030T045527Z_3fca1af177/attempts/ml1m_lbsp_seed3407_a1/outputs/ml1m_lbsp_seed3407/config.json"
+        },
+        "metrics.json": {
+          "local_path": "kais_revision_outline_20261022/p1_review_20261030/e1_return_20261031T092136/report_snapshot/attempts/ml1m_lbsp_seed3407_a1/outputs/ml1m_lbsp_seed3407/metrics.json",
+          "sha256": "9bdc845fef355492affed93ee101f3edf10d8598e29d092bc4dd4409b1e57c69",
+          "server_path": "/root/autodl-tmp/time_uncertainty_rec/kais_e1_min50_v1_20261030T045527Z_3fca1af177/attempts/ml1m_lbsp_seed3407_a1/outputs/ml1m_lbsp_seed3407/metrics.json"
+        },
+        "training_log.csv": {
+          "local_path": "kais_revision_outline_20261022/p1_review_20261030/e1_return_20261031T092136/report_snapshot/attempts/ml1m_lbsp_seed3407_a1/outputs/ml1m_lbsp_seed3407/training_log.csv",
+          "sha256": "6f7639166fb2ca03407ef5c764fc9a60ea3710979dd333fe877c6b5beb151549",
+          "server_path": "/root/autodl-tmp/time_uncertainty_rec/kais_e1_min50_v1_20261030T045527Z_3fca1af177/attempts/ml1m_lbsp_seed3407_a1/outputs/ml1m_lbsp_seed3407/training_log.csv"
+        }
+      },
+      "minimum_stopping_epochs": 50,
+      "new_E1_model": true
+    },
+    {
+      "dataset": "beauty",
+      "method": "Control",
+      "training_seed": 42,
+      "source_collection": "g2_control_stability_20261023",
+      "source_files": {
+        "config.json": {
+          "local_path": "g2_control_stability_20261023/snapshot/references/beauty_seed42/config.json",
+          "sha256": "a453f393b09d374f25868d8d2a205953b2d0da064c41aad443568bc693ad8425",
+          "server_path": "step38_kais_retrain/outputs/beauty_sasrec_control_ce_bs128_lr1em3_max200_seed42/config.json"
+        },
+        "metrics.json": {
+          "local_path": "g2_control_stability_20261023/snapshot/references/beauty_seed42/metrics.json",
+          "sha256": "5e10b55ec8c550344e66c092ef6511ed524527f00d02d006627b8ec9206f9b2b",
+          "server_path": "step38_kais_retrain/outputs/beauty_sasrec_control_ce_bs128_lr1em3_max200_seed42/metrics.json"
+        },
+        "training_log.csv": {
+          "local_path": "g2_control_stability_20261023/snapshot/references/beauty_seed42/training_log.csv",
+          "sha256": "2b22f6ad9d8be45e775c053d65ff2f34b4392c14ebaa571d8e0e353341a9d887",
+          "server_path": "step38_kais_retrain/outputs/beauty_sasrec_control_ce_bs128_lr1em3_max200_seed42/training_log.csv"
+        }
+      },
+      "minimum_stopping_epochs": 50,
+      "new_E1_model": false
+    },
+    {
+      "dataset": "beauty",
+      "method": "Control",
+      "training_seed": 2026,
+      "source_collection": "g2_control_stability_20261023",
+      "source_files": {
+        "config.json": {
+          "local_path": "g2_control_stability_20261023/snapshot/references/beauty_seed2026/config.json",
+          "sha256": "91bee4e74de57f9ad5932f039e70e54533273f598b7ce8e8d68253da452fc34c",
+          "server_path": "kais_beauty_control_seeds_v1_20261023T020909Z_c969d692d852/outputs/amazon_beauty_control_seed2026/config.json"
+        },
+        "metrics.json": {
+          "local_path": "g2_control_stability_20261023/snapshot/references/beauty_seed2026/metrics.json",
+          "sha256": "2add072cd058b9dbe5daefa051c88447ca75cb79a3f813dffd057070fbadc023",
+          "server_path": "kais_beauty_control_seeds_v1_20261023T020909Z_c969d692d852/outputs/amazon_beauty_control_seed2026/metrics.json"
+        },
+        "training_log.csv": {
+          "local_path": "g2_control_stability_20261023/snapshot/references/beauty_seed2026/training_log.csv",
+          "sha256": "fe6ae82bf202b64fd5389feed496dac4ae8474831fa8a2824636daf2f3cbd434",
+          "server_path": "kais_beauty_control_seeds_v1_20261023T020909Z_c969d692d852/outputs/amazon_beauty_control_seed2026/training_log.csv"
+        }
+      },
+      "minimum_stopping_epochs": 50,
+      "new_E1_model": false
+    },
+    {
+      "dataset": "beauty",
+      "method": "Control",
+      "training_seed": 3407,
+      "source_collection": "g2_control_stability_20261023",
+      "source_files": {
+        "config.json": {
+          "local_path": "g2_control_stability_20261023/snapshot/references/beauty_seed3407/config.json",
+          "sha256": "e7537c767b705424817cdb03f1bb1e436eb4b2168765c8cd090df057bd91b9ec",
+          "server_path": "kais_beauty_control_seeds_v1_20261023T020909Z_c969d692d852/outputs/amazon_beauty_control_seed3407/config.json"
+        },
+        "metrics.json": {
+          "local_path": "g2_control_stability_20261023/snapshot/references/beauty_seed3407/metrics.json",
+          "sha256": "2929e170f4e12b3ca05b70bb812ebd12d19f721144136581eb53f859516e06f8",
+          "server_path": "kais_beauty_control_seeds_v1_20261023T020909Z_c969d692d852/outputs/amazon_beauty_control_seed3407/metrics.json"
+        },
+        "training_log.csv": {
+          "local_path": "g2_control_stability_20261023/snapshot/references/beauty_seed3407/training_log.csv",
+          "sha256": "3893e04992ec2ebf04530b3e3daf7df256cc7c9b343c90ef1de20b632e8655c9",
+          "server_path": "kais_beauty_control_seeds_v1_20261023T020909Z_c969d692d852/outputs/amazon_beauty_control_seed3407/training_log.csv"
+        }
+      },
+      "minimum_stopping_epochs": 50,
+      "new_E1_model": false
+    },
+    {
+      "dataset": "beauty",
+      "method": "LBSP",
+      "training_seed": 42,
+      "source_collection": "g2_lbsp_amazon_train_20261025",
+      "source_files": {
+        "config.json": {
+          "local_path": "g2_lbsp_amazon_train_20261025/snapshot/outputs/beauty_lbsp_seed42/config.json",
+          "sha256": "31e7900ec88f8d37ba06bac63b6745d8c0ebdbc446024480375b62030dd71e7c",
+          "server_path": "kais_lbsp_amazon_train_v1_20261023T082808Z_224454fcd01d/outputs/beauty_lbsp_seed42/config.json"
+        },
+        "metrics.json": {
+          "local_path": "g2_lbsp_amazon_train_20261025/snapshot/outputs/beauty_lbsp_seed42/metrics.json",
+          "sha256": "76774b29012bc58c7334e48d6b3ca68393446ae2eb2a0fdc72859bad96eeb3bb",
+          "server_path": "kais_lbsp_amazon_train_v1_20261023T082808Z_224454fcd01d/outputs/beauty_lbsp_seed42/metrics.json"
+        },
+        "training_log.csv": {
+          "local_path": "g2_lbsp_amazon_train_20261025/snapshot/outputs/beauty_lbsp_seed42/training_log.csv",
+          "sha256": "bcee697b8b864327e77fbf8fe431e5991569c387a36c05c95e2f929f79a75d33",
+          "server_path": "kais_lbsp_amazon_train_v1_20261023T082808Z_224454fcd01d/outputs/beauty_lbsp_seed42/training_log.csv"
+        }
+      },
+      "minimum_stopping_epochs": 50,
+      "new_E1_model": false
+    },
+    {
+      "dataset": "beauty",
+      "method": "LBSP",
+      "training_seed": 2026,
+      "source_collection": "g2_lbsp_amazon_train_20261025",
+      "source_files": {
+        "config.json": {
+          "local_path": "g2_lbsp_amazon_train_20261025/snapshot/outputs/beauty_lbsp_seed2026/config.json",
+          "sha256": "f9e780913519eba05bcab0b31d9553b9435fd939e6963da6dd4cbac266d166f3",
+          "server_path": "kais_lbsp_amazon_train_v1_20261023T082808Z_224454fcd01d/outputs/beauty_lbsp_seed2026/config.json"
+        },
+        "metrics.json": {
+          "local_path": "g2_lbsp_amazon_train_20261025/snapshot/outputs/beauty_lbsp_seed2026/metrics.json",
+          "sha256": "4948f418ee3241eb4821c91f917b48cda9d93dc66d68f970b0e4328d97d6638f",
+          "server_path": "kais_lbsp_amazon_train_v1_20261023T082808Z_224454fcd01d/outputs/beauty_lbsp_seed2026/metrics.json"
+        },
+        "training_log.csv": {
+          "local_path": "g2_lbsp_amazon_train_20261025/snapshot/outputs/beauty_lbsp_seed2026/training_log.csv",
+          "sha256": "52ea18fe840548692544e72a58d09432f5b4c80aa60d1a9ab3e0a65fe642cbaf",
+          "server_path": "kais_lbsp_amazon_train_v1_20261023T082808Z_224454fcd01d/outputs/beauty_lbsp_seed2026/training_log.csv"
+        }
+      },
+      "minimum_stopping_epochs": 50,
+      "new_E1_model": false
+    },
+    {
+      "dataset": "beauty",
+      "method": "LBSP",
+      "training_seed": 3407,
+      "source_collection": "g2_lbsp_amazon_train_20261025",
+      "source_files": {
+        "config.json": {
+          "local_path": "g2_lbsp_amazon_train_20261025/snapshot/outputs/beauty_lbsp_seed3407/config.json",
+          "sha256": "4463b95f40ec62b15cab9442e883c43dfd05c8c18eb3d98171a85ececdd9609c",
+          "server_path": "kais_lbsp_amazon_train_v1_20261023T082808Z_224454fcd01d/outputs/beauty_lbsp_seed3407/config.json"
+        },
+        "metrics.json": {
+          "local_path": "g2_lbsp_amazon_train_20261025/snapshot/outputs/beauty_lbsp_seed3407/metrics.json",
+          "sha256": "a1897ec9baa3e8a0b925ca05337c1c142e2db64536c9cf7a70eb2d46eb726836",
+          "server_path": "kais_lbsp_amazon_train_v1_20261023T082808Z_224454fcd01d/outputs/beauty_lbsp_seed3407/metrics.json"
+        },
+        "training_log.csv": {
+          "local_path": "g2_lbsp_amazon_train_20261025/snapshot/outputs/beauty_lbsp_seed3407/training_log.csv",
+          "sha256": "67e8bc488b09080b7a9c69daacde5f73f177dae45164fa6e2ad703b1cc4339a5",
+          "server_path": "kais_lbsp_amazon_train_v1_20261023T082808Z_224454fcd01d/outputs/beauty_lbsp_seed3407/training_log.csv"
+        }
+      },
+      "minimum_stopping_epochs": 50,
+      "new_E1_model": false
+    },
+    {
+      "dataset": "sports",
+      "method": "Control",
+      "training_seed": 42,
+      "source_collection": "g2_control_stability_20261023",
+      "source_files": {
+        "config.json": {
+          "local_path": "g2_control_stability_20261023/snapshot/references/sports_seed42/config.json",
+          "sha256": "95963620e83b1e06dcda21f947394b2adad4b0c7259b3f7b4f99a759d9493989",
+          "server_path": "kais_orderfix_v1_20261022T081312Z_e335970a03a1/outputs/amazon_sports_control_orderfix_seed42/config.json"
+        },
+        "metrics.json": {
+          "local_path": "g2_control_stability_20261023/snapshot/references/sports_seed42/metrics.json",
+          "sha256": "ba3afef8d2451b67d6b4cd3d7cfde2479129288cdfb4bf305b545d3780e67d5b",
+          "server_path": "kais_orderfix_v1_20261022T081312Z_e335970a03a1/outputs/amazon_sports_control_orderfix_seed42/metrics.json"
+        },
+        "training_log.csv": {
+          "local_path": "g2_control_stability_20261023/snapshot/references/sports_seed42/training_log.csv",
+          "sha256": "798891b74b0df856d8fc5122570a514a3c3819bfa62d3e1f6fb6c676b6284581",
+          "server_path": "kais_orderfix_v1_20261022T081312Z_e335970a03a1/outputs/amazon_sports_control_orderfix_seed42/training_log.csv"
+        }
+      },
+      "minimum_stopping_epochs": 50,
+      "new_E1_model": false
+    },
+    {
+      "dataset": "sports",
+      "method": "Control",
+      "training_seed": 2026,
+      "source_collection": "E1_MIN50_ACCEPTED_NEW_TRAINING",
+      "source_files": {
+        "config.json": {
+          "local_path": "kais_revision_outline_20261022/p1_review_20261030/e1_return_20261031T092136/report_snapshot/attempts/sports_control_seed2026_a2/outputs/amazon_sports_control_orderfix_seed2026/config.json",
+          "sha256": "4db9f4e024eabf2419d51ef2e1e30730d6544298b96608cd47928482e0082af3",
+          "server_path": "/root/autodl-tmp/time_uncertainty_rec/kais_e1_min50_v1_20261030T045527Z_3fca1af177/attempts/sports_control_seed2026_a2/outputs/amazon_sports_control_orderfix_seed2026/config.json"
+        },
+        "metrics.json": {
+          "local_path": "kais_revision_outline_20261022/p1_review_20261030/e1_return_20261031T092136/report_snapshot/attempts/sports_control_seed2026_a2/outputs/amazon_sports_control_orderfix_seed2026/metrics.json",
+          "sha256": "fbe3117a5b199e6ce2d770754c70cf1119d7a5b297ed3d3ad313bf5176445065",
+          "server_path": "/root/autodl-tmp/time_uncertainty_rec/kais_e1_min50_v1_20261030T045527Z_3fca1af177/attempts/sports_control_seed2026_a2/outputs/amazon_sports_control_orderfix_seed2026/metrics.json"
+        },
+        "training_log.csv": {
+          "local_path": "kais_revision_outline_20261022/p1_review_20261030/e1_return_20261031T092136/report_snapshot/attempts/sports_control_seed2026_a2/outputs/amazon_sports_control_orderfix_seed2026/training_log.csv",
+          "sha256": "a16bc193c053bc2c684f6a319825fca9bfb0416c1b0ff3750c54ec2cc5da971f",
+          "server_path": "/root/autodl-tmp/time_uncertainty_rec/kais_e1_min50_v1_20261030T045527Z_3fca1af177/attempts/sports_control_seed2026_a2/outputs/amazon_sports_control_orderfix_seed2026/training_log.csv"
+        }
+      },
+      "minimum_stopping_epochs": 50,
+      "new_E1_model": true
+    },
+    {
+      "dataset": "sports",
+      "method": "Control",
+      "training_seed": 3407,
+      "source_collection": "g2_control_stability_20261023",
+      "source_files": {
+        "config.json": {
+          "local_path": "g2_control_stability_20261023/snapshot/references/sports_seed3407/config.json",
+          "sha256": "0234af09fccef24382d9b19c6da32faefb553140606822da2efcb9fe75aa8858",
+          "server_path": "kais_orderfix_v1_20261022T081312Z_e335970a03a1/outputs/amazon_sports_control_orderfix_seed3407/config.json"
+        },
+        "metrics.json": {
+          "local_path": "g2_control_stability_20261023/snapshot/references/sports_seed3407/metrics.json",
+          "sha256": "a5cbcb983e152db7a7c9d599ca203eeeb5b58a03868827dd37c183b9faf7ed26",
+          "server_path": "kais_orderfix_v1_20261022T081312Z_e335970a03a1/outputs/amazon_sports_control_orderfix_seed3407/metrics.json"
+        },
+        "training_log.csv": {
+          "local_path": "g2_control_stability_20261023/snapshot/references/sports_seed3407/training_log.csv",
+          "sha256": "c25c05321bf6a86aa4beed56e31f937d8d4646b4c7c566908c5fb71f9e53211f",
+          "server_path": "kais_orderfix_v1_20261022T081312Z_e335970a03a1/outputs/amazon_sports_control_orderfix_seed3407/training_log.csv"
+        }
+      },
+      "minimum_stopping_epochs": 50,
+      "new_E1_model": false
+    },
+    {
+      "dataset": "sports",
+      "method": "LBSP",
+      "training_seed": 42,
+      "source_collection": "E1_MIN50_ACCEPTED_NEW_TRAINING",
+      "source_files": {
+        "config.json": {
+          "local_path": "kais_revision_outline_20261022/p1_review_20261030/e1_return_20261031T092136/report_snapshot/attempts/sports_lbsp_seed42_a1/outputs/sports_lbsp_seed42/config.json",
+          "sha256": "364548f7d34a1d583d8b93fe6d6f58f1641cc9c812b8690276a4099bf0114062",
+          "server_path": "/root/autodl-tmp/time_uncertainty_rec/kais_e1_min50_v1_20261030T045527Z_3fca1af177/attempts/sports_lbsp_seed42_a1/outputs/sports_lbsp_seed42/config.json"
+        },
+        "metrics.json": {
+          "local_path": "kais_revision_outline_20261022/p1_review_20261030/e1_return_20261031T092136/report_snapshot/attempts/sports_lbsp_seed42_a1/outputs/sports_lbsp_seed42/metrics.json",
+          "sha256": "41d9782ef0eab79306f95d2a9042019d111c6ee44ee8b2cbd4169306eb1158d6",
+          "server_path": "/root/autodl-tmp/time_uncertainty_rec/kais_e1_min50_v1_20261030T045527Z_3fca1af177/attempts/sports_lbsp_seed42_a1/outputs/sports_lbsp_seed42/metrics.json"
+        },
+        "training_log.csv": {
+          "local_path": "kais_revision_outline_20261022/p1_review_20261030/e1_return_20261031T092136/report_snapshot/attempts/sports_lbsp_seed42_a1/outputs/sports_lbsp_seed42/training_log.csv",
+          "sha256": "a2a8ba74086a2f5d8d391f66dbdf00ee9e142c9c0c258b90116efa5a7ae3afd9",
+          "server_path": "/root/autodl-tmp/time_uncertainty_rec/kais_e1_min50_v1_20261030T045527Z_3fca1af177/attempts/sports_lbsp_seed42_a1/outputs/sports_lbsp_seed42/training_log.csv"
+        }
+      },
+      "minimum_stopping_epochs": 50,
+      "new_E1_model": true
+    },
+    {
+      "dataset": "sports",
+      "method": "LBSP",
+      "training_seed": 2026,
+      "source_collection": "E1_MIN50_ACCEPTED_NEW_TRAINING",
+      "source_files": {
+        "config.json": {
+          "local_path": "kais_revision_outline_20261022/p1_review_20261030/e1_return_20261031T092136/report_snapshot/attempts/sports_lbsp_seed2026_a1/outputs/sports_lbsp_seed2026/config.json",
+          "sha256": "cf8d3afce08e5c471a925fbfa1ddf22ad2baa3a67d16f9974de9dc9e664974ca",
+          "server_path": "/root/autodl-tmp/time_uncertainty_rec/kais_e1_min50_v1_20261030T045527Z_3fca1af177/attempts/sports_lbsp_seed2026_a1/outputs/sports_lbsp_seed2026/config.json"
+        },
+        "metrics.json": {
+          "local_path": "kais_revision_outline_20261022/p1_review_20261030/e1_return_20261031T092136/report_snapshot/attempts/sports_lbsp_seed2026_a1/outputs/sports_lbsp_seed2026/metrics.json",
+          "sha256": "abae86dca5407f30dd981d0aa10b20378ecb5cfef10f9238a9b92ea837e2cc1c",
+          "server_path": "/root/autodl-tmp/time_uncertainty_rec/kais_e1_min50_v1_20261030T045527Z_3fca1af177/attempts/sports_lbsp_seed2026_a1/outputs/sports_lbsp_seed2026/metrics.json"
+        },
+        "training_log.csv": {
+          "local_path": "kais_revision_outline_20261022/p1_review_20261030/e1_return_20261031T092136/report_snapshot/attempts/sports_lbsp_seed2026_a1/outputs/sports_lbsp_seed2026/training_log.csv",
+          "sha256": "f7a358412879c3a82b3d34492fc1e00ac2652042a3a60aeab88ad56155834cd5",
+          "server_path": "/root/autodl-tmp/time_uncertainty_rec/kais_e1_min50_v1_20261030T045527Z_3fca1af177/attempts/sports_lbsp_seed2026_a1/outputs/sports_lbsp_seed2026/training_log.csv"
+        }
+      },
+      "minimum_stopping_epochs": 50,
+      "new_E1_model": true
+    },
+    {
+      "dataset": "sports",
+      "method": "LBSP",
+      "training_seed": 3407,
+      "source_collection": "g2_lbsp_amazon_train_20261025",
+      "source_files": {
+        "config.json": {
+          "local_path": "g2_lbsp_amazon_train_20261025/snapshot/outputs/sports_lbsp_seed3407/config.json",
+          "sha256": "c9613f9eca3ab741f3890b9224c7bdcf213b842af211705cec19bff7286e7d84",
+          "server_path": "kais_lbsp_amazon_train_v1_20261023T082808Z_224454fcd01d/outputs/sports_lbsp_seed3407/config.json"
+        },
+        "metrics.json": {
+          "local_path": "g2_lbsp_amazon_train_20261025/snapshot/outputs/sports_lbsp_seed3407/metrics.json",
+          "sha256": "2879b7d5a574dfbd9389a706da630caf51f16d92f5ebb4f4c1d49fd0d1f2d206",
+          "server_path": "kais_lbsp_amazon_train_v1_20261023T082808Z_224454fcd01d/outputs/sports_lbsp_seed3407/metrics.json"
+        },
+        "training_log.csv": {
+          "local_path": "g2_lbsp_amazon_train_20261025/snapshot/outputs/sports_lbsp_seed3407/training_log.csv",
+          "sha256": "4df6c5cb16467e5f103a41cbdbcb869169fa66a3e6e41dcb9154ee5f2c22f603",
+          "server_path": "kais_lbsp_amazon_train_v1_20261023T082808Z_224454fcd01d/outputs/sports_lbsp_seed3407/training_log.csv"
+        }
+      },
+      "minimum_stopping_epochs": 50,
+      "new_E1_model": false
+    },
+    {
+      "dataset": "toys",
+      "method": "Control",
+      "training_seed": 42,
+      "source_collection": "E1_MIN50_ACCEPTED_NEW_TRAINING",
+      "source_files": {
+        "config.json": {
+          "local_path": "kais_revision_outline_20261022/p1_review_20261030/e1_return_20261031T092136/report_snapshot/attempts/toys_control_seed42_a1/outputs/amazon_toys_control_orderfix_seed42/config.json",
+          "sha256": "eb4948dabe05db6108b0935e37e4d54fd7f6954e58a9b92f964d6cf7fa0c543c",
+          "server_path": "/root/autodl-tmp/time_uncertainty_rec/kais_e1_min50_v1_20261030T045527Z_3fca1af177/attempts/toys_control_seed42_a1/outputs/amazon_toys_control_orderfix_seed42/config.json"
+        },
+        "metrics.json": {
+          "local_path": "kais_revision_outline_20261022/p1_review_20261030/e1_return_20261031T092136/report_snapshot/attempts/toys_control_seed42_a1/outputs/amazon_toys_control_orderfix_seed42/metrics.json",
+          "sha256": "6bc7db35f30ed11fbbc8febd83fadc7fa8a95dd267047d28d7cedac1e8328797",
+          "server_path": "/root/autodl-tmp/time_uncertainty_rec/kais_e1_min50_v1_20261030T045527Z_3fca1af177/attempts/toys_control_seed42_a1/outputs/amazon_toys_control_orderfix_seed42/metrics.json"
+        },
+        "training_log.csv": {
+          "local_path": "kais_revision_outline_20261022/p1_review_20261030/e1_return_20261031T092136/report_snapshot/attempts/toys_control_seed42_a1/outputs/amazon_toys_control_orderfix_seed42/training_log.csv",
+          "sha256": "2c4cf77894df9954392e110bb8032c4336991cb2e61cbef8a12771bc703bcaa4",
+          "server_path": "/root/autodl-tmp/time_uncertainty_rec/kais_e1_min50_v1_20261030T045527Z_3fca1af177/attempts/toys_control_seed42_a1/outputs/amazon_toys_control_orderfix_seed42/training_log.csv"
+        }
+      },
+      "minimum_stopping_epochs": 50,
+      "new_E1_model": true
+    },
+    {
+      "dataset": "toys",
+      "method": "Control",
+      "training_seed": 2026,
+      "source_collection": "E1_MIN50_ACCEPTED_NEW_TRAINING",
+      "source_files": {
+        "config.json": {
+          "local_path": "kais_revision_outline_20261022/p1_review_20261030/e1_return_20261031T092136/report_snapshot/attempts/toys_control_seed2026_a1/outputs/amazon_toys_control_orderfix_seed2026/config.json",
+          "sha256": "315374302a0317de9890ffd14b99100610f74021a739b675cf0f57ce4cfa4a4d",
+          "server_path": "/root/autodl-tmp/time_uncertainty_rec/kais_e1_min50_v1_20261030T045527Z_3fca1af177/attempts/toys_control_seed2026_a1/outputs/amazon_toys_control_orderfix_seed2026/config.json"
+        },
+        "metrics.json": {
+          "local_path": "kais_revision_outline_20261022/p1_review_20261030/e1_return_20261031T092136/report_snapshot/attempts/toys_control_seed2026_a1/outputs/amazon_toys_control_orderfix_seed2026/metrics.json",
+          "sha256": "e8036c93eee39ebcd3fd69f6e6c3b8bd07f4069013f6cfb3141db505a101a197",
+          "server_path": "/root/autodl-tmp/time_uncertainty_rec/kais_e1_min50_v1_20261030T045527Z_3fca1af177/attempts/toys_control_seed2026_a1/outputs/amazon_toys_control_orderfix_seed2026/metrics.json"
+        },
+        "training_log.csv": {
+          "local_path": "kais_revision_outline_20261022/p1_review_20261030/e1_return_20261031T092136/report_snapshot/attempts/toys_control_seed2026_a1/outputs/amazon_toys_control_orderfix_seed2026/training_log.csv",
+          "sha256": "8a4b30dd7c1b533496ffd7c0de80bdfb174b12aa146746e1fe3188b2bfa80bcb",
+          "server_path": "/root/autodl-tmp/time_uncertainty_rec/kais_e1_min50_v1_20261030T045527Z_3fca1af177/attempts/toys_control_seed2026_a1/outputs/amazon_toys_control_orderfix_seed2026/training_log.csv"
+        }
+      },
+      "minimum_stopping_epochs": 50,
+      "new_E1_model": true
+    },
+    {
+      "dataset": "toys",
+      "method": "Control",
+      "training_seed": 3407,
+      "source_collection": "E1_MIN50_ACCEPTED_NEW_TRAINING",
+      "source_files": {
+        "config.json": {
+          "local_path": "kais_revision_outline_20261022/p1_review_20261030/e1_return_20261031T092136/report_snapshot/attempts/toys_control_seed3407_a1/outputs/amazon_toys_control_orderfix_seed3407/config.json",
+          "sha256": "531d422a05b72b5bd8a9bcb6b4b2af03368587c3f4d16e4dd8f455d0aea4c8fa",
+          "server_path": "/root/autodl-tmp/time_uncertainty_rec/kais_e1_min50_v1_20261030T045527Z_3fca1af177/attempts/toys_control_seed3407_a1/outputs/amazon_toys_control_orderfix_seed3407/config.json"
+        },
+        "metrics.json": {
+          "local_path": "kais_revision_outline_20261022/p1_review_20261030/e1_return_20261031T092136/report_snapshot/attempts/toys_control_seed3407_a1/outputs/amazon_toys_control_orderfix_seed3407/metrics.json",
+          "sha256": "7872037001c19818ce2ea4f61a9f56b80bbce0eebaf23aea83ee56ec365749b0",
+          "server_path": "/root/autodl-tmp/time_uncertainty_rec/kais_e1_min50_v1_20261030T045527Z_3fca1af177/attempts/toys_control_seed3407_a1/outputs/amazon_toys_control_orderfix_seed3407/metrics.json"
+        },
+        "training_log.csv": {
+          "local_path": "kais_revision_outline_20261022/p1_review_20261030/e1_return_20261031T092136/report_snapshot/attempts/toys_control_seed3407_a1/outputs/amazon_toys_control_orderfix_seed3407/training_log.csv",
+          "sha256": "6dd712ef09d3a5a0dbe2b5c46a64a540410c30c080e10acb48106c7cc39bd2a8",
+          "server_path": "/root/autodl-tmp/time_uncertainty_rec/kais_e1_min50_v1_20261030T045527Z_3fca1af177/attempts/toys_control_seed3407_a1/outputs/amazon_toys_control_orderfix_seed3407/training_log.csv"
+        }
+      },
+      "minimum_stopping_epochs": 50,
+      "new_E1_model": true
+    },
+    {
+      "dataset": "toys",
+      "method": "LBSP",
+      "training_seed": 42,
+      "source_collection": "E1_MIN50_ACCEPTED_NEW_TRAINING",
+      "source_files": {
+        "config.json": {
+          "local_path": "kais_revision_outline_20261022/p1_review_20261030/e1_return_20261031T092136/report_snapshot/attempts/toys_lbsp_seed42_a1/outputs/toys_lbsp_seed42/config.json",
+          "sha256": "148cd516bcda8b7448338d557977922f7027774a4694603243154bf743f02e81",
+          "server_path": "/root/autodl-tmp/time_uncertainty_rec/kais_e1_min50_v1_20261030T045527Z_3fca1af177/attempts/toys_lbsp_seed42_a1/outputs/toys_lbsp_seed42/config.json"
+        },
+        "metrics.json": {
+          "local_path": "kais_revision_outline_20261022/p1_review_20261030/e1_return_20261031T092136/report_snapshot/attempts/toys_lbsp_seed42_a1/outputs/toys_lbsp_seed42/metrics.json",
+          "sha256": "b63ae6235a0ed5df58d1380de6c8b39162d013e9fb1e98f57f64d14686cf9047",
+          "server_path": "/root/autodl-tmp/time_uncertainty_rec/kais_e1_min50_v1_20261030T045527Z_3fca1af177/attempts/toys_lbsp_seed42_a1/outputs/toys_lbsp_seed42/metrics.json"
+        },
+        "training_log.csv": {
+          "local_path": "kais_revision_outline_20261022/p1_review_20261030/e1_return_20261031T092136/report_snapshot/attempts/toys_lbsp_seed42_a1/outputs/toys_lbsp_seed42/training_log.csv",
+          "sha256": "fc280597be71daa0d45f4d8450462b9019635980ee91e2d53300c7cf3bd64b3a",
+          "server_path": "/root/autodl-tmp/time_uncertainty_rec/kais_e1_min50_v1_20261030T045527Z_3fca1af177/attempts/toys_lbsp_seed42_a1/outputs/toys_lbsp_seed42/training_log.csv"
+        }
+      },
+      "minimum_stopping_epochs": 50,
+      "new_E1_model": true
+    },
+    {
+      "dataset": "toys",
+      "method": "LBSP",
+      "training_seed": 2026,
+      "source_collection": "g2_lbsp_amazon_train_20261025",
+      "source_files": {
+        "config.json": {
+          "local_path": "g2_lbsp_amazon_train_20261025/snapshot/outputs/toys_lbsp_seed2026/config.json",
+          "sha256": "b5aa136886e17fe2fbf407a9cb0194f31c95270607344bf0e0e4944588c12980",
+          "server_path": "kais_lbsp_amazon_train_v1_20261023T082808Z_224454fcd01d/outputs/toys_lbsp_seed2026/config.json"
+        },
+        "metrics.json": {
+          "local_path": "g2_lbsp_amazon_train_20261025/snapshot/outputs/toys_lbsp_seed2026/metrics.json",
+          "sha256": "f64959f92648d31f57d46284101fe665a9bdcb1c0e3ae2b938eee0e36c249e5a",
+          "server_path": "kais_lbsp_amazon_train_v1_20261023T082808Z_224454fcd01d/outputs/toys_lbsp_seed2026/metrics.json"
+        },
+        "training_log.csv": {
+          "local_path": "g2_lbsp_amazon_train_20261025/snapshot/outputs/toys_lbsp_seed2026/training_log.csv",
+          "sha256": "f64836deec69fb88727c713ecf28ef0a59619c121c0a74588ca014edc0dfde11",
+          "server_path": "kais_lbsp_amazon_train_v1_20261023T082808Z_224454fcd01d/outputs/toys_lbsp_seed2026/training_log.csv"
+        }
+      },
+      "minimum_stopping_epochs": 50,
+      "new_E1_model": false
+    },
+    {
+      "dataset": "toys",
+      "method": "LBSP",
+      "training_seed": 3407,
+      "source_collection": "g2_lbsp_amazon_train_20261025",
+      "source_files": {
+        "config.json": {
+          "local_path": "g2_lbsp_amazon_train_20261025/snapshot/outputs/toys_lbsp_seed3407/config.json",
+          "sha256": "5321ea691f6b25e5c038ad8c34ea30ec4cc1b17a687b7ea1e413ef4f025082f4",
+          "server_path": "kais_lbsp_amazon_train_v1_20261023T082808Z_224454fcd01d/outputs/toys_lbsp_seed3407/config.json"
+        },
+        "metrics.json": {
+          "local_path": "g2_lbsp_amazon_train_20261025/snapshot/outputs/toys_lbsp_seed3407/metrics.json",
+          "sha256": "34aa3cbf961526559b256fd789b9b0d5bd51ae73b930342d413e76e1c371c49e",
+          "server_path": "kais_lbsp_amazon_train_v1_20261023T082808Z_224454fcd01d/outputs/toys_lbsp_seed3407/metrics.json"
+        },
+        "training_log.csv": {
+          "local_path": "g2_lbsp_amazon_train_20261025/snapshot/outputs/toys_lbsp_seed3407/training_log.csv",
+          "sha256": "161564f0c7699fb150228c6df414f356b501a8b04427533333d1f01f0df66411",
+          "server_path": "kais_lbsp_amazon_train_v1_20261023T082808Z_224454fcd01d/outputs/toys_lbsp_seed3407/training_log.csv"
+        }
+      },
+      "minimum_stopping_epochs": 50,
+      "new_E1_model": false
+    }
+  ]
+}

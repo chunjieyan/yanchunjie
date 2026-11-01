@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-29",
+  "scope": "X7 post-hoc warm/cold target diagnosis from previously accepted saved predictions and per-user X5 diagnostic metadata only.",
+  "fixed_before_this_computation": true,
+  "not_experiment_preregistration": "The original experiments and prior full/warm/cold canonical summaries have already been inspected; this plan fixes the additional six-population accuracy/stability computation before running it.",
+  "datasets": ["ml1m", "beauty", "sports", "toys"],
+  "methods": ["Control", "LBSP"],
+  "training_seeds": [42, 2026, 3407],
+  "permutation_seeds": [101, 202, 303, 404, 505],
+  "populations": {
+    "full": "Complete unchanged strict test panel",
+    "warm": "target_train_count >= 1 in accepted X5 diagnostic metadata",
+    "cold": "target_train_count == 0",
+    "affected": "At least two distinct raw histories among the five fixed permutations, before LBSP canonicalization; canonical history excluded",
+    "warm_affected": "Intersection of warm and the shared affected mask",
+    "cold_affected": "Intersection of cold and the shared affected mask"
+  },
+  "accuracy": {
+    "view": "Canonical saved predictions only",
+    "metrics": ["ndcg10", "hr10", "hr20", "recall50", "mrr", "mrr10", "mean_rank"],
+    "rank_convention": "Unchanged saved strict-greater target rank. Top10 list membership may differ at tied scores; neither is silently replaced by the other."
+  },
+  "stability": {
+    "overlap10": "Within each user, mean Top10 set-intersection size/10 over all ten unordered pairs of five outputs; then equal-user mean",
+    "hitflip": "Fraction of users having both saved-rank<=10 and saved-rank>10 across the five outputs; not pairwise flip mean"
+  },
+  "aggregation": {
+    "unit": "Three independently trained model seeds",
+    "mean": "Arithmetic mean across seeds42,2026,3407",
+    "sample_sd": "Standard deviation with denominator n-1",
+    "ci95": "Unadjusted mean +/- 4.302652729749464 * sample_sd / sqrt(3), df2, no truncation",
+    "paired_effect": "LBSP minus same-seed Control before aggregating the three differences",
+    "analytic_baselines": "Population-specific mean of accepted per-user Random/Popularity expectations; no training-seed SD or CI",
+    "empty_population": "Retain n=0 and blank numerical estimates; do not impute zeros"
+  },
+  "validation": [
+    "All saved inputs match accepted C source-manifest SHA256 seals",
+    "Identical sample/user/target identities across X5 metadata, labels, methods, seeds and all six views",
+    "Affected mask recomputed from five raw sequence hashes and fixed across seeds/methods",
+    "Canonical ranks match the saved X5 rank columns",
+    "All full/affected accuracy/stability values reconcile with accepted C per-seed outputs",
+    "All full/warm/cold canonical metrics reconcile with accepted X5 per-seed summaries",
+    "Weighted warm+cold metrics reconstruct full results; weighted warm_affected+cold_affected reconstruct affected results",
+    "Population partitions, metric ranges, nonempty Top10 uniqueness and candidate/rank bounds"
+  ],
+  "interpretation": [
+    "Keep full-panel results primary; warm/cold results are additional diagnostics",
+    "Zero positive training-interaction count does not imply an untrained embedding under full-item cross-entropy",
+    "Conditioning on warm targets does not prove a causal cold-target explanation or guarantee favorable LBSP accuracy",
+    "Do not tune hyperparameters or discard unfavorable seeds/subsets from these results",
+    "With three fixed seeds the t intervals are descriptive and imprecise; no equivalence or general superiority claim"
+  ],
+  "execution": {
+    "new_model_training": false,
+    "new_model_inference": false,
+    "interaction_or_checkpoint_access": false,
+    "submitted_research_code_execution": false,
+    "implementation": "New standalone Python standard-library auditor"
+  }
+}

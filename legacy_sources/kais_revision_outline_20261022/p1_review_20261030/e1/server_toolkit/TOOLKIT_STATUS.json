@@ -1,0 +1,28 @@
+{
+  "status": "READY_FOR_SERVER_PREFLIGHT_AND_EXECUTION_NOT_SERVER_VALIDATED",
+  "date": "2026-10-30",
+  "policy_sha256": "a17cc41f3e38d83abe74e6152106d547d3582147d6673a2376f2c6b72b1abcb4",
+  "exact_preloss_policy_and_all80_dependencies_restored": true,
+  "workflow": "upload ZIP to server; extract; run; automatically collect ZIP and sha; download to PC",
+  "toolkit_zip_filename": "KAIS_E1_min50_Toolkit_20261030_v2.zip",
+  "selected_runs": 19,
+  "unchanged_runs": 23,
+  "minimum_epochs": 50,
+  "patience": 15,
+  "maximum_epochs": 200,
+  "server_readonly_sealed_files": 65,
+  "upload_dependency_files": 80,
+  "upload_file_set": "e1_policy.json.bundle_sha256 keys + e1_policy.json + README_服务器执行.md",
+  "actual_server_preflight_performed": false,
+  "actual_cuda_smoke_or_training_performed": false,
+  "nonX4_five_permutation_and_updated_Control_Ensemble_inference_pending": true,
+  "no_original_data_or_checkpoint_access_locally": true,
+  "root_known": "/root/autodl-tmp/time_uncertainty_rec",
+  "uploaded_folder": "kais_e1_min50_toolkit",
+  "source_generation_qa": "QA_SOURCE_GENERATION.json",
+  "private_dev_files_not_for_upload": [
+    "_build_local_bundle.py",
+    "qa_source_generation.py",
+    "__pycache__"
+  ]
+}

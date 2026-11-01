@@ -1,0 +1,100 @@
+{
+  "status": "PASS_X7_CURRENT24_LOGS_AND_TARGET_DIAGNOSTICS",
+  "training": {
+    "date": "2026-10-31",
+    "status": "PASS24_CURRENT_CONTROL_LBSP_MIN50_LOGS",
+    "runs": 24,
+    "new_E1_runs": 10,
+    "retained_runs": 14,
+    "epoch_rows": 1846,
+    "minimum_epoch_rule": 50,
+    "all_final_epochs_at_least50": true,
+    "all_runs_patience_exhausted": true,
+    "sports_best_epochs": {
+      "Control_42": 47,
+      "Control_2026": 64,
+      "Control_3407": 37,
+      "LBSP_42": 46,
+      "LBSP_2026": 56,
+      "LBSP_3407": 41
+    },
+    "sports_final_epochs": {
+      "Control_42": 62,
+      "Control_2026": 79,
+      "Control_3407": 52,
+      "LBSP_42": 61,
+      "LBSP_2026": 71,
+      "LBSP_3407": 56
+    },
+    "postbest_count_range": [
+      15,
+      15
+    ],
+    "sports_validation_monotonic_declines": 0,
+    "sports_loss_monotonic_declines": 6,
+    "replay_helper_sha256": "132e50f00e19ebcbbbe8d376d20d006e5f023c049083fef6fdc8536e99995c37",
+    "original_helper_sha256": "360a0dcf4cba8161f7d5d9368305683ba3c3fdcc43a726641cf417a450d1becd",
+    "replay_checks": 22982,
+    "interpretation": [
+      "Each retained or new run satisfies epoch>=50 and bad>=15, with cap200 and all-time validation-best selection.",
+      "Minimum50 does not imply a sufficiently converged model or an optimal floor. Some all-time best checkpoints may be earlier than50.",
+      "Post-best values can fluctuate; being lower than a selected maximum is not independent evidence of overfitting.",
+      "Fresh training prefixes can differ from earlier runs, so observed changes cannot be attributed solely to the stopping gate.",
+      "Logged epoch durations are observational and cannot replace controlled isolated X6 costs."
+    ],
+    "interactions_or_checkpoints_accessed": false,
+    "research_code_executed": false,
+    "torch_imported": false,
+    "new_models_trained_locally": 0,
+    "server_actions_required": []
+  },
+  "warm_targets": {
+    "date": "2026-10-31",
+    "status": "PASS_X7_24_CURRENT_WARM_COLD_TARGET_DIAGNOSTICS",
+    "model_configurations": 24,
+    "new_E1_models": 10,
+    "retained_models": 14,
+    "prediction_rows": 400212,
+    "rank10_top10_membership_mismatches_preserved": 0,
+    "stale_X5_model_rank_columns_used": false,
+    "frozen_populations_unchanged": true,
+    "Beauty_results_unchanged": true,
+    "rows": {
+      "per_seed_metrics": 1296,
+      "method_summary": 432,
+      "paired_differences_per_seed": 648,
+      "paired_difference_summary": 216,
+      "population_counts": 24,
+      "analytic_baselines": 336
+    },
+    "raw_interaction_or_checkpoint_read_or_stat": false,
+    "new_model_training_or_inference": false,
+    "submitted_research_code_executed": false,
+    "source_files": 275,
+    "checks": 815055,
+    "numeric_comparisons": 864
+  },
+  "all_outputs_sha256": {
+    "training/epoch_validation_curves.csv": "9eb5b332c251d71f21add4de84476e93d9f71a200a44d3fcb7c76abfdd28fd0c",
+    "training/sports_training_summary.csv": "d0dafb33e769bfeb93d1b25edf6305c5dda1b6b603369a164836017276dfb7c3",
+    "training/training_provenance.json": "9a0bfe1e2edaf46b0fc6235234840e47c17a5a1b62dddd1d8beba98555a3ac31",
+    "training/training_run_summary.csv": "b53cbd9e9d6ebd552ddaf76dd8147f73a67d81a18ed963acde9045297a895dd3",
+    "training/training_source_contract.json": "f27cf1d8079c084aa8c010b87b062366f3d159486b1137b607cf20026db06ecf",
+    "warm_targets/analysis_plan.json": "87c0802482c838afc3861978625d3dfc1417823dba4c22784f3a831eefef9223",
+    "warm_targets/analytic_baselines.csv": "a15fb124ea6c6d437ac62c35f958f0de4cece072da85c609d5ecd39c69552d61",
+    "warm_targets/findings.json": "789f5b0583703bb3236147ae221b5f6fabdb74b780cc56354cffaa734b5dbb82",
+    "warm_targets/method_summary.csv": "299726f710c38e2ad8c485b7f8a55ceb6dc5c53e5ebec2449666c75ba5b1b8d1",
+    "warm_targets/paired_differences_per_seed.csv": "455fb4a26dbff2a3d3a12c5f0bbb672905d030c6af380fe3ea10b7ac07641a19",
+    "warm_targets/paired_difference_summary.csv": "a2129472693d3b5c9e7896fc7a73ce6e51566a571f8d8a618308ed4ddeacd247",
+    "warm_targets/per_seed_metrics.csv": "08ed56bc1dc335937e271c52b6233dd8974e19e8e341f42a7b282c860f17bd34",
+    "warm_targets/population_counts.csv": "c40948fe5be492eab1fbdd860a50f41ee029f32f7dc01a0f6215a03a5a109f40",
+    "warm_targets/source_manifest.json": "18ffafc7c20bc51e07fb774a5c11d72c140d690052841402002deeae16e7d067",
+    "warm_targets/verification.json": "0463f4f93bb268c66f83d6032a6083a50796c5c230e29b7d7bd3b5a3ee6dda78"
+  },
+  "no_PDF_or_LaTeX_generated": true,
+  "independent_roundtrip_QA": {
+    "training": "6753ee7540902b6dec8fe41abae9dcca9a9a4c0b7a771abbcf7dfe4aae14e911",
+    "warm_targets": "7ead559d2621c18a363bfd39f0778018d8f8e24c6838fd086a3a0af710274fa3",
+    "global_C_matches": 432
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-31",
+  "status": "PASS24_CURRENT_CONTROL_LBSP_MIN50_LOGS",
+  "runs": 24,
+  "new_E1_runs": 10,
+  "retained_runs": 14,
+  "epoch_rows": 1846,
+  "minimum_epoch_rule": 50,
+  "all_final_epochs_at_least50": true,
+  "all_runs_patience_exhausted": true,
+  "sports_best_epochs": {
+    "Control_42": 47,
+    "Control_2026": 64,
+    "Control_3407": 37,
+    "LBSP_42": 46,
+    "LBSP_2026": 56,
+    "LBSP_3407": 41
+  },
+  "sports_final_epochs": {
+    "Control_42": 62,
+    "Control_2026": 79,
+    "Control_3407": 52,
+    "LBSP_42": 61,
+    "LBSP_2026": 71,
+    "LBSP_3407": 56
+  },
+  "postbest_count_range": [
+    15,
+    15
+  ],
+  "sports_validation_monotonic_declines": 0,
+  "sports_loss_monotonic_declines": 6,
+  "replay_helper_sha256": "132e50f00e19ebcbbbe8d376d20d006e5f023c049083fef6fdc8536e99995c37",
+  "original_helper_sha256": "360a0dcf4cba8161f7d5d9368305683ba3c3fdcc43a726641cf417a450d1becd",
+  "replay_checks": 22982,
+  "interpretation": [
+    "Each retained or new run satisfies epoch>=50 and bad>=15, with cap200 and all-time validation-best selection.",
+    "Minimum50 does not imply a sufficiently converged model or an optimal floor. Some all-time best checkpoints may be earlier than50.",
+    "Post-best values can fluctuate; being lower than a selected maximum is not independent evidence of overfitting.",
+    "Fresh training prefixes can differ from earlier runs, so observed changes cannot be attributed solely to the stopping gate.",
+    "Logged epoch durations are observational and cannot replace controlled isolated X6 costs."
+  ],
+  "interactions_or_checkpoints_accessed": false,
+  "research_code_executed": false,
+  "torch_imported": false,
+  "new_models_trained_locally": 0,
+  "server_actions_required": []
+}
