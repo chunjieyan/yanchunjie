@@ -1,0 +1,28 @@
+{
+  "patch_id": "e1_control_preparation_manifest_v2",
+  "path": "/root/autodl-tmp/time_uncertainty_rec/kais_e1_min50_v1_20261030T045527Z_3fca1af177/repair/e1_control_preparation_manifest_v2",
+  "driver_preimage_sha256": "4800b19a74ec40f327319af6fbec65fa73a40a2a508a0c37bd78130687a687c7",
+  "runtime_sha256": {
+    "e1_control_manifest_fixed.py": "696372db1da8e605bf8b98abb8e339a2aa78b9da02b78a950ca29ba47347132f",
+    "control_fix_manifest.json": "a72af9500f87b223edc83f41bb473a877276c1657de3b5238e02e2ed27e574e9",
+    "e1_resume_fixed.py": "c49c85d2af206c9ba697cc4dbfb43232b779cb747e2cd711f79fef0b3f76b60e",
+    "repair_manifest.json": "0e8a883a49a9209c97daef5bcb73d34081a60ed02957ef49fbc28a7e5e377152"
+  },
+  "original_policy_sha256": "a17cc41f3e38d83abe74e6152106d547d3582147d6673a2376f2c6b72b1abcb4",
+  "retained_completed_job_ids": [
+    "ml1m_lbsp_seed42",
+    "ml1m_lbsp_seed2026",
+    "ml1m_lbsp_seed3407",
+    "ml1m_shuffle_seed42",
+    "ml1m_shuffle_seed3407",
+    "ml1m_tisasrec_seed42",
+    "ml1m_tisasrec_seed2026",
+    "beauty_tisasrec_seed42",
+    "beauty_tisasrec_seed2026",
+    "beauty_tisasrec_seed3407"
+  ],
+  "scientific_trainers_or_original_bundle_changed": false,
+  "prior_status": "STOPPED_INCOMPLETE",
+  "prior_error": "ValueError: Child failed with exit 1; see /root/autodl-tmp/time_uncertainty_rec/kais_e1_min50_v1_20261030T045527Z_3fca1af177/attempts/sports_control_seed2026_a1/verification/train.log",
+  "registered_at_utc": "2026-10-31T07:04:24.095590+00:00"
+}

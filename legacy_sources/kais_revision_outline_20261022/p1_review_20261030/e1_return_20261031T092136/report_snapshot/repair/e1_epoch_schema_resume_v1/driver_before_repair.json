@@ -1,0 +1,111 @@
+{
+  "root": "/root/autodl-tmp/time_uncertainty_rec",
+  "stage": "/root/autodl-tmp/time_uncertainty_rec/kais_e1_min50_v1_20261030T045527Z_3fca1af177",
+  "policy_sha256": "a17cc41f3e38d83abe74e6152106d547d3582147d6673a2376f2c6b72b1abcb4",
+  "bundle_root": "/root/autodl-tmp/time_uncertainty_rec/kais_e1_min50_toolkit",
+  "status": "STOPPED_INCOMPLETE",
+  "jobs": {
+    "ml1m_lbsp_seed42": {
+      "attempts": [
+        {
+          "number": 1,
+          "native_stage": "/root/autodl-tmp/time_uncertainty_rec/kais_e1_min50_v1_20261030T045527Z_3fca1af177/attempts/ml1m_lbsp_seed42_a1",
+          "status": "COMPLETED"
+        }
+      ],
+      "status": "COMPLETED",
+      "native_stage": "/root/autodl-tmp/time_uncertainty_rec/kais_e1_min50_v1_20261030T045527Z_3fca1af177/attempts/ml1m_lbsp_seed42_a1",
+      "completion_proof": "/root/autodl-tmp/time_uncertainty_rec/kais_e1_min50_v1_20261030T045527Z_3fca1af177/attempts/ml1m_lbsp_seed42_a1/verification/E1_COMPLETED.json"
+    },
+    "ml1m_lbsp_seed2026": {
+      "attempts": [
+        {
+          "number": 1,
+          "native_stage": "/root/autodl-tmp/time_uncertainty_rec/kais_e1_min50_v1_20261030T045527Z_3fca1af177/attempts/ml1m_lbsp_seed2026_a1",
+          "status": "COMPLETED"
+        }
+      ],
+      "status": "COMPLETED",
+      "native_stage": "/root/autodl-tmp/time_uncertainty_rec/kais_e1_min50_v1_20261030T045527Z_3fca1af177/attempts/ml1m_lbsp_seed2026_a1",
+      "completion_proof": "/root/autodl-tmp/time_uncertainty_rec/kais_e1_min50_v1_20261030T045527Z_3fca1af177/attempts/ml1m_lbsp_seed2026_a1/verification/E1_COMPLETED.json"
+    },
+    "ml1m_lbsp_seed3407": {
+      "attempts": [
+        {
+          "number": 1,
+          "native_stage": "/root/autodl-tmp/time_uncertainty_rec/kais_e1_min50_v1_20261030T045527Z_3fca1af177/attempts/ml1m_lbsp_seed3407_a1",
+          "status": "COMPLETED"
+        }
+      ],
+      "status": "COMPLETED",
+      "native_stage": "/root/autodl-tmp/time_uncertainty_rec/kais_e1_min50_v1_20261030T045527Z_3fca1af177/attempts/ml1m_lbsp_seed3407_a1",
+      "completion_proof": "/root/autodl-tmp/time_uncertainty_rec/kais_e1_min50_v1_20261030T045527Z_3fca1af177/attempts/ml1m_lbsp_seed3407_a1/verification/E1_COMPLETED.json"
+    },
+    "ml1m_shuffle_seed42": {
+      "attempts": [
+        {
+          "number": 1,
+          "native_stage": "/root/autodl-tmp/time_uncertainty_rec/kais_e1_min50_v1_20261030T045527Z_3fca1af177/attempts/ml1m_shuffle_seed42_a1",
+          "status": "RUNNING"
+        }
+      ],
+      "status": "RUNNING",
+      "native_stage": "/root/autodl-tmp/time_uncertainty_rec/kais_e1_min50_v1_20261030T045527Z_3fca1af177/attempts/ml1m_shuffle_seed42_a1"
+    },
+    "ml1m_shuffle_seed3407": {
+      "attempts": []
+    },
+    "ml1m_tisasrec_seed42": {
+      "attempts": []
+    },
+    "ml1m_tisasrec_seed2026": {
+      "attempts": []
+    },
+    "beauty_tisasrec_seed42": {
+      "attempts": []
+    },
+    "beauty_tisasrec_seed2026": {
+      "attempts": []
+    },
+    "beauty_tisasrec_seed3407": {
+      "attempts": []
+    },
+    "sports_control_seed2026": {
+      "attempts": []
+    },
+    "sports_lbsp_seed42": {
+      "attempts": []
+    },
+    "sports_lbsp_seed2026": {
+      "attempts": []
+    },
+    "toys_control_seed42": {
+      "attempts": []
+    },
+    "toys_control_seed2026": {
+      "attempts": []
+    },
+    "toys_control_seed3407": {
+      "attempts": []
+    },
+    "toys_lbsp_seed42": {
+      "attempts": []
+    },
+    "toys_shuffle_seed42": {
+      "attempts": []
+    },
+    "toys_shuffle_seed3407": {
+      "attempts": []
+    }
+  },
+  "execution_environments": [
+    {
+      "python": "3.10.22 (main, Oct  1 2026, 20:14:04) [GCC 14.3.0]",
+      "executable": "/root/miniconda3/envs/yancj/bin/python",
+      "torch": "2.13.0+cu132",
+      "cuda": "13.2",
+      "device": "NVIDIA GeForce RTX 4090"
+    }
+  ],
+  "error": "ValueError: Output stopping budget differs"
+}

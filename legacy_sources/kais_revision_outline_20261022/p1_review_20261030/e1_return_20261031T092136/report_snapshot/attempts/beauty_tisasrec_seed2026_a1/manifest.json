@@ -1,0 +1,60 @@
+{
+  "version": "x4_tisasrec_v1",
+  "root": "/root/autodl-tmp/time_uncertainty_rec",
+  "stage": "/root/autodl-tmp/time_uncertainty_rec/kais_x4_tisasrec_v1_e1_20261030T045527Z_3fca1af177_beauty_tisasrec_seed2026_a1",
+  "input_sha256": "4dfe330abba456fbc471d2b09e85a204ce80727e2a81f28348ebea84ca3392f4",
+  "tool_sha256": {
+    "scripts/run_x4_tisasrec.py": "7cb4e132be3df2ad1c088970d0def3b2c3b377d4edc67277be12b52845091126",
+    "scripts/collect_x4_tisasrec.py": "61a4b1901915cbb444093d433292c4d998e685cbf53024cf4022328aa98915a8",
+    "scripts/x4_tisasrec_model.py": "3c82fff77e698599f04eadf4d93b4169d2b8b544dae364e23039cb0b7b258212",
+    "scripts/x4_tisasrec_protocol.py": "ffd256ea7dba503d5429a53fab6f1f7ae1f6f448ca8f1be09ff783e23df8c7b8",
+    "scripts/X4_MODEL_PROVENANCE.json": "69ab5d71ab40f7f1a4dc20ca76d3d69e171ba27f41346005eadd10b90347ce27",
+    "scripts/X4_UPSTREAM_MIT_LICENSE.txt": "2c33dad5fede86236b54db22e0be64e72095d151f324bcadd354ab88f40c52fe",
+    "x4_tisasrec_inputs_20261026.json": "4dfe330abba456fbc471d2b09e85a204ce80727e2a81f28348ebea84ca3392f4"
+  },
+  "data_sha256": {
+    "processed/diagnostic_a_splits/MovieLens-1M/file_order/train.csv": "6b0fa970c4b6725a32e718b43883c612624b16127122bb4d9a936eff1dade18e",
+    "processed/recent_bucketset_r1/MovieLens-1M/val/r1_samples.csv": "4c66e7a33fe1362089cf8aa4bf7144a301803eabed0c6097faa984419346fb32",
+    "processed/recent_bucketset_r1/MovieLens-1M/test/r1_samples.csv": "99bec555642aca4cd00cdfe3b5d95c7b3ac577c1c1e0457a7c6212c08b9ea303",
+    "processed/strict_last_bucket_only/MovieLens-1M/perm_seed101/test.csv": "32dfbfaedc7e79418d6283ba4fb020e7d36f56e92368bda27bb44761f0fcb84d",
+    "processed/strict_last_bucket_only/MovieLens-1M/perm_seed202/test.csv": "23fb6ef556787dc7c3174c719cac2640de015ef905141fa7d509fd11b1387be1",
+    "processed/strict_last_bucket_only/MovieLens-1M/perm_seed303/test.csv": "a3b7a6b1b8463e771843bab97d4aeb7fac3d401c0a190e0e2da35e4a2803e03e",
+    "processed/strict_last_bucket_only/MovieLens-1M/perm_seed404/test.csv": "ff39558c3805cce5990961588614a1c76c89626f0765dc26ee263a995247b29c",
+    "processed/strict_last_bucket_only/MovieLens-1M/perm_seed505/test.csv": "f863476ab258233b33081a9f476b043847a992349218db692c2b9a938f19dfb7",
+    "processed/diagnostic_a/MovieLens-1M/file_order.csv": "eaea95e9d4351cbf94b9edbd4d32894889ac9f6e80d0657a98fc7ea4c2196f6c",
+    "step38_kais_retrain/outputs/ml1m_sasrec_control_ce_bs128_lr1em3_max200_seed42/item_id_map.csv": "0dd7d6ee37d97e24be33253f5f0836890a818a255a5314519e1678d6c31885d5",
+    "step38_kais_retrain/outputs/ml1m_sasrec_control_ce_bs128_lr1em3_max200_seed42/config.json": "04e73d16f5d6f36521355498c9713d7c95b15119fef37f749a6b8a3b09765ad4",
+    "processed/diagnostic_a_splits/Amazon_Beauty/file_order/train.csv": "c81fd1c1dbcbbe88ed4596e0d952397d1ff74ba70a5ba9d8f9e4038e72e05971",
+    "processed/recent_bucketset_r1/Amazon_Beauty/val/r1_samples.csv": "0f19f717b9c8a3230c8ce52735960fa48f4fb5e2c08c1787e0a4c52dbfbb5eb9",
+    "processed/recent_bucketset_r1/Amazon_Beauty/test/r1_samples.csv": "f9362385825ed79b07e4d262cf9ac7df2591c54cd7d8e95e54ba116bdaad5009",
+    "processed/strict_last_bucket_only/Amazon_Beauty/perm_seed101/test.csv": "3fd31820d36d69e4e65abc31854f52dc70665307c2f3085521f7cb8bb727a658",
+    "processed/strict_last_bucket_only/Amazon_Beauty/perm_seed202/test.csv": "b9526e02f4d3ffb6efca5e7e6fcc537f604b001aa021ffc90ae54abeab664285",
+    "processed/strict_last_bucket_only/Amazon_Beauty/perm_seed303/test.csv": "996369d5f666dd70cffd8a1b91650e9b18c7ee41db78073c0e04d76ce20e8aff",
+    "processed/strict_last_bucket_only/Amazon_Beauty/perm_seed404/test.csv": "5cb0e388cf7c71e115589059ac05368d0ac080feaea2f1e333e36bca22c09a6f",
+    "processed/strict_last_bucket_only/Amazon_Beauty/perm_seed505/test.csv": "82016273417f0e59797a3e370c181216b4c84f7c69a76c5ab0ed2d2fc4952e57",
+    "processed/diagnostic_a/Amazon_Beauty/file_order.csv": "2d2bc662b76400c93073b77673c7c2a1396f6b1604ea4b216461e925d7d54f47",
+    "step38_kais_retrain/outputs/beauty_sasrec_control_ce_bs128_lr1em3_max200_seed42/item_id_map.csv": "259b8725bf180ff02c3f9a7351c43fdf1de22aa51829c40437c2040f95737289",
+    "step38_kais_retrain/outputs/beauty_sasrec_control_ce_bs128_lr1em3_max200_seed42/config.json": "a453f393b09d374f25868d8d2a205953b2d0da064c41aad443568bc693ad8425"
+  },
+  "tasks": [
+    {
+      "dataset": "beauty",
+      "seed": 2026
+    }
+  ],
+  "protocol": {
+    "model_source": "https://github.com/RUCAIBox/RecBole-TRM",
+    "commit": "18b47f8ff98980bed2f2113b398e55b484e748b9",
+    "time_features": "visible last50 prefix-only native bucket offsets; scale=min positive unique gap or1; exact integer abs difference//scale clipped256; padding pairs0",
+    "padding": "valid-first right-padding; final valid length-1 gather; differs from Control right-aligned positions",
+    "target_time": "validation of strict history identity/chronology only, never model feature",
+    "training": "all legal next-item positions, chronological native bucket/source-row tie order, no new split/remapping",
+    "evaluation": "sealed canonical and5existing permutation CSVs; full candidate seen-minus-target mask; padding0 excluded; strict-greater rank, independent torch.topk10",
+    "affected": "distinct raw item histories across five perm panels>=2; original excluded; fixed across methods",
+    "stability": "all10unordered pairs/user then user mean overlap; any hit/nonhit change/user; training-seed variation separate",
+    "time_zero_and_position_zero": "preserve upstream padding_idx0 and normal initialization behavior",
+    "selection": "validation NDCG@10 only, strict > improvement, patience15, no test/seed selection",
+    "scope": "controlled external-backbone adaptation; no claim of original-paper metric reproduction or isolated time-matrix causal effect"
+  },
+  "e1_minimum_stopping_epochs": 50
+}

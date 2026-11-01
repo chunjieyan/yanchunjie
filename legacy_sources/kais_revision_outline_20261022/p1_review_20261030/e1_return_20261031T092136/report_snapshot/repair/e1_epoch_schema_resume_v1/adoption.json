@@ -1,0 +1,19 @@
+{
+  "patch_id": "e1_epoch_schema_resume_v1",
+  "status": "ADOPTED_SAVED_COMPLETED_RUN",
+  "id": "ml1m_shuffle_seed42",
+  "best_epoch": 31,
+  "stop_epoch": 50,
+  "checkpoint_sha256": {
+    "matched_control_sasrec_best.pt": "1fbc83edac82e6394e5138b0cecd2159a1f589822fbed1313d058cdc5cc7e596"
+  },
+  "fourth_checkpoint_digest_first_recorded_at_repair": true,
+  "checkpoint_note": "Original X3 training proof records the filename but no checkpoint digest; this repair binds its first digest. Subsequent inference must reproduce the saved canonical outputs.",
+  "output_metadata_sha256": {
+    "item_id_map.csv": "0dd7d6ee37d97e24be33253f5f0836890a818a255a5314519e1678d6c31885d5",
+    "training_log.csv": "5de902046dcd3874c7de238904a4bb184fe7a125d081c5269fe0e5367f90c410",
+    "test_per_sample_predictions.csv": "6b2720a3833eb42abc6c52e083242e981a97b6719411156a4736d26fe609c27c",
+    "metrics.json": "ddd78cd3cfc390fa64f986a71631cffeb5a5606bca94249313f0fb4cca56b077",
+    "config.json": "30bf5f942d194ea334c21e643642b9dfeddb98cebf84a56da4d86d5cfe94b0e2"
+  }
+}

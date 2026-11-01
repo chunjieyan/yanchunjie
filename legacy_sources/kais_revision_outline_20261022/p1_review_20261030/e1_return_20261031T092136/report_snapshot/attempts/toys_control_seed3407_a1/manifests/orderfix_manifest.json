@@ -1,0 +1,45 @@
+{
+  "version": "kais_e1_control_preparation_v2",
+  "status": "PREPARED_NOT_TRAINING_COMPLETION",
+  "patch_id": "e1_control_preparation_manifest_v2",
+  "root": "/root/autodl-tmp/time_uncertainty_rec",
+  "stage": "/root/autodl-tmp/time_uncertainty_rec/kais_e1_min50_v1_20261030T045527Z_3fca1af177/attempts/toys_control_seed3407_a1",
+  "job_id": "toys_control_seed3407",
+  "dataset": "toys",
+  "seed": 3407,
+  "generated_sha256": {
+    "scripts/model_definition.py": "74758f49cb95ee74cb68c60d44c7f5beacdcaf2bc8173b26bd5862434b786dc9",
+    "scripts/train_sports_orderfix.py": "4dc748e25de557656ae8446e42e1748e47255086c6b01e9fae79335b6de0a490",
+    "scripts/train_toys_orderfix.py": "2d77cb7eb50e92927e4b1cef9b391687ecc2ce192d0c1e00cb9257521fbd15a0"
+  },
+  "input_sha256": {
+    "processed/diagnostic_a/Amazon_Sports/file_order.csv": "e4619ab4f9e74f98b817a6a485b8453c1519bf380bc248fd1d2238fb8bed3a9c",
+    "processed/diagnostic_a/Amazon_Toys/file_order.csv": "8129322bddc716bfca6877a8c0e7cbf2b7ad3baf236fccc58ee95af1d08cf541",
+    "processed/diagnostic_a_splits/Amazon_Sports/file_order/train.csv": "8b78398cf350881125d04a15cd0b6181b17d1772d35f428ed61d3e9220a16539",
+    "processed/diagnostic_a_splits/Amazon_Toys/file_order/train.csv": "26e4e892b1e520fdc213bddad4af3f314e865f53a1c8cbcf1a4e0f60a83ff8c0",
+    "processed/strict_diagnostic_a/Amazon_Sports/file_order/test.csv": "5f2f31713ee7f6c92bb6fde915500d51f1a49328f3f1fc94f146530ad54e0e89",
+    "processed/strict_diagnostic_a/Amazon_Sports/file_order/val.csv": "8ffe18f11957ba4229aa42d4e1b5d2ffdfbf3ef2adb4ecd0ff3b349469cbe7fb",
+    "processed/strict_diagnostic_a/Amazon_Toys/file_order/test.csv": "3e287ca6be6c556d5abfd691666abdc4fde1eca10327d6b8329a8aa55d0df445",
+    "processed/strict_diagnostic_a/Amazon_Toys/file_order/val.csv": "5b2187611068dbf7f384e55489d3704710387ef42bf86fcf028836ae26e8f14d"
+  },
+  "frozen_model_sha256": "74758f49cb95ee74cb68c60d44c7f5beacdcaf2bc8173b26bd5862434b786dc9",
+  "original_policy_sha256": "a17cc41f3e38d83abe74e6152106d547d3582147d6673a2376f2c6b72b1abcb4",
+  "source_vendor_sha256": {
+    "train_sports_orderfix.py": "2fa42816658432c8e85f42b82d715aec4232c4c49d2b52e579b44da8f6a5f55a",
+    "train_toys_orderfix.py": "490269b75a87b5aabdb9195233a958fce4d67a5a8f95df093faca9dc46d8e4bb",
+    "model_definition.py": "74758f49cb95ee74cb68c60d44c7f5beacdcaf2bc8173b26bd5862434b786dc9"
+  },
+  "training_rule": {
+    "minimum_epochs": 50,
+    "patience": 15,
+    "max_epochs": 200,
+    "selection": "validation-best across all epochs; no reset at50"
+  },
+  "sequence_sort_keys": [
+    "user_id",
+    "time_bucket",
+    "raw_line"
+  ],
+  "sort_kind": "stable",
+  "scientific_trainers_or_original_bundle_changed_by_this_repair": false
+}

@@ -1,0 +1,305 @@
+{
+  "version": "lbsp_amazon_train_v1",
+  "status": "PREPARED_ONLY_NO_TRAINING_EXECUTED",
+  "created_utc": "2026-10-23T08:28:08.074438+00:00",
+  "root": "/root/autodl-tmp/time_uncertainty_rec",
+  "stage": "/root/autodl-tmp/time_uncertainty_rec/kais_e1_min50_v1_20261030T045527Z_3fca1af177/attempts/sports_lbsp_seed2026_a1",
+  "inputs": {
+    "version": "lbsp_amazon_train_v1",
+    "datasets": {
+      "beauty": {
+        "dataset": "Amazon_Beauty",
+        "seed": 42,
+        "expected_items": 12101,
+        "expected_val": 2856,
+        "expected_test": 2966,
+        "expected_positions": 138167,
+        "train_path": "processed/diagnostic_a_splits/Amazon_Beauty/file_order/train.csv",
+        "validation_path": "processed/recent_bucketset_r1/Amazon_Beauty/val/r1_samples.csv",
+        "test_path": "processed/recent_bucketset_r1/Amazon_Beauty/test/r1_samples.csv",
+        "control_trainer_source": "step38_kais_retrain/scripts/38_4_train_beauty_sasrec_bs128.py",
+        "sequence_sort_keys": [
+          "user_id",
+          "time_bucket",
+          "_source_order"
+        ],
+        "control_reference": {
+          "model_dir": "step38_kais_retrain/outputs/beauty_sasrec_control_ce_bs128_lr1em3_max200_seed42",
+          "files_sha256": {
+            "config.json": "a453f393b09d374f25868d8d2a205953b2d0da064c41aad443568bc693ad8425",
+            "metrics.json": "5e10b55ec8c550344e66c092ef6511ed524527f00d02d006627b8ec9206f9b2b",
+            "training_log.csv": "2b22f6ad9d8be45e775c053d65ff2f34b4392c14ebaa571d8e0e353341a9d887",
+            "test_per_sample_predictions.csv": "c9f0efd243532633594be0ca5b82f81aa1091facd8ad37ea06ffdb478330a40e",
+            "item_id_map.csv": "259b8725bf180ff02c3f9a7351c43fdf1de22aa51829c40437c2040f95737289"
+          }
+        }
+      },
+      "sports": {
+        "dataset": "Amazon_Sports",
+        "seed": 42,
+        "expected_items": 18357,
+        "expected_val": 4082,
+        "expected_test": 4659,
+        "expected_positions": 204047,
+        "train_path": "processed/diagnostic_a_splits/Amazon_Sports/file_order/train.csv",
+        "validation_path": "processed/strict_diagnostic_a/Amazon_Sports/file_order/val.csv",
+        "test_path": "processed/strict_diagnostic_a/Amazon_Sports/file_order/test.csv",
+        "control_trainer_source": "kais_orderfix_v1_20261022T081312Z_e335970a03a1/scripts/train_sports_orderfix.py",
+        "sequence_sort_keys": [
+          "user_id",
+          "time_bucket",
+          "raw_line"
+        ],
+        "control_reference": {
+          "model_dir": "kais_orderfix_v1_20261022T081312Z_e335970a03a1/outputs/amazon_sports_control_orderfix_seed42",
+          "files_sha256": {
+            "config.json": "95963620e83b1e06dcda21f947394b2adad4b0c7259b3f7b4f99a759d9493989",
+            "metrics.json": "ba3afef8d2451b67d6b4cd3d7cfde2479129288cdfb4bf305b545d3780e67d5b",
+            "training_log.csv": "798891b74b0df856d8fc5122570a514a3c3819bfa62d3e1f6fb6c676b6284581",
+            "test_per_sample_predictions.csv": "9ef7554252ff843a1b5bf7e3809aba4827c96427aee66744f06de70852119e5e",
+            "item_id_map.csv": "8f0e80ba0e996b19409cd72b3ed838242397f548cf38604ffd73d58677e29fee"
+          }
+        }
+      },
+      "toys": {
+        "dataset": "Amazon_Toys",
+        "seed": 42,
+        "expected_items": 11924,
+        "expected_val": 1939,
+        "expected_test": 2547,
+        "expected_positions": 116686,
+        "train_path": "processed/diagnostic_a_splits/Amazon_Toys/file_order/train.csv",
+        "validation_path": "processed/strict_diagnostic_a/Amazon_Toys/file_order/val.csv",
+        "test_path": "processed/strict_diagnostic_a/Amazon_Toys/file_order/test.csv",
+        "control_trainer_source": "kais_orderfix_v1_20261022T081312Z_e335970a03a1/scripts/train_toys_orderfix.py",
+        "sequence_sort_keys": [
+          "user_id",
+          "time_bucket",
+          "raw_line"
+        ],
+        "control_reference": {
+          "model_dir": "kais_orderfix_v1_20261022T081312Z_e335970a03a1/outputs/amazon_toys_control_orderfix_seed42",
+          "files_sha256": {
+            "config.json": "18d9418f4eb6870929258deb4186a5ee160210d1bf57e55263b076d44a48b64e",
+            "metrics.json": "2b7ce49edd8c7825f0b1d4f63db4895210e6b7339e640553c4b1924a0ab9b307",
+            "training_log.csv": "057de30a3015899d2d1ebcfcabfc0731e2f05c864fd6dddfbc9ed97402c1f1ac",
+            "test_per_sample_predictions.csv": "9b4b5854ff4c05a6b563236e2a6b436d83931f640bf435725294ee2e0fb89cd9",
+            "item_id_map.csv": "d6e1135f71ad9749caa6db9743045e1e65860bd62df6f42e0b76642c08645c60"
+          }
+        }
+      }
+    },
+    "template_source": "step38_kais_retrain/scripts/38_20_train_ml1m_r1_bs128.py",
+    "model_source": "audit/33_2_train_movielens_r1_seed42.py",
+    "sources_sha256": {
+      "step38_kais_retrain/scripts/38_20_train_ml1m_r1_bs128.py": "c718592e65a3d66f2ec1ce6d22c8b9abc3b8d4a393dde49ae014247414741b38",
+      "audit/33_2_train_movielens_r1_seed42.py": "e8ae647f3fa3cc2ef9f3087a0ae44cfbd4da2706b2ce33fc558fff0678a04ffb",
+      "step38_kais_retrain/scripts/38_4_train_beauty_sasrec_bs128.py": "29c528543757d18b54b18a8c09d4dd4e573e125cc5128e9a13ae702b4be5d48e",
+      "kais_orderfix_v1_20261022T081312Z_e335970a03a1/scripts/train_sports_orderfix.py": "2fa42816658432c8e85f42b82d715aec4232c4c49d2b52e579b44da8f6a5f55a",
+      "kais_orderfix_v1_20261022T081312Z_e335970a03a1/scripts/train_toys_orderfix.py": "490269b75a87b5aabdb9195233a958fce4d67a5a8f95df093faca9dc46d8e4bb"
+    },
+    "data_sha256": {
+      "processed/diagnostic_a_splits/Amazon_Beauty/file_order/train.csv": "c81fd1c1dbcbbe88ed4596e0d952397d1ff74ba70a5ba9d8f9e4038e72e05971",
+      "processed/recent_bucketset_r1/Amazon_Beauty/val/r1_samples.csv": "0f19f717b9c8a3230c8ce52735960fa48f4fb5e2c08c1787e0a4c52dbfbb5eb9",
+      "processed/recent_bucketset_r1/Amazon_Beauty/test/r1_samples.csv": "f9362385825ed79b07e4d262cf9ac7df2591c54cd7d8e95e54ba116bdaad5009",
+      "processed/diagnostic_a_splits/Amazon_Sports/file_order/train.csv": "8b78398cf350881125d04a15cd0b6181b17d1772d35f428ed61d3e9220a16539",
+      "processed/strict_diagnostic_a/Amazon_Sports/file_order/val.csv": "8ffe18f11957ba4229aa42d4e1b5d2ffdfbf3ef2adb4ecd0ff3b349469cbe7fb",
+      "processed/strict_diagnostic_a/Amazon_Sports/file_order/test.csv": "5f2f31713ee7f6c92bb6fde915500d51f1a49328f3f1fc94f146530ad54e0e89",
+      "processed/diagnostic_a_splits/Amazon_Toys/file_order/train.csv": "26e4e892b1e520fdc213bddad4af3f314e865f53a1c8cbcf1a4e0f60a83ff8c0",
+      "processed/strict_diagnostic_a/Amazon_Toys/file_order/val.csv": "5b2187611068dbf7f384e55489d3704710387ef42bf86fcf028836ae26e8f14d",
+      "processed/strict_diagnostic_a/Amazon_Toys/file_order/test.csv": "3e287ca6be6c556d5abfd691666abdc4fde1eca10327d6b8329a8aa55d0df445"
+    },
+    "hyperparameters": {
+      "max_len": 50,
+      "hidden_size": 64,
+      "num_heads": 2,
+      "num_blocks": 2,
+      "dropout": 0.2,
+      "training_batch_size": 128,
+      "evaluation_batch_size": 256,
+      "learning_rate": 0.001,
+      "max_epochs": 200,
+      "patience": 15
+    },
+    "scope": "Nine new Amazon LBSP formal trainings: three fixed seeds per dataset, fixed validated hyperparameters, validation NDCG@10 selects best checkpoint, final canonical test evaluation. Source and corrected temporal order are pinned to audited three-dataset smoke checks. Five-permutation stability evaluation is a subsequent step.",
+    "formal_seeds": [
+      42,
+      2026,
+      3407
+    ],
+    "smoke_reference": {
+      "stage": "/root/autodl-tmp/time_uncertainty_rec/kais_lbsp_amazon_smoke_v1_20261023T073215Z_9eeed6c3de08",
+      "manifest_sha256": "a2989c66fc1c36200cfd9b594184b7bafdd4825f7e65981bb7df118a0d083946",
+      "files_sha256": {
+        "manifests/lbsp_amazon_smoke_manifest.json": "a2989c66fc1c36200cfd9b594184b7bafdd4825f7e65981bb7df118a0d083946",
+        "verification/PREPARED.json": "696fce731616531e6533d5442d1896f718d1e3d919ab9ac85bff5bbfabff2a0c",
+        "scripts/model_definition.py": "500244e2a920b3d256176b6cad0c79031d9dc327b9b2b812214005f5764a6a6a",
+        "scripts/smoke_beauty_lbsp.py": "144154486d8d1fa28d340683393da662532190243bbe8d00dd1366344b2d1eee",
+        "scripts/smoke_sports_lbsp.py": "029d2d0879d92b07f907ae74fbf17aa153cb9b6d9e3a0421cdc61bf1e8141909",
+        "scripts/smoke_toys_lbsp.py": "b22f96b9fd004e8d08510716ac17088ef996e4bd56d3e2ae75b250f0c768d00b",
+        "verification/smoke_beauty.json": "59aaaf66690e95792e59af31ad35fab3c7a060f7a687f8e91a90c38880bd1aa3",
+        "verification/smoke_sports.json": "5b83596510029155e3b30d8c0c00708da0af297d8490e8e607b11f7206084e33",
+        "verification/smoke_toys.json": "cab4b2be9fdfa97cce47cbf9fa47aa234bcedbc691ebf400a17275c7ccf08fa8",
+        "verification/lbsp_amazon_smoke_driver_20261023T073215Z_e696a2f0.json": "be776940f42298e73a849a526669d4fb307cece221b2fe73d6328bf4a8ad880e",
+        "verification/beauty_seed42_smoke_20261023T073215Z_e696a2f0.log": "145852c44fd60e80969fb39513c30acbb91a58aa71e319c021f235f7087c7d0f",
+        "verification/sports_seed42_smoke_20261023T073215Z_e696a2f0.log": "ce60341de3bec12f5980d2175a12a6231f9dc09c55415ee8e26a95ad4fd1e9c5",
+        "verification/toys_seed42_smoke_20261023T073215Z_e696a2f0.log": "876876621066f207c1305184703b1b69671c1224b826ebad5567d1f4052d0053"
+      }
+    }
+  },
+  "inputs_sha256": "aad9c9a404f04df9b355d6aa6b4ca0b26905d9763ee9fb3915c9f3e102682ff2",
+  "generated_sha256": {
+    "scripts/train_sports_lbsp.py": "117efd5edeba57200dd0a72780beedcbfe8ce93eadc83f2f700b99b75b7a81cf",
+    "scripts/train_toys_lbsp.py": "4cc80075208b2b6e8fd224d0467aadce0a6911a4b3ddb5a09c0562e3cabd9399",
+    "scripts/model_definition.py": "500244e2a920b3d256176b6cad0c79031d9dc327b9b2b812214005f5764a6a6a"
+  },
+  "sources_sha256": {
+    "step38_kais_retrain/scripts/38_20_train_ml1m_r1_bs128.py": "c718592e65a3d66f2ec1ce6d22c8b9abc3b8d4a393dde49ae014247414741b38",
+    "audit/33_2_train_movielens_r1_seed42.py": "e8ae647f3fa3cc2ef9f3087a0ae44cfbd4da2706b2ce33fc558fff0678a04ffb",
+    "step38_kais_retrain/scripts/38_4_train_beauty_sasrec_bs128.py": "29c528543757d18b54b18a8c09d4dd4e573e125cc5128e9a13ae702b4be5d48e",
+    "kais_orderfix_v1_20261022T081312Z_e335970a03a1/scripts/train_sports_orderfix.py": "2fa42816658432c8e85f42b82d715aec4232c4c49d2b52e579b44da8f6a5f55a",
+    "kais_orderfix_v1_20261022T081312Z_e335970a03a1/scripts/train_toys_orderfix.py": "490269b75a87b5aabdb9195233a958fce4d67a5a8f95df093faca9dc46d8e4bb"
+  },
+  "data_sha256": {
+    "processed/diagnostic_a_splits/Amazon_Beauty/file_order/train.csv": "c81fd1c1dbcbbe88ed4596e0d952397d1ff74ba70a5ba9d8f9e4038e72e05971",
+    "processed/recent_bucketset_r1/Amazon_Beauty/val/r1_samples.csv": "0f19f717b9c8a3230c8ce52735960fa48f4fb5e2c08c1787e0a4c52dbfbb5eb9",
+    "processed/recent_bucketset_r1/Amazon_Beauty/test/r1_samples.csv": "f9362385825ed79b07e4d262cf9ac7df2591c54cd7d8e95e54ba116bdaad5009",
+    "processed/diagnostic_a_splits/Amazon_Sports/file_order/train.csv": "8b78398cf350881125d04a15cd0b6181b17d1772d35f428ed61d3e9220a16539",
+    "processed/strict_diagnostic_a/Amazon_Sports/file_order/val.csv": "8ffe18f11957ba4229aa42d4e1b5d2ffdfbf3ef2adb4ecd0ff3b349469cbe7fb",
+    "processed/strict_diagnostic_a/Amazon_Sports/file_order/test.csv": "5f2f31713ee7f6c92bb6fde915500d51f1a49328f3f1fc94f146530ad54e0e89",
+    "processed/diagnostic_a_splits/Amazon_Toys/file_order/train.csv": "26e4e892b1e520fdc213bddad4af3f314e865f53a1c8cbcf1a4e0f60a83ff8c0",
+    "processed/strict_diagnostic_a/Amazon_Toys/file_order/val.csv": "5b2187611068dbf7f384e55489d3704710387ef42bf86fcf028836ae26e8f14d",
+    "processed/strict_diagnostic_a/Amazon_Toys/file_order/test.csv": "3e287ca6be6c556d5abfd691666abdc4fde1eca10327d6b8329a8aa55d0df445"
+  },
+  "smoke_reference": {
+    "stage": "/root/autodl-tmp/time_uncertainty_rec/kais_lbsp_amazon_smoke_v1_20261023T073215Z_9eeed6c3de08",
+    "manifest_sha256": "a2989c66fc1c36200cfd9b594184b7bafdd4825f7e65981bb7df118a0d083946",
+    "files_sha256": {
+      "manifests/lbsp_amazon_smoke_manifest.json": "a2989c66fc1c36200cfd9b594184b7bafdd4825f7e65981bb7df118a0d083946",
+      "verification/PREPARED.json": "696fce731616531e6533d5442d1896f718d1e3d919ab9ac85bff5bbfabff2a0c",
+      "scripts/model_definition.py": "500244e2a920b3d256176b6cad0c79031d9dc327b9b2b812214005f5764a6a6a",
+      "scripts/smoke_beauty_lbsp.py": "144154486d8d1fa28d340683393da662532190243bbe8d00dd1366344b2d1eee",
+      "scripts/smoke_sports_lbsp.py": "029d2d0879d92b07f907ae74fbf17aa153cb9b6d9e3a0421cdc61bf1e8141909",
+      "scripts/smoke_toys_lbsp.py": "b22f96b9fd004e8d08510716ac17088ef996e4bd56d3e2ae75b250f0c768d00b",
+      "verification/smoke_beauty.json": "59aaaf66690e95792e59af31ad35fab3c7a060f7a687f8e91a90c38880bd1aa3",
+      "verification/smoke_sports.json": "5b83596510029155e3b30d8c0c00708da0af297d8490e8e607b11f7206084e33",
+      "verification/smoke_toys.json": "cab4b2be9fdfa97cce47cbf9fa47aa234bcedbc691ebf400a17275c7ccf08fa8",
+      "verification/lbsp_amazon_smoke_driver_20261023T073215Z_e696a2f0.json": "be776940f42298e73a849a526669d4fb307cece221b2fe73d6328bf4a8ad880e",
+      "verification/beauty_seed42_smoke_20261023T073215Z_e696a2f0.log": "145852c44fd60e80969fb39513c30acbb91a58aa71e319c021f235f7087c7d0f",
+      "verification/sports_seed42_smoke_20261023T073215Z_e696a2f0.log": "ce60341de3bec12f5980d2175a12a6231f9dc09c55415ee8e26a95ad4fd1e9c5",
+      "verification/toys_seed42_smoke_20261023T073215Z_e696a2f0.log": "876876621066f207c1305184703b1b69671c1224b826ebad5567d1f4052d0053"
+    }
+  },
+  "datasets": {
+    "beauty": {
+      "dataset": "Amazon_Beauty",
+      "seed": 42,
+      "expected_items": 12101,
+      "expected_val": 2856,
+      "expected_test": 2966,
+      "expected_positions": 138167,
+      "train_path": "processed/diagnostic_a_splits/Amazon_Beauty/file_order/train.csv",
+      "validation_path": "processed/recent_bucketset_r1/Amazon_Beauty/val/r1_samples.csv",
+      "test_path": "processed/recent_bucketset_r1/Amazon_Beauty/test/r1_samples.csv",
+      "control_trainer_source": "step38_kais_retrain/scripts/38_4_train_beauty_sasrec_bs128.py",
+      "sequence_sort_keys": [
+        "user_id",
+        "time_bucket",
+        "_source_order"
+      ],
+      "control_reference": {
+        "model_dir": "step38_kais_retrain/outputs/beauty_sasrec_control_ce_bs128_lr1em3_max200_seed42",
+        "files_sha256": {
+          "config.json": "a453f393b09d374f25868d8d2a205953b2d0da064c41aad443568bc693ad8425",
+          "metrics.json": "5e10b55ec8c550344e66c092ef6511ed524527f00d02d006627b8ec9206f9b2b",
+          "training_log.csv": "2b22f6ad9d8be45e775c053d65ff2f34b4392c14ebaa571d8e0e353341a9d887",
+          "test_per_sample_predictions.csv": "c9f0efd243532633594be0ca5b82f81aa1091facd8ad37ea06ffdb478330a40e",
+          "item_id_map.csv": "259b8725bf180ff02c3f9a7351c43fdf1de22aa51829c40437c2040f95737289"
+        }
+      }
+    },
+    "sports": {
+      "dataset": "Amazon_Sports",
+      "seed": 42,
+      "expected_items": 18357,
+      "expected_val": 4082,
+      "expected_test": 4659,
+      "expected_positions": 204047,
+      "train_path": "processed/diagnostic_a_splits/Amazon_Sports/file_order/train.csv",
+      "validation_path": "processed/strict_diagnostic_a/Amazon_Sports/file_order/val.csv",
+      "test_path": "processed/strict_diagnostic_a/Amazon_Sports/file_order/test.csv",
+      "control_trainer_source": "kais_orderfix_v1_20261022T081312Z_e335970a03a1/scripts/train_sports_orderfix.py",
+      "sequence_sort_keys": [
+        "user_id",
+        "time_bucket",
+        "raw_line"
+      ],
+      "control_reference": {
+        "model_dir": "kais_orderfix_v1_20261022T081312Z_e335970a03a1/outputs/amazon_sports_control_orderfix_seed42",
+        "files_sha256": {
+          "config.json": "95963620e83b1e06dcda21f947394b2adad4b0c7259b3f7b4f99a759d9493989",
+          "metrics.json": "ba3afef8d2451b67d6b4cd3d7cfde2479129288cdfb4bf305b545d3780e67d5b",
+          "training_log.csv": "798891b74b0df856d8fc5122570a514a3c3819bfa62d3e1f6fb6c676b6284581",
+          "test_per_sample_predictions.csv": "9ef7554252ff843a1b5bf7e3809aba4827c96427aee66744f06de70852119e5e",
+          "item_id_map.csv": "8f0e80ba0e996b19409cd72b3ed838242397f548cf38604ffd73d58677e29fee"
+        }
+      }
+    },
+    "toys": {
+      "dataset": "Amazon_Toys",
+      "seed": 42,
+      "expected_items": 11924,
+      "expected_val": 1939,
+      "expected_test": 2547,
+      "expected_positions": 116686,
+      "train_path": "processed/diagnostic_a_splits/Amazon_Toys/file_order/train.csv",
+      "validation_path": "processed/strict_diagnostic_a/Amazon_Toys/file_order/val.csv",
+      "test_path": "processed/strict_diagnostic_a/Amazon_Toys/file_order/test.csv",
+      "control_trainer_source": "kais_orderfix_v1_20261022T081312Z_e335970a03a1/scripts/train_toys_orderfix.py",
+      "sequence_sort_keys": [
+        "user_id",
+        "time_bucket",
+        "raw_line"
+      ],
+      "control_reference": {
+        "model_dir": "kais_orderfix_v1_20261022T081312Z_e335970a03a1/outputs/amazon_toys_control_orderfix_seed42",
+        "files_sha256": {
+          "config.json": "18d9418f4eb6870929258deb4186a5ee160210d1bf57e55263b076d44a48b64e",
+          "metrics.json": "2b7ce49edd8c7825f0b1d4f63db4895210e6b7339e640553c4b1924a0ab9b307",
+          "training_log.csv": "057de30a3015899d2d1ebcfcabfc0731e2f05c864fd6dddfbc9ed97402c1f1ac",
+          "test_per_sample_predictions.csv": "9b4b5854ff4c05a6b563236e2a6b436d83931f640bf435725294ee2e0fb89cd9",
+          "item_id_map.csv": "d6e1135f71ad9749caa6db9743045e1e65860bd62df6f42e0b76642c08645c60"
+        }
+      }
+    }
+  },
+  "formal_seeds": [
+    42,
+    2026,
+    3407
+  ],
+  "reference_files_sha256": {
+    "references/beauty_seed42/config.json": "a453f393b09d374f25868d8d2a205953b2d0da064c41aad443568bc693ad8425",
+    "references/beauty_seed42/metrics.json": "5e10b55ec8c550344e66c092ef6511ed524527f00d02d006627b8ec9206f9b2b",
+    "references/beauty_seed42/training_log.csv": "2b22f6ad9d8be45e775c053d65ff2f34b4392c14ebaa571d8e0e353341a9d887",
+    "references/beauty_seed42/test_per_sample_predictions.csv": "c9f0efd243532633594be0ca5b82f81aa1091facd8ad37ea06ffdb478330a40e",
+    "references/beauty_seed42/item_id_map.csv": "259b8725bf180ff02c3f9a7351c43fdf1de22aa51829c40437c2040f95737289",
+    "references/sports_seed42/config.json": "95963620e83b1e06dcda21f947394b2adad4b0c7259b3f7b4f99a759d9493989",
+    "references/sports_seed42/metrics.json": "ba3afef8d2451b67d6b4cd3d7cfde2479129288cdfb4bf305b545d3780e67d5b",
+    "references/sports_seed42/training_log.csv": "798891b74b0df856d8fc5122570a514a3c3819bfa62d3e1f6fb6c676b6284581",
+    "references/sports_seed42/test_per_sample_predictions.csv": "9ef7554252ff843a1b5bf7e3809aba4827c96427aee66744f06de70852119e5e",
+    "references/sports_seed42/item_id_map.csv": "8f0e80ba0e996b19409cd72b3ed838242397f548cf38604ffd73d58677e29fee",
+    "references/toys_seed42/config.json": "18d9418f4eb6870929258deb4186a5ee160210d1bf57e55263b076d44a48b64e",
+    "references/toys_seed42/metrics.json": "2b7ce49edd8c7825f0b1d4f63db4895210e6b7339e640553c4b1924a0ab9b307",
+    "references/toys_seed42/training_log.csv": "057de30a3015899d2d1ebcfcabfc0731e2f05c864fd6dddfbc9ed97402c1f1ac",
+    "references/toys_seed42/test_per_sample_predictions.csv": "9b4b5854ff4c05a6b563236e2a6b436d83931f640bf435725294ee2e0fb89cd9",
+    "references/toys_seed42/item_id_map.csv": "d6e1135f71ad9749caa6db9743045e1e65860bd62df6f42e0b76642c08645c60"
+  },
+  "scientific_definitions_unchanged": true,
+  "formal_rng_reset_preserved": true,
+  "smoke_execution_omitted": true,
+  "checkpoint_contents_read": false,
+  "checkpoint_statted": false,
+  "scope": "Nine new Amazon LBSP formal trainings: three fixed seeds per dataset, fixed validated hyperparameters, validation NDCG@10 selects best checkpoint, final canonical test evaluation. Source and corrected temporal order are pinned to audited three-dataset smoke checks. Five-permutation stability evaluation is a subsequent step.",
+  "e1_minimum_stopping_epochs": 50
+}

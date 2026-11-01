@@ -1,0 +1,204 @@
+{
+  "root": "/root/autodl-tmp/time_uncertainty_rec",
+  "stage": "/root/autodl-tmp/time_uncertainty_rec/kais_e1_min50_v1_20261030T045527Z_3fca1af177",
+  "policy_sha256": "a17cc41f3e38d83abe74e6152106d547d3582147d6673a2376f2c6b72b1abcb4",
+  "bundle_root": "/root/autodl-tmp/time_uncertainty_rec/kais_e1_min50_toolkit",
+  "status": "STOPPED_INCOMPLETE",
+  "jobs": {
+    "ml1m_lbsp_seed42": {
+      "attempts": [
+        {
+          "number": 1,
+          "native_stage": "/root/autodl-tmp/time_uncertainty_rec/kais_e1_min50_v1_20261030T045527Z_3fca1af177/attempts/ml1m_lbsp_seed42_a1",
+          "status": "COMPLETED"
+        }
+      ],
+      "status": "COMPLETED",
+      "native_stage": "/root/autodl-tmp/time_uncertainty_rec/kais_e1_min50_v1_20261030T045527Z_3fca1af177/attempts/ml1m_lbsp_seed42_a1",
+      "completion_proof": "/root/autodl-tmp/time_uncertainty_rec/kais_e1_min50_v1_20261030T045527Z_3fca1af177/attempts/ml1m_lbsp_seed42_a1/verification/E1_COMPLETED.json"
+    },
+    "ml1m_lbsp_seed2026": {
+      "attempts": [
+        {
+          "number": 1,
+          "native_stage": "/root/autodl-tmp/time_uncertainty_rec/kais_e1_min50_v1_20261030T045527Z_3fca1af177/attempts/ml1m_lbsp_seed2026_a1",
+          "status": "COMPLETED"
+        }
+      ],
+      "status": "COMPLETED",
+      "native_stage": "/root/autodl-tmp/time_uncertainty_rec/kais_e1_min50_v1_20261030T045527Z_3fca1af177/attempts/ml1m_lbsp_seed2026_a1",
+      "completion_proof": "/root/autodl-tmp/time_uncertainty_rec/kais_e1_min50_v1_20261030T045527Z_3fca1af177/attempts/ml1m_lbsp_seed2026_a1/verification/E1_COMPLETED.json"
+    },
+    "ml1m_lbsp_seed3407": {
+      "attempts": [
+        {
+          "number": 1,
+          "native_stage": "/root/autodl-tmp/time_uncertainty_rec/kais_e1_min50_v1_20261030T045527Z_3fca1af177/attempts/ml1m_lbsp_seed3407_a1",
+          "status": "COMPLETED"
+        }
+      ],
+      "status": "COMPLETED",
+      "native_stage": "/root/autodl-tmp/time_uncertainty_rec/kais_e1_min50_v1_20261030T045527Z_3fca1af177/attempts/ml1m_lbsp_seed3407_a1",
+      "completion_proof": "/root/autodl-tmp/time_uncertainty_rec/kais_e1_min50_v1_20261030T045527Z_3fca1af177/attempts/ml1m_lbsp_seed3407_a1/verification/E1_COMPLETED.json"
+    },
+    "ml1m_shuffle_seed42": {
+      "attempts": [
+        {
+          "number": 1,
+          "native_stage": "/root/autodl-tmp/time_uncertainty_rec/kais_e1_min50_v1_20261030T045527Z_3fca1af177/attempts/ml1m_shuffle_seed42_a1",
+          "status": "COMPLETED"
+        }
+      ],
+      "status": "COMPLETED",
+      "native_stage": "/root/autodl-tmp/time_uncertainty_rec/kais_e1_min50_v1_20261030T045527Z_3fca1af177/attempts/ml1m_shuffle_seed42_a1",
+      "completion_proof": "/root/autodl-tmp/time_uncertainty_rec/kais_e1_min50_v1_20261030T045527Z_3fca1af177/attempts/ml1m_shuffle_seed42_a1/verification/E1_COMPLETED.json"
+    },
+    "ml1m_shuffle_seed3407": {
+      "attempts": [
+        {
+          "number": 1,
+          "native_stage": "/root/autodl-tmp/time_uncertainty_rec/kais_e1_min50_v1_20261030T045527Z_3fca1af177/attempts/ml1m_shuffle_seed3407_a1",
+          "status": "COMPLETED"
+        }
+      ],
+      "status": "COMPLETED",
+      "native_stage": "/root/autodl-tmp/time_uncertainty_rec/kais_e1_min50_v1_20261030T045527Z_3fca1af177/attempts/ml1m_shuffle_seed3407_a1",
+      "completion_proof": "/root/autodl-tmp/time_uncertainty_rec/kais_e1_min50_v1_20261030T045527Z_3fca1af177/attempts/ml1m_shuffle_seed3407_a1/verification/E1_COMPLETED.json"
+    },
+    "ml1m_tisasrec_seed42": {
+      "attempts": [
+        {
+          "number": 1,
+          "native_stage": "/root/autodl-tmp/time_uncertainty_rec/kais_x4_tisasrec_v1_e1_20261030T045527Z_3fca1af177_ml1m_tisasrec_seed42_a1",
+          "status": "COMPLETED"
+        }
+      ],
+      "status": "COMPLETED",
+      "native_stage": "/root/autodl-tmp/time_uncertainty_rec/kais_x4_tisasrec_v1_e1_20261030T045527Z_3fca1af177_ml1m_tisasrec_seed42_a1",
+      "completion_proof": "/root/autodl-tmp/time_uncertainty_rec/kais_x4_tisasrec_v1_e1_20261030T045527Z_3fca1af177_ml1m_tisasrec_seed42_a1/verification/E1_COMPLETED.json"
+    },
+    "ml1m_tisasrec_seed2026": {
+      "attempts": [
+        {
+          "number": 1,
+          "native_stage": "/root/autodl-tmp/time_uncertainty_rec/kais_x4_tisasrec_v1_e1_20261030T045527Z_3fca1af177_ml1m_tisasrec_seed2026_a1",
+          "status": "COMPLETED"
+        }
+      ],
+      "status": "COMPLETED",
+      "native_stage": "/root/autodl-tmp/time_uncertainty_rec/kais_x4_tisasrec_v1_e1_20261030T045527Z_3fca1af177_ml1m_tisasrec_seed2026_a1",
+      "completion_proof": "/root/autodl-tmp/time_uncertainty_rec/kais_x4_tisasrec_v1_e1_20261030T045527Z_3fca1af177_ml1m_tisasrec_seed2026_a1/verification/E1_COMPLETED.json"
+    },
+    "beauty_tisasrec_seed42": {
+      "attempts": [
+        {
+          "number": 1,
+          "native_stage": "/root/autodl-tmp/time_uncertainty_rec/kais_x4_tisasrec_v1_e1_20261030T045527Z_3fca1af177_beauty_tisasrec_seed42_a1",
+          "status": "COMPLETED"
+        }
+      ],
+      "status": "COMPLETED",
+      "native_stage": "/root/autodl-tmp/time_uncertainty_rec/kais_x4_tisasrec_v1_e1_20261030T045527Z_3fca1af177_beauty_tisasrec_seed42_a1",
+      "completion_proof": "/root/autodl-tmp/time_uncertainty_rec/kais_x4_tisasrec_v1_e1_20261030T045527Z_3fca1af177_beauty_tisasrec_seed42_a1/verification/E1_COMPLETED.json"
+    },
+    "beauty_tisasrec_seed2026": {
+      "attempts": [
+        {
+          "number": 1,
+          "native_stage": "/root/autodl-tmp/time_uncertainty_rec/kais_x4_tisasrec_v1_e1_20261030T045527Z_3fca1af177_beauty_tisasrec_seed2026_a1",
+          "status": "COMPLETED"
+        }
+      ],
+      "status": "COMPLETED",
+      "native_stage": "/root/autodl-tmp/time_uncertainty_rec/kais_x4_tisasrec_v1_e1_20261030T045527Z_3fca1af177_beauty_tisasrec_seed2026_a1",
+      "completion_proof": "/root/autodl-tmp/time_uncertainty_rec/kais_x4_tisasrec_v1_e1_20261030T045527Z_3fca1af177_beauty_tisasrec_seed2026_a1/verification/E1_COMPLETED.json"
+    },
+    "beauty_tisasrec_seed3407": {
+      "attempts": [
+        {
+          "number": 1,
+          "native_stage": "/root/autodl-tmp/time_uncertainty_rec/kais_x4_tisasrec_v1_e1_20261030T045527Z_3fca1af177_beauty_tisasrec_seed3407_a1",
+          "status": "COMPLETED"
+        }
+      ],
+      "status": "COMPLETED",
+      "native_stage": "/root/autodl-tmp/time_uncertainty_rec/kais_x4_tisasrec_v1_e1_20261030T045527Z_3fca1af177_beauty_tisasrec_seed3407_a1",
+      "completion_proof": "/root/autodl-tmp/time_uncertainty_rec/kais_x4_tisasrec_v1_e1_20261030T045527Z_3fca1af177_beauty_tisasrec_seed3407_a1/verification/E1_COMPLETED.json"
+    },
+    "sports_control_seed2026": {
+      "attempts": [
+        {
+          "number": 1,
+          "native_stage": "/root/autodl-tmp/time_uncertainty_rec/kais_e1_min50_v1_20261030T045527Z_3fca1af177/attempts/sports_control_seed2026_a1",
+          "status": "RUNNING"
+        }
+      ],
+      "status": "RUNNING",
+      "native_stage": "/root/autodl-tmp/time_uncertainty_rec/kais_e1_min50_v1_20261030T045527Z_3fca1af177/attempts/sports_control_seed2026_a1"
+    },
+    "sports_lbsp_seed42": {
+      "attempts": []
+    },
+    "sports_lbsp_seed2026": {
+      "attempts": []
+    },
+    "toys_control_seed42": {
+      "attempts": []
+    },
+    "toys_control_seed2026": {
+      "attempts": []
+    },
+    "toys_control_seed3407": {
+      "attempts": []
+    },
+    "toys_lbsp_seed42": {
+      "attempts": []
+    },
+    "toys_shuffle_seed42": {
+      "attempts": []
+    },
+    "toys_shuffle_seed3407": {
+      "attempts": []
+    }
+  },
+  "execution_environments": [
+    {
+      "python": "3.10.22 (main, Oct  1 2026, 20:14:04) [GCC 14.3.0]",
+      "executable": "/root/miniconda3/envs/yancj/bin/python",
+      "torch": "2.13.0+cu132",
+      "cuda": "13.2",
+      "device": "NVIDIA GeForce RTX 4090"
+    },
+    {
+      "python": "3.10.22 (main, Oct  1 2026, 20:14:04) [GCC 14.3.0]",
+      "executable": "/root/miniconda3/envs/yancj/bin/python",
+      "torch": "2.13.0+cu132",
+      "cuda": "13.2",
+      "device": "NVIDIA GeForce RTX 4090"
+    }
+  ],
+  "repair_history": [
+    {
+      "patch_id": "e1_epoch_schema_resume_v1",
+      "overlay_manifest_sha256": "0e8a883a49a9209c97daef5bcb73d34081a60ed02957ef49fbc28a7e5e377152",
+      "entrypoint_sha256": "c49c85d2af206c9ba697cc4dbfb43232b779cb747e2cd711f79fef0b3f76b60e",
+      "original_policy_sha256": "a17cc41f3e38d83abe74e6152106d547d3582147d6673a2376f2c6b72b1abcb4",
+      "original_runtime_sha256": {
+        "e1_common.py": "acdab5333b4de66839c0dbb21b7d64d1f08e98955eaba50507341e160458f51d",
+        "run_e1_min50.py": "32bd28ef3e2784a5be890fc896fc6878ebeb16bc82bb78ba9e084d453d6eeff1",
+        "collect_e1_min50.py": "5804c7937f08d662dc6d5bb9d003eb0641cee78981392a8b133a15bff296962c",
+        "e1_policy.json": "a17cc41f3e38d83abe74e6152106d547d3582147d6673a2376f2c6b72b1abcb4"
+      },
+      "original_driver_preimage_sha256": "e591a15fe6bea2558c1f3999e522e6eec828a240fa8ea3e925c8c404781be75d",
+      "reason": "Saved Shuffle config uses epochs=200; original validator read only max_epochs.",
+      "validator_delta": "Recognize epochs/max_epochs, require each supplied cap to equal200 and patience15; no config/source edits.",
+      "adopt_job_id": "ml1m_shuffle_seed42",
+      "scientific_trainers_or_original_bundle_changed": false,
+      "path": "/root/autodl-tmp/time_uncertainty_rec/kais_e1_min50_v1_20261030T045527Z_3fca1af177/repair/e1_epoch_schema_resume_v1",
+      "prior_status": "STOPPED_INCOMPLETE",
+      "prior_error": "ValueError: Output stopping budget differs",
+      "registered_at_utc": "2026-10-30T09:27:33.949353+00:00"
+    }
+  ],
+  "error": "ValueError: Child failed with exit 1; see /root/autodl-tmp/time_uncertainty_rec/kais_e1_min50_v1_20261030T045527Z_3fca1af177/attempts/sports_control_seed2026_a1/verification/train.log"
+}

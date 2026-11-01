@@ -1,0 +1,237 @@
+{
+  "version": "x3_shuffle_v1",
+  "root": "/root/autodl-tmp/time_uncertainty_rec",
+  "stage": "/root/autodl-tmp/time_uncertainty_rec/kais_e1_min50_v1_20261030T045527Z_3fca1af177/attempts/ml1m_shuffle_seed3407_a1",
+  "created_utc": "2026-10-26T01:43:32.663505+00:00",
+  "status": "PREPARED_ONLY_NO_RESEARCH_EXECUTED",
+  "inputs": {
+    "version": "x3_shuffle_v1",
+    "training_seeds": [
+      42,
+      2026,
+      3407
+    ],
+    "model_source": "step38_kais_retrain/scripts/38_1_train_ml1m_sasrec_bs128.py",
+    "sources_sha256": {
+      "step38_kais_retrain/scripts/38_1_train_ml1m_sasrec_bs128.py": "56fdd85061943778708a2de7ec18bbe79bd3873a4d9ffbc12b9e693fadb4b27c",
+      "step38_kais_retrain/scripts/38_4_train_beauty_sasrec_bs128.py": "29c528543757d18b54b18a8c09d4dd4e573e125cc5128e9a13ae702b4be5d48e",
+      "kais_orderfix_v1_20261022T081312Z_e335970a03a1/scripts/train_sports_orderfix.py": "2fa42816658432c8e85f42b82d715aec4232c4c49d2b52e579b44da8f6a5f55a",
+      "kais_orderfix_v1_20261022T081312Z_e335970a03a1/scripts/train_toys_orderfix.py": "490269b75a87b5aabdb9195233a958fce4d67a5a8f95df093faca9dc46d8e4bb"
+    },
+    "datasets": {
+      "ml1m": {
+        "dataset": "MovieLens-1M",
+        "trainer_source": "step38_kais_retrain/scripts/38_1_train_ml1m_sasrec_bs128.py",
+        "train_path": "processed/diagnostic_a_splits/MovieLens-1M/file_order/train.csv",
+        "validation_path": "processed/recent_bucketset_r1/MovieLens-1M/val/r1_samples.csv",
+        "test_path": "processed/recent_bucketset_r1/MovieLens-1M/test/r1_samples.csv",
+        "expected_items": 3416,
+        "expected_validation": 752,
+        "expected_test": 945,
+        "expected_training_positions": 794289,
+        "expected_training_rows": 799689,
+        "sequence_sort_keys": [
+          "user_id",
+          "time_bucket",
+          "_source_order"
+        ],
+        "event_key_column": "_source_order",
+        "control_reference": {
+          "model_dir": "step38_kais_retrain/outputs/ml1m_sasrec_control_ce_bs128_lr1em3_max200_seed42",
+          "files_sha256": {
+            "config.json": "04e73d16f5d6f36521355498c9713d7c95b15119fef37f749a6b8a3b09765ad4",
+            "metrics.json": "1dc82d20bd5c896c6e976abdb0b00b8fd9369eea3df6a6f3dc8d26e63077b6f8",
+            "training_log.csv": "26ce50511ba2217a03111c3a7969002771dda2d8b54710919ac439d722ca16c2",
+            "test_per_sample_predictions.csv": "7ef93f95cb57fe9644bd0b59cfeed0a5a03aeaaec577dcc94b3b8479e12c9268",
+            "item_id_map.csv": "0dd7d6ee37d97e24be33253f5f0836890a818a255a5314519e1678d6c31885d5"
+          }
+        }
+      },
+      "beauty": {
+        "dataset": "Amazon_Beauty",
+        "trainer_source": "step38_kais_retrain/scripts/38_4_train_beauty_sasrec_bs128.py",
+        "train_path": "processed/diagnostic_a_splits/Amazon_Beauty/file_order/train.csv",
+        "validation_path": "processed/recent_bucketset_r1/Amazon_Beauty/val/r1_samples.csv",
+        "test_path": "processed/recent_bucketset_r1/Amazon_Beauty/test/r1_samples.csv",
+        "expected_items": 12101,
+        "expected_validation": 2856,
+        "expected_test": 2966,
+        "expected_training_positions": 138167,
+        "expected_training_rows": 159008,
+        "sequence_sort_keys": [
+          "user_id",
+          "time_bucket",
+          "_source_order"
+        ],
+        "event_key_column": "_source_order",
+        "control_reference": {
+          "model_dir": "step38_kais_retrain/outputs/beauty_sasrec_control_ce_bs128_lr1em3_max200_seed42",
+          "files_sha256": {
+            "config.json": "a453f393b09d374f25868d8d2a205953b2d0da064c41aad443568bc693ad8425",
+            "metrics.json": "5e10b55ec8c550344e66c092ef6511ed524527f00d02d006627b8ec9206f9b2b",
+            "training_log.csv": "2b22f6ad9d8be45e775c053d65ff2f34b4392c14ebaa571d8e0e353341a9d887",
+            "test_per_sample_predictions.csv": "c9f0efd243532633594be0ca5b82f81aa1091facd8ad37ea06ffdb478330a40e",
+            "item_id_map.csv": "259b8725bf180ff02c3f9a7351c43fdf1de22aa51829c40437c2040f95737289"
+          }
+        }
+      },
+      "sports": {
+        "dataset": "Amazon_Sports",
+        "trainer_source": "kais_orderfix_v1_20261022T081312Z_e335970a03a1/scripts/train_sports_orderfix.py",
+        "train_path": "processed/diagnostic_a_splits/Amazon_Sports/file_order/train.csv",
+        "validation_path": "processed/strict_diagnostic_a/Amazon_Sports/file_order/val.csv",
+        "test_path": "processed/strict_diagnostic_a/Amazon_Sports/file_order/test.csv",
+        "expected_items": 18357,
+        "expected_validation": 4082,
+        "expected_test": 4659,
+        "expected_training_positions": 204047,
+        "expected_training_rows": 237423,
+        "sequence_sort_keys": [
+          "user_id",
+          "time_bucket",
+          "raw_line"
+        ],
+        "event_key_column": "raw_line",
+        "control_reference": {
+          "model_dir": "kais_orderfix_v1_20261022T081312Z_e335970a03a1/outputs/amazon_sports_control_orderfix_seed42",
+          "files_sha256": {
+            "config.json": "95963620e83b1e06dcda21f947394b2adad4b0c7259b3f7b4f99a759d9493989",
+            "metrics.json": "ba3afef8d2451b67d6b4cd3d7cfde2479129288cdfb4bf305b545d3780e67d5b",
+            "training_log.csv": "798891b74b0df856d8fc5122570a514a3c3819bfa62d3e1f6fb6c676b6284581",
+            "test_per_sample_predictions.csv": "9ef7554252ff843a1b5bf7e3809aba4827c96427aee66744f06de70852119e5e",
+            "item_id_map.csv": "8f0e80ba0e996b19409cd72b3ed838242397f548cf38604ffd73d58677e29fee"
+          }
+        }
+      },
+      "toys": {
+        "dataset": "Amazon_Toys",
+        "trainer_source": "kais_orderfix_v1_20261022T081312Z_e335970a03a1/scripts/train_toys_orderfix.py",
+        "train_path": "processed/diagnostic_a_splits/Amazon_Toys/file_order/train.csv",
+        "validation_path": "processed/strict_diagnostic_a/Amazon_Toys/file_order/val.csv",
+        "test_path": "processed/strict_diagnostic_a/Amazon_Toys/file_order/test.csv",
+        "expected_items": 11924,
+        "expected_validation": 1939,
+        "expected_test": 2547,
+        "expected_training_positions": 116686,
+        "expected_training_rows": 134632,
+        "sequence_sort_keys": [
+          "user_id",
+          "time_bucket",
+          "raw_line"
+        ],
+        "event_key_column": "raw_line",
+        "control_reference": {
+          "model_dir": "kais_orderfix_v1_20261022T081312Z_e335970a03a1/outputs/amazon_toys_control_orderfix_seed42",
+          "files_sha256": {
+            "config.json": "18d9418f4eb6870929258deb4186a5ee160210d1bf57e55263b076d44a48b64e",
+            "metrics.json": "2b7ce49edd8c7825f0b1d4f63db4895210e6b7339e640553c4b1924a0ab9b307",
+            "training_log.csv": "057de30a3015899d2d1ebcfcabfc0731e2f05c864fd6dddfbc9ed97402c1f1ac",
+            "test_per_sample_predictions.csv": "9b4b5854ff4c05a6b563236e2a6b436d83931f640bf435725294ee2e0fb89cd9",
+            "item_id_map.csv": "d6e1135f71ad9749caa6db9743045e1e65860bd62df6f42e0b76642c08645c60"
+          }
+        }
+      }
+    },
+    "data_sha256": {
+      "processed/diagnostic_a_splits/MovieLens-1M/file_order/train.csv": "6b0fa970c4b6725a32e718b43883c612624b16127122bb4d9a936eff1dade18e",
+      "processed/recent_bucketset_r1/MovieLens-1M/val/r1_samples.csv": "4c66e7a33fe1362089cf8aa4bf7144a301803eabed0c6097faa984419346fb32",
+      "processed/recent_bucketset_r1/MovieLens-1M/test/r1_samples.csv": "99bec555642aca4cd00cdfe3b5d95c7b3ac577c1c1e0457a7c6212c08b9ea303",
+      "processed/diagnostic_a_splits/Amazon_Beauty/file_order/train.csv": "c81fd1c1dbcbbe88ed4596e0d952397d1ff74ba70a5ba9d8f9e4038e72e05971",
+      "processed/recent_bucketset_r1/Amazon_Beauty/val/r1_samples.csv": "0f19f717b9c8a3230c8ce52735960fa48f4fb5e2c08c1787e0a4c52dbfbb5eb9",
+      "processed/recent_bucketset_r1/Amazon_Beauty/test/r1_samples.csv": "f9362385825ed79b07e4d262cf9ac7df2591c54cd7d8e95e54ba116bdaad5009",
+      "processed/diagnostic_a_splits/Amazon_Sports/file_order/train.csv": "8b78398cf350881125d04a15cd0b6181b17d1772d35f428ed61d3e9220a16539",
+      "processed/strict_diagnostic_a/Amazon_Sports/file_order/val.csv": "8ffe18f11957ba4229aa42d4e1b5d2ffdfbf3ef2adb4ecd0ff3b349469cbe7fb",
+      "processed/strict_diagnostic_a/Amazon_Sports/file_order/test.csv": "5f2f31713ee7f6c92bb6fde915500d51f1a49328f3f1fc94f146530ad54e0e89",
+      "processed/diagnostic_a_splits/Amazon_Toys/file_order/train.csv": "26e4e892b1e520fdc213bddad4af3f314e865f53a1c8cbcf1a4e0f60a83ff8c0",
+      "processed/strict_diagnostic_a/Amazon_Toys/file_order/val.csv": "5b2187611068dbf7f384e55489d3704710387ef42bf86fcf028836ae26e8f14d",
+      "processed/strict_diagnostic_a/Amazon_Toys/file_order/test.csv": "3e287ca6be6c556d5abfd691666abdc4fde1eca10327d6b8329a8aa55d0df445"
+    },
+    "augmentation_protocol": {
+      "target_and_cutoff": "fixed original reference event and cutoff for each legal next-item training position",
+      "history_window": "take the original visible prefix and existing max50 truncation before augmentation",
+      "scope": "permute every visible timestamp bucket separately in that retained history; preserve bucket order, per-bucket event multiset and original target identity",
+      "priority": "independent deterministic event/epoch priorities shared across overlapping histories; no use of Torch/dropout or original sampler RNG",
+      "repeated_item_ids": "retain legitimate repeated items; exclude the target event and future events, not all occurrences of the target raw item ID",
+      "inference": "canonical reference order for validation and test"
+    },
+    "hyperparameters": {
+      "max_len": 50,
+      "hidden_size": 64,
+      "num_heads": 2,
+      "num_blocks": 2,
+      "dropout": 0.2,
+      "training_batch_size": 128,
+      "evaluation_batch_size": 256,
+      "learning_rate": 0.001,
+      "max_epochs": 200,
+      "patience": 15
+    },
+    "scope": "Twelve new matched Control-architecture models with per-epoch every-visible-bucket training augmentation. Existing24models/splits/inputs remain read only. Canonical validation selects best checkpoint. No test-based seed/epoch selection."
+  },
+  "inputs_sha256": "3788d6ce525966c74663a7e2e61b4bc20c9eaac5d2e6c7a5a8e33fc46f4dfce3",
+  "generated_sha256": {
+    "scripts/train_ml1m_shuffle.py": "65672591aac9044707abc9883a67b7ce91d46ea450aaecde6effec8f6c9ecaaf",
+    "scripts/train_toys_shuffle.py": "92433838322f1621987e637b7c13a5cdd9baaf6a75cb9cc763c78c0d885126a7",
+    "scripts/model_definition.py": "ac2e47de1cd8cba980be4c049f521a36a08a7d54f3610be6bc687cef7383555e"
+  },
+  "sources_sha256": {
+    "step38_kais_retrain/scripts/38_1_train_ml1m_sasrec_bs128.py": "56fdd85061943778708a2de7ec18bbe79bd3873a4d9ffbc12b9e693fadb4b27c",
+    "step38_kais_retrain/scripts/38_4_train_beauty_sasrec_bs128.py": "29c528543757d18b54b18a8c09d4dd4e573e125cc5128e9a13ae702b4be5d48e",
+    "kais_orderfix_v1_20261022T081312Z_e335970a03a1/scripts/train_sports_orderfix.py": "2fa42816658432c8e85f42b82d715aec4232c4c49d2b52e579b44da8f6a5f55a",
+    "kais_orderfix_v1_20261022T081312Z_e335970a03a1/scripts/train_toys_orderfix.py": "490269b75a87b5aabdb9195233a958fce4d67a5a8f95df093faca9dc46d8e4bb"
+  },
+  "data_sha256": {
+    "processed/diagnostic_a_splits/MovieLens-1M/file_order/train.csv": "6b0fa970c4b6725a32e718b43883c612624b16127122bb4d9a936eff1dade18e",
+    "processed/recent_bucketset_r1/MovieLens-1M/val/r1_samples.csv": "4c66e7a33fe1362089cf8aa4bf7144a301803eabed0c6097faa984419346fb32",
+    "processed/recent_bucketset_r1/MovieLens-1M/test/r1_samples.csv": "99bec555642aca4cd00cdfe3b5d95c7b3ac577c1c1e0457a7c6212c08b9ea303",
+    "processed/diagnostic_a_splits/Amazon_Beauty/file_order/train.csv": "c81fd1c1dbcbbe88ed4596e0d952397d1ff74ba70a5ba9d8f9e4038e72e05971",
+    "processed/recent_bucketset_r1/Amazon_Beauty/val/r1_samples.csv": "0f19f717b9c8a3230c8ce52735960fa48f4fb5e2c08c1787e0a4c52dbfbb5eb9",
+    "processed/recent_bucketset_r1/Amazon_Beauty/test/r1_samples.csv": "f9362385825ed79b07e4d262cf9ac7df2591c54cd7d8e95e54ba116bdaad5009",
+    "processed/diagnostic_a_splits/Amazon_Sports/file_order/train.csv": "8b78398cf350881125d04a15cd0b6181b17d1772d35f428ed61d3e9220a16539",
+    "processed/strict_diagnostic_a/Amazon_Sports/file_order/val.csv": "8ffe18f11957ba4229aa42d4e1b5d2ffdfbf3ef2adb4ecd0ff3b349469cbe7fb",
+    "processed/strict_diagnostic_a/Amazon_Sports/file_order/test.csv": "5f2f31713ee7f6c92bb6fde915500d51f1a49328f3f1fc94f146530ad54e0e89",
+    "processed/diagnostic_a_splits/Amazon_Toys/file_order/train.csv": "26e4e892b1e520fdc213bddad4af3f314e865f53a1c8cbcf1a4e0f60a83ff8c0",
+    "processed/strict_diagnostic_a/Amazon_Toys/file_order/val.csv": "5b2187611068dbf7f384e55489d3704710387ef42bf86fcf028836ae26e8f14d",
+    "processed/strict_diagnostic_a/Amazon_Toys/file_order/test.csv": "3e287ca6be6c556d5abfd691666abdc4fde1eca10327d6b8329a8aa55d0df445"
+  },
+  "reference_files_sha256": {
+    "references/ml1m_control_seed42/config.json": "04e73d16f5d6f36521355498c9713d7c95b15119fef37f749a6b8a3b09765ad4",
+    "references/ml1m_control_seed42/metrics.json": "1dc82d20bd5c896c6e976abdb0b00b8fd9369eea3df6a6f3dc8d26e63077b6f8",
+    "references/ml1m_control_seed42/training_log.csv": "26ce50511ba2217a03111c3a7969002771dda2d8b54710919ac439d722ca16c2",
+    "references/ml1m_control_seed42/test_per_sample_predictions.csv": "7ef93f95cb57fe9644bd0b59cfeed0a5a03aeaaec577dcc94b3b8479e12c9268",
+    "references/ml1m_control_seed42/item_id_map.csv": "0dd7d6ee37d97e24be33253f5f0836890a818a255a5314519e1678d6c31885d5",
+    "references/beauty_control_seed42/config.json": "a453f393b09d374f25868d8d2a205953b2d0da064c41aad443568bc693ad8425",
+    "references/beauty_control_seed42/metrics.json": "5e10b55ec8c550344e66c092ef6511ed524527f00d02d006627b8ec9206f9b2b",
+    "references/beauty_control_seed42/training_log.csv": "2b22f6ad9d8be45e775c053d65ff2f34b4392c14ebaa571d8e0e353341a9d887",
+    "references/beauty_control_seed42/test_per_sample_predictions.csv": "c9f0efd243532633594be0ca5b82f81aa1091facd8ad37ea06ffdb478330a40e",
+    "references/beauty_control_seed42/item_id_map.csv": "259b8725bf180ff02c3f9a7351c43fdf1de22aa51829c40437c2040f95737289",
+    "references/sports_control_seed42/config.json": "95963620e83b1e06dcda21f947394b2adad4b0c7259b3f7b4f99a759d9493989",
+    "references/sports_control_seed42/metrics.json": "ba3afef8d2451b67d6b4cd3d7cfde2479129288cdfb4bf305b545d3780e67d5b",
+    "references/sports_control_seed42/training_log.csv": "798891b74b0df856d8fc5122570a514a3c3819bfa62d3e1f6fb6c676b6284581",
+    "references/sports_control_seed42/test_per_sample_predictions.csv": "9ef7554252ff843a1b5bf7e3809aba4827c96427aee66744f06de70852119e5e",
+    "references/sports_control_seed42/item_id_map.csv": "8f0e80ba0e996b19409cd72b3ed838242397f548cf38604ffd73d58677e29fee",
+    "references/toys_control_seed42/config.json": "18d9418f4eb6870929258deb4186a5ee160210d1bf57e55263b076d44a48b64e",
+    "references/toys_control_seed42/metrics.json": "2b7ce49edd8c7825f0b1d4f63db4895210e6b7339e640553c4b1924a0ab9b307",
+    "references/toys_control_seed42/training_log.csv": "057de30a3015899d2d1ebcfcabfc0731e2f05c864fd6dddfbc9ed97402c1f1ac",
+    "references/toys_control_seed42/test_per_sample_predictions.csv": "9b4b5854ff4c05a6b563236e2a6b436d83931f640bf435725294ee2e0fb89cd9",
+    "references/toys_control_seed42/item_id_map.csv": "d6e1135f71ad9749caa6db9743045e1e65860bd62df6f42e0b76642c08645c60"
+  },
+  "augmentation_protocol": {
+    "target_and_cutoff": "fixed original reference event and cutoff for each legal next-item training position",
+    "history_window": "take the original visible prefix and existing max50 truncation before augmentation",
+    "scope": "permute every visible timestamp bucket separately in that retained history; preserve bucket order, per-bucket event multiset and original target identity",
+    "priority": "independent deterministic event/epoch priorities shared across overlapping histories; no use of Torch/dropout or original sampler RNG",
+    "repeated_item_ids": "retain legitimate repeated items; exclude the target event and future events, not all occurrences of the target raw item ID",
+    "inference": "canonical reference order for validation and test"
+  },
+  "training_seeds": [
+    42,
+    2026,
+    3407
+  ],
+  "preserved": "Frozen model/loss/eval/load functions; Dataset cutoff/target/truncation; original epoch loop except timed priority refresh; original sampler/loader flow.",
+  "worker_transport": "Original Linux fork context; shared RawArray high/low words and synchronized epoch value for persistent workers.",
+  "scope": "Twelve new matched Control-architecture models with per-epoch every-visible-bucket training augmentation. Existing24models/splits/inputs remain read only. Canonical validation selects best checkpoint. No test-based seed/epoch selection.",
+  "checkpoint_accessed": false,
+  "e1_minimum_stopping_epochs": 50
+}
