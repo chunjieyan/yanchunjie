@@ -1,0 +1,36 @@
+\begin{table*}[!htbp]
+\centering
+\caption{Accuracy by target exposure in the training split.}
+\label{tab:x7-target-accuracy}
+\fontsize{8.5}{11}\selectfont
+\setlength{\tabcolsep}{1.6pt}
+\renewcommand{\arraystretch}{1.15}
+\sisetup{detect-weight=true,separate-uncertainty=true,retain-zero-uncertainty=true,group-digits=integer,group-separator={,},group-minimum-digits=4,table-align-uncertainty=true}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llS[table-format=4.0]lS[table-format=1.3(3)]S[table-format=2.1(3)]S[table-format=1.3(3)]S[table-format=5.1(5)]@{}}
+\toprule
+Dataset & Target group & {$N$} & Method & {NDCG@10} & {HR@10 (\%)} & {MRR} & {Mean rank}\\
+\midrule
+ML-1M & Warm & 940 & Control & 0.049(3) & 9.3(6) & 0.044(1) & 625.6(44)\\ % table-row:ml1m_warm_Control
+ML-1M & Warm & 940 & LBSP & 0.055(1) & 10.0(8) & 0.050(1) & 626.1(117)\\ % table-row:ml1m_warm_LBSP
+ML-1M & Cold & 5 & Control & 0.000(0) & 0.0(0) & 0.000(0) & 3358.7(44)\\ % table-row:ml1m_cold_Control
+ML-1M & Cold & 5 & LBSP & 0.000(0) & 0.0(0) & 0.000(0) & 3363.8(6)\\ % table-row:ml1m_cold_LBSP
+\midrule
+Beauty & Warm & 2037 & Control & 0.011(1) & 2.0(3) & 0.011(0) & 4136.8(250)\\ % table-row:beauty_warm_Control
+Beauty & Warm & 2037 & LBSP & 0.010(1) & 1.9(2) & 0.010(1) & 4131.1(416)\\ % table-row:beauty_warm_LBSP
+Beauty & Cold & 929 & Control & 0.000(0) & 0.0(0) & 0.000(0) & 11914.7(128)\\ % table-row:beauty_cold_Control
+Beauty & Cold & 929 & LBSP & 0.000(0) & 0.0(0) & 0.000(0) & 11923.6(19)\\ % table-row:beauty_cold_LBSP
+\midrule
+Sports & Warm & 4020 & Control & 0.010(1) & 1.8(1) & 0.010(1) & 5210.3(1272)\\ % table-row:sports_warm_Control
+Sports & Warm & 4020 & LBSP & 0.011(0) & 2.0(1) & 0.011(1) & 5112.5(229)\\ % table-row:sports_warm_LBSP
+Sports & Cold & 639 & Control & 0.000(0) & 0.0(0) & 0.000(0) & 18053.2(2744)\\ % table-row:sports_cold_Control
+Sports & Cold & 639 & LBSP & 0.000(0) & 0.0(0) & 0.000(0) & 18217.2(68)\\ % table-row:sports_cold_LBSP
+\midrule
+Toys & Warm & 1740 & Control & 0.012(2) & 2.2(2) & 0.011(2) & 3888.9(993)\\ % table-row:toys_warm_Control
+Toys & Warm & 1740 & LBSP & 0.014(1) & 2.7(3) & 0.013(0) & 3703.0(1300)\\ % table-row:toys_warm_LBSP
+Toys & Cold & 807 & Control & 0.000(0) & 0.0(0) & 0.000(0) & 11759.0(65)\\ % table-row:toys_cold_Control
+Toys & Cold & 807 & LBSP & 0.000(0) & 0.0(0) & 0.000(0) & 11749.2(97)\\ % table-row:toys_cold_LBSP
+\bottomrule
+\end{tabular*}
+\par\smallskip\noindent\begin{minipage}{\textwidth}\fontsize{8.5}{11}\selectfont User counts $N$ are fixed across methods and seeds. Values are mean $\pm$ sample SD over three training seeds.
+\end{minipage}
+\end{table*}

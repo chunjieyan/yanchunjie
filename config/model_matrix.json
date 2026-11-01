@@ -1,0 +1,506 @@
+[
+  {
+    "dataset": "ml1m",
+    "method": "Control",
+    "training_seed": 42,
+    "lineage": "RETAINED_PRE_E1_EVALUATION",
+    "training_job_id": "ml1m_control_seed42",
+    "evaluation_output_directory": "g2_lbsp_ml1m_20261023/snapshot/control_reference/outputs/ml1m_seed42",
+    "training_source_candidates": [
+      "archive:D:\\time_uncertainty_rec\\paper_20261022\\g2_private_snapshot.zip!snapshot/step38_kais_retrain/scripts/38_1_train_ml1m_sasrec_bs128.py"
+    ],
+    "source_lineage_evidence_level": "candidate_family_source_only_invocation_not_reexecuted"
+  },
+  {
+    "dataset": "ml1m",
+    "method": "Control",
+    "training_seed": 2026,
+    "lineage": "RETAINED_PRE_E1_EVALUATION",
+    "training_job_id": "ml1m_control_seed2026",
+    "evaluation_output_directory": "g2_lbsp_ml1m_20261023/snapshot/control_reference/outputs/ml1m_seed2026",
+    "training_source_candidates": [
+      "archive:D:\\time_uncertainty_rec\\paper_20261022\\g2_private_snapshot.zip!snapshot/step38_kais_retrain/scripts/38_24_train_ml1m_control_seed2026.py"
+    ],
+    "source_lineage_evidence_level": "candidate_family_source_only_invocation_not_reexecuted"
+  },
+  {
+    "dataset": "ml1m",
+    "method": "Control",
+    "training_seed": 3407,
+    "lineage": "RETAINED_PRE_E1_EVALUATION",
+    "training_job_id": "ml1m_control_seed3407",
+    "evaluation_output_directory": "g2_lbsp_ml1m_20261023/snapshot/control_reference/outputs/ml1m_seed3407",
+    "training_source_candidates": [
+      "archive:D:\\time_uncertainty_rec\\paper_20261022\\g2_private_snapshot.zip!snapshot/step38_kais_retrain/scripts/38_28_train_ml1m_control_seed3407.py"
+    ],
+    "source_lineage_evidence_level": "candidate_family_source_only_invocation_not_reexecuted"
+  },
+  {
+    "dataset": "ml1m",
+    "method": "LBSP",
+    "training_seed": 42,
+    "lineage": "E1_MIN50_REPLACEMENT",
+    "training_job_id": "ml1m_lbsp_seed42",
+    "evaluation_output_directory": "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/ml1m_lbsp_seed42_a1/outputs/ml1m_lbsp_seed42",
+    "training_source_candidates": [
+      "D:\\time_uncertainty_rec\\kais_revision_outline_20261022\\p1_review_20261030\\e1_return_20261031T092136\\report_snapshot\\attempts\\ml1m_lbsp_seed42_a1\\scripts\\38_20_train_ml1m_r1_bs128.py"
+    ],
+    "source_lineage_evidence_level": "actual_returned_successful_attempt_source"
+  },
+  {
+    "dataset": "ml1m",
+    "method": "LBSP",
+    "training_seed": 2026,
+    "lineage": "E1_MIN50_REPLACEMENT",
+    "training_job_id": "ml1m_lbsp_seed2026",
+    "evaluation_output_directory": "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/ml1m_lbsp_seed2026_a1/outputs/ml1m_lbsp_seed2026",
+    "training_source_candidates": [
+      "D:\\time_uncertainty_rec\\kais_revision_outline_20261022\\p1_review_20261030\\e1_return_20261031T092136\\report_snapshot\\attempts\\ml1m_lbsp_seed2026_a1\\scripts\\38_20_train_ml1m_r1_bs128.py"
+    ],
+    "source_lineage_evidence_level": "actual_returned_successful_attempt_source"
+  },
+  {
+    "dataset": "ml1m",
+    "method": "LBSP",
+    "training_seed": 3407,
+    "lineage": "E1_MIN50_REPLACEMENT",
+    "training_job_id": "ml1m_lbsp_seed3407",
+    "evaluation_output_directory": "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/ml1m_lbsp_seed3407_a1/outputs/ml1m_lbsp_seed3407",
+    "training_source_candidates": [
+      "D:\\time_uncertainty_rec\\kais_revision_outline_20261022\\p1_review_20261030\\e1_return_20261031T092136\\report_snapshot\\attempts\\ml1m_lbsp_seed3407_a1\\scripts\\38_20_train_ml1m_r1_bs128.py"
+    ],
+    "source_lineage_evidence_level": "actual_returned_successful_attempt_source"
+  },
+  {
+    "dataset": "ml1m",
+    "method": "Shuffle",
+    "training_seed": 42,
+    "lineage": "E1_MIN50_REPLACEMENT",
+    "training_job_id": "ml1m_shuffle_seed42",
+    "evaluation_output_directory": "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/ml1m_shuffle_seed42_a1/outputs/ml1m_shuffle_seed42",
+    "training_source_candidates": [
+      "D:\\time_uncertainty_rec\\kais_revision_outline_20261022\\p1_review_20261030\\e1_return_20261031T092136\\report_snapshot\\attempts\\ml1m_shuffle_seed42_a1\\scripts\\train_ml1m_shuffle.py"
+    ],
+    "source_lineage_evidence_level": "actual_returned_successful_attempt_source"
+  },
+  {
+    "dataset": "ml1m",
+    "method": "Shuffle",
+    "training_seed": 2026,
+    "lineage": "RETAINED_PRE_E1_EVALUATION",
+    "training_job_id": "ml1m_shuffle_seed2026",
+    "evaluation_output_directory": "g2_x3_inference_results_20261027_e635848880/snapshot/outputs/shuffle_ml1m_seed2026",
+    "training_source_candidates": [
+      "D:\\time_uncertainty_rec\\g2_x3_shuffle_results_20261026\\snapshot\\scripts\\train_ml1m_shuffle.py"
+    ],
+    "source_lineage_evidence_level": "candidate_family_source_only_invocation_not_reexecuted"
+  },
+  {
+    "dataset": "ml1m",
+    "method": "Shuffle",
+    "training_seed": 3407,
+    "lineage": "E1_MIN50_REPLACEMENT",
+    "training_job_id": "ml1m_shuffle_seed3407",
+    "evaluation_output_directory": "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/ml1m_shuffle_seed3407_a1/outputs/ml1m_shuffle_seed3407",
+    "training_source_candidates": [
+      "D:\\time_uncertainty_rec\\kais_revision_outline_20261022\\p1_review_20261030\\e1_return_20261031T092136\\report_snapshot\\attempts\\ml1m_shuffle_seed3407_a1\\scripts\\train_ml1m_shuffle.py"
+    ],
+    "source_lineage_evidence_level": "actual_returned_successful_attempt_source"
+  },
+  {
+    "dataset": "ml1m",
+    "method": "TiSASRec",
+    "training_seed": 42,
+    "lineage": "E1_MIN50_REPLACEMENT",
+    "training_job_id": "ml1m_tisasrec_seed42",
+    "evaluation_output_directory": "kais_revision_outline_20261022/p1_review_20261030/e1_return_20261031T092136/report_snapshot/attempts/ml1m_tisasrec_seed42_a1/outputs/ml1m_seed42",
+    "training_source_candidates": [
+      "D:\\time_uncertainty_rec\\kais_revision_outline_20261022\\p1_review_20261030\\e1_return_20261031T092136\\report_snapshot\\attempts\\ml1m_tisasrec_seed42_a1\\scripts\\run_x4_tisasrec.py"
+    ],
+    "source_lineage_evidence_level": "actual_returned_successful_attempt_source"
+  },
+  {
+    "dataset": "ml1m",
+    "method": "TiSASRec",
+    "training_seed": 2026,
+    "lineage": "E1_MIN50_REPLACEMENT",
+    "training_job_id": "ml1m_tisasrec_seed2026",
+    "evaluation_output_directory": "kais_revision_outline_20261022/p1_review_20261030/e1_return_20261031T092136/report_snapshot/attempts/ml1m_tisasrec_seed2026_a1/outputs/ml1m_seed2026",
+    "training_source_candidates": [
+      "D:\\time_uncertainty_rec\\kais_revision_outline_20261022\\p1_review_20261030\\e1_return_20261031T092136\\report_snapshot\\attempts\\ml1m_tisasrec_seed2026_a1\\scripts\\run_x4_tisasrec.py"
+    ],
+    "source_lineage_evidence_level": "actual_returned_successful_attempt_source"
+  },
+  {
+    "dataset": "ml1m",
+    "method": "TiSASRec",
+    "training_seed": 3407,
+    "lineage": "RETAINED_PRE_E1_EVALUATION",
+    "training_job_id": "ml1m_tisasrec_seed3407",
+    "evaluation_output_directory": "g2_x4_tisasrec_results_20261026/snapshot/outputs/ml1m_seed3407",
+    "training_source_candidates": [
+      "D:\\time_uncertainty_rec\\g2_x4_tisasrec_results_20261026\\snapshot\\scripts\\run_x4_tisasrec.py"
+    ],
+    "source_lineage_evidence_level": "candidate_family_source_only_invocation_not_reexecuted"
+  },
+  {
+    "dataset": "beauty",
+    "method": "Control",
+    "training_seed": 42,
+    "lineage": "RETAINED_PRE_E1_EVALUATION",
+    "training_job_id": "beauty_control_seed42",
+    "evaluation_output_directory": "g2_lbsp_amazon_stability_20261025/snapshot/control_reference/outputs/beauty_seed42",
+    "training_source_candidates": [
+      "D:\\time_uncertainty_rec\\g2_beauty_20261023\\snapshot\\scripts\\train_beauty_control.py"
+    ],
+    "source_lineage_evidence_level": "candidate_family_source_only_invocation_not_reexecuted"
+  },
+  {
+    "dataset": "beauty",
+    "method": "Control",
+    "training_seed": 2026,
+    "lineage": "RETAINED_PRE_E1_EVALUATION",
+    "training_job_id": "beauty_control_seed2026",
+    "evaluation_output_directory": "g2_lbsp_amazon_stability_20261025/snapshot/control_reference/outputs/beauty_seed2026",
+    "training_source_candidates": [
+      "D:\\time_uncertainty_rec\\g2_beauty_20261023\\snapshot\\scripts\\train_beauty_control.py"
+    ],
+    "source_lineage_evidence_level": "candidate_family_source_only_invocation_not_reexecuted"
+  },
+  {
+    "dataset": "beauty",
+    "method": "Control",
+    "training_seed": 3407,
+    "lineage": "RETAINED_PRE_E1_EVALUATION",
+    "training_job_id": "beauty_control_seed3407",
+    "evaluation_output_directory": "g2_lbsp_amazon_stability_20261025/snapshot/control_reference/outputs/beauty_seed3407",
+    "training_source_candidates": [
+      "D:\\time_uncertainty_rec\\g2_beauty_20261023\\snapshot\\scripts\\train_beauty_control.py"
+    ],
+    "source_lineage_evidence_level": "candidate_family_source_only_invocation_not_reexecuted"
+  },
+  {
+    "dataset": "beauty",
+    "method": "LBSP",
+    "training_seed": 42,
+    "lineage": "RETAINED_PRE_E1_EVALUATION",
+    "training_job_id": "beauty_lbsp_seed42",
+    "evaluation_output_directory": "g2_lbsp_amazon_stability_20261025/snapshot/outputs/beauty_seed42",
+    "training_source_candidates": [
+      "D:\\time_uncertainty_rec\\g2_lbsp_amazon_train_20261025\\snapshot\\scripts\\train_beauty_lbsp.py"
+    ],
+    "source_lineage_evidence_level": "candidate_family_source_only_invocation_not_reexecuted"
+  },
+  {
+    "dataset": "beauty",
+    "method": "LBSP",
+    "training_seed": 2026,
+    "lineage": "RETAINED_PRE_E1_EVALUATION",
+    "training_job_id": "beauty_lbsp_seed2026",
+    "evaluation_output_directory": "g2_lbsp_amazon_stability_20261025/snapshot/outputs/beauty_seed2026",
+    "training_source_candidates": [
+      "D:\\time_uncertainty_rec\\g2_lbsp_amazon_train_20261025\\snapshot\\scripts\\train_beauty_lbsp.py"
+    ],
+    "source_lineage_evidence_level": "candidate_family_source_only_invocation_not_reexecuted"
+  },
+  {
+    "dataset": "beauty",
+    "method": "LBSP",
+    "training_seed": 3407,
+    "lineage": "RETAINED_PRE_E1_EVALUATION",
+    "training_job_id": "beauty_lbsp_seed3407",
+    "evaluation_output_directory": "g2_lbsp_amazon_stability_20261025/snapshot/outputs/beauty_seed3407",
+    "training_source_candidates": [
+      "D:\\time_uncertainty_rec\\g2_lbsp_amazon_train_20261025\\snapshot\\scripts\\train_beauty_lbsp.py"
+    ],
+    "source_lineage_evidence_level": "candidate_family_source_only_invocation_not_reexecuted"
+  },
+  {
+    "dataset": "beauty",
+    "method": "Shuffle",
+    "training_seed": 42,
+    "lineage": "RETAINED_PRE_E1_EVALUATION",
+    "training_job_id": "beauty_shuffle_seed42",
+    "evaluation_output_directory": "g2_x3_inference_results_20261027_e635848880/snapshot/outputs/shuffle_beauty_seed42",
+    "training_source_candidates": [
+      "D:\\time_uncertainty_rec\\g2_x3_shuffle_results_20261026\\snapshot\\scripts\\train_beauty_shuffle.py"
+    ],
+    "source_lineage_evidence_level": "candidate_family_source_only_invocation_not_reexecuted"
+  },
+  {
+    "dataset": "beauty",
+    "method": "Shuffle",
+    "training_seed": 2026,
+    "lineage": "RETAINED_PRE_E1_EVALUATION",
+    "training_job_id": "beauty_shuffle_seed2026",
+    "evaluation_output_directory": "g2_x3_inference_results_20261027_e635848880/snapshot/outputs/shuffle_beauty_seed2026",
+    "training_source_candidates": [
+      "D:\\time_uncertainty_rec\\g2_x3_shuffle_results_20261026\\snapshot\\scripts\\train_beauty_shuffle.py"
+    ],
+    "source_lineage_evidence_level": "candidate_family_source_only_invocation_not_reexecuted"
+  },
+  {
+    "dataset": "beauty",
+    "method": "Shuffle",
+    "training_seed": 3407,
+    "lineage": "RETAINED_PRE_E1_EVALUATION",
+    "training_job_id": "beauty_shuffle_seed3407",
+    "evaluation_output_directory": "g2_x3_inference_results_20261027_e635848880/snapshot/outputs/shuffle_beauty_seed3407",
+    "training_source_candidates": [
+      "D:\\time_uncertainty_rec\\g2_x3_shuffle_results_20261026\\snapshot\\scripts\\train_beauty_shuffle.py"
+    ],
+    "source_lineage_evidence_level": "candidate_family_source_only_invocation_not_reexecuted"
+  },
+  {
+    "dataset": "beauty",
+    "method": "TiSASRec",
+    "training_seed": 42,
+    "lineage": "E1_MIN50_REPLACEMENT",
+    "training_job_id": "beauty_tisasrec_seed42",
+    "evaluation_output_directory": "kais_revision_outline_20261022/p1_review_20261030/e1_return_20261031T092136/report_snapshot/attempts/beauty_tisasrec_seed42_a1/outputs/beauty_seed42",
+    "training_source_candidates": [
+      "D:\\time_uncertainty_rec\\kais_revision_outline_20261022\\p1_review_20261030\\e1_return_20261031T092136\\report_snapshot\\attempts\\beauty_tisasrec_seed42_a1\\scripts\\run_x4_tisasrec.py"
+    ],
+    "source_lineage_evidence_level": "actual_returned_successful_attempt_source"
+  },
+  {
+    "dataset": "beauty",
+    "method": "TiSASRec",
+    "training_seed": 2026,
+    "lineage": "E1_MIN50_REPLACEMENT",
+    "training_job_id": "beauty_tisasrec_seed2026",
+    "evaluation_output_directory": "kais_revision_outline_20261022/p1_review_20261030/e1_return_20261031T092136/report_snapshot/attempts/beauty_tisasrec_seed2026_a1/outputs/beauty_seed2026",
+    "training_source_candidates": [
+      "D:\\time_uncertainty_rec\\kais_revision_outline_20261022\\p1_review_20261030\\e1_return_20261031T092136\\report_snapshot\\attempts\\beauty_tisasrec_seed2026_a1\\scripts\\run_x4_tisasrec.py"
+    ],
+    "source_lineage_evidence_level": "actual_returned_successful_attempt_source"
+  },
+  {
+    "dataset": "beauty",
+    "method": "TiSASRec",
+    "training_seed": 3407,
+    "lineage": "E1_MIN50_REPLACEMENT",
+    "training_job_id": "beauty_tisasrec_seed3407",
+    "evaluation_output_directory": "kais_revision_outline_20261022/p1_review_20261030/e1_return_20261031T092136/report_snapshot/attempts/beauty_tisasrec_seed3407_a1/outputs/beauty_seed3407",
+    "training_source_candidates": [
+      "D:\\time_uncertainty_rec\\kais_revision_outline_20261022\\p1_review_20261030\\e1_return_20261031T092136\\report_snapshot\\attempts\\beauty_tisasrec_seed3407_a1\\scripts\\run_x4_tisasrec.py"
+    ],
+    "source_lineage_evidence_level": "actual_returned_successful_attempt_source"
+  },
+  {
+    "dataset": "sports",
+    "method": "Control",
+    "training_seed": 42,
+    "lineage": "RETAINED_PRE_E1_EVALUATION",
+    "training_job_id": "sports_control_seed42",
+    "evaluation_output_directory": "g2_lbsp_amazon_stability_20261025/snapshot/control_reference/outputs/sports_seed42",
+    "training_source_candidates": [
+      "D:\\time_uncertainty_rec\\g2_multiseed_20261022\\snapshot\\scripts\\train_sports_orderfix.py"
+    ],
+    "source_lineage_evidence_level": "candidate_family_source_only_invocation_not_reexecuted"
+  },
+  {
+    "dataset": "sports",
+    "method": "Control",
+    "training_seed": 2026,
+    "lineage": "E1_MIN50_REPLACEMENT",
+    "training_job_id": "sports_control_seed2026",
+    "evaluation_output_directory": "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/sports_control_seed2026_a1/outputs/sports_control_seed2026",
+    "training_source_candidates": [
+      "D:\\time_uncertainty_rec\\kais_revision_outline_20261022\\p1_review_20261030\\e1_return_20261031T092136\\report_snapshot\\attempts\\sports_control_seed2026_a2\\scripts\\train_sports_orderfix.py"
+    ],
+    "source_lineage_evidence_level": "actual_returned_successful_attempt_source"
+  },
+  {
+    "dataset": "sports",
+    "method": "Control",
+    "training_seed": 3407,
+    "lineage": "RETAINED_PRE_E1_EVALUATION",
+    "training_job_id": "sports_control_seed3407",
+    "evaluation_output_directory": "g2_lbsp_amazon_stability_20261025/snapshot/control_reference/outputs/sports_seed3407",
+    "training_source_candidates": [
+      "D:\\time_uncertainty_rec\\g2_multiseed_20261022\\snapshot\\scripts\\train_sports_orderfix.py"
+    ],
+    "source_lineage_evidence_level": "candidate_family_source_only_invocation_not_reexecuted"
+  },
+  {
+    "dataset": "sports",
+    "method": "LBSP",
+    "training_seed": 42,
+    "lineage": "E1_MIN50_REPLACEMENT",
+    "training_job_id": "sports_lbsp_seed42",
+    "evaluation_output_directory": "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/sports_lbsp_seed42_a1/outputs/sports_lbsp_seed42",
+    "training_source_candidates": [
+      "D:\\time_uncertainty_rec\\kais_revision_outline_20261022\\p1_review_20261030\\e1_return_20261031T092136\\report_snapshot\\attempts\\sports_lbsp_seed42_a1\\scripts\\train_sports_lbsp.py"
+    ],
+    "source_lineage_evidence_level": "actual_returned_successful_attempt_source"
+  },
+  {
+    "dataset": "sports",
+    "method": "LBSP",
+    "training_seed": 2026,
+    "lineage": "E1_MIN50_REPLACEMENT",
+    "training_job_id": "sports_lbsp_seed2026",
+    "evaluation_output_directory": "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/sports_lbsp_seed2026_a1/outputs/sports_lbsp_seed2026",
+    "training_source_candidates": [
+      "D:\\time_uncertainty_rec\\kais_revision_outline_20261022\\p1_review_20261030\\e1_return_20261031T092136\\report_snapshot\\attempts\\sports_lbsp_seed2026_a1\\scripts\\train_sports_lbsp.py"
+    ],
+    "source_lineage_evidence_level": "actual_returned_successful_attempt_source"
+  },
+  {
+    "dataset": "sports",
+    "method": "LBSP",
+    "training_seed": 3407,
+    "lineage": "RETAINED_PRE_E1_EVALUATION",
+    "training_job_id": "sports_lbsp_seed3407",
+    "evaluation_output_directory": "g2_lbsp_amazon_stability_20261025/snapshot/outputs/sports_seed3407",
+    "training_source_candidates": [
+      "D:\\time_uncertainty_rec\\g2_lbsp_amazon_train_20261025\\snapshot\\scripts\\train_sports_lbsp.py"
+    ],
+    "source_lineage_evidence_level": "candidate_family_source_only_invocation_not_reexecuted"
+  },
+  {
+    "dataset": "sports",
+    "method": "Shuffle",
+    "training_seed": 42,
+    "lineage": "RETAINED_PRE_E1_EVALUATION",
+    "training_job_id": "sports_shuffle_seed42",
+    "evaluation_output_directory": "g2_x3_inference_results_20261027_e635848880/snapshot/outputs/shuffle_sports_seed42",
+    "training_source_candidates": [
+      "D:\\time_uncertainty_rec\\g2_x3_shuffle_results_20261026\\snapshot\\scripts\\train_sports_shuffle.py"
+    ],
+    "source_lineage_evidence_level": "candidate_family_source_only_invocation_not_reexecuted"
+  },
+  {
+    "dataset": "sports",
+    "method": "Shuffle",
+    "training_seed": 2026,
+    "lineage": "RETAINED_PRE_E1_EVALUATION",
+    "training_job_id": "sports_shuffle_seed2026",
+    "evaluation_output_directory": "g2_x3_inference_results_20261027_e635848880/snapshot/outputs/shuffle_sports_seed2026",
+    "training_source_candidates": [
+      "D:\\time_uncertainty_rec\\g2_x3_shuffle_results_20261026\\snapshot\\scripts\\train_sports_shuffle.py"
+    ],
+    "source_lineage_evidence_level": "candidate_family_source_only_invocation_not_reexecuted"
+  },
+  {
+    "dataset": "sports",
+    "method": "Shuffle",
+    "training_seed": 3407,
+    "lineage": "RETAINED_PRE_E1_EVALUATION",
+    "training_job_id": "sports_shuffle_seed3407",
+    "evaluation_output_directory": "g2_x3_inference_results_20261027_e635848880/snapshot/outputs/shuffle_sports_seed3407",
+    "training_source_candidates": [
+      "D:\\time_uncertainty_rec\\g2_x3_shuffle_results_20261026\\snapshot\\scripts\\train_sports_shuffle.py"
+    ],
+    "source_lineage_evidence_level": "candidate_family_source_only_invocation_not_reexecuted"
+  },
+  {
+    "dataset": "toys",
+    "method": "Control",
+    "training_seed": 42,
+    "lineage": "E1_MIN50_REPLACEMENT",
+    "training_job_id": "toys_control_seed42",
+    "evaluation_output_directory": "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/toys_control_seed42_a1/outputs/toys_control_seed42",
+    "training_source_candidates": [
+      "D:\\time_uncertainty_rec\\kais_revision_outline_20261022\\p1_review_20261030\\e1_return_20261031T092136\\report_snapshot\\attempts\\toys_control_seed42_a1\\scripts\\train_toys_orderfix.py"
+    ],
+    "source_lineage_evidence_level": "actual_returned_successful_attempt_source"
+  },
+  {
+    "dataset": "toys",
+    "method": "Control",
+    "training_seed": 2026,
+    "lineage": "E1_MIN50_REPLACEMENT",
+    "training_job_id": "toys_control_seed2026",
+    "evaluation_output_directory": "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/toys_control_seed2026_a1/outputs/toys_control_seed2026",
+    "training_source_candidates": [
+      "D:\\time_uncertainty_rec\\kais_revision_outline_20261022\\p1_review_20261030\\e1_return_20261031T092136\\report_snapshot\\attempts\\toys_control_seed2026_a1\\scripts\\train_toys_orderfix.py"
+    ],
+    "source_lineage_evidence_level": "actual_returned_successful_attempt_source"
+  },
+  {
+    "dataset": "toys",
+    "method": "Control",
+    "training_seed": 3407,
+    "lineage": "E1_MIN50_REPLACEMENT",
+    "training_job_id": "toys_control_seed3407",
+    "evaluation_output_directory": "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/toys_control_seed3407_a1/outputs/toys_control_seed3407",
+    "training_source_candidates": [
+      "D:\\time_uncertainty_rec\\kais_revision_outline_20261022\\p1_review_20261030\\e1_return_20261031T092136\\report_snapshot\\attempts\\toys_control_seed3407_a1\\scripts\\train_toys_orderfix.py"
+    ],
+    "source_lineage_evidence_level": "actual_returned_successful_attempt_source"
+  },
+  {
+    "dataset": "toys",
+    "method": "LBSP",
+    "training_seed": 42,
+    "lineage": "E1_MIN50_REPLACEMENT",
+    "training_job_id": "toys_lbsp_seed42",
+    "evaluation_output_directory": "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/toys_lbsp_seed42_a1/outputs/toys_lbsp_seed42",
+    "training_source_candidates": [
+      "D:\\time_uncertainty_rec\\kais_revision_outline_20261022\\p1_review_20261030\\e1_return_20261031T092136\\report_snapshot\\attempts\\toys_lbsp_seed42_a1\\scripts\\train_toys_lbsp.py"
+    ],
+    "source_lineage_evidence_level": "actual_returned_successful_attempt_source"
+  },
+  {
+    "dataset": "toys",
+    "method": "LBSP",
+    "training_seed": 2026,
+    "lineage": "RETAINED_PRE_E1_EVALUATION",
+    "training_job_id": "toys_lbsp_seed2026",
+    "evaluation_output_directory": "g2_lbsp_amazon_stability_20261025/snapshot/outputs/toys_seed2026",
+    "training_source_candidates": [
+      "D:\\time_uncertainty_rec\\g2_lbsp_amazon_train_20261025\\snapshot\\scripts\\train_toys_lbsp.py"
+    ],
+    "source_lineage_evidence_level": "candidate_family_source_only_invocation_not_reexecuted"
+  },
+  {
+    "dataset": "toys",
+    "method": "LBSP",
+    "training_seed": 3407,
+    "lineage": "RETAINED_PRE_E1_EVALUATION",
+    "training_job_id": "toys_lbsp_seed3407",
+    "evaluation_output_directory": "g2_lbsp_amazon_stability_20261025/snapshot/outputs/toys_seed3407",
+    "training_source_candidates": [
+      "D:\\time_uncertainty_rec\\g2_lbsp_amazon_train_20261025\\snapshot\\scripts\\train_toys_lbsp.py"
+    ],
+    "source_lineage_evidence_level": "candidate_family_source_only_invocation_not_reexecuted"
+  },
+  {
+    "dataset": "toys",
+    "method": "Shuffle",
+    "training_seed": 42,
+    "lineage": "E1_MIN50_REPLACEMENT",
+    "training_job_id": "toys_shuffle_seed42",
+    "evaluation_output_directory": "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/toys_shuffle_seed42_a1/outputs/toys_shuffle_seed42",
+    "training_source_candidates": [
+      "D:\\time_uncertainty_rec\\kais_revision_outline_20261022\\p1_review_20261030\\e1_return_20261031T092136\\report_snapshot\\attempts\\toys_shuffle_seed42_a1\\scripts\\train_toys_shuffle.py"
+    ],
+    "source_lineage_evidence_level": "actual_returned_successful_attempt_source"
+  },
+  {
+    "dataset": "toys",
+    "method": "Shuffle",
+    "training_seed": 2026,
+    "lineage": "RETAINED_PRE_E1_EVALUATION",
+    "training_job_id": "toys_shuffle_seed2026",
+    "evaluation_output_directory": "g2_x3_inference_results_20261027_e635848880/snapshot/outputs/shuffle_toys_seed2026",
+    "training_source_candidates": [
+      "D:\\time_uncertainty_rec\\g2_x3_shuffle_results_20261026\\snapshot\\scripts\\train_toys_shuffle.py"
+    ],
+    "source_lineage_evidence_level": "candidate_family_source_only_invocation_not_reexecuted"
+  },
+  {
+    "dataset": "toys",
+    "method": "Shuffle",
+    "training_seed": 3407,
+    "lineage": "E1_MIN50_REPLACEMENT",
+    "training_job_id": "toys_shuffle_seed3407",
+    "evaluation_output_directory": "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/toys_shuffle_seed3407_a1/outputs/toys_shuffle_seed3407",
+    "training_source_candidates": [
+      "D:\\time_uncertainty_rec\\kais_revision_outline_20261022\\p1_review_20261030\\e1_return_20261031T092136\\report_snapshot\\attempts\\toys_shuffle_seed3407_a1\\scripts\\train_toys_shuffle.py"
+    ],
+    "source_lineage_evidence_level": "actual_returned_successful_attempt_source"
+  }
+]

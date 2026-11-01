@@ -1,0 +1,10 @@
+{
+  "status": "PASS_ALL_COPIED_SOURCE_FINGERPRINTS",
+  "source_records": 403,
+  "unique_source_sha256": 204,
+  "configuration_records": 46,
+  "original_research_logic_modified": false,
+  "no_raw_dataset_or_complete_per_user_panel_or_checkpoint_copied": true,
+  "illustrative_published_Fig1_case_retained": true,
+  "source_map_sha256": "a48fcf4ece59fa574d355caa529545a0a01953ebc65ee8bd19afe31d6fe293e8"
+}

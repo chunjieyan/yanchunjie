@@ -1,0 +1,127 @@
+{
+  "1_raw_preprocessing": {
+    "entrypoints": [
+      "archive:g2_private_snapshot.zip!snapshot/audit/24_freeze_natural_preprocessed.py",
+      "archive:g2_private_snapshot.zip!snapshot/audit/36_4_build_amazon_interactions.py"
+    ],
+    "inputs": [
+      "data/Amazon_Beauty/ratings_Beauty.csv",
+      "data/MovieLens-1M/ml-1m/ratings.dat",
+      "data/Amazon_Sports/reviews_Sports_and_Outdoors_5.json.gz",
+      "data/Amazon_Toys/reviews_Toys_and_Games_5.json.gz"
+    ],
+    "outputs": [
+      "processed/natural_timestamp",
+      "processed/step36_amazon_interactions"
+    ],
+    "dependencies": [
+      "pandas",
+      "numpy",
+      "gzip",
+      "ast.literal_eval for Amazon record parsing"
+    ],
+    "gap": "Local Sports/Toys gzip streams are truncated; processed/model inputs remain fingerprint-verified. Obtain frozen raw containers for complete from-raw rebuild."
+  },
+  "2_split_strict_panel_and_views": {
+    "entrypoints": [
+      "25_prepare_diagnostic_a.py",
+      "25_2_build_diagnostic_a_splits.py",
+      "26_build_strict_evaluation_protocol.py",
+      "28_1_prepare_strict_diagnostic_a_eval.py",
+      "31_1_prepare_recent_bucketset_r1.py",
+      "35_5_build_last_bucket_only_permutations.py",
+      "36_6_build_sports_toys_file_order_split.py",
+      "36_7_build_sports_toys_strict_protocol.py",
+      "36_8_build_sports_toys_strict_inputs.py",
+      "36_9_build_sports_toys_last_bucket_permutations.py"
+    ],
+    "source_container": "g2_private_snapshot.zip snapshot/audit",
+    "dependencies": [
+      "36_6 dynamically imports25_2, whose top-level also processes Beauty/MovieLens; preserve original order and full tree",
+      "global80/90 quantiles and raw row order must not be replaced",
+      "source row indices and frozen catalogues/item maps",
+      "NumPy permutation generator/seed versions"
+    ],
+    "outputs": [
+      "processed/diagnostic_a",
+      "processed/diagnostic_a_splits",
+      "processed/strict_protocol",
+      "processed/strict_diagnostic_a",
+      "processed/strict_last_bucket_only",
+      "processed/recent_bucketset_r1"
+    ]
+  },
+  "3_training": {
+    "independent_models": 42,
+    "method_counts": {
+      "Control": 12,
+      "LBSP": 12,
+      "Shuffle": 12,
+      "TiSASRec": 6
+    },
+    "actual_E1_reruns": 19,
+    "retained_fitted_models": 23,
+    "entrypoints": [
+      "server_g2 prepare_*/run_* original families",
+      "p1_review_20261030/e1/server_toolkit/run_e1_min50.py",
+      "report_snapshot/repair/e1_control_preparation_manifest_v2/e1_control_manifest_fixed.py"
+    ],
+    "dependencies": [
+      "Original58-source snapshot (ML LBSP extracts AST from38_1 and33_2)",
+      "generated stage manifests/model_definition.py",
+      "frozen processed training/validation/test inputs and original item maps",
+      "PyTorch/CUDA/NumPy/pandas",
+      "E1 baseline logs/configs/predictions and locked policy for selected19 gate"
+    ],
+    "portability": "E1 --root is exposed but exact original Linux root is enforced. Generated attempts also contain exact root/stage guards. Path refactoring was not executed/validated."
+  },
+  "4_perturbation_and_evaluation": {
+    "evaluations": 54,
+    "independent_models": 42,
+    "Ensemble_reuses_Control": 12,
+    "entrypoints": [
+      "D:\\time_uncertainty_rec\\kais_revision_outline_20261022\\p1_review_20261030\\e1_inference_return_20261031T110400\\report_snapshot\\scripts\\run_e1_inference.py",
+      "D:\\time_uncertainty_rec\\g2_x3_inference_results_20261027_e635848880\\snapshot\\scripts\\run_x3_inference.py",
+      "D:\\time_uncertainty_rec\\g2_x4_tisasrec_results_20261026\\snapshot\\scripts\\run_x4_tisasrec.py",
+      "server_g2 run_control_stability.py/run_lbsp_*_stability.py"
+    ],
+    "dependencies": [
+      "model checkpoint binaries on server (not returned in these report ZIPs)",
+      "training item maps and original frozen panels",
+      "frozen_x3_inference.py/frozen_x6_inference.py/x3_core_helpers.py/x3_inference_adapter.py/x3_inference_protocol.py/x6_model_definitions.py",
+      "TiSAS x4_tisasrec_model.py and x4_tisasrec_protocol.py",
+      "fixed raw-score Ensemble groups and shared candidate masks"
+    ],
+    "saved_prediction_overlay": "D:\\time_uncertainty_rec\\kais_revision_outline_20261022\\p1_review_20261030\\e1_finalization_20261031\\statistics\\run_overlay.json"
+  },
+  "5_statistics": {
+    "entrypoints": [
+      "D:\\time_uncertainty_rec\\kais_revision_outline_20261022\\p1_review_20261030\\e1_finalization_20261031\\statistics\\build_unified_statistics.py",
+      "D:\\time_uncertainty_rec\\kais_revision_outline_20261022\\p1_review_20261030\\e1_finalization_20261031\\statistics\\build_user_paired_bootstrap.py",
+      "D:\\time_uncertainty_rec\\kais_revision_outline_20261022\\p1_review_20261030\\e1_finalization_20261031\\statistics\\secondary\\build_secondary_diagnostics.py",
+      "D:\\time_uncertainty_rec\\kais_revision_outline_20261022\\p1_review_20261030\\e1_finalization_20261031\\X7\\build_x7_metadata.py"
+    ],
+    "dependencies": [
+      "build_unified_statistics_original.py",
+      "run_overlay.json and all765 hashed saved CSV/JSON sources",
+      "original closing C statistics and posthoc analysis plans",
+      "old X7 training/analyze_training_logs.py and warm_targets/analyze_warm_targets.py helpers",
+      "g2_x5_results_20261025 derived panel metadata and SHA ledger"
+    ],
+    "portability": "Main Builder ROOT is hardcoded D:/time_uncertainty_rec; relative overlay paths preserve historical workspace. New trained outputs need a new registration manifest rather than bypassing old hashes."
+  },
+  "6_tables_and_figures": {
+    "entrypoints": [
+      "D:\\time_uncertainty_rec\\kais_revision_outline_20261022\\formal_revision_20261031\\build_formal_tables.py",
+      "D:\\time_uncertainty_rec\\kais_revision_outline_20261022\\formal_revision_20261031\\figures\\build_structural_figures.py",
+      "D:\\time_uncertainty_rec\\kais_revision_outline_20261022\\formal_revision_20261031\\figures\\build_quantitative_figures.py"
+    ],
+    "dependencies": [
+      "shared paper_style.py",
+      "figures/inputs minimal unroundedCSV/JSON (self-contained artwork)",
+      "table builder unrounded E1 CSVs and numeric trace/baseline tables",
+      "Matplotlib/NumPy; Arial font or documented font substitution"
+    ],
+    "portability": "Figure builders portable with --data-root/--output-dir; table builder still depends on historical evidence tree."
+  }
+}

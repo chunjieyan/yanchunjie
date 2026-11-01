@@ -1,0 +1,6 @@
+{
+  "upstream": "https://github.com/RUCAIBox/RecBole-TRM",
+  "commit": "18b47f8ff98980bed2f2113b398e55b484e748b9",
+  "license": "MIT",
+  "scope": "Time-aware model adaptation only; this does not license original project code or datasets."
+}

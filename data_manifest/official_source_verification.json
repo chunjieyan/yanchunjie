@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-01",
+  "status": "PASS_BOTH_OFFICIAL_RAW_ACQUISITIONS",
+  "raw_files_not_packaged": true,
+  "original_local_input_files_not_modified": true,
+  "results": [
+    {
+      "dataset": "Amazon_Sports",
+      "source_url": "https://snap.stanford.edu/data/amazon/productGraph/categoryFiles/reviews_Sports_and_Outdoors_5.json.gz",
+      "official_landing_page": "https://cseweb.ucsd.edu/~jmcauley/datasets/amazon/links.html",
+      "expected_bytes": 68275834,
+      "expected_compressed_sha256": "8130a2206c3062db1b4b9d4353efc303b0ebd13f48372559fee26c47a1d7fe51",
+      "downloaded_bytes": 68275834,
+      "actual_compressed_sha256": "8130a2206c3062db1b4b9d4353efc303b0ebd13f48372559fee26c47a1d7fe51",
+      "gzip_eof_crc_passed": true,
+      "decompressed_sha256": "24143dfc6a718fa6e40c7615ff55d29420a613028a5e6e77088cd07ab07948db",
+      "total_lines": 296337,
+      "nonempty_review_rows": 296337,
+      "status": "PASS_OFFICIAL_RAW_DOWNLOAD_EXACT_FROZEN_BYTES_SHA_GZIP_AND_ROWS"
+    },
+    {
+      "dataset": "Amazon_Toys",
+      "source_url": "https://snap.stanford.edu/data/amazon/productGraph/categoryFiles/reviews_Toys_and_Games_5.json.gz",
+      "official_landing_page": "https://cseweb.ucsd.edu/~jmcauley/datasets/amazon/links.html",
+      "expected_bytes": 42057555,
+      "expected_compressed_sha256": "f9f0cc56ad6b5de15a1b0dd1c07fcfc9e7367efc73481f5d94d8065f91149286",
+      "downloaded_bytes": 42057555,
+      "actual_compressed_sha256": "f9f0cc56ad6b5de15a1b0dd1c07fcfc9e7367efc73481f5d94d8065f91149286",
+      "gzip_eof_crc_passed": true,
+      "decompressed_sha256": "97db79e5d84f226605d77920d0a41013b387c44ec58fcbfcdff22e13508cbc54",
+      "total_lines": 167597,
+      "nonempty_review_rows": 167597,
+      "status": "PASS_OFFICIAL_RAW_DOWNLOAD_EXACT_FROZEN_BYTES_SHA_GZIP_AND_ROWS"
+    }
+  ]
+}

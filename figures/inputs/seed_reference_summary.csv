@@ -1,0 +1,7 @@
+dataset,method,population,n,affected_n,view_alignment,seed_pair_count,mean_overlap10,mean_pair_hitflip,independent_replicates
+ml1m,Control,full,945,163,canonical,3,0.6093121693121694,0.03386243386243386,not_three_independent_pairs_no_interval
+ml1m,TiSASRec,full,945,163,canonical,3,0.5622927689594356,0.04021164021164021,not_three_independent_pairs_no_interval
+beauty,Control,full,2966,922,canonical,3,0.18841312654529108,0.01326140705776579,not_three_independent_pairs_no_interval
+beauty,TiSASRec,full,2966,922,canonical,3,0.2351202517419645,0.015284333558102943,not_three_independent_pairs_no_interval
+sports,Control,full,4659,1624,canonical,3,0.1718108320812764,0.015740144523145167,not_three_independent_pairs_no_interval
+toys,Control,full,2547,842,canonical,3,0.17700562753566287,0.013087292239235703,not_three_independent_pairs_no_interval

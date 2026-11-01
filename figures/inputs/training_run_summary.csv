@@ -1,0 +1,7 @@
+dataset,method,training_seed,best_epoch,epochs_run
+sports,Control,42,47,62
+sports,Control,2026,64,79
+sports,Control,3407,37,52
+sports,LBSP,42,46,61
+sports,LBSP,2026,56,71
+sports,LBSP,3407,41,56

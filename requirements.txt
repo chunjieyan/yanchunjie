@@ -1,0 +1,8 @@
+# CPU figure/statistics dependencies; GPU training needs the recorded environment.
+# These ranges are not a lock file for reproducing fitted checkpoints.
+numpy>=2.0,<3
+pandas>=2.2,<4
+scipy>=1.14,<2
+matplotlib>=3.9,<4
+pypdf>=5,<7
+tqdm>=4.66,<5

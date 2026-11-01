@@ -1,0 +1,35 @@
+\begin{table*}[!htbp]
+\centering
+\caption{Ranking accuracy on the complete strict test panels.}
+\label{tab:accuracy}
+\fontsize{8.5}{11}\selectfont
+\setlength{\tabcolsep}{2.5pt}
+\renewcommand{\arraystretch}{1.12}
+\sisetup{detect-weight=true, separate-uncertainty=true, retain-zero-uncertainty=true, group-digits=integer, group-separator={,}, group-minimum-digits=4, table-align-uncertainty=true}
+\par\smallskip\noindent\makebox[\textwidth][l]{\textbf{Full-panel accuracy}}\par\smallskip
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llS[table-format=1.3(3)]S[table-format=2.1(3)]S[table-format=2.1(3)]S[table-format=1.3(3)]S[table-format=5.0(5)]@{}}
+\toprule
+Dataset & Method & {\shortstack{NDCG@10\\ $\uparrow$}} & {\shortstack{HR@10\\ (\%) $\uparrow$}} & {\shortstack{Recall@50\\ (\%) $\uparrow$}} & {\shortstack{MRR\\ $\uparrow$}} & {\shortstack{Mean rank\\ $\downarrow$}}\\
+\midrule
+MovieLens-1M & Random & 0.001 & 0.3 & 1.5 & 0.003 & 1684\\ % table-row:ml1m_Random
+ & Popularity & 0.005 & 0.7 & 6.3 & 0.009 & 978\\ % table-row:ml1m_Popularity
+ & SASRec & 0.049(3) & 9.3(6) & 21.3(12) & 0.044(1) & 640(4)\\ % table-row:ml1m_Control
+ & TiSASRec & \bfseries 0.050(2) & \bfseries 9.6(3) & \bfseries 22.8(3) & \bfseries 0.045(1) & \bfseries 628(4)\\ % table-row:ml1m_TiSASRec
+\midrule
+Beauty & Random & 0.000 & 0.1 & 0.4 & 0.001 & \bfseries 6045\\ % table-row:beauty_Random
+ & Popularity & 0.002 & 0.5 & 1.7 & 0.003 & 7351\\ % table-row:beauty_Popularity
+ & SASRec & 0.008(0) & 1.4(2) & 3.4(1) & 0.007(0) & 6573(20)\\ % table-row:beauty_Control
+ & TiSASRec & \bfseries 0.009(2) & \bfseries 1.6(3) & \bfseries 3.8(3) & \bfseries 0.008(1) & 6433(157)\\ % table-row:beauty_TiSASRec
+\midrule
+Sports & Random & 0.000 & 0.1 & 0.3 & 0.001 & 9174\\ % table-row:sports_Random
+ & Popularity & 0.005 & 0.8 & 2.4 & 0.005 & 8695\\ % table-row:sports_Popularity
+ & SASRec & \bfseries 0.009(1) & \bfseries 1.6(1) & \bfseries 4.0(2) & \bfseries 0.009(0) & \bfseries 6972(147)\\ % table-row:sports_Control
+\midrule
+Toys & Random & 0.000 & 0.1 & 0.4 & 0.001 & \bfseries 5956\\ % table-row:toys_Random
+ & Popularity & 0.003 & 0.6 & 1.9 & 0.004 & 7423\\ % table-row:toys_Popularity
+ & SASRec & \bfseries 0.008(1) & \bfseries 1.5(1) & \bfseries 3.6(2) & \bfseries 0.008(1) & 6382(66)\\ % table-row:toys_Control
+\bottomrule
+\end{tabular*}
+\par\smallskip\noindent\begin{minipage}{\textwidth}\fontsize{8.5}{11}\selectfont $N=945$, $2{,}966$, $4{,}659$ and $2{,}547$ for MovieLens-1M, Beauty, Sports and Toys. Learned models: mean $\pm$ sample SD over three training seeds; analytic references: expectations.
+\end{minipage}
+\end{table*}

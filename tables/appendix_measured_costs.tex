@@ -1,0 +1,33 @@
+\begin{table*}[!htbp]
+\centering
+\caption{Training and inference costs on complete test panels.}
+\label{tab:measured-costs-appendix}
+\fontsize{8.5}{11}\selectfont\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}llrrrr@{}}
+\toprule
+Dataset & Method & Train (s/epoch) & Infer (s/panel) & Infer (ms/user) & Infer peak (MiB)\\
+\midrule
+MovieLens-1M & Control & 58.25 $\pm$ 2.25 & 0.094 $\pm$ 0.009 & 0.099 $\pm$ 0.010 & 48.02\\ % table-row:ml1m_Control
+MovieLens-1M & Shuffle & 59.59 $\pm$ 1.43 & 0.089 $\pm$ 0.020 & 0.094 $\pm$ 0.021 & 48.02\\ % table-row:ml1m_Shuffle
+MovieLens-1M & Ensemble & shared Control & 0.606 $\pm$ 0.059 & 0.642 $\pm$ 0.063 & 65.76\\ % table-row:ml1m_Ensemble
+MovieLens-1M & LBSP & 69.39 $\pm$ 2.00 & 0.102 $\pm$ 0.003 & 0.108 $\pm$ 0.003 & 53.71\\ % table-row:ml1m_LBSP
+\midrule
+Beauty & Control & 9.88 $\pm$ 0.21 & 0.200 $\pm$ 0.002 & 0.067 $\pm$ 0.001 & 58.76\\ % table-row:beauty_Control
+Beauty & Shuffle & 11.07 $\pm$ 0.38 & 0.193 $\pm$ 0.009 & 0.065 $\pm$ 0.003 & 58.76\\ % table-row:beauty_Shuffle
+Beauty & Ensemble & shared Control & 1.077 $\pm$ 0.082 & 0.363 $\pm$ 0.028 & 119.57\\ % table-row:beauty_Ensemble
+Beauty & LBSP & 12.00 $\pm$ 0.81 & 0.204 $\pm$ 0.023 & 0.069 $\pm$ 0.008 & 64.02\\ % table-row:beauty_LBSP
+\midrule
+Sports & Control & 14.95 $\pm$ 0.61 & 0.274 $\pm$ 0.002 & 0.059 $\pm$ 0.001 & 80.96\\ % table-row:sports_Control
+Sports & Shuffle & 19.22 $\pm$ 1.30 & 0.300 $\pm$ 0.050 & 0.064 $\pm$ 0.011 & 80.96\\ % table-row:sports_Shuffle
+Sports & Ensemble & shared Control & 1.669 $\pm$ 0.156 & 0.358 $\pm$ 0.033 & 174.93\\ % table-row:sports_Ensemble
+Sports & LBSP & 17.59 $\pm$ 1.93 & 0.286 $\pm$ 0.002 & 0.061 $\pm$ 0.000 & 80.50\\ % table-row:sports_LBSP
+\midrule
+Toys & Control & 7.76 $\pm$ 0.60 & 0.178 $\pm$ 0.047 & 0.070 $\pm$ 0.018 & 58.76\\ % table-row:toys_Control
+Toys & Shuffle & 11.16 $\pm$ 0.61 & 0.189 $\pm$ 0.056 & 0.074 $\pm$ 0.022 & 58.76\\ % table-row:toys_Shuffle
+Toys & Ensemble & shared Control & 0.921 $\pm$ 0.041 & 0.362 $\pm$ 0.016 & 119.53\\ % table-row:toys_Ensemble
+Toys & LBSP & 10.23 $\pm$ 0.58 & 0.182 $\pm$ 0.031 & 0.072 $\pm$ 0.012 & 63.98\\ % table-row:toys_LBSP
+\bottomrule
+\end{tabular}
+\par\smallskip\noindent\begin{minipage}{\textwidth}\fontsize{8.5}{11}\selectfont All rows use training seed 42. Values are mean $\pm$ sample SD over five measured training epochs after warm-up or five inference repetitions. Test $N$: 945, 2,966, 4,659 and 2,547 for MovieLens-1M, Beauty, Sports and Toys.
+\end{minipage}
+\end{table*}

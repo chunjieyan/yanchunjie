@@ -1,0 +1,16 @@
+[
+  {
+    "path": "D:\\time_uncertainty_rec\\paper_20261022\\g2_private_snapshot.zip",
+    "sha256": "c05ad0593845648993b3a6b2e82aa24556e78e37544fc3094ea27951b30d9133",
+    "members": 196,
+    "python_members": 58,
+    "role": "frozen_original_source"
+  },
+  {
+    "path": "D:\\time_uncertainty_rec\\paper_revision_20261004\\e1_min50_training_results_20261031T092136Z_7c2bf4c1.zip",
+    "sha256": "27728732dac7e633c5e1cc3fe609d6686d5b756c8b4d065909738efad593d55e",
+    "members": 381,
+    "python_members": 65,
+    "role": "returned_actual_source_including_preserved_failed_attempt_and_repairs"
+  }
+]

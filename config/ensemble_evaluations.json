@@ -1,0 +1,74 @@
+[
+  {
+    "dataset": "ml1m",
+    "training_seed": 42,
+    "paired_control_key": "ml1m|Control|42",
+    "output_directory": "g2_x3_inference_results_20261027_e635848880/snapshot/outputs/ensemble_ml1m_seed42"
+  },
+  {
+    "dataset": "ml1m",
+    "training_seed": 2026,
+    "paired_control_key": "ml1m|Control|2026",
+    "output_directory": "g2_x3_inference_results_20261027_e635848880/snapshot/outputs/ensemble_ml1m_seed2026"
+  },
+  {
+    "dataset": "ml1m",
+    "training_seed": 3407,
+    "paired_control_key": "ml1m|Control|3407",
+    "output_directory": "g2_x3_inference_results_20261027_e635848880/snapshot/outputs/ensemble_ml1m_seed3407"
+  },
+  {
+    "dataset": "beauty",
+    "training_seed": 42,
+    "paired_control_key": "beauty|Control|42",
+    "output_directory": "g2_x3_inference_results_20261027_e635848880/snapshot/outputs/ensemble_beauty_seed42"
+  },
+  {
+    "dataset": "beauty",
+    "training_seed": 2026,
+    "paired_control_key": "beauty|Control|2026",
+    "output_directory": "g2_x3_inference_results_20261027_e635848880/snapshot/outputs/ensemble_beauty_seed2026"
+  },
+  {
+    "dataset": "beauty",
+    "training_seed": 3407,
+    "paired_control_key": "beauty|Control|3407",
+    "output_directory": "g2_x3_inference_results_20261027_e635848880/snapshot/outputs/ensemble_beauty_seed3407"
+  },
+  {
+    "dataset": "sports",
+    "training_seed": 42,
+    "paired_control_key": "sports|Control|42",
+    "output_directory": "g2_x3_inference_results_20261027_e635848880/snapshot/outputs/ensemble_sports_seed42"
+  },
+  {
+    "dataset": "sports",
+    "training_seed": 2026,
+    "paired_control_key": "sports|Control|2026",
+    "output_directory": "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/sports_ensemble_seed2026_a1/outputs/sports_ensemble_seed2026"
+  },
+  {
+    "dataset": "sports",
+    "training_seed": 3407,
+    "paired_control_key": "sports|Control|3407",
+    "output_directory": "g2_x3_inference_results_20261027_e635848880/snapshot/outputs/ensemble_sports_seed3407"
+  },
+  {
+    "dataset": "toys",
+    "training_seed": 42,
+    "paired_control_key": "toys|Control|42",
+    "output_directory": "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/toys_ensemble_seed42_a1/outputs/toys_ensemble_seed42"
+  },
+  {
+    "dataset": "toys",
+    "training_seed": 2026,
+    "paired_control_key": "toys|Control|2026",
+    "output_directory": "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/toys_ensemble_seed2026_a1/outputs/toys_ensemble_seed2026"
+  },
+  {
+    "dataset": "toys",
+    "training_seed": 3407,
+    "paired_control_key": "toys|Control|3407",
+    "output_directory": "kais_revision_outline_20261022/p1_review_20261030/e1_inference_return_20261031T110400/report_snapshot/attempts/toys_ensemble_seed3407_a1/outputs/toys_ensemble_seed3407"
+  }
+]

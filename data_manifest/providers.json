@@ -1,0 +1,47 @@
+{
+  "verified_landing_pages_on": "2026-11-01",
+  "data_included": false,
+  "sources": [
+    {
+      "dataset": "MovieLens-1M",
+      "landing_page": "https://grouplens.org/datasets/movielens/1m/",
+      "download": "https://files.grouplens.org/datasets/movielens/ml-1m.zip",
+      "kind": "zip",
+      "restore_directory": "data/MovieLens-1M",
+      "verify_members": [
+        "data/MovieLens-1M/ml-1m/ratings.dat",
+        "data/MovieLens-1M/ml-1m/movies.dat",
+        "data/MovieLens-1M/ml-1m/users.dat"
+      ]
+    },
+    {
+      "dataset": "Beauty",
+      "landing_page": "https://cseweb.ucsd.edu/~jmcauley/datasets/amazon/links.html",
+      "download": "https://snap.stanford.edu/data/amazon/productGraph/categoryFiles/ratings_Beauty.csv",
+      "kind": "file",
+      "restore_path": "data/Amazon_Beauty/ratings_Beauty.csv"
+    },
+    {
+      "dataset": "Sports",
+      "landing_page": "https://cseweb.ucsd.edu/~jmcauley/datasets/amazon/links.html",
+      "download": "https://snap.stanford.edu/data/amazon/productGraph/categoryFiles/reviews_Sports_and_Outdoors_5.json.gz",
+      "kind": "file",
+      "restore_path": "data/Amazon_Sports/reviews_Sports_and_Outdoors_5.json.gz",
+      "expected_bytes": 68275834,
+      "expected_review_rows": 296337,
+      "expected_compressed_sha256": "8130a2206c3062db1b4b9d4353efc303b0ebd13f48372559fee26c47a1d7fe51"
+    },
+    {
+      "dataset": "Toys",
+      "landing_page": "https://cseweb.ucsd.edu/~jmcauley/datasets/amazon/links.html",
+      "download": "https://snap.stanford.edu/data/amazon/productGraph/categoryFiles/reviews_Toys_and_Games_5.json.gz",
+      "kind": "file",
+      "restore_path": "data/Amazon_Toys/reviews_Toys_and_Games_5.json.gz",
+      "expected_bytes": 42057555,
+      "expected_review_rows": 167597,
+      "expected_compressed_sha256": "f9f0cc56ad6b5de15a1b0dd1c07fcfc9e7367efc73481f5d94d8065f91149286"
+    }
+  ],
+  "source_version_note": "Use the older Amazon 2014 files, not the linked 2023 replacement dataset. Provider download links were resolved; archives/ratings were not downloaded by this packaging step. Compare downloaded file fingerprints before claiming the recorded inputs are identical.",
+  "sports_toys_official_raw_reacquisition_verified": true
+}

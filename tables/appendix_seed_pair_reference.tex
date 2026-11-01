@@ -1,0 +1,38 @@
+\begin{table*}[!htbp]
+\centering
+\caption{Canonical-input Top-10 overlaps (\%) between training seeds.}
+\label{tab:seed-pair-reference}
+\fontsize{8.5}{11}\selectfont
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}ll*{6}{S[table-format=3.1]}@{}}
+\toprule
+ & & \multicolumn{3}{c}{Complete panel} & \multicolumn{3}{c}{Affected users}\\
+\cmidrule(lr){3-5}\cmidrule(lr){6-8}
+Dataset & Method & {42/2026} & {42/3407} & {2026/3407} & {42/2026} & {42/3407} & {2026/3407}\\
+\midrule
+ML-1M & Control & 61.3 & 59.9 & 61.7 & 64.9 & 63.9 & 67.0\\ % table-row:ml1m_Control
+ & Shuffle & 58.9 & 53.5 & 57.1 & 63.5 & 59.3 & 62.3\\ % table-row:ml1m_Shuffle
+ & Ensemble & 61.3 & 60.0 & 61.8 & 65.3 & 64.9 & 67.9\\ % table-row:ml1m_Ensemble
+ & LBSP & 61.4 & 59.8 & 59.4 & 63.1 & 61.5 & 60.9\\ % table-row:ml1m_LBSP
+ & TiSASRec & 55.4 & 56.8 & 56.6 & 58.5 & 59.0 & 58.8\\ % table-row:ml1m_TiSASRec
+\midrule
+Beauty & Control & 18.7 & 19.2 & 18.7 & 20.2 & 20.7 & 19.9\\ % table-row:beauty_Control
+ & Shuffle & 17.8 & 17.9 & 17.9 & 19.7 & 19.8 & 19.3\\ % table-row:beauty_Shuffle
+ & Ensemble & 19.0 & 19.3 & 18.9 & 21.1 & 20.9 & 20.5\\ % table-row:beauty_Ensemble
+ & LBSP & 17.4 & 17.4 & 17.8 & 15.9 & 15.1 & 15.5\\ % table-row:beauty_LBSP
+ & TiSASRec & 22.9 & 25.9 & 21.7 & 24.4 & 27.3 & 23.8\\ % table-row:beauty_TiSASRec
+\midrule
+Sports & Control & 18.2 & 17.0 & 16.4 & 18.1 & 17.2 & 16.3\\ % table-row:sports_Control
+ & Shuffle & 19.4 & 18.6 & 19.0 & 20.2 & 19.3 & 19.7\\ % table-row:sports_Shuffle
+ & Ensemble & 20.9 & 19.9 & 19.3 & 25.7 & 25.5 & 24.5\\ % table-row:sports_Ensemble
+ & LBSP & 19.2 & 18.5 & 18.4 & 20.3 & 20.6 & 19.8\\ % table-row:sports_LBSP
+\midrule
+Toys & Control & 19.1 & 17.4 & 16.6 & 20.2 & 18.6 & 18.2\\ % table-row:toys_Control
+ & Shuffle & 15.2 & 15.0 & 15.4 & 16.4 & 16.1 & 16.7\\ % table-row:toys_Shuffle
+ & Ensemble & 18.9 & 17.3 & 16.7 & 19.5 & 18.2 & 18.4\\ % table-row:toys_Ensemble
+ & LBSP & 15.2 & 15.6 & 16.0 & 14.8 & 14.5 & 15.6\\ % table-row:toys_LBSP
+\bottomrule
+\end{tabular}
+\par\smallskip\noindent\begin{minipage}{\textwidth}\fontsize{8.5}{11}\selectfont Each entry is a user-average overlap for one pair of three fitted training seeds. These pairs are dependent; no confidence interval is assigned.
+\end{minipage}
+\end{table*}
