@@ -1,0 +1,24 @@
+\begin{table*}[!htbp]
+\centering
+\caption{Dataset sizes and strict evaluation populations}
+\label{tab:data}
+\fontsize{8.5}{11}\selectfont
+\setlength{\tabcolsep}{2.5pt}
+\renewcommand{\arraystretch}{1.12}
+\sisetup{detect-weight=true, separate-uncertainty=true, retain-zero-uncertainty=true, group-digits=integer, group-separator={,}, group-minimum-digits=4, table-align-uncertainty=true}
+\setlength{\tabcolsep}{1.75pt}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llS[table-format=6.0]S[table-format=5.0]S[table-format=5.0]S[table-format=5.0]S[table-format=2.1]S[table-format=4.0]S[table-format=4.0]S[table-format=2.1]S[table-format=6.0]S[table-format=3.0]S[table-format=2.1]@{}}
+\toprule
+ & & \multicolumn{3}{c}{Filtered data} & \multicolumn{5}{c}{Evaluation panel} & \multicolumn{3}{c}{Training audit}\\
+\cmidrule(lr){3-5}\cmidrule(lr){6-10}\cmidrule(lr){11-13}
+Dataset & {\shortstack{Native\\grain}} & {Events} & {Users} & {Items} & {\shortstack{Candidate\\users}} & {\shortstack{Tied target\\(\%)}} & {\shortstack{Val.\\$N$}} & {\shortstack{Test\\$N$}} & {\shortstack{Multi-event\\last bucket\\(\%)}} & {\shortstack{Train\\positions}} & {\shortstack{No train\\positives}} & {\shortstack{Cold targets\\(\%)}}\\
+\midrule
+ML-1M & second & 999611 & 6040 & 3416 & 1209 & 21.8 & 752 & 945 & 17.7 & 794289 & 5 & 0.5\\
+Beauty & day & 198502 & 22363 & 12101 & 6110 & 36.3 & 2856 & 2966 & 32.0 & 138167 & 323 & 31.3\\
+Sports & day & 296337 & 35598 & 18357 & 10203 & 40.1 & 4082 & 4659 & 36.0 & 204047 & 273 & 13.7\\
+Toys & day & 167597 & 19412 & 11924 & 5609 & 40.0 & 1939 & 2547 & 34.1 & 116686 & 285 & 31.7\\
+\bottomrule
+\end{tabular*}
+\par\smallskip\noindent\begin{minipage}{\textwidth}\fontsize{8.5}{11}\selectfont Tied-target percentages use candidate users; multi-event and cold-target percentages use strict-test users. Validation and test $N$ are shown separately.
+\end{minipage}
+\end{table*}

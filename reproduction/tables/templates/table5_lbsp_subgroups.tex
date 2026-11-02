@@ -1,0 +1,47 @@
+\begin{table*}[!htbp]
+\centering
+\caption{Paired LBSP-minus-Control accuracy differences in pooled and singleton histories}
+\label{tab:groups}
+\fontsize{8.5}{11}\selectfont
+\setlength{\tabcolsep}{2.5pt}
+\renewcommand{\arraystretch}{1.12}
+\sisetup{detect-weight=true, separate-uncertainty=true, retain-zero-uncertainty=true, group-digits=integer, group-separator={,}, group-minimum-digits=4, table-align-uncertainty=true}
+\par\smallskip\noindent\makebox[\textwidth][l]{\textbf{(a) NDCG@10 differences ($\times10^{-3}$)}}\par\smallskip
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llS[table-format=4.0]S[table-format=1.0]S[table-format=+2.1(3)]r@{}}
+\toprule
+Dataset & Population & {$N_{\rm users}$} & {$n_{\rm seeds}$} & {\shortstack{$\Delta$NDCG@10 ($\times10^{-3}$)\\Mean $\pm$ sample SD}} & {\shortstack{95\% $t$ interval\\$\times10^{-3}$}}\\
+\midrule
+MovieLens-1M & Pooled & 167 & 3 & +7.8(92) & \([-14.9,\ +30.6]\)\\ % table-row:ndcg10_ml1m_pooled
+ & Singleton & 778 & 3 & +5.4(3) & \([+4.8,\ +6.1]\)\\ % table-row:ndcg10_ml1m_singleton
+\midrule
+Beauty & Pooled & 949 & 3 & +0.6(29) & \([-6.6,\ +7.7]\)\\ % table-row:ndcg10_beauty_pooled
+ & Singleton & 2017 & 3 & -1.3(13) & \([-4.5,\ +2.0]\)\\ % table-row:ndcg10_beauty_singleton
+\midrule
+Sports & Pooled & 1676 & 3 & +1.2(9) & \([-1.2,\ +3.5]\)\\ % table-row:ndcg10_sports_pooled
+ & Singleton & 2983 & 3 & +0.6(7) & \([-1.2,\ +2.5]\)\\ % table-row:ndcg10_sports_singleton
+\midrule
+Toys & Pooled & 868 & 3 & +5.1(35) & \([-3.6,\ +13.8]\)\\ % table-row:ndcg10_toys_pooled
+ & Singleton & 1679 & 3 & 0.0(11) & \([-2.7,\ +2.7]\)\\ % table-row:ndcg10_toys_singleton
+\bottomrule
+\end{tabular*}
+\par\smallskip\noindent\makebox[\textwidth][l]{\textbf{(b) HR@10 differences in percentage points}}\par\smallskip
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llS[table-format=4.0]S[table-format=1.0]S[table-format=+2.1(3)]r@{}}
+\toprule
+Dataset & Population & {$N_{\rm users}$} & {$n_{\rm seeds}$} & {\shortstack{$\Delta$HR@10 (pp)\\Mean $\pm$ sample SD}} & {\shortstack{95\% $t$ interval\\Percentage points}}\\
+\midrule
+MovieLens-1M & Pooled & 167 & 3 & +1.0(19) & \([-3.8,\ +5.8]\)\\ % table-row:hr10_ml1m_pooled
+ & Singleton & 778 & 3 & +0.6(5) & \([-0.7,\ +1.8]\)\\ % table-row:hr10_ml1m_singleton
+\midrule
+Beauty & Pooled & 949 & 3 & +0.4(3) & \([-0.5,\ +1.2]\)\\ % table-row:hr10_beauty_pooled
+ & Singleton & 2017 & 3 & -0.3(3) & \([-1.0,\ +0.4]\)\\ % table-row:hr10_beauty_singleton
+\midrule
+Sports & Pooled & 1676 & 3 & +0.3(2) & \([-0.2,\ +0.7]\)\\ % table-row:hr10_sports_pooled
+ & Singleton & 2983 & 3 & 0.0(1) & \([-0.2,\ +0.3]\)\\ % table-row:hr10_sports_singleton
+\midrule
+Toys & Pooled & 868 & 3 & +1.1(4) & \([+0.2,\ +1.9]\)\\ % table-row:hr10_toys_pooled
+ & Singleton & 1679 & 3 & -0.1(4) & \([-1.0,\ +0.8]\)\\ % table-row:hr10_toys_singleton
+\bottomrule
+\end{tabular*}
+\par\smallskip\noindent\begin{minipage}{\textwidth}\fontsize{8.5}{11}\selectfont $N_{\rm users}$ and $n_{\rm seeds}=3$ are shown. Differences are mean $\pm$ sample SD; intervals are unadjusted 95\% Student $t$ intervals (df=2; $t_{0.975}=4.303$).
+\end{minipage}
+\end{table*}

@@ -60,4 +60,4 @@ The result-contract JSON includes the run directories and hashes and can itself 
 | Supplementary costs, seeds and diagnostics | `tables/appendix_*.tex`, `aggregates/X7/`, `aggregates/statistics/` |
 | Exact table number provenance | `tables/frozen_numeric_cells.json` |
 
-The manuscript and its author declarations are supplied separately from this code-only package. No public repository URL or paper DOI has been assumed.
+The manuscript and its author declarations are supplied separately from this code-only package. The public repository is https://github.com/chunjieyan/yanchunjie; its inspected commit is 40bf70113553489d51581225a4953c76a18b8332. No archive DOI is claimed. Full article reproduction details accompany this package in `README_REPRODUCIBILITY.md`.

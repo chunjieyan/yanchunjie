@@ -1,0 +1,80 @@
+{
+  "date": "2026-11-02",
+  "source_csvs": [
+    {
+      "input": "inputs/source_01_accepted_calibration_metrics.csv",
+      "original_basename": "accepted_calibration_metrics.csv",
+      "sha256": "ba97ac317769bbd32c6407a2855a341524ced315c5ef50ade54d3ab124f786cb",
+      "bytes": 1444
+    },
+    {
+      "input": "inputs/source_02_sports_training_summary.csv",
+      "original_basename": "sports_training_summary.csv",
+      "sha256": "d0dafb33e769bfeb93d1b25edf6305c5dda1b6b603369a164836017276dfb7c3",
+      "bytes": 3581
+    },
+    {
+      "input": "inputs/source_03_method_summary.csv",
+      "original_basename": "method_summary.csv",
+      "sha256": "299726f710c38e2ad8c485b7f8a55ceb6dc5c53e5ebec2449666c75ba5b1b8d1",
+      "bytes": 52761
+    },
+    {
+      "input": "inputs/source_04_paired_difference_summary.csv",
+      "original_basename": "paired_difference_summary.csv",
+      "sha256": "a2129472693d3b5c9e7896fc7a73ce6e51566a571f8d8a618308ed4ddeacd247",
+      "bytes": 41383
+    },
+    {
+      "input": "inputs/source_05_matched_costs.csv",
+      "original_basename": "matched_costs.csv",
+      "sha256": "9d791015897d90f4679ae1357ca1caca31004c2304569bba5e0123c86c395cfd",
+      "bytes": 3929
+    },
+    {
+      "input": "inputs/source_06_analytic_baselines.csv",
+      "original_basename": "analytic_baselines.csv",
+      "sha256": "d1b6c8b0ad896a44d330b8c3e525449af14f101d40b8e6bfe47c655cd3ef3e7d",
+      "bytes": 96575
+    },
+    {
+      "input": "inputs/source_07_method_summary.csv",
+      "original_basename": "method_summary.csv",
+      "sha256": "f4390e982d0469cf772164abb9ebdef5603ef50e6c251883737a6f21719aeede",
+      "bytes": 285716
+    },
+    {
+      "input": "inputs/source_08_paired_difference_summary.csv",
+      "original_basename": "paired_difference_summary.csv",
+      "sha256": "6c8f4a4eafdd0d72f36eb1a3cc412115018a72362d64feddfaae80db8cdc80e9",
+      "bytes": 391649
+    },
+    {
+      "input": "inputs/source_09_per_seed_metrics.csv",
+      "original_basename": "per_seed_metrics.csv",
+      "sha256": "38582e963d7321862f2dfe95f48ae507c3d0795ecd3d2dd4cd143a0566c53c43",
+      "bytes": 455148
+    },
+    {
+      "input": "inputs/source_10_secondary_three_seed_summary.csv",
+      "original_basename": "secondary_three_seed_summary.csv",
+      "sha256": "258e9b3115e580388486612994852877105802e0c9782dae0fa9999eadaf5071",
+      "bytes": 1988
+    },
+    {
+      "input": "inputs/source_11_seed_reference_pairs.csv",
+      "original_basename": "seed_reference_pairs.csv",
+      "sha256": "057b835cfaffd3638341f4b6686a543b14b783c9ad5683af4d7db93ac28610f6",
+      "bytes": 62178
+    },
+    {
+      "input": "inputs/source_12_seed_reference_summary.csv",
+      "original_basename": "seed_reference_summary.csv",
+      "sha256": "43d6c170db1f02dc0ba44002791b212c7147ba64ffd370a7db6f2b0b1febf0f6",
+      "bytes": 28564
+    }
+  ],
+  "original_trace_sha256": "d241c6be7b11f1f0a6c7566b570c59e33d4608ee05f819a73d117abf1d404bec",
+  "packaged_trace_sha256": "7cee963c233218000ef9c084bf551cb62e064157b2b8ae8c27887d255ec9d83a",
+  "scientific_values_changed": false
+}

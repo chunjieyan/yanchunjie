@@ -1,0 +1,24 @@
+\begin{table*}[!htbp]
+\centering
+\caption{Sports training trajectories: selected and final epochs}
+\label{tab:x7-training}
+\fontsize{8.5}{11}\selectfont
+\setlength{\tabcolsep}{1.6pt}
+\renewcommand{\arraystretch}{1.15}
+\sisetup{detect-weight=true,separate-uncertainty=true,retain-zero-uncertainty=true,group-digits=integer,group-separator={,},group-minimum-digits=4,table-align-uncertainty=true}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lS[table-format=4.0]S[table-format=2.0]S[table-format=2.0]S[table-format=1.3]S[table-format=1.3]S[table-format=1.3]S[table-format=1.3]@{}}
+\toprule
+Method & {Seed} & {\shortstack{Best\\epoch}} & {\shortstack{Final\\epoch}} & {\shortstack{Best val.\\NDCG@10}} & {\shortstack{Final val.\\NDCG@10}} & {\shortstack{Loss at\\best epoch}} & {\shortstack{Loss at\\final epoch}}\\
+\midrule
+Control & 42 & 47 & 62 & 0.013 & 0.012 & 7.203 & 6.810\\ % table-row:Control_42
+Control & 2026 & 64 & 79 & 0.011 & 0.010 & 6.726 & 6.447\\ % table-row:Control_2026
+Control & 3407 & 37 & 52 & 0.012 & 0.011 & 7.518 & 6.940\\ % table-row:Control_3407
+\midrule
+LBSP & 42 & 46 & 61 & 0.014 & 0.012 & 7.208 & 6.782\\ % table-row:LBSP_42
+LBSP & 2026 & 56 & 71 & 0.013 & 0.012 & 6.975 & 6.652\\ % table-row:LBSP_2026
+LBSP & 3407 & 41 & 56 & 0.012 & 0.012 & 7.358 & 6.870\\ % table-row:LBSP_3407
+\bottomrule
+\end{tabular*}
+\par\smallskip\noindent\begin{minipage}{\textwidth}\fontsize{8.5}{11}\selectfont Each row is one Sports training run at the indicated seed. Values are recorded epoch-level point estimates.
+\end{minipage}
+\end{table*}

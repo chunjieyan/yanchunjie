@@ -1,0 +1,3008 @@
+{
+  "status": "PASS_TABLE_SOURCE_AND_DISPLAY_REVISION",
+  "date": "2026-11-02",
+  "items_completed": [
+    "T1",
+    "T2",
+    "T3",
+    "T4",
+    "T5",
+    "T6"
+  ],
+  "source_values_changed": false,
+  "estimators_or_intervals_recomputed": false,
+  "source_trace": "D:\\time_uncertainty_rec\\kais_revision_20261102\\manuscript\\reproduction\\tables\\inputs\\formal_numeric_cells.json",
+  "source_trace_sha256": "7cee963c233218000ef9c084bf551cb62e064157b2b8ae8c27887d255ec9d83a",
+  "original_precision_source_cells_verified": 1124,
+  "current_table_cells_matched_to_trace": 1124,
+  "numeric_display_changes": [
+    {
+      "table": "appendix_x7_target_accuracy.tex",
+      "row_id": "ml1m_warm_Control",
+      "column": 4,
+      "source_csv": "inputs/source_03_method_summary.csv",
+      "selector": {
+        "dataset": "ml1m",
+        "method": "Control",
+        "population": "warm",
+        "metric": "ndcg10"
+      },
+      "source_values": {
+        "mean": "0.04906587423593389",
+        "sample_sd": "0.0026372534217229448"
+      },
+      "old_tex": "0.049(3)",
+      "new_tex": "49.1(26)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_x7_target_accuracy.tex",
+      "row_id": "ml1m_warm_Control",
+      "column": 6,
+      "source_csv": "inputs/source_03_method_summary.csv",
+      "selector": {
+        "dataset": "ml1m",
+        "method": "Control",
+        "population": "warm",
+        "metric": "mrr"
+      },
+      "source_values": {
+        "mean": "0.04432760966163114",
+        "sample_sd": "0.0009449844694448978"
+      },
+      "old_tex": "0.044(1)",
+      "new_tex": "44.3(9)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_x7_target_accuracy.tex",
+      "row_id": "ml1m_warm_Control",
+      "column": 7,
+      "source_csv": "inputs/source_03_method_summary.csv",
+      "selector": {
+        "dataset": "ml1m",
+        "method": "Control",
+        "population": "warm",
+        "metric": "mean_rank"
+      },
+      "source_values": {
+        "mean": "625.5734042553191",
+        "sample_sd": "4.365384667541804"
+      },
+      "old_tex": "625.6(44)",
+      "new_tex": "626(4)",
+      "scale": 1,
+      "places": 0,
+      "reason": [
+        "mean-rank mean and SD rounded to integer display"
+      ]
+    },
+    {
+      "table": "appendix_x7_target_accuracy.tex",
+      "row_id": "ml1m_warm_LBSP",
+      "column": 4,
+      "source_csv": "inputs/source_03_method_summary.csv",
+      "selector": {
+        "dataset": "ml1m",
+        "method": "LBSP",
+        "population": "warm",
+        "metric": "ndcg10"
+      },
+      "source_values": {
+        "mean": "0.054949884443575195",
+        "sample_sd": "0.001316895259617767"
+      },
+      "old_tex": "0.055(1)",
+      "new_tex": "54.9(13)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_x7_target_accuracy.tex",
+      "row_id": "ml1m_warm_LBSP",
+      "column": 6,
+      "source_csv": "inputs/source_03_method_summary.csv",
+      "selector": {
+        "dataset": "ml1m",
+        "method": "LBSP",
+        "population": "warm",
+        "metric": "mrr"
+      },
+      "source_values": {
+        "mean": "0.04975369265633757",
+        "sample_sd": "0.001359797712334067"
+      },
+      "old_tex": "0.050(1)",
+      "new_tex": "49.8(14)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_x7_target_accuracy.tex",
+      "row_id": "ml1m_warm_LBSP",
+      "column": 7,
+      "source_csv": "inputs/source_03_method_summary.csv",
+      "selector": {
+        "dataset": "ml1m",
+        "method": "LBSP",
+        "population": "warm",
+        "metric": "mean_rank"
+      },
+      "source_values": {
+        "mean": "626.0755319148936",
+        "sample_sd": "11.717616007454085"
+      },
+      "old_tex": "626.1(117)",
+      "new_tex": "626(12)",
+      "scale": 1,
+      "places": 0,
+      "reason": [
+        "mean-rank mean and SD rounded to integer display"
+      ]
+    },
+    {
+      "table": "appendix_x7_target_accuracy.tex",
+      "row_id": "ml1m_cold_Control",
+      "column": 4,
+      "source_csv": "inputs/source_03_method_summary.csv",
+      "selector": {
+        "dataset": "ml1m",
+        "method": "Control",
+        "population": "cold",
+        "metric": "ndcg10"
+      },
+      "source_values": {
+        "mean": "0.0",
+        "sample_sd": "0.0"
+      },
+      "old_tex": "0.000(0)",
+      "new_tex": "0.0(0)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_x7_target_accuracy.tex",
+      "row_id": "ml1m_cold_Control",
+      "column": 6,
+      "source_csv": "inputs/source_03_method_summary.csv",
+      "selector": {
+        "dataset": "ml1m",
+        "method": "Control",
+        "population": "cold",
+        "metric": "mrr"
+      },
+      "source_values": {
+        "mean": "0.0002977361970098936",
+        "sample_sd": "3.940088241890949e-07"
+      },
+      "old_tex": "0.000(0)",
+      "new_tex": "0.3(0)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_x7_target_accuracy.tex",
+      "row_id": "ml1m_cold_Control",
+      "column": 7,
+      "source_csv": "inputs/source_03_method_summary.csv",
+      "selector": {
+        "dataset": "ml1m",
+        "method": "Control",
+        "population": "cold",
+        "metric": "mean_rank"
+      },
+      "source_values": {
+        "mean": "3358.7333333333336",
+        "sample_sd": "4.406056437828948"
+      },
+      "old_tex": "3358.7(44)",
+      "new_tex": "3359(4)",
+      "scale": 1,
+      "places": 0,
+      "reason": [
+        "mean-rank mean and SD rounded to integer display"
+      ]
+    },
+    {
+      "table": "appendix_x7_target_accuracy.tex",
+      "row_id": "ml1m_cold_LBSP",
+      "column": 4,
+      "source_csv": "inputs/source_03_method_summary.csv",
+      "selector": {
+        "dataset": "ml1m",
+        "method": "LBSP",
+        "population": "cold",
+        "metric": "ndcg10"
+      },
+      "source_values": {
+        "mean": "0.0",
+        "sample_sd": "0.0"
+      },
+      "old_tex": "0.000(0)",
+      "new_tex": "0.0(0)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_x7_target_accuracy.tex",
+      "row_id": "ml1m_cold_LBSP",
+      "column": 6,
+      "source_csv": "inputs/source_03_method_summary.csv",
+      "selector": {
+        "dataset": "ml1m",
+        "method": "LBSP",
+        "population": "cold",
+        "metric": "mrr"
+      },
+      "source_values": {
+        "mean": "0.0002972828811322122",
+        "sample_sd": "5.3019960232946873e-08"
+      },
+      "old_tex": "0.000(0)",
+      "new_tex": "0.3(0)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_x7_target_accuracy.tex",
+      "row_id": "ml1m_cold_LBSP",
+      "column": 7,
+      "source_csv": "inputs/source_03_method_summary.csv",
+      "selector": {
+        "dataset": "ml1m",
+        "method": "LBSP",
+        "population": "cold",
+        "metric": "mean_rank"
+      },
+      "source_values": {
+        "mean": "3363.8",
+        "sample_sd": "0.6000000000001364"
+      },
+      "old_tex": "3363.8(6)",
+      "new_tex": "3364(1)",
+      "scale": 1,
+      "places": 0,
+      "reason": [
+        "mean-rank mean and SD rounded to integer display"
+      ]
+    },
+    {
+      "table": "appendix_x7_target_accuracy.tex",
+      "row_id": "beauty_warm_Control",
+      "column": 4,
+      "source_csv": "inputs/source_03_method_summary.csv",
+      "selector": {
+        "dataset": "beauty",
+        "method": "Control",
+        "population": "warm",
+        "metric": "ndcg10"
+      },
+      "source_values": {
+        "mean": "0.011217380463408613",
+        "sample_sd": "0.000694249104200475"
+      },
+      "old_tex": "0.011(1)",
+      "new_tex": "11.2(7)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_x7_target_accuracy.tex",
+      "row_id": "beauty_warm_Control",
+      "column": 6,
+      "source_csv": "inputs/source_03_method_summary.csv",
+      "selector": {
+        "dataset": "beauty",
+        "method": "Control",
+        "population": "warm",
+        "metric": "mrr"
+      },
+      "source_values": {
+        "mean": "0.010829829206643346",
+        "sample_sd": "0.0003480821023246292"
+      },
+      "old_tex": "0.011(0)",
+      "new_tex": "10.8(3)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_x7_target_accuracy.tex",
+      "row_id": "beauty_warm_Control",
+      "column": 7,
+      "source_csv": "inputs/source_03_method_summary.csv",
+      "selector": {
+        "dataset": "beauty",
+        "method": "Control",
+        "population": "warm",
+        "metric": "mean_rank"
+      },
+      "source_values": {
+        "mean": "4136.82343315333",
+        "sample_sd": "25.023657491186952"
+      },
+      "old_tex": "4136.8(250)",
+      "new_tex": "4137(25)",
+      "scale": 1,
+      "places": 0,
+      "reason": [
+        "mean-rank mean and SD rounded to integer display"
+      ]
+    },
+    {
+      "table": "appendix_x7_target_accuracy.tex",
+      "row_id": "beauty_warm_LBSP",
+      "column": 4,
+      "source_csv": "inputs/source_03_method_summary.csv",
+      "selector": {
+        "dataset": "beauty",
+        "method": "LBSP",
+        "population": "warm",
+        "metric": "ndcg10"
+      },
+      "source_values": {
+        "mean": "0.010223321322508364",
+        "sample_sd": "0.0013102571470149484"
+      },
+      "old_tex": "0.010(1)",
+      "new_tex": "10.2(13)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_x7_target_accuracy.tex",
+      "row_id": "beauty_warm_LBSP",
+      "column": 6,
+      "source_csv": "inputs/source_03_method_summary.csv",
+      "selector": {
+        "dataset": "beauty",
+        "method": "LBSP",
+        "population": "warm",
+        "metric": "mrr"
+      },
+      "source_values": {
+        "mean": "0.01011318613730202",
+        "sample_sd": "0.0010841136982016322"
+      },
+      "old_tex": "0.010(1)",
+      "new_tex": "10.1(11)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_x7_target_accuracy.tex",
+      "row_id": "beauty_warm_LBSP",
+      "column": 7,
+      "source_csv": "inputs/source_03_method_summary.csv",
+      "selector": {
+        "dataset": "beauty",
+        "method": "LBSP",
+        "population": "warm",
+        "metric": "mean_rank"
+      },
+      "source_values": {
+        "mean": "4131.142202585502",
+        "sample_sd": "41.58666614907866"
+      },
+      "old_tex": "4131.1(416)",
+      "new_tex": "4131(42)",
+      "scale": 1,
+      "places": 0,
+      "reason": [
+        "mean-rank mean and SD rounded to integer display"
+      ]
+    },
+    {
+      "table": "appendix_x7_target_accuracy.tex",
+      "row_id": "beauty_cold_Control",
+      "column": 4,
+      "source_csv": "inputs/source_03_method_summary.csv",
+      "selector": {
+        "dataset": "beauty",
+        "method": "Control",
+        "population": "cold",
+        "metric": "ndcg10"
+      },
+      "source_values": {
+        "mean": "0.0",
+        "sample_sd": "0.0"
+      },
+      "old_tex": "0.000(0)",
+      "new_tex": "0.0(0)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_x7_target_accuracy.tex",
+      "row_id": "beauty_cold_Control",
+      "column": 6,
+      "source_csv": "inputs/source_03_method_summary.csv",
+      "selector": {
+        "dataset": "beauty",
+        "method": "Control",
+        "population": "cold",
+        "metric": "mrr"
+      },
+      "source_values": {
+        "mean": "8.394108753065707e-05",
+        "sample_sd": "9.851422356887032e-08"
+      },
+      "old_tex": "0.000(0)",
+      "new_tex": "0.1(0)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_x7_target_accuracy.tex",
+      "row_id": "beauty_cold_Control",
+      "column": 7,
+      "source_csv": "inputs/source_03_method_summary.csv",
+      "selector": {
+        "dataset": "beauty",
+        "method": "Control",
+        "population": "cold",
+        "metric": "mean_rank"
+      },
+      "source_values": {
+        "mean": "11914.661284535343",
+        "sample_sd": "12.80215330929121"
+      },
+      "old_tex": "11914.7(128)",
+      "new_tex": "11915(13)",
+      "scale": 1,
+      "places": 0,
+      "reason": [
+        "mean-rank mean and SD rounded to integer display"
+      ]
+    },
+    {
+      "table": "appendix_x7_target_accuracy.tex",
+      "row_id": "beauty_cold_LBSP",
+      "column": 4,
+      "source_csv": "inputs/source_03_method_summary.csv",
+      "selector": {
+        "dataset": "beauty",
+        "method": "LBSP",
+        "population": "cold",
+        "metric": "ndcg10"
+      },
+      "source_values": {
+        "mean": "0.0",
+        "sample_sd": "0.0"
+      },
+      "old_tex": "0.000(0)",
+      "new_tex": "0.0(0)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_x7_target_accuracy.tex",
+      "row_id": "beauty_cold_LBSP",
+      "column": 6,
+      "source_csv": "inputs/source_03_method_summary.csv",
+      "selector": {
+        "dataset": "beauty",
+        "method": "LBSP",
+        "population": "cold",
+        "metric": "mrr"
+      },
+      "source_values": {
+        "mean": "8.387387152049766e-05",
+        "sample_sd": "1.1496316194253605e-08"
+      },
+      "old_tex": "0.000(0)",
+      "new_tex": "0.1(0)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_x7_target_accuracy.tex",
+      "row_id": "beauty_cold_LBSP",
+      "column": 7,
+      "source_csv": "inputs/source_03_method_summary.csv",
+      "selector": {
+        "dataset": "beauty",
+        "method": "LBSP",
+        "population": "cold",
+        "metric": "mean_rank"
+      },
+      "source_values": {
+        "mean": "11923.574452816649",
+        "sample_sd": "1.9010200848772631"
+      },
+      "old_tex": "11923.6(19)",
+      "new_tex": "11924(2)",
+      "scale": 1,
+      "places": 0,
+      "reason": [
+        "mean-rank mean and SD rounded to integer display"
+      ]
+    },
+    {
+      "table": "appendix_x7_target_accuracy.tex",
+      "row_id": "sports_warm_Control",
+      "column": 4,
+      "source_csv": "inputs/source_03_method_summary.csv",
+      "selector": {
+        "dataset": "sports",
+        "method": "Control",
+        "population": "warm",
+        "metric": "ndcg10"
+      },
+      "source_values": {
+        "mean": "0.010024758864684504",
+        "sample_sd": "0.000678252026343679"
+      },
+      "old_tex": "0.010(1)",
+      "new_tex": "10.0(7)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_x7_target_accuracy.tex",
+      "row_id": "sports_warm_Control",
+      "column": 6,
+      "source_csv": "inputs/source_03_method_summary.csv",
+      "selector": {
+        "dataset": "sports",
+        "method": "Control",
+        "population": "warm",
+        "metric": "mrr"
+      },
+      "source_values": {
+        "mean": "0.009874784880355088",
+        "sample_sd": "0.0005778350075009716"
+      },
+      "old_tex": "0.010(1)",
+      "new_tex": "9.9(6)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_x7_target_accuracy.tex",
+      "row_id": "sports_warm_Control",
+      "column": 7,
+      "source_csv": "inputs/source_03_method_summary.csv",
+      "selector": {
+        "dataset": "sports",
+        "method": "Control",
+        "population": "warm",
+        "metric": "mean_rank"
+      },
+      "source_values": {
+        "mean": "5210.300995024875",
+        "sample_sd": "127.2140255821139"
+      },
+      "old_tex": "5210.3(1272)",
+      "new_tex": "5210(127)",
+      "scale": 1,
+      "places": 0,
+      "reason": [
+        "mean-rank mean and SD rounded to integer display"
+      ]
+    },
+    {
+      "table": "appendix_x7_target_accuracy.tex",
+      "row_id": "sports_warm_LBSP",
+      "column": 4,
+      "source_csv": "inputs/source_03_method_summary.csv",
+      "selector": {
+        "dataset": "sports",
+        "method": "LBSP",
+        "population": "warm",
+        "metric": "ndcg10"
+      },
+      "source_values": {
+        "mean": "0.010979885680840146",
+        "sample_sd": "0.0004759250688812951"
+      },
+      "old_tex": "0.011(0)",
+      "new_tex": "11.0(5)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_x7_target_accuracy.tex",
+      "row_id": "sports_warm_LBSP",
+      "column": 6,
+      "source_csv": "inputs/source_03_method_summary.csv",
+      "selector": {
+        "dataset": "sports",
+        "method": "LBSP",
+        "population": "warm",
+        "metric": "mrr"
+      },
+      "source_values": {
+        "mean": "0.010861176745977946",
+        "sample_sd": "0.0005685631854871231"
+      },
+      "old_tex": "0.011(1)",
+      "new_tex": "10.9(6)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_x7_target_accuracy.tex",
+      "row_id": "sports_warm_LBSP",
+      "column": 7,
+      "source_csv": "inputs/source_03_method_summary.csv",
+      "selector": {
+        "dataset": "sports",
+        "method": "LBSP",
+        "population": "warm",
+        "metric": "mean_rank"
+      },
+      "source_values": {
+        "mean": "5112.516666666666",
+        "sample_sd": "22.927763168057012"
+      },
+      "old_tex": "5112.5(229)",
+      "new_tex": "5113(23)",
+      "scale": 1,
+      "places": 0,
+      "reason": [
+        "mean-rank mean and SD rounded to integer display"
+      ]
+    },
+    {
+      "table": "appendix_x7_target_accuracy.tex",
+      "row_id": "sports_cold_Control",
+      "column": 4,
+      "source_csv": "inputs/source_03_method_summary.csv",
+      "selector": {
+        "dataset": "sports",
+        "method": "Control",
+        "population": "cold",
+        "metric": "ndcg10"
+      },
+      "source_values": {
+        "mean": "0.0",
+        "sample_sd": "0.0"
+      },
+      "old_tex": "0.000(0)",
+      "new_tex": "0.0(0)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_x7_target_accuracy.tex",
+      "row_id": "sports_cold_Control",
+      "column": 6,
+      "source_csv": "inputs/source_03_method_summary.csv",
+      "selector": {
+        "dataset": "sports",
+        "method": "Control",
+        "population": "cold",
+        "metric": "mrr"
+      },
+      "source_values": {
+        "mean": "5.5636601700004804e-05",
+        "sample_sd": "1.2560693641789433e-06"
+      },
+      "old_tex": "0.000(0)",
+      "new_tex": "0.1(0)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_x7_target_accuracy.tex",
+      "row_id": "sports_cold_Control",
+      "column": 7,
+      "source_csv": "inputs/source_03_method_summary.csv",
+      "selector": {
+        "dataset": "sports",
+        "method": "Control",
+        "population": "cold",
+        "metric": "mean_rank"
+      },
+      "source_values": {
+        "mean": "18053.16901408451",
+        "sample_sd": "274.44555479747413"
+      },
+      "old_tex": "18053.2(2744)",
+      "new_tex": "18053(274)",
+      "scale": 1,
+      "places": 0,
+      "reason": [
+        "mean-rank mean and SD rounded to integer display"
+      ]
+    },
+    {
+      "table": "appendix_x7_target_accuracy.tex",
+      "row_id": "sports_cold_LBSP",
+      "column": 4,
+      "source_csv": "inputs/source_03_method_summary.csv",
+      "selector": {
+        "dataset": "sports",
+        "method": "LBSP",
+        "population": "cold",
+        "metric": "ndcg10"
+      },
+      "source_values": {
+        "mean": "0.0",
+        "sample_sd": "0.0"
+      },
+      "old_tex": "0.000(0)",
+      "new_tex": "0.0(0)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_x7_target_accuracy.tex",
+      "row_id": "sports_cold_LBSP",
+      "column": 6,
+      "source_csv": "inputs/source_03_method_summary.csv",
+      "selector": {
+        "dataset": "sports",
+        "method": "LBSP",
+        "population": "cold",
+        "metric": "mrr"
+      },
+      "source_values": {
+        "mean": "5.4895330998209116e-05",
+        "sample_sd": "2.203341653271934e-08"
+      },
+      "old_tex": "0.000(0)",
+      "new_tex": "0.1(0)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_x7_target_accuracy.tex",
+      "row_id": "sports_cold_LBSP",
+      "column": 7,
+      "source_csv": "inputs/source_03_method_summary.csv",
+      "selector": {
+        "dataset": "sports",
+        "method": "LBSP",
+        "population": "cold",
+        "metric": "mean_rank"
+      },
+      "source_values": {
+        "mean": "18217.164840897236",
+        "sample_sd": "6.773043408552873"
+      },
+      "old_tex": "18217.2(68)",
+      "new_tex": "18217(7)",
+      "scale": 1,
+      "places": 0,
+      "reason": [
+        "mean-rank mean and SD rounded to integer display"
+      ]
+    },
+    {
+      "table": "appendix_x7_target_accuracy.tex",
+      "row_id": "toys_warm_Control",
+      "column": 4,
+      "source_csv": "inputs/source_03_method_summary.csv",
+      "selector": {
+        "dataset": "toys",
+        "method": "Control",
+        "population": "warm",
+        "metric": "ndcg10"
+      },
+      "source_values": {
+        "mean": "0.011840705475884113",
+        "sample_sd": "0.0015962131207620973"
+      },
+      "old_tex": "0.012(2)",
+      "new_tex": "11.8(16)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_x7_target_accuracy.tex",
+      "row_id": "toys_warm_Control",
+      "column": 6,
+      "source_csv": "inputs/source_03_method_summary.csv",
+      "selector": {
+        "dataset": "toys",
+        "method": "Control",
+        "population": "warm",
+        "metric": "mrr"
+      },
+      "source_values": {
+        "mean": "0.011200690551830926",
+        "sample_sd": "0.0015898527316814402"
+      },
+      "old_tex": "0.011(2)",
+      "new_tex": "11.2(16)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_x7_target_accuracy.tex",
+      "row_id": "toys_warm_Control",
+      "column": 7,
+      "source_csv": "inputs/source_03_method_summary.csv",
+      "selector": {
+        "dataset": "toys",
+        "method": "Control",
+        "population": "warm",
+        "metric": "mean_rank"
+      },
+      "source_values": {
+        "mean": "3888.8959770114943",
+        "sample_sd": "99.30931468475124"
+      },
+      "old_tex": "3888.9(993)",
+      "new_tex": "3889(99)",
+      "scale": 1,
+      "places": 0,
+      "reason": [
+        "mean-rank mean and SD rounded to integer display"
+      ]
+    },
+    {
+      "table": "appendix_x7_target_accuracy.tex",
+      "row_id": "toys_warm_LBSP",
+      "column": 4,
+      "source_csv": "inputs/source_03_method_summary.csv",
+      "selector": {
+        "dataset": "toys",
+        "method": "LBSP",
+        "population": "warm",
+        "metric": "ndcg10"
+      },
+      "source_values": {
+        "mean": "0.01438410715260305",
+        "sample_sd": "0.0005310597401183826"
+      },
+      "old_tex": "0.014(1)",
+      "new_tex": "14.4(5)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_x7_target_accuracy.tex",
+      "row_id": "toys_warm_LBSP",
+      "column": 6,
+      "source_csv": "inputs/source_03_method_summary.csv",
+      "selector": {
+        "dataset": "toys",
+        "method": "LBSP",
+        "population": "warm",
+        "metric": "mrr"
+      },
+      "source_values": {
+        "mean": "0.01323791081084064",
+        "sample_sd": "0.00044319351162069615"
+      },
+      "old_tex": "0.013(0)",
+      "new_tex": "13.2(4)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_x7_target_accuracy.tex",
+      "row_id": "toys_warm_LBSP",
+      "column": 7,
+      "source_csv": "inputs/source_03_method_summary.csv",
+      "selector": {
+        "dataset": "toys",
+        "method": "LBSP",
+        "population": "warm",
+        "metric": "mean_rank"
+      },
+      "source_values": {
+        "mean": "3702.990038314176",
+        "sample_sd": "129.96035878467356"
+      },
+      "old_tex": "3703.0(1300)",
+      "new_tex": "3703(130)",
+      "scale": 1,
+      "places": 0,
+      "reason": [
+        "mean-rank mean and SD rounded to integer display"
+      ]
+    },
+    {
+      "table": "appendix_x7_target_accuracy.tex",
+      "row_id": "toys_cold_Control",
+      "column": 4,
+      "source_csv": "inputs/source_03_method_summary.csv",
+      "selector": {
+        "dataset": "toys",
+        "method": "Control",
+        "population": "cold",
+        "metric": "ndcg10"
+      },
+      "source_values": {
+        "mean": "0.0",
+        "sample_sd": "0.0"
+      },
+      "old_tex": "0.000(0)",
+      "new_tex": "0.0(0)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_x7_target_accuracy.tex",
+      "row_id": "toys_cold_Control",
+      "column": 6,
+      "source_csv": "inputs/source_03_method_summary.csv",
+      "selector": {
+        "dataset": "toys",
+        "method": "Control",
+        "population": "cold",
+        "metric": "mrr"
+      },
+      "source_values": {
+        "mean": "8.504638682424363e-05",
+        "sample_sd": "4.729478887509257e-08"
+      },
+      "old_tex": "0.000(0)",
+      "new_tex": "0.1(0)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_x7_target_accuracy.tex",
+      "row_id": "toys_cold_Control",
+      "column": 7,
+      "source_csv": "inputs/source_03_method_summary.csv",
+      "selector": {
+        "dataset": "toys",
+        "method": "Control",
+        "population": "cold",
+        "metric": "mean_rank"
+      },
+      "source_values": {
+        "mean": "11758.981825691862",
+        "sample_sd": "6.540555554913392"
+      },
+      "old_tex": "11759.0(65)",
+      "new_tex": "11759(7)",
+      "scale": 1,
+      "places": 0,
+      "reason": [
+        "mean-rank mean and SD rounded to integer display"
+      ]
+    },
+    {
+      "table": "appendix_x7_target_accuracy.tex",
+      "row_id": "toys_cold_LBSP",
+      "column": 4,
+      "source_csv": "inputs/source_03_method_summary.csv",
+      "selector": {
+        "dataset": "toys",
+        "method": "LBSP",
+        "population": "cold",
+        "metric": "ndcg10"
+      },
+      "source_values": {
+        "mean": "0.0",
+        "sample_sd": "0.0"
+      },
+      "old_tex": "0.000(0)",
+      "new_tex": "0.0(0)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_x7_target_accuracy.tex",
+      "row_id": "toys_cold_LBSP",
+      "column": 6,
+      "source_csv": "inputs/source_03_method_summary.csv",
+      "selector": {
+        "dataset": "toys",
+        "method": "LBSP",
+        "population": "cold",
+        "metric": "mrr"
+      },
+      "source_values": {
+        "mean": "8.513068448849738e-05",
+        "sample_sd": "8.123678466991773e-08"
+      },
+      "old_tex": "0.000(0)",
+      "new_tex": "0.1(0)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_x7_target_accuracy.tex",
+      "row_id": "toys_cold_LBSP",
+      "column": 7,
+      "source_csv": "inputs/source_03_method_summary.csv",
+      "selector": {
+        "dataset": "toys",
+        "method": "LBSP",
+        "population": "cold",
+        "metric": "mean_rank"
+      },
+      "source_values": {
+        "mean": "11749.241635687733",
+        "sample_sd": "9.717892194025682"
+      },
+      "old_tex": "11749.2(97)",
+      "new_tex": "11749(10)",
+      "scale": 1,
+      "places": 0,
+      "reason": [
+        "mean-rank mean and SD rounded to integer display"
+      ]
+    },
+    {
+      "table": "table2_accuracy.tex",
+      "row_id": "ml1m_Random",
+      "column": 2,
+      "source_csv": "inputs/source_06_analytic_baselines.csv",
+      "selector": {
+        "dataset": "ml1m",
+        "method": "Random",
+        "population": "full",
+        "metric": "ndcg10"
+      },
+      "source_values": {
+        "mean": "0.001349413572674854"
+      },
+      "old_tex": "0.001",
+      "new_tex": "1.3",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "table2_accuracy.tex",
+      "row_id": "ml1m_Random",
+      "column": 5,
+      "source_csv": "inputs/source_06_analytic_baselines.csv",
+      "selector": {
+        "dataset": "ml1m",
+        "method": "Random",
+        "population": "full",
+        "metric": "mrr"
+      },
+      "source_values": {
+        "mean": "0.0025836051452789318"
+      },
+      "old_tex": "0.003",
+      "new_tex": "2.6",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "table2_accuracy.tex",
+      "row_id": "ml1m_Popularity",
+      "column": 2,
+      "source_csv": "inputs/source_06_analytic_baselines.csv",
+      "selector": {
+        "dataset": "ml1m",
+        "method": "Popularity",
+        "population": "full",
+        "metric": "ndcg10"
+      },
+      "source_values": {
+        "mean": "0.004744710344759796"
+      },
+      "old_tex": "0.005",
+      "new_tex": "4.7",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "table2_accuracy.tex",
+      "row_id": "ml1m_Popularity",
+      "column": 5,
+      "source_csv": "inputs/source_06_analytic_baselines.csv",
+      "selector": {
+        "dataset": "ml1m",
+        "method": "Popularity",
+        "population": "full",
+        "metric": "mrr"
+      },
+      "source_values": {
+        "mean": "0.008685686519527938"
+      },
+      "old_tex": "0.009",
+      "new_tex": "8.7",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "table2_accuracy.tex",
+      "row_id": "ml1m_Control",
+      "column": 2,
+      "source_csv": "inputs/source_07_method_summary.csv",
+      "selector": {
+        "dataset": "ml1m",
+        "method": "Control",
+        "population": "full",
+        "metric": "ndcg10"
+      },
+      "source_values": {
+        "mean": "0.04880626643574377",
+        "sample_sd": "0.0026232996999148873"
+      },
+      "old_tex": "0.049(3)",
+      "new_tex": "48.8(26)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "table2_accuracy.tex",
+      "row_id": "ml1m_Control",
+      "column": 5,
+      "source_csv": "inputs/source_07_method_summary.csv",
+      "selector": {
+        "dataset": "ml1m",
+        "method": "Control",
+        "population": "full",
+        "metric": "mrr"
+      },
+      "source_values": {
+        "mean": "0.04409464736816754",
+        "sample_sd": "0.0009399828769092271"
+      },
+      "old_tex": "0.044(1)",
+      "new_tex": "44.1(9)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "table2_accuracy.tex",
+      "row_id": "ml1m_TiSASRec",
+      "column": 2,
+      "source_csv": "inputs/source_07_method_summary.csv",
+      "selector": {
+        "dataset": "ml1m",
+        "method": "TiSASRec",
+        "population": "full",
+        "metric": "ndcg10"
+      },
+      "source_values": {
+        "mean": "0.049638015824454915",
+        "sample_sd": "0.0016455046246863162"
+      },
+      "old_tex": "\\bfseries 0.050(2)",
+      "new_tex": "\\bfseries 49.6(16)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "table2_accuracy.tex",
+      "row_id": "ml1m_TiSASRec",
+      "column": 5,
+      "source_csv": "inputs/source_07_method_summary.csv",
+      "selector": {
+        "dataset": "ml1m",
+        "method": "TiSASRec",
+        "population": "full",
+        "metric": "mrr"
+      },
+      "source_values": {
+        "mean": "0.04482451045706076",
+        "sample_sd": "0.001193944592557096"
+      },
+      "old_tex": "\\bfseries 0.045(1)",
+      "new_tex": "\\bfseries 44.8(12)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "table2_accuracy.tex",
+      "row_id": "beauty_Random",
+      "column": 2,
+      "source_csv": "inputs/source_06_analytic_baselines.csv",
+      "selector": {
+        "dataset": "beauty",
+        "method": "Random",
+        "population": "full",
+        "metric": "ndcg10"
+      },
+      "source_values": {
+        "mean": "0.0003758545701846279"
+      },
+      "old_tex": "0.000",
+      "new_tex": "0.4",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "table2_accuracy.tex",
+      "row_id": "beauty_Random",
+      "column": 5,
+      "source_csv": "inputs/source_06_analytic_baselines.csv",
+      "selector": {
+        "dataset": "beauty",
+        "method": "Random",
+        "population": "full",
+        "metric": "mrr"
+      },
+      "source_values": {
+        "mean": "0.000825345146411759"
+      },
+      "old_tex": "0.001",
+      "new_tex": "0.8",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "table2_accuracy.tex",
+      "row_id": "beauty_Random",
+      "column": 6,
+      "source_csv": "inputs/source_06_analytic_baselines.csv",
+      "selector": {
+        "dataset": "beauty",
+        "method": "Random",
+        "population": "full",
+        "metric": "mean_rank"
+      },
+      "source_values": {
+        "mean": "6044.809339177344"
+      },
+      "old_tex": "\\bfseries 6045",
+      "new_tex": "6045",
+      "scale": 1.0,
+      "places": 0,
+      "reason": [
+        "bolding restricted to learned methods, using unrounded means"
+      ]
+    },
+    {
+      "table": "table2_accuracy.tex",
+      "row_id": "beauty_Popularity",
+      "column": 2,
+      "source_csv": "inputs/source_06_analytic_baselines.csv",
+      "selector": {
+        "dataset": "beauty",
+        "method": "Popularity",
+        "population": "full",
+        "metric": "ndcg10"
+      },
+      "source_values": {
+        "mean": "0.0023058387115512903"
+      },
+      "old_tex": "0.002",
+      "new_tex": "2.3",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "table2_accuracy.tex",
+      "row_id": "beauty_Popularity",
+      "column": 5,
+      "source_csv": "inputs/source_06_analytic_baselines.csv",
+      "selector": {
+        "dataset": "beauty",
+        "method": "Popularity",
+        "population": "full",
+        "metric": "mrr"
+      },
+      "source_values": {
+        "mean": "0.002707616650144804"
+      },
+      "old_tex": "0.003",
+      "new_tex": "2.7",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "table2_accuracy.tex",
+      "row_id": "beauty_Control",
+      "column": 2,
+      "source_csv": "inputs/source_07_method_summary.csv",
+      "selector": {
+        "dataset": "beauty",
+        "method": "Control",
+        "population": "full",
+        "metric": "ndcg10"
+      },
+      "source_values": {
+        "mean": "0.0077039123411879115",
+        "sample_sd": "0.0004767988621902785"
+      },
+      "old_tex": "0.008(0)",
+      "new_tex": "7.7(5)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "table2_accuracy.tex",
+      "row_id": "beauty_Control",
+      "column": 5,
+      "source_csv": "inputs/source_07_method_summary.csv",
+      "selector": {
+        "dataset": "beauty",
+        "method": "Control",
+        "population": "full",
+        "metric": "mrr"
+      },
+      "source_values": {
+        "mean": "0.007464040244183572",
+        "sample_sd": "0.00023903135409862657"
+      },
+      "old_tex": "0.007(0)",
+      "new_tex": "7.5(2)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "table2_accuracy.tex",
+      "row_id": "beauty_TiSASRec",
+      "column": 2,
+      "source_csv": "inputs/source_07_method_summary.csv",
+      "selector": {
+        "dataset": "beauty",
+        "method": "TiSASRec",
+        "population": "full",
+        "metric": "ndcg10"
+      },
+      "source_values": {
+        "mean": "0.008682413319688598",
+        "sample_sd": "0.0017548202098677814"
+      },
+      "old_tex": "\\bfseries 0.009(2)",
+      "new_tex": "\\bfseries 8.7(18)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "table2_accuracy.tex",
+      "row_id": "beauty_TiSASRec",
+      "column": 5,
+      "source_csv": "inputs/source_07_method_summary.csv",
+      "selector": {
+        "dataset": "beauty",
+        "method": "TiSASRec",
+        "population": "full",
+        "metric": "mrr"
+      },
+      "source_values": {
+        "mean": "0.008263289756137627",
+        "sample_sd": "0.0014704068345680842"
+      },
+      "old_tex": "\\bfseries 0.008(1)",
+      "new_tex": "\\bfseries 8.3(15)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "table2_accuracy.tex",
+      "row_id": "beauty_TiSASRec",
+      "column": 6,
+      "source_csv": "inputs/source_07_method_summary.csv",
+      "selector": {
+        "dataset": "beauty",
+        "method": "TiSASRec",
+        "population": "full",
+        "metric": "mean_rank"
+      },
+      "source_values": {
+        "mean": "6433.035625983367",
+        "sample_sd": "156.82738757925455"
+      },
+      "old_tex": "6433(157)",
+      "new_tex": "\\bfseries 6433(157)",
+      "scale": 1.0,
+      "places": 0,
+      "reason": [
+        "bolding restricted to learned methods, using unrounded means"
+      ]
+    },
+    {
+      "table": "table2_accuracy.tex",
+      "row_id": "sports_Random",
+      "column": 2,
+      "source_csv": "inputs/source_06_analytic_baselines.csv",
+      "selector": {
+        "dataset": "sports",
+        "method": "Random",
+        "population": "full",
+        "metric": "ndcg10"
+      },
+      "source_values": {
+        "mean": "0.0002476490951984315"
+      },
+      "old_tex": "0.000",
+      "new_tex": "0.2",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "table2_accuracy.tex",
+      "row_id": "sports_Random",
+      "column": 5,
+      "source_csv": "inputs/source_06_analytic_baselines.csv",
+      "selector": {
+        "dataset": "sports",
+        "method": "Random",
+        "population": "full",
+        "metric": "mrr"
+      },
+      "source_values": {
+        "mean": "0.0005665550428791586"
+      },
+      "old_tex": "0.001",
+      "new_tex": "0.6",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "table2_accuracy.tex",
+      "row_id": "sports_Popularity",
+      "column": 2,
+      "source_csv": "inputs/source_06_analytic_baselines.csv",
+      "selector": {
+        "dataset": "sports",
+        "method": "Popularity",
+        "population": "full",
+        "metric": "ndcg10"
+      },
+      "source_values": {
+        "mean": "0.004860951066165306"
+      },
+      "old_tex": "0.005",
+      "new_tex": "4.9",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "table2_accuracy.tex",
+      "row_id": "sports_Popularity",
+      "column": 5,
+      "source_csv": "inputs/source_06_analytic_baselines.csv",
+      "selector": {
+        "dataset": "sports",
+        "method": "Popularity",
+        "population": "full",
+        "metric": "mrr"
+      },
+      "source_values": {
+        "mean": "0.005465409403831308"
+      },
+      "old_tex": "0.005",
+      "new_tex": "5.5",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "table2_accuracy.tex",
+      "row_id": "sports_Control",
+      "column": 2,
+      "source_csv": "inputs/source_07_method_summary.csv",
+      "selector": {
+        "dataset": "sports",
+        "method": "Control",
+        "population": "full",
+        "metric": "ndcg10"
+      },
+      "source_values": {
+        "mean": "0.008649824133082573",
+        "sample_sd": "0.000585227118673876"
+      },
+      "old_tex": "\\bfseries 0.009(1)",
+      "new_tex": "\\bfseries 8.6(6)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "table2_accuracy.tex",
+      "row_id": "sports_Control",
+      "column": 5,
+      "source_csv": "inputs/source_07_method_summary.csv",
+      "selector": {
+        "dataset": "sports",
+        "method": "Control",
+        "population": "full",
+        "metric": "mrr"
+      },
+      "source_values": {
+        "mean": "0.008528050441621327",
+        "sample_sd": "0.0004984337933736111"
+      },
+      "old_tex": "\\bfseries 0.009(0)",
+      "new_tex": "\\bfseries 8.5(5)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "table2_accuracy.tex",
+      "row_id": "toys_Random",
+      "column": 2,
+      "source_csv": "inputs/source_06_analytic_baselines.csv",
+      "selector": {
+        "dataset": "toys",
+        "method": "Random",
+        "population": "full",
+        "metric": "ndcg10"
+      },
+      "source_values": {
+        "mean": "0.00038144953013111523"
+      },
+      "old_tex": "0.000",
+      "new_tex": "0.4",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "table2_accuracy.tex",
+      "row_id": "toys_Random",
+      "column": 5,
+      "source_csv": "inputs/source_06_analytic_baselines.csv",
+      "selector": {
+        "dataset": "toys",
+        "method": "Random",
+        "population": "full",
+        "metric": "mrr"
+      },
+      "source_values": {
+        "mean": "0.0008363907334367787"
+      },
+      "old_tex": "0.001",
+      "new_tex": "0.8",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "table2_accuracy.tex",
+      "row_id": "toys_Random",
+      "column": 6,
+      "source_csv": "inputs/source_06_analytic_baselines.csv",
+      "selector": {
+        "dataset": "toys",
+        "method": "Random",
+        "population": "full",
+        "metric": "mean_rank"
+      },
+      "source_values": {
+        "mean": "5956.154102866117"
+      },
+      "old_tex": "\\bfseries 5956",
+      "new_tex": "5956",
+      "scale": 1.0,
+      "places": 0,
+      "reason": [
+        "bolding restricted to learned methods, using unrounded means"
+      ]
+    },
+    {
+      "table": "table2_accuracy.tex",
+      "row_id": "toys_Popularity",
+      "column": 2,
+      "source_csv": "inputs/source_06_analytic_baselines.csv",
+      "selector": {
+        "dataset": "toys",
+        "method": "Popularity",
+        "population": "full",
+        "metric": "ndcg10"
+      },
+      "source_values": {
+        "mean": "0.0031726676016192302"
+      },
+      "old_tex": "0.003",
+      "new_tex": "3.2",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "table2_accuracy.tex",
+      "row_id": "toys_Popularity",
+      "column": 5,
+      "source_csv": "inputs/source_06_analytic_baselines.csv",
+      "selector": {
+        "dataset": "toys",
+        "method": "Popularity",
+        "population": "full",
+        "metric": "mrr"
+      },
+      "source_values": {
+        "mean": "0.003514811737358482"
+      },
+      "old_tex": "0.004",
+      "new_tex": "3.5",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "table2_accuracy.tex",
+      "row_id": "toys_Control",
+      "column": 2,
+      "source_csv": "inputs/source_07_method_summary.csv",
+      "selector": {
+        "dataset": "toys",
+        "method": "Control",
+        "population": "full",
+        "metric": "ndcg10"
+      },
+      "source_values": {
+        "mean": "0.008089056744420241",
+        "sample_sd": "0.0010904636160683347"
+      },
+      "old_tex": "\\bfseries 0.008(1)",
+      "new_tex": "\\bfseries 8.1(11)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "table2_accuracy.tex",
+      "row_id": "toys_Control",
+      "column": 5,
+      "source_csv": "inputs/source_07_method_summary.csv",
+      "selector": {
+        "dataset": "toys",
+        "method": "Control",
+        "population": "full",
+        "metric": "mrr"
+      },
+      "source_values": {
+        "mean": "0.007678772671516677",
+        "sample_sd": "0.001086105247153818"
+      },
+      "old_tex": "\\bfseries 0.008(1)",
+      "new_tex": "\\bfseries 7.7(11)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "table2_accuracy.tex",
+      "row_id": "toys_Control",
+      "column": 6,
+      "source_csv": "inputs/source_07_method_summary.csv",
+      "selector": {
+        "dataset": "toys",
+        "method": "Control",
+        "population": "full",
+        "metric": "mean_rank"
+      },
+      "source_values": {
+        "mean": "6382.480303625181",
+        "sample_sd": "65.79240265906434"
+      },
+      "old_tex": "6382(66)",
+      "new_tex": "\\bfseries 6382(66)",
+      "scale": 1.0,
+      "places": 0,
+      "reason": [
+        "bolding restricted to learned methods, using unrounded means"
+      ]
+    },
+    {
+      "table": "table4_four_methods.tex",
+      "row_id": "0_ml1m_Control",
+      "column": 2,
+      "source_csv": "inputs/source_07_method_summary.csv",
+      "selector": {
+        "dataset": "ml1m",
+        "method": "Control",
+        "population": "affected",
+        "metric": "ndcg10"
+      },
+      "source_values": {
+        "mean": "0.0744623816852389",
+        "sample_sd": "0.005051130016364601"
+      },
+      "old_tex": "0.074(5)",
+      "new_tex": "74.5(51)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "table4_four_methods.tex",
+      "row_id": "0_ml1m_Shuffle",
+      "column": 2,
+      "source_csv": "inputs/source_07_method_summary.csv",
+      "selector": {
+        "dataset": "ml1m",
+        "method": "Shuffle",
+        "population": "affected",
+        "metric": "ndcg10"
+      },
+      "source_values": {
+        "mean": "0.07947586366057893",
+        "sample_sd": "0.007804616289187739"
+      },
+      "old_tex": "0.079(8)",
+      "new_tex": "79.5(78)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "table4_four_methods.tex",
+      "row_id": "0_ml1m_Ensemble",
+      "column": 2,
+      "source_csv": "inputs/source_07_method_summary.csv",
+      "selector": {
+        "dataset": "ml1m",
+        "method": "Ensemble",
+        "population": "affected",
+        "metric": "ndcg10"
+      },
+      "source_values": {
+        "mean": "0.07493858508163147",
+        "sample_sd": "0.00161680300397849"
+      },
+      "old_tex": "0.075(2)",
+      "new_tex": "74.9(16)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "table4_four_methods.tex",
+      "row_id": "0_ml1m_LBSP",
+      "column": 2,
+      "source_csv": "inputs/source_07_method_summary.csv",
+      "selector": {
+        "dataset": "ml1m",
+        "method": "LBSP",
+        "population": "affected",
+        "metric": "ndcg10"
+      },
+      "source_values": {
+        "mean": "0.08247699777672013",
+        "sample_sd": "0.006190634460529147"
+      },
+      "old_tex": "\\bfseries 0.082(6)",
+      "new_tex": "\\bfseries 82.5(62)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "table4_four_methods.tex",
+      "row_id": "0_beauty_Control",
+      "column": 2,
+      "source_csv": "inputs/source_07_method_summary.csv",
+      "selector": {
+        "dataset": "beauty",
+        "method": "Control",
+        "population": "affected",
+        "metric": "ndcg10"
+      },
+      "source_values": {
+        "mean": "0.01200501904506615",
+        "sample_sd": "0.0016374071062858224"
+      },
+      "old_tex": "0.012(2)",
+      "new_tex": "12.0(16)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "table4_four_methods.tex",
+      "row_id": "0_beauty_Shuffle",
+      "column": 2,
+      "source_csv": "inputs/source_07_method_summary.csv",
+      "selector": {
+        "dataset": "beauty",
+        "method": "Shuffle",
+        "population": "affected",
+        "metric": "ndcg10"
+      },
+      "source_values": {
+        "mean": "0.014586843971982455",
+        "sample_sd": "0.0016832191720793747"
+      },
+      "old_tex": "\\bfseries 0.015(2)",
+      "new_tex": "\\bfseries 14.6(17)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "table4_four_methods.tex",
+      "row_id": "0_beauty_Ensemble",
+      "column": 2,
+      "source_csv": "inputs/source_07_method_summary.csv",
+      "selector": {
+        "dataset": "beauty",
+        "method": "Ensemble",
+        "population": "affected",
+        "metric": "ndcg10"
+      },
+      "source_values": {
+        "mean": "0.01277144823739921",
+        "sample_sd": "0.0019955736500635933"
+      },
+      "old_tex": "0.013(2)",
+      "new_tex": "12.8(20)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "table4_four_methods.tex",
+      "row_id": "0_beauty_LBSP",
+      "column": 2,
+      "source_csv": "inputs/source_07_method_summary.csv",
+      "selector": {
+        "dataset": "beauty",
+        "method": "LBSP",
+        "population": "affected",
+        "metric": "ndcg10"
+      },
+      "source_values": {
+        "mean": "0.012215495642209436",
+        "sample_sd": "0.0012758175591808276"
+      },
+      "old_tex": "0.012(1)",
+      "new_tex": "12.2(13)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "table4_four_methods.tex",
+      "row_id": "0_sports_Control",
+      "column": 2,
+      "source_csv": "inputs/source_07_method_summary.csv",
+      "selector": {
+        "dataset": "sports",
+        "method": "Control",
+        "population": "affected",
+        "metric": "ndcg10"
+      },
+      "source_values": {
+        "mean": "0.010656558643853025",
+        "sample_sd": "0.0004865949741521786"
+      },
+      "old_tex": "0.011(0)",
+      "new_tex": "10.7(5)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "table4_four_methods.tex",
+      "row_id": "0_sports_Shuffle",
+      "column": 2,
+      "source_csv": "inputs/source_07_method_summary.csv",
+      "selector": {
+        "dataset": "sports",
+        "method": "Shuffle",
+        "population": "affected",
+        "metric": "ndcg10"
+      },
+      "source_values": {
+        "mean": "0.009681666490945491",
+        "sample_sd": "0.0013888796198987248"
+      },
+      "old_tex": "0.010(1)",
+      "new_tex": "9.7(14)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "table4_four_methods.tex",
+      "row_id": "0_sports_Ensemble",
+      "column": 2,
+      "source_csv": "inputs/source_07_method_summary.csv",
+      "selector": {
+        "dataset": "sports",
+        "method": "Ensemble",
+        "population": "affected",
+        "metric": "ndcg10"
+      },
+      "source_values": {
+        "mean": "0.01254205687317441",
+        "sample_sd": "0.0004304698078423997"
+      },
+      "old_tex": "\\bfseries 0.013(0)",
+      "new_tex": "\\bfseries 12.5(4)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "table4_four_methods.tex",
+      "row_id": "0_sports_LBSP",
+      "column": 2,
+      "source_csv": "inputs/source_07_method_summary.csv",
+      "selector": {
+        "dataset": "sports",
+        "method": "LBSP",
+        "population": "affected",
+        "metric": "ndcg10"
+      },
+      "source_values": {
+        "mean": "0.011203556913754086",
+        "sample_sd": "0.0007088084938323731"
+      },
+      "old_tex": "0.011(1)",
+      "new_tex": "11.2(7)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "table4_four_methods.tex",
+      "row_id": "0_toys_Control",
+      "column": 2,
+      "source_csv": "inputs/source_07_method_summary.csv",
+      "selector": {
+        "dataset": "toys",
+        "method": "Control",
+        "population": "affected",
+        "metric": "ndcg10"
+      },
+      "source_values": {
+        "mean": "0.008897074970394",
+        "sample_sd": "0.0019855954319430145"
+      },
+      "old_tex": "0.009(2)",
+      "new_tex": "8.9(20)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "table4_four_methods.tex",
+      "row_id": "0_toys_Shuffle",
+      "column": 2,
+      "source_csv": "inputs/source_07_method_summary.csv",
+      "selector": {
+        "dataset": "toys",
+        "method": "Shuffle",
+        "population": "affected",
+        "metric": "ndcg10"
+      },
+      "source_values": {
+        "mean": "0.01329234572125644",
+        "sample_sd": "0.0017930676400024878"
+      },
+      "old_tex": "0.013(2)",
+      "new_tex": "13.3(18)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "table4_four_methods.tex",
+      "row_id": "0_toys_Ensemble",
+      "column": 2,
+      "source_csv": "inputs/source_07_method_summary.csv",
+      "selector": {
+        "dataset": "toys",
+        "method": "Ensemble",
+        "population": "affected",
+        "metric": "ndcg10"
+      },
+      "source_values": {
+        "mean": "0.013246612943402005",
+        "sample_sd": "0.0017488521142025916"
+      },
+      "old_tex": "0.013(2)",
+      "new_tex": "13.2(17)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "table4_four_methods.tex",
+      "row_id": "0_toys_LBSP",
+      "column": 2,
+      "source_csv": "inputs/source_07_method_summary.csv",
+      "selector": {
+        "dataset": "toys",
+        "method": "LBSP",
+        "population": "affected",
+        "metric": "ndcg10"
+      },
+      "source_values": {
+        "mean": "0.014002450524887381",
+        "sample_sd": "0.00183316338734542"
+      },
+      "old_tex": "\\bfseries 0.014(2)",
+      "new_tex": "\\bfseries 14.0(18)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "table4_four_methods.tex",
+      "row_id": "1_ml1m_Control",
+      "column": 2,
+      "source_csv": "inputs/source_07_method_summary.csv",
+      "selector": {
+        "dataset": "ml1m",
+        "method": "Control",
+        "population": "affected",
+        "metric": "mrr"
+      },
+      "source_values": {
+        "mean": "0.06245163195085597",
+        "sample_sd": "0.0007081374273597898"
+      },
+      "old_tex": "0.062(1)",
+      "new_tex": "62.5(7)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "table4_four_methods.tex",
+      "row_id": "1_ml1m_Control",
+      "column": 3,
+      "source_csv": "inputs/source_07_method_summary.csv",
+      "selector": {
+        "dataset": "ml1m",
+        "method": "Control",
+        "population": "affected",
+        "metric": "mrr10"
+      },
+      "source_values": {
+        "mean": "0.053078845716882525",
+        "sample_sd": "0.0017364065007756408"
+      },
+      "old_tex": "0.053(2)",
+      "new_tex": "53.1(17)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "table4_four_methods.tex",
+      "row_id": "1_ml1m_Shuffle",
+      "column": 2,
+      "source_csv": "inputs/source_07_method_summary.csv",
+      "selector": {
+        "dataset": "ml1m",
+        "method": "Shuffle",
+        "population": "affected",
+        "metric": "mrr"
+      },
+      "source_values": {
+        "mean": "0.06467604002014903",
+        "sample_sd": "0.004092741718884325"
+      },
+      "old_tex": "0.065(4)",
+      "new_tex": "64.7(41)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "table4_four_methods.tex",
+      "row_id": "1_ml1m_Shuffle",
+      "column": 3,
+      "source_csv": "inputs/source_07_method_summary.csv",
+      "selector": {
+        "dataset": "ml1m",
+        "method": "Shuffle",
+        "population": "affected",
+        "metric": "mrr10"
+      },
+      "source_values": {
+        "mean": "0.054586619924043234",
+        "sample_sd": "0.005120787332930796"
+      },
+      "old_tex": "0.055(5)",
+      "new_tex": "54.6(51)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "table4_four_methods.tex",
+      "row_id": "1_ml1m_Ensemble",
+      "column": 2,
+      "source_csv": "inputs/source_07_method_summary.csv",
+      "selector": {
+        "dataset": "ml1m",
+        "method": "Ensemble",
+        "population": "affected",
+        "metric": "mrr"
+      },
+      "source_values": {
+        "mean": "0.06476107651586674",
+        "sample_sd": "0.0026782162794859537"
+      },
+      "old_tex": "0.065(3)",
+      "new_tex": "64.8(27)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "table4_four_methods.tex",
+      "row_id": "1_ml1m_Ensemble",
+      "column": 3,
+      "source_csv": "inputs/source_07_method_summary.csv",
+      "selector": {
+        "dataset": "ml1m",
+        "method": "Ensemble",
+        "population": "affected",
+        "metric": "mrr10"
+      },
+      "source_values": {
+        "mean": "0.05415408835654235",
+        "sample_sd": "0.0024665340804221653"
+      },
+      "old_tex": "0.054(2)",
+      "new_tex": "54.2(25)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "table4_four_methods.tex",
+      "row_id": "1_ml1m_LBSP",
+      "column": 2,
+      "source_csv": "inputs/source_07_method_summary.csv",
+      "selector": {
+        "dataset": "ml1m",
+        "method": "LBSP",
+        "population": "affected",
+        "metric": "mrr"
+      },
+      "source_values": {
+        "mean": "0.07044469836461367",
+        "sample_sd": "0.005282905198086159"
+      },
+      "old_tex": "\\bfseries 0.070(5)",
+      "new_tex": "\\bfseries 70.4(53)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "table4_four_methods.tex",
+      "row_id": "1_ml1m_LBSP",
+      "column": 3,
+      "source_csv": "inputs/source_07_method_summary.csv",
+      "selector": {
+        "dataset": "ml1m",
+        "method": "LBSP",
+        "population": "affected",
+        "metric": "mrr10"
+      },
+      "source_values": {
+        "mean": "0.060364527542441655",
+        "sample_sd": "0.005815135329650879"
+      },
+      "old_tex": "\\bfseries 0.060(6)",
+      "new_tex": "\\bfseries 60.4(58)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "table4_four_methods.tex",
+      "row_id": "1_beauty_Control",
+      "column": 2,
+      "source_csv": "inputs/source_07_method_summary.csv",
+      "selector": {
+        "dataset": "beauty",
+        "method": "Control",
+        "population": "affected",
+        "metric": "mrr"
+      },
+      "source_values": {
+        "mean": "0.011774865411562085",
+        "sample_sd": "0.001403937856784852"
+      },
+      "old_tex": "0.012(1)",
+      "new_tex": "11.8(14)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "table4_four_methods.tex",
+      "row_id": "1_beauty_Control",
+      "column": 3,
+      "source_csv": "inputs/source_07_method_summary.csv",
+      "selector": {
+        "dataset": "beauty",
+        "method": "Control",
+        "population": "affected",
+        "metric": "mrr10"
+      },
+      "source_values": {
+        "mean": "0.00976167521720667",
+        "sample_sd": "0.0014595992993623821"
+      },
+      "old_tex": "0.010(1)",
+      "new_tex": "9.8(15)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "table4_four_methods.tex",
+      "row_id": "1_beauty_Shuffle",
+      "column": 2,
+      "source_csv": "inputs/source_07_method_summary.csv",
+      "selector": {
+        "dataset": "beauty",
+        "method": "Shuffle",
+        "population": "affected",
+        "metric": "mrr"
+      },
+      "source_values": {
+        "mean": "0.01372641069790645",
+        "sample_sd": "0.0011706529231586356"
+      },
+      "old_tex": "\\bfseries 0.014(1)",
+      "new_tex": "\\bfseries 13.7(12)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "table4_four_methods.tex",
+      "row_id": "1_beauty_Shuffle",
+      "column": 3,
+      "source_csv": "inputs/source_07_method_summary.csv",
+      "selector": {
+        "dataset": "beauty",
+        "method": "Shuffle",
+        "population": "affected",
+        "metric": "mrr10"
+      },
+      "source_values": {
+        "mean": "0.011499615512630698",
+        "sample_sd": "0.0014703862573936435"
+      },
+      "old_tex": "\\bfseries 0.011(1)",
+      "new_tex": "\\bfseries 11.5(15)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "table4_four_methods.tex",
+      "row_id": "1_beauty_Ensemble",
+      "column": 2,
+      "source_csv": "inputs/source_07_method_summary.csv",
+      "selector": {
+        "dataset": "beauty",
+        "method": "Ensemble",
+        "population": "affected",
+        "metric": "mrr"
+      },
+      "source_values": {
+        "mean": "0.011965552990258619",
+        "sample_sd": "0.0016188574167107855"
+      },
+      "old_tex": "0.012(2)",
+      "new_tex": "12.0(16)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "table4_four_methods.tex",
+      "row_id": "1_beauty_Ensemble",
+      "column": 3,
+      "source_csv": "inputs/source_07_method_summary.csv",
+      "selector": {
+        "dataset": "beauty",
+        "method": "Ensemble",
+        "population": "affected",
+        "metric": "mrr10"
+      },
+      "source_values": {
+        "mean": "0.009650001721585236",
+        "sample_sd": "0.0018383141318941583"
+      },
+      "old_tex": "0.010(2)",
+      "new_tex": "9.7(18)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "table4_four_methods.tex",
+      "row_id": "1_beauty_LBSP",
+      "column": 2,
+      "source_csv": "inputs/source_07_method_summary.csv",
+      "selector": {
+        "dataset": "beauty",
+        "method": "LBSP",
+        "population": "affected",
+        "metric": "mrr"
+      },
+      "source_values": {
+        "mean": "0.010914983342130539",
+        "sample_sd": "0.0017071096987311706"
+      },
+      "old_tex": "0.011(2)",
+      "new_tex": "10.9(17)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "table4_four_methods.tex",
+      "row_id": "1_beauty_LBSP",
+      "column": 3,
+      "source_csv": "inputs/source_07_method_summary.csv",
+      "selector": {
+        "dataset": "beauty",
+        "method": "LBSP",
+        "population": "affected",
+        "metric": "mrr10"
+      },
+      "source_values": {
+        "mean": "0.008993848202091152",
+        "sample_sd": "0.001654215284228735"
+      },
+      "old_tex": "0.009(2)",
+      "new_tex": "9.0(17)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "table4_four_methods.tex",
+      "row_id": "1_sports_Control",
+      "column": 2,
+      "source_csv": "inputs/source_07_method_summary.csv",
+      "selector": {
+        "dataset": "sports",
+        "method": "Control",
+        "population": "affected",
+        "metric": "mrr"
+      },
+      "source_values": {
+        "mean": "0.010267705958654253",
+        "sample_sd": "0.0005613571332638003"
+      },
+      "old_tex": "0.010(1)",
+      "new_tex": "10.3(6)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "table4_four_methods.tex",
+      "row_id": "1_sports_Control",
+      "column": 3,
+      "source_csv": "inputs/source_07_method_summary.csv",
+      "selector": {
+        "dataset": "sports",
+        "method": "Control",
+        "population": "affected",
+        "metric": "mrr10"
+      },
+      "source_values": {
+        "mean": "0.008163916907759272",
+        "sample_sd": "0.0006667546235267804"
+      },
+      "old_tex": "0.008(1)",
+      "new_tex": "8.2(7)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "table4_four_methods.tex",
+      "row_id": "1_sports_Shuffle",
+      "column": 2,
+      "source_csv": "inputs/source_07_method_summary.csv",
+      "selector": {
+        "dataset": "sports",
+        "method": "Shuffle",
+        "population": "affected",
+        "metric": "mrr"
+      },
+      "source_values": {
+        "mean": "0.009842521542134974",
+        "sample_sd": "0.0008427477067523447"
+      },
+      "old_tex": "0.010(1)",
+      "new_tex": "9.8(8)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "table4_four_methods.tex",
+      "row_id": "1_sports_Shuffle",
+      "column": 3,
+      "source_csv": "inputs/source_07_method_summary.csv",
+      "selector": {
+        "dataset": "sports",
+        "method": "Shuffle",
+        "population": "affected",
+        "metric": "mrr10"
+      },
+      "source_values": {
+        "mean": "0.00712265749211562",
+        "sample_sd": "0.001142667817487444"
+      },
+      "old_tex": "0.007(1)",
+      "new_tex": "7.1(11)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "table4_four_methods.tex",
+      "row_id": "1_sports_Ensemble",
+      "column": 2,
+      "source_csv": "inputs/source_07_method_summary.csv",
+      "selector": {
+        "dataset": "sports",
+        "method": "Ensemble",
+        "population": "affected",
+        "metric": "mrr"
+      },
+      "source_values": {
+        "mean": "0.011973275431760817",
+        "sample_sd": "0.00037743717384949"
+      },
+      "old_tex": "\\bfseries 0.012(0)",
+      "new_tex": "\\bfseries 12.0(4)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "table4_four_methods.tex",
+      "row_id": "1_sports_Ensemble",
+      "column": 3,
+      "source_csv": "inputs/source_07_method_summary.csv",
+      "selector": {
+        "dataset": "sports",
+        "method": "Ensemble",
+        "population": "affected",
+        "metric": "mrr10"
+      },
+      "source_values": {
+        "mean": "0.009176489561341778",
+        "sample_sd": "0.0005046335999124875"
+      },
+      "old_tex": "\\bfseries 0.009(1)",
+      "new_tex": "\\bfseries 9.2(5)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "table4_four_methods.tex",
+      "row_id": "1_sports_LBSP",
+      "column": 2,
+      "source_csv": "inputs/source_07_method_summary.csv",
+      "selector": {
+        "dataset": "sports",
+        "method": "LBSP",
+        "population": "affected",
+        "metric": "mrr"
+      },
+      "source_values": {
+        "mean": "0.010977092096620115",
+        "sample_sd": "0.00047490391410476827"
+      },
+      "old_tex": "0.011(0)",
+      "new_tex": "11.0(5)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "table4_four_methods.tex",
+      "row_id": "1_sports_LBSP",
+      "column": 3,
+      "source_csv": "inputs/source_07_method_summary.csv",
+      "selector": {
+        "dataset": "sports",
+        "method": "LBSP",
+        "population": "affected",
+        "metric": "mrr10"
+      },
+      "source_values": {
+        "mean": "0.008295947689420595",
+        "sample_sd": "0.0005870285879408512"
+      },
+      "old_tex": "0.008(1)",
+      "new_tex": "8.3(6)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "table4_four_methods.tex",
+      "row_id": "1_toys_Control",
+      "column": 2,
+      "source_csv": "inputs/source_07_method_summary.csv",
+      "selector": {
+        "dataset": "toys",
+        "method": "Control",
+        "population": "affected",
+        "metric": "mrr"
+      },
+      "source_values": {
+        "mean": "0.009196116637051067",
+        "sample_sd": "0.0022614285694590053"
+      },
+      "old_tex": "0.009(2)",
+      "new_tex": "9.2(23)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "table4_four_methods.tex",
+      "row_id": "1_toys_Control",
+      "column": 3,
+      "source_csv": "inputs/source_07_method_summary.csv",
+      "selector": {
+        "dataset": "toys",
+        "method": "Control",
+        "population": "affected",
+        "metric": "mrr10"
+      },
+      "source_values": {
+        "mean": "0.006977748872048159",
+        "sample_sd": "0.0022044723615795483"
+      },
+      "old_tex": "0.007(2)",
+      "new_tex": "7.0(22)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "table4_four_methods.tex",
+      "row_id": "1_toys_Shuffle",
+      "column": 2,
+      "source_csv": "inputs/source_07_method_summary.csv",
+      "selector": {
+        "dataset": "toys",
+        "method": "Shuffle",
+        "population": "affected",
+        "metric": "mrr"
+      },
+      "source_values": {
+        "mean": "0.012297270763078046",
+        "sample_sd": "0.001188935477581252"
+      },
+      "old_tex": "0.012(1)",
+      "new_tex": "12.3(12)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "table4_four_methods.tex",
+      "row_id": "1_toys_Shuffle",
+      "column": 3,
+      "source_csv": "inputs/source_07_method_summary.csv",
+      "selector": {
+        "dataset": "toys",
+        "method": "Shuffle",
+        "population": "affected",
+        "metric": "mrr10"
+      },
+      "source_values": {
+        "mean": "0.010095483165554423",
+        "sample_sd": "0.0014228249801764797"
+      },
+      "old_tex": "0.010(1)",
+      "new_tex": "10.1(14)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "table4_four_methods.tex",
+      "row_id": "1_toys_Ensemble",
+      "column": 2,
+      "source_csv": "inputs/source_07_method_summary.csv",
+      "selector": {
+        "dataset": "toys",
+        "method": "Ensemble",
+        "population": "affected",
+        "metric": "mrr"
+      },
+      "source_values": {
+        "mean": "0.01271054684157101",
+        "sample_sd": "0.0017049057177753993"
+      },
+      "old_tex": "0.013(2)",
+      "new_tex": "12.7(17)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "table4_four_methods.tex",
+      "row_id": "1_toys_Ensemble",
+      "column": 3,
+      "source_csv": "inputs/source_07_method_summary.csv",
+      "selector": {
+        "dataset": "toys",
+        "method": "Ensemble",
+        "population": "affected",
+        "metric": "mrr10"
+      },
+      "source_values": {
+        "mean": "0.010389975995676709",
+        "sample_sd": "0.0018437216001694358"
+      },
+      "old_tex": "0.010(2)",
+      "new_tex": "10.4(18)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "table4_four_methods.tex",
+      "row_id": "1_toys_LBSP",
+      "column": 2,
+      "source_csv": "inputs/source_07_method_summary.csv",
+      "selector": {
+        "dataset": "toys",
+        "method": "LBSP",
+        "population": "affected",
+        "metric": "mrr"
+      },
+      "source_values": {
+        "mean": "0.01281974482853417",
+        "sample_sd": "0.0016162263200349789"
+      },
+      "old_tex": "\\bfseries 0.013(2)",
+      "new_tex": "\\bfseries 12.8(16)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "table4_four_methods.tex",
+      "row_id": "1_toys_LBSP",
+      "column": 3,
+      "source_csv": "inputs/source_07_method_summary.csv",
+      "selector": {
+        "dataset": "toys",
+        "method": "LBSP",
+        "population": "affected",
+        "metric": "mrr10"
+      },
+      "source_values": {
+        "mean": "0.010436539355779262",
+        "sample_sd": "0.001883038373450432"
+      },
+      "old_tex": "\\bfseries 0.010(2)",
+      "new_tex": "\\bfseries 10.4(19)",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    }
+  ],
+  "seed_identifier_columns_without_grouping": [
+    "appendix_per_seed_accuracy.tex column3",
+    "appendix_x7_training.tex column2"
+  ],
+  "compact_mean_sd_columns": [
+    "table2_accuracy.tex mean rank",
+    "table4_four_methods.tex mean rank",
+    "appendix_table_secondary.tex absolute rank difference",
+    "appendix_x7_target_accuracy.tex mean rank"
+  ],
+  "mean_rank_precision": "Integer means and SDs across all tables",
+  "scaled_absolute_metric_tables": [
+    "appendix_x7_target_accuracy.tex",
+    "table2_accuracy.tex",
+    "table4_four_methods.tex"
+  ],
+  "zero_sd_note": "Table 12 states rounded positive SDs can display as 0.0; genuinely zero NDCG SDs remain zero.",
+  "bold_rule": "Table 2 compares only learned methods using unrounded means and smaller-is-better mean rank.",
+  "source_csv_sha256": {
+    "inputs/source_02_sports_training_summary.csv": "d0dafb33e769bfeb93d1b25edf6305c5dda1b6b603369a164836017276dfb7c3",
+    "inputs/source_03_method_summary.csv": "299726f710c38e2ad8c485b7f8a55ceb6dc5c53e5ebec2449666c75ba5b1b8d1",
+    "inputs/source_04_paired_difference_summary.csv": "a2129472693d3b5c9e7896fc7a73ce6e51566a571f8d8a618308ed4ddeacd247",
+    "inputs/source_05_matched_costs.csv": "9d791015897d90f4679ae1357ca1caca31004c2304569bba5e0123c86c395cfd",
+    "inputs/source_06_analytic_baselines.csv": "d1b6c8b0ad896a44d330b8c3e525449af14f101d40b8e6bfe47c655cd3ef3e7d",
+    "inputs/source_07_method_summary.csv": "f4390e982d0469cf772164abb9ebdef5603ef50e6c251883737a6f21719aeede",
+    "inputs/source_08_paired_difference_summary.csv": "6c8f4a4eafdd0d72f36eb1a3cc412115018a72362d64feddfaae80db8cdc80e9",
+    "inputs/source_09_per_seed_metrics.csv": "38582e963d7321862f2dfe95f48ae507c3d0795ecd3d2dd4cd143a0566c53c43",
+    "inputs/source_10_secondary_three_seed_summary.csv": "258e9b3115e580388486612994852877105802e0c9782dae0fa9999eadaf5071",
+    "inputs/source_11_seed_reference_pairs.csv": "057b835cfaffd3638341f4b6686a543b14b783c9ad5683af4d7db93ac28610f6",
+    "inputs/source_12_seed_reference_summary.csv": "43d6c170db1f02dc0ba44002791b212c7147ba64ffd370a7db6f2b0b1febf0f6"
+  },
+  "before_table_sha256": {
+    "appendix_calibration.tex": "22e3ece218e5f5d62d6b38d38f14b90f94119c61121cb4d9bb23e12de4b6dcfa",
+    "appendix_measured_costs.tex": "036a281b422421ff4205e208abcc7578ab732a84db933380231929bc1ebfc6d9",
+    "appendix_per_seed_accuracy.tex": "7781d6a3074f24b09060087b8b9c557ff8f2b84a2701045cab83c2809ae1760a",
+    "appendix_seed_pair_reference.tex": "1d83b5fd3f7b66f25c6c6ab1ed73a5a3d656e20b01a3c1a6993f906b93b2898d",
+    "appendix_table_secondary.tex": "0414e54dfc5510bb2b10bac8a50f4c35cde51febaee42a6ce97f2f76cd9f4cfe",
+    "appendix_x7_target_accuracy.tex": "33d38ccd45860474eba0d41eb549e0c3c391b1b2d5503cdfb11ebbe2de0f6a0b",
+    "appendix_x7_training.tex": "716bb67f20be5b0207cfa0f3f1b17c6b8178c725a32a64170545256355a4c245",
+    "appendix_x7_warm_stability.tex": "349a3dab0bdc690e53ec3d6bce69fe26d924037984d285ade7dc56e1bf27eb75",
+    "table1_dataset_metadata.tex": "e503d593142407dc686d25dded46fc5f5395e4aa84cf201c76e5a820ced9ac51",
+    "table2_accuracy.tex": "bab29dccaa3d11ce0972c278a6158c69d2f0fde33c3fd1be449452491f31d029",
+    "table3_sensitivity.tex": "11ceef28fdbffe9e96dfdd6177fd4389fed05c26d11daf6d899f3953173e9cd0",
+    "table4_four_methods.tex": "1f9c04b5ef001cf7d6c4f60e77ab178197c9dc38616dcd9bf3aaa9c1d92367f4",
+    "table5_lbsp_subgroups.tex": "2e3afdf6cb5d6fe85b22491e7e038e4ebdb6b6151b9a6599d9f07708ce6e7ab1"
+  },
+  "after_table_sha256": {
+    "appendix_calibration.tex": "f84a1ab075bc9792ad7d4c8426addef78ebea5f81ba3a23c422296cf2b886733",
+    "appendix_measured_costs.tex": "036a281b422421ff4205e208abcc7578ab732a84db933380231929bc1ebfc6d9",
+    "appendix_per_seed_accuracy.tex": "86b8186a21a3255cf053d413e4b954e9409de6a9eb0300f07e65d8f3f072336a",
+    "appendix_seed_pair_reference.tex": "1d83b5fd3f7b66f25c6c6ab1ed73a5a3d656e20b01a3c1a6993f906b93b2898d",
+    "appendix_table_secondary.tex": "5abd01659abf0ddeb8dabb25d06d2ebd272994bd0c2aae13e241004f6abc015d",
+    "appendix_x7_target_accuracy.tex": "5cb69c3d2752902ab59da30d914470e6a1ff0e41a47c9755804b19ec7beb7d55",
+    "appendix_x7_training.tex": "fa4aa0a12849bdce6285d6ea441c35a6ea187e8dea21a02f759afb04330c726d",
+    "appendix_x7_warm_stability.tex": "349a3dab0bdc690e53ec3d6bce69fe26d924037984d285ade7dc56e1bf27eb75",
+    "table1_dataset_metadata.tex": "e503d593142407dc686d25dded46fc5f5395e4aa84cf201c76e5a820ced9ac51",
+    "table2_accuracy.tex": "c3ef697f50c9fa025569da7e7f019c18c95d001c17526ce242296e1340eeabf9",
+    "table3_sensitivity.tex": "11ceef28fdbffe9e96dfdd6177fd4389fed05c26d11daf6d899f3953173e9cd0",
+    "table4_four_methods.tex": "00c7d5a292dc8597ca2b94890e6179ca9c4aa910796ad1555b257ab3f4115049",
+    "table5_lbsp_subgroups.tex": "2e3afdf6cb5d6fe85b22491e7e038e4ebdb6b6151b9a6599d9f07708ce6e7ab1"
+  },
+  "pdf_visual_validation_pending": true
+}
