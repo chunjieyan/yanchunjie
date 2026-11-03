@@ -1,6 +1,6 @@
 # Checks performed for this source snapshot
 
-Prepared on 1 November 2026. This local package has not been uploaded to GitHub. The following checks were executed; the GitHub Actions workflow is supplied but has not run remotely.
+Prepared on 1 November 2026; figure and table builders updated on 3 November 2026 (version 1.0.1). The following checks were executed locally; the GitHub Actions workflow is supplied for remote runs.
 
 | Check | Observed result |
 | --- | --- |
@@ -22,3 +22,7 @@ The original Linux/server version records remain under `environment/`. `requirem
 No scientific function/class implementation in `legacy_sources/` was changed. Release wrappers were corrected to normalize Ensemble metadata, retain fresh-run registry paths/metadata, define hash scope explicitly, require canonical predictions for every method and fail when an expected numerical reference file is absent. Do not interpret these packaging fixes as changed experimental results.
 
 After intentional edits, run `python tools/update_manifest.py` to inspect changes, then `python tools/update_manifest.py --write` and `python tools/validate_release.py`. The updater changes only the release manifest; archived scientific-source hashes remain independently checked against provenance.
+
+## Compact upload edition
+
+The 449 original source files are distributed in one ZIP and restored by `python unpack_sources.py`. The original source hashes and experiment matrix are unchanged. Run this command before the offline checks listed above. Four additional extraction contract tests cover exact reconstruction, repeat execution, refusal to overwrite edited sources, archive tampering and parent-path escape. See the external compact delivery validation for the checks executed on the final ZIP.

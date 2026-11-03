@@ -43,9 +43,10 @@ def save(fig,out,name):
 
 def figure4(root,out):
  data=read(root,'bucket_stability_all_users_summary.csv');refs=read(root,'seed_reference_summary.csv')
- fig=ps.figure(63);axes=fig.subplots(1,4,sharey=True);fig.subplots_adjust(left=.079,right=.991,bottom=.285,top=.795,wspace=.21)
+ fig=ps.figure(63);axes=fig.subplots(1,4,sharey=True);fig.subplots_adjust(left=.079,right=.991,bottom=.27,top=.795,wspace=.21)
  handles=[Line2D([0],[0],label=name,markersize=4,color=s['color'],marker=s['marker'],linestyle=s['linestyle']) for name,s in ps.BACKBONES.items()]
- fig.legend(handles=handles,loc='upper center',ncol=2,frameon=False,bbox_to_anchor=(.54,1.012),handlelength=2.1,columnspacing=2.5)
+ handles.append(Line2D([0],[0],label='Seed-pair reference (complete panel)',color='#777777',linestyle=(0,(1.5,2.0)),lw=.9))
+ fig.legend(handles=handles,loc='upper center',ncol=3,frameon=False,bbox_to_anchor=(.54,1.012),handlelength=2.1,columnspacing=2.5)
  for i,(ax,ds) in enumerate(zip(axes,ps.DATASETS)):
   ax.set_title('('+chr(97+i)+') '+ps.DATASET_LABELS[ds],loc='left',pad=4,fontweight='bold');counts=None
   for name,method,offset in [('SASRec','Control',-.055),('TiSASRec','TiSASRec',.055)]:
@@ -61,15 +62,11 @@ def figure4(root,out):
    ax.errorbar(x,y,yerr=sd,color=s['color'],marker=s['marker'],ms=3.6,lw=.9,linestyle=s['linestyle'],capsize=1.8,elinewidth=.7,zorder=3)
    ref=one(refs,dataset=ds,method=method,population='full');value=float(ref['mean_overlap10'])*100
    ax.hlines(value,.58,4.38,color=s['color'],linestyle=(0,(1.5,2.0)),lw=.8,zorder=1)
-   # Short right-margin leaders keep labels off the horizontal reference and observed data.
-   if ds=='ml1m':label_y,va=(67,'bottom') if method=='Control' else (49,'top')
-   elif ds=='beauty':label_y,va=(11,'top') if method=='Control' else (52,'bottom')
-   else:label_y,va=12,'top'
-   ax.annotate('seed '+f'{value:.1f}'+'%',xy=(4.38,value),xytext=(4.20,label_y),ha='right',va=va,fontsize=8,color=s['color'],arrowprops=dict(arrowstyle='-',lw=.65,color=s['color'],connectionstyle='angle,angleA=0,angleB=90,rad=0'),annotation_clip=False)
    for r,xx,yy,ss in zip(rr,x,y,sd):AUDIT.append({'figure':4,'dataset':ds,'method':method,'bucket':r['bucket'],'n':int(r['n']),'mean':float(r['mean']),'sample_sd':float(r['sample_sd']),'plotted_x':float(xx),'plotted_y_percent':float(yy),'seed_reference_full_panel':float(ref['mean_overlap10'])})
-  ax.set_xlim(.55,4.55);ax.set_ylim(0,100);ax.set_yticks([0,25,50,75,100]);ax.set_xticks([1,2,3,4],labels=[b+'\n'+str(n) for b,n in zip(['2','3','4','≥5'],counts)]);grid(ax)
+  ax.set_xlim(.55,4.55);ax.set_ylim(0,100);ax.set_yticks([0,25,50,75,100]);ax.set_xticks([1,2,3,4],labels=['2','3','4','≥5']);grid(ax)
+  for xx,n in zip([1,2,3,4],counts):ax.text(xx,-.135,str(n),transform=ax.get_xaxis_transform(),ha='center',va='top',fontsize=7,color='#6B6B6B')
  fig.text(.013,.55,'Top-10 overlap (%)',ha='center',va='center',rotation=90,fontsize=8.5)
- fig.text(.54,.025,'Last-bucket size (stratum N on second line)',ha='center',fontsize=8.5)
+ fig.text(.54,.025,'Last-bucket size (gray: users in stratum)',ha='center',fontsize=8.5)
  save(fig,out,'Fig4')
 
 def nice_limits(lo,hi):
@@ -84,14 +81,14 @@ def figure5(root,out):
  for i,(ax,ds) in enumerate(zip(axes.flat,ps.DATASETS)):
   rr=[(m,one(means,dataset=ds,method=m,population='affected',metric='overlap10'),one(paired,dataset=ds,method=m,population='affected',metric='ndcg10')) for m in METHODS]
   lo=min(float(y['ci95_lower'])*1000 for _,_,y in rr);hi=max(float(y['ci95_upper'])*1000 for _,_,y in rr);yl,yu,step=nice_limits(lo,hi)
-  ax.set_xlim(0,107);ax.set_ylim(yl,yu);ax.set_xticks([0,25,50,75,100]);ax.set_yticks(np.arange(yl,yu+step*.1,step));ax.yaxis.set_major_formatter(FuncFormatter(lambda x,pos:f'{x:.0f}'));grid(ax);ax.axhline(0,color='#777777',lw=.7,ls=(0,(3,2)),zorder=1)
+  ax.set_xlim(35,103);ax.set_ylim(yl,yu);ax.set_xticks([40,50,60,70,80,90,100]);ax.set_yticks(np.arange(yl,yu+step*.1,step));ax.yaxis.set_major_formatter(FuncFormatter(lambda x,pos:f'{x:.0f}'));grid(ax);ax.axhline(0,color='#777777',lw=.7,ls=(0,(3,2)),zorder=1)
   ax.set_title('('+chr(97+i)+') '+ps.DATASET_LABELS[ds]+' (N='+f'{int(rr[0][1]["n"]):,}'+')',loc='left',fontweight='bold',pad=4)
   for m,x,y in rr:
    s=ps.METHODS[m];xm=float(x['mean'])*100;ym=float(y['mean_delta'])*1000;xlo=float(x['ci95_lower'])*100;xhi=float(x['ci95_upper'])*100;ylo=float(y['ci95_lower'])*1000;yhi=float(y['ci95_upper'])*1000
-   if not(0<=xlo<=xhi<=107 and yl<=ylo<=yhi<=yu):raise ValueError('Fig5CI would be clipped')
+   if not(35<=xlo<=xhi<=103 and yl<=ylo<=yhi<=yu):raise ValueError('Fig5CI would be clipped')
    ax.errorbar(xm,ym,xerr=[[xm-xlo],[xhi-xm]],yerr=[[ym-ylo],[yhi-ym]],fmt='none',color=s['color'],elinewidth=.8,capsize=2,zorder=2)
    ax.plot([xm],[ym],marker=s['marker'],color=s['color'],ms=4.5,linestyle='None',zorder=3)
-   AUDIT.append({'figure':5,'dataset':ds,'method':m,'n':int(x['n']),'overlap':float(x['mean']),'delta':float(y['mean_delta']),'x_ci':[float(x['ci95_lower']),float(x['ci95_upper'])],'y_ci':[float(y['ci95_lower']),float(y['ci95_upper'])],'plotted_y_multiplier':1000,'axis_limits_x_percent':[0,107],'axis_limits_y_milli':[yl,yu],'fixed_marker_size_pt':4.5,'cost_encoding':False})
+   AUDIT.append({'figure':5,'dataset':ds,'method':m,'n':int(x['n']),'overlap':float(x['mean']),'delta':float(y['mean_delta']),'x_ci':[float(x['ci95_lower']),float(x['ci95_upper'])],'y_ci':[float(y['ci95_lower']),float(y['ci95_upper'])],'plotted_y_multiplier':1000,'axis_limits_x_percent':[35,103],'axis_limits_y_milli':[yl,yu],'fixed_marker_size_pt':4.5,'cost_encoding':False})
  fig.text(.018,.49,r'ΔNDCG@10 ($\times10^{-3}$)',rotation=90,ha='center',va='center',fontsize=8.5);fig.text(.55,.018,'Affected-user Top-10 overlap (%)',ha='center',fontsize=8.5)
  save(fig,out,'Fig5')
 
@@ -101,12 +98,13 @@ def figure6(root,out):
  for i,(ax,ds) in enumerate(zip(axes.flat,ps.DATASETS)):
   rr=[one(data,dataset=ds,method=m,training_seed=s,population='affected',metric='ndcg10') for m in methods for s in SEEDS];lo=min(float(r['ci95_lower'])*1000 for r in rr);hi=max(float(r['ci95_upper'])*1000 for r in rr);xl,xu,step=nice_limits(lo,hi)
   ax.set_xlim(xl,xu);ax.set_ylim(-.65,9.8);ax.set_xticks(np.arange(xl,xu+step*.1,step));ax.xaxis.set_major_formatter(FuncFormatter(lambda x,pos:f'{x:.0f}'));ax.tick_params(length=2.5,width=.6,pad=2.5);ax.axvline(0,color='#777777',ls=(0,(3,2)),lw=.7,zorder=1)
+  ax.axhspan(ys['Ensemble',3407]-.6,ys['Ensemble',42]+.6,color='#F3F3F3',lw=0,zorder=0)
   ax.set_title('('+chr(97+i)+') '+ps.DATASET_LABELS[ds],loc='left',fontweight='bold',pad=4)
   for m in methods:
    color=ps.METHODS[m]['color'];marker=ps.METHODS[m]['marker']
    for seed in SEEDS:
     r=one(data,dataset=ds,method=m,training_seed=seed,population='affected',metric='ndcg10');y=ys[m,seed];mean=float(r['mean_delta'])*1000;low=float(r['ci95_lower'])*1000;high=float(r['ci95_upper'])*1000
-    ax.hlines(y,low,high,color=color,lw=.9,linestyle=SEED_LINES[seed],zorder=2);ax.vlines([low,high],y-.14,y+.14,color=color,lw=.75,zorder=2);ax.plot(mean,y,color=color,marker=marker,ms=3.7,linestyle='None',zorder=3)
+    ax.hlines(y,low,high,color=color,lw=.9,zorder=2);ax.vlines([low,high],y-.14,y+.14,color=color,lw=.75,zorder=2);ax.plot(mean,y,color=color,marker=marker,ms=3.7,linestyle='None',zorder=3)
     AUDIT.append({'figure':6,'dataset':ds,'method':m,'training_seed':seed,'n':int(r['n']),'delta':float(r['mean_delta']),'ci':[float(r['ci95_lower']),float(r['ci95_upper'])],'bootstrap_replicates':int(r['bootstrap_replicates']),'plotted_multiplier':1000,'axis_limits_milli':[xl,xu]})
    if i%2==0:ax.text(-.21,ys[m,2026],m,transform=ax.get_yaxis_transform(),ha='right',va='center',color=color,fontsize=8.5)
   ax.set_yticks([ys[m,s] for m in methods for s in SEEDS],labels=[str(s) for m in methods for s in SEEDS]);ax.tick_params(axis='y',length=0,labelleft=(i%2==0));ax.spines['left'].set_visible(False)
@@ -117,11 +115,11 @@ def figure7(root,out):
  data=read(root,'epoch_validation_curves.csv');summaries=read(root,'training_run_summary.csv');fig=ps.figure(94);axes=fig.subplots(2,2,sharex=True,sharey='row');fig.subplots_adjust(left=.12,right=.985,bottom=.115,top=.83,hspace=.40,wspace=.20)
  handles=[Line2D([0],[0],label='Seed '+str(s),color='#303030',linestyle=SEED_LINES[s],lw=1) for s in SEEDS]+[Line2D([0],[0],label='Best validation',color='#303030',marker='*',markersize=7,linestyle='None'),Line2D([0],[0],label='Stopped',color='#303030',marker='|',markersize=7,linestyle='None')]
  fig.legend(handles=handles,loc='upper center',ncol=5,frameon=False,bbox_to_anchor=(.55,1.006),columnspacing=1,handletextpad=.4,handlelength=1.7)
- loss=[float(r['train_loss']) for r in data if r['dataset']=='sports'];span=max(loss)-min(loss);loss_lim=(min(loss)-span*.06,max(loss)+span*.06);min_epoch=min(int(r['epoch']) for r in data);max_epoch=max(int(r['epoch']) for r in data)
+ loss=[float(r['train_loss']) for r in data if r['dataset']=='sports'];span=max(loss)-min(loss);loss_lim=(min(loss)-span*.06,max(loss)+span*.06);min_epoch=min(int(r['epoch']) for r in data);max_epoch=max(int(r['epoch']) for r in data);axis_end=20*math.ceil(max_epoch/20)
  for col,method in enumerate(('Control','LBSP')):
   color=ps.METHODS[method]['color']
   for row,field in enumerate(('val_ndcg10','train_loss')):
-   ax=axes[row,col];ax.set_title('('+chr(97+row*2+col)+') '+method,loc='left',fontweight='bold',pad=4,color=color);grid(ax);ax.set_xlim(min_epoch,max_epoch)
+   ax=axes[row,col];ax.set_title('('+chr(97+row*2+col)+') '+method,loc='left',fontweight='bold',pad=4,color=color);grid(ax);ax.set_xlim(0,axis_end)
    for seed in SEEDS:
     rr=sorted([r for r in data if r['dataset']=='sports' and r['method']==method and int(r['training_seed'])==seed],key=lambda r:int(r['epoch']));summary=one(summaries,dataset='sports',method=method,training_seed=seed);best=int(summary['best_epoch']);stop=int(summary['epochs_run']);selected=one(rr,epoch=best)
     if [int(r['epoch']) for r in rr]!=list(range(1,stop+1)):raise ValueError('Missing recorded epoch')
@@ -131,7 +129,7 @@ def figure7(root,out):
     if row==0:AUDIT.append({'figure':7,'method':method,'training_seed':seed,'best_epoch':best,'stop_epoch':stop,'epochs':len(rr),'best_val_ndcg10':float(selected['val_ndcg10']),'last_val_ndcg10':float(rr[-1]['val_ndcg10']),'last_train_loss':float(rr[-1]['train_loss']),'all_recorded_epochs_plotted':True})
    if row==0:ax.set_ylim(0,.015);ax.set_yticks([0,.005,.010,.015]);ax.yaxis.set_major_formatter(FuncFormatter(lambda v,pos:f'{v:.3f}'))
    else:ax.set_ylim(*loss_lim);ax.yaxis.set_major_locator(MaxNLocator(nbins=4));ax.yaxis.set_major_formatter(FuncFormatter(lambda v,pos:f'{v:.1f}'));ax.set_xlabel('Epoch',labelpad=2.5)
-   ax.set_xticks([min_epoch,20,40,60,max_epoch])
+   ax.set_xticks(range(0,axis_end+1,20))
  axes[0,0].set_ylabel('Validation NDCG@10',labelpad=5);axes[1,0].set_ylabel('Training loss',labelpad=5)
  save(fig,out,'Fig7')
  GEOMETRY[-1].update({'recorded_epoch_range':[min_epoch,max_epoch],'loss_axis_limits':list(loss_lim),'zero_origin_for_loss':False,'seed_encoding':'line style only','checkpoint_marker':'star','stopping_marker':'vertical tick'})

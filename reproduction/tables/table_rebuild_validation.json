@@ -11,11 +11,3737 @@
   ],
   "source_values_changed": false,
   "estimators_or_intervals_recomputed": false,
-  "source_trace": "D:\\time_uncertainty_rec\\kais_revision_20261102\\manuscript\\reproduction\\tables\\inputs\\formal_numeric_cells.json",
+  "source_trace": "C:\\tmp_kais6\\esm101\\reproduction\\tables\\inputs\\formal_numeric_cells.json",
   "source_trace_sha256": "7cee963c233218000ef9c084bf551cb62e064157b2b8ae8c27887d255ec9d83a",
   "original_precision_source_cells_verified": 1124,
   "current_table_cells_matched_to_trace": 1124,
   "numeric_display_changes": [
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "ml1m_Control_42",
+      "column": 3,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "ml1m",
+        "method": "Control",
+        "population": "full",
+        "metric": "ndcg10",
+        "training_seed": "42"
+      },
+      "source_values": {
+        "value": "0.04611847374295827"
+      },
+      "old_tex": "0.046",
+      "new_tex": "46.1",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "ml1m_Control_42",
+      "column": 7,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "ml1m",
+        "method": "Control",
+        "population": "full",
+        "metric": "mrr",
+        "training_seed": "42"
+      },
+      "source_values": {
+        "value": "0.04314193592662295"
+      },
+      "old_tex": "0.043",
+      "new_tex": "43.1",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "ml1m_Control_42",
+      "column": 8,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "ml1m",
+        "method": "Control",
+        "population": "full",
+        "metric": "mrr10",
+        "training_seed": "42"
+      },
+      "source_values": {
+        "value": "0.03407365415301923"
+      },
+      "old_tex": "0.034",
+      "new_tex": "34.1",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "ml1m_Control_2026",
+      "column": 3,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "ml1m",
+        "method": "Control",
+        "population": "full",
+        "metric": "ndcg10",
+        "training_seed": "2026"
+      },
+      "source_values": {
+        "value": "0.05135992686906843"
+      },
+      "old_tex": "0.051",
+      "new_tex": "51.4",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "ml1m_Control_2026",
+      "column": 7,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "ml1m",
+        "method": "Control",
+        "population": "full",
+        "metric": "mrr",
+        "training_seed": "2026"
+      },
+      "source_values": {
+        "value": "0.04502136237966788"
+      },
+      "old_tex": "0.045",
+      "new_tex": "45.0",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "ml1m_Control_2026",
+      "column": 8,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "ml1m",
+        "method": "Control",
+        "population": "full",
+        "metric": "mrr10",
+        "training_seed": "2026"
+      },
+      "source_values": {
+        "value": "0.03698076761568825"
+      },
+      "old_tex": "0.037",
+      "new_tex": "37.0",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "ml1m_Control_3407",
+      "column": 3,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "ml1m",
+        "method": "Control",
+        "population": "full",
+        "metric": "ndcg10",
+        "training_seed": "3407"
+      },
+      "source_values": {
+        "value": "0.048940398695204605"
+      },
+      "old_tex": "0.049",
+      "new_tex": "48.9",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "ml1m_Control_3407",
+      "column": 7,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "ml1m",
+        "method": "Control",
+        "population": "full",
+        "metric": "mrr",
+        "training_seed": "3407"
+      },
+      "source_values": {
+        "value": "0.04412064379821179"
+      },
+      "old_tex": "0.044",
+      "new_tex": "44.1",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "ml1m_Control_3407",
+      "column": 8,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "ml1m",
+        "method": "Control",
+        "population": "full",
+        "metric": "mrr10",
+        "training_seed": "3407"
+      },
+      "source_values": {
+        "value": "0.03596203913664231"
+      },
+      "old_tex": "0.036",
+      "new_tex": "36.0",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "ml1m_Shuffle_42",
+      "column": 3,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "ml1m",
+        "method": "Shuffle",
+        "population": "full",
+        "metric": "ndcg10",
+        "training_seed": "42"
+      },
+      "source_values": {
+        "value": "0.05080140034115634"
+      },
+      "old_tex": "0.051",
+      "new_tex": "50.8",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "ml1m_Shuffle_42",
+      "column": 7,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "ml1m",
+        "method": "Shuffle",
+        "population": "full",
+        "metric": "mrr",
+        "training_seed": "42"
+      },
+      "source_values": {
+        "value": "0.045246579068398"
+      },
+      "old_tex": "0.045",
+      "new_tex": "45.2",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "ml1m_Shuffle_42",
+      "column": 8,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "ml1m",
+        "method": "Shuffle",
+        "population": "full",
+        "metric": "mrr10",
+        "training_seed": "42"
+      },
+      "source_values": {
+        "value": "0.03673721340388007"
+      },
+      "old_tex": "0.037",
+      "new_tex": "36.7",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "ml1m_Shuffle_2026",
+      "column": 3,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "ml1m",
+        "method": "Shuffle",
+        "population": "full",
+        "metric": "ndcg10",
+        "training_seed": "2026"
+      },
+      "source_values": {
+        "value": "0.04863448473404563"
+      },
+      "old_tex": "0.049",
+      "new_tex": "48.6",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "ml1m_Shuffle_2026",
+      "column": 7,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "ml1m",
+        "method": "Shuffle",
+        "population": "full",
+        "metric": "mrr",
+        "training_seed": "2026"
+      },
+      "source_values": {
+        "value": "0.04382962753416678"
+      },
+      "old_tex": "0.044",
+      "new_tex": "43.8",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "ml1m_Shuffle_2026",
+      "column": 8,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "ml1m",
+        "method": "Shuffle",
+        "population": "full",
+        "metric": "mrr10",
+        "training_seed": "2026"
+      },
+      "source_values": {
+        "value": "0.03523095658016293"
+      },
+      "old_tex": "0.035",
+      "new_tex": "35.2",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "ml1m_Shuffle_3407",
+      "column": 3,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "ml1m",
+        "method": "Shuffle",
+        "population": "full",
+        "metric": "ndcg10",
+        "training_seed": "3407"
+      },
+      "source_values": {
+        "value": "0.04888272310373489"
+      },
+      "old_tex": "0.049",
+      "new_tex": "48.9",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "ml1m_Shuffle_3407",
+      "column": 7,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "ml1m",
+        "method": "Shuffle",
+        "population": "full",
+        "metric": "mrr",
+        "training_seed": "3407"
+      },
+      "source_values": {
+        "value": "0.04334221468947858"
+      },
+      "old_tex": "0.043",
+      "new_tex": "43.3",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "ml1m_Shuffle_3407",
+      "column": 8,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "ml1m",
+        "method": "Shuffle",
+        "population": "full",
+        "metric": "mrr10",
+        "training_seed": "3407"
+      },
+      "source_values": {
+        "value": "0.03457461997144536"
+      },
+      "old_tex": "0.035",
+      "new_tex": "34.6",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "ml1m_Ensemble_42",
+      "column": 3,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "ml1m",
+        "method": "Ensemble",
+        "population": "full",
+        "metric": "ndcg10",
+        "training_seed": "42"
+      },
+      "source_values": {
+        "value": "0.045931317244861325"
+      },
+      "old_tex": "0.046",
+      "new_tex": "45.9",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "ml1m_Ensemble_42",
+      "column": 7,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "ml1m",
+        "method": "Ensemble",
+        "population": "full",
+        "metric": "mrr",
+        "training_seed": "42"
+      },
+      "source_values": {
+        "value": "0.0434361024008545"
+      },
+      "old_tex": "0.043",
+      "new_tex": "43.4",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "ml1m_Ensemble_42",
+      "column": 8,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "ml1m",
+        "method": "Ensemble",
+        "population": "full",
+        "metric": "mrr10",
+        "training_seed": "42"
+      },
+      "source_values": {
+        "value": "0.034077853363567646"
+      },
+      "old_tex": "0.034",
+      "new_tex": "34.1",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "ml1m_Ensemble_2026",
+      "column": 3,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "ml1m",
+        "method": "Ensemble",
+        "population": "full",
+        "metric": "ndcg10",
+        "training_seed": "2026"
+      },
+      "source_values": {
+        "value": "0.05059074238832819"
+      },
+      "old_tex": "0.051",
+      "new_tex": "50.6",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "ml1m_Ensemble_2026",
+      "column": 7,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "ml1m",
+        "method": "Ensemble",
+        "population": "full",
+        "metric": "mrr",
+        "training_seed": "2026"
+      },
+      "source_values": {
+        "value": "0.04501705780351202"
+      },
+      "old_tex": "0.045",
+      "new_tex": "45.0",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "ml1m_Ensemble_2026",
+      "column": 8,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "ml1m",
+        "method": "Ensemble",
+        "population": "full",
+        "metric": "mrr10",
+        "training_seed": "2026"
+      },
+      "source_values": {
+        "value": "0.036585789871504154"
+      },
+      "old_tex": "0.037",
+      "new_tex": "36.6",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "ml1m_Ensemble_3407",
+      "column": 3,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "ml1m",
+        "method": "Ensemble",
+        "population": "full",
+        "metric": "ndcg10",
+        "training_seed": "3407"
+      },
+      "source_values": {
+        "value": "0.05014315603471478"
+      },
+      "old_tex": "0.050",
+      "new_tex": "50.1",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "ml1m_Ensemble_3407",
+      "column": 7,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "ml1m",
+        "method": "Ensemble",
+        "population": "full",
+        "metric": "mrr",
+        "training_seed": "3407"
+      },
+      "source_values": {
+        "value": "0.04502499281049489"
+      },
+      "old_tex": "0.045",
+      "new_tex": "45.0",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "ml1m_Ensemble_3407",
+      "column": 8,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "ml1m",
+        "method": "Ensemble",
+        "population": "full",
+        "metric": "mrr10",
+        "training_seed": "3407"
+      },
+      "source_values": {
+        "value": "0.036909213067943224"
+      },
+      "old_tex": "0.037",
+      "new_tex": "36.9",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "ml1m_LBSP_42",
+      "column": 3,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "ml1m",
+        "method": "LBSP",
+        "population": "full",
+        "metric": "ndcg10",
+        "training_seed": "42"
+      },
+      "source_values": {
+        "value": "0.053176866110544264"
+      },
+      "old_tex": "0.053",
+      "new_tex": "53.2",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "ml1m_LBSP_42",
+      "column": 7,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "ml1m",
+        "method": "LBSP",
+        "population": "full",
+        "metric": "mrr",
+        "training_seed": "42"
+      },
+      "source_values": {
+        "value": "0.05037159997279435"
+      },
+      "old_tex": "0.050",
+      "new_tex": "50.4",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "ml1m_LBSP_42",
+      "column": 8,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "ml1m",
+        "method": "LBSP",
+        "population": "full",
+        "metric": "mrr10",
+        "training_seed": "42"
+      },
+      "source_values": {
+        "value": "0.04154656924498195"
+      },
+      "old_tex": "0.042",
+      "new_tex": "41.5",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "ml1m_LBSP_2026",
+      "column": 3,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "ml1m",
+        "method": "LBSP",
+        "population": "full",
+        "metric": "ndcg10",
+        "training_seed": "2026"
+      },
+      "source_values": {
+        "value": "0.05513942194493896"
+      },
+      "old_tex": "0.055",
+      "new_tex": "55.1",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "ml1m_LBSP_2026",
+      "column": 7,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "ml1m",
+        "method": "LBSP",
+        "population": "full",
+        "metric": "mrr",
+        "training_seed": "2026"
+      },
+      "source_values": {
+        "value": "0.047934512577829866"
+      },
+      "old_tex": "0.048",
+      "new_tex": "47.9",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "ml1m_LBSP_2026",
+      "column": 8,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "ml1m",
+        "method": "LBSP",
+        "population": "full",
+        "metric": "mrr10",
+        "training_seed": "2026"
+      },
+      "source_values": {
+        "value": "0.03997984378936759"
+      },
+      "old_tex": "0.040",
+      "new_tex": "40.0",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "ml1m_LBSP_3407",
+      "column": 3,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "ml1m",
+        "method": "LBSP",
+        "population": "full",
+        "metric": "ndcg10",
+        "training_seed": "3407"
+      },
+      "source_values": {
+        "value": "0.05566114488724911"
+      },
+      "old_tex": "0.056",
+      "new_tex": "55.7",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "ml1m_LBSP_3407",
+      "column": 7,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "ml1m",
+        "method": "LBSP",
+        "population": "full",
+        "metric": "mrr",
+        "training_seed": "3407"
+      },
+      "source_values": {
+        "value": "0.050169943041004306"
+      },
+      "old_tex": "0.050",
+      "new_tex": "50.2",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "ml1m_LBSP_3407",
+      "column": 8,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "ml1m",
+        "method": "LBSP",
+        "population": "full",
+        "metric": "mrr10",
+        "training_seed": "3407"
+      },
+      "source_values": {
+        "value": "0.04213487864281515"
+      },
+      "old_tex": "0.042",
+      "new_tex": "42.1",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "ml1m_TiSASRec_42",
+      "column": 3,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "ml1m",
+        "method": "TiSASRec",
+        "population": "full",
+        "metric": "ndcg10",
+        "training_seed": "42"
+      },
+      "source_values": {
+        "value": "0.048206715674308336"
+      },
+      "old_tex": "0.048",
+      "new_tex": "48.2",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "ml1m_TiSASRec_42",
+      "column": 7,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "ml1m",
+        "method": "TiSASRec",
+        "population": "full",
+        "metric": "mrr",
+        "training_seed": "42"
+      },
+      "source_values": {
+        "value": "0.04396923903832431"
+      },
+      "old_tex": "0.044",
+      "new_tex": "44.0",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "ml1m_TiSASRec_42",
+      "column": 8,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "ml1m",
+        "method": "TiSASRec",
+        "population": "full",
+        "metric": "mrr10",
+        "training_seed": "42"
+      },
+      "source_values": {
+        "value": "0.034741748551272364"
+      },
+      "old_tex": "0.035",
+      "new_tex": "34.7",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "ml1m_TiSASRec_2026",
+      "column": 3,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "ml1m",
+        "method": "TiSASRec",
+        "population": "full",
+        "metric": "ndcg10",
+        "training_seed": "2026"
+      },
+      "source_values": {
+        "value": "0.051435895255998836"
+      },
+      "old_tex": "0.051",
+      "new_tex": "51.4",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "ml1m_TiSASRec_2026",
+      "column": 7,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "ml1m",
+        "method": "TiSASRec",
+        "population": "full",
+        "metric": "mrr",
+        "training_seed": "2026"
+      },
+      "source_values": {
+        "value": "0.046188568501871564"
+      },
+      "old_tex": "0.046",
+      "new_tex": "46.2",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "ml1m_TiSASRec_2026",
+      "column": 8,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "ml1m",
+        "method": "TiSASRec",
+        "population": "full",
+        "metric": "mrr10",
+        "training_seed": "2026"
+      },
+      "source_values": {
+        "value": "0.037231040564373895"
+      },
+      "old_tex": "0.037",
+      "new_tex": "37.2",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "ml1m_TiSASRec_3407",
+      "column": 3,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "ml1m",
+        "method": "TiSASRec",
+        "population": "full",
+        "metric": "ndcg10",
+        "training_seed": "3407"
+      },
+      "source_values": {
+        "value": "0.049271436543057566"
+      },
+      "old_tex": "0.049",
+      "new_tex": "49.3",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "ml1m_TiSASRec_3407",
+      "column": 7,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "ml1m",
+        "method": "TiSASRec",
+        "population": "full",
+        "metric": "mrr",
+        "training_seed": "3407"
+      },
+      "source_values": {
+        "value": "0.044315723830986406"
+      },
+      "old_tex": "0.044",
+      "new_tex": "44.3",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "ml1m_TiSASRec_3407",
+      "column": 8,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "ml1m",
+        "method": "TiSASRec",
+        "population": "full",
+        "metric": "mrr10",
+        "training_seed": "3407"
+      },
+      "source_values": {
+        "value": "0.03557319223985891"
+      },
+      "old_tex": "0.036",
+      "new_tex": "35.6",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "beauty_Control_42",
+      "column": 3,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "beauty",
+        "method": "Control",
+        "population": "full",
+        "metric": "ndcg10",
+        "training_seed": "42"
+      },
+      "source_values": {
+        "value": "0.007156479973548885"
+      },
+      "old_tex": "0.007",
+      "new_tex": "7.2",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "beauty_Control_42",
+      "column": 7,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "beauty",
+        "method": "Control",
+        "population": "full",
+        "metric": "mrr",
+        "training_seed": "42"
+      },
+      "source_values": {
+        "value": "0.007484515958024911"
+      },
+      "old_tex": "0.007",
+      "new_tex": "7.5",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "beauty_Control_42",
+      "column": 8,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "beauty",
+        "method": "Control",
+        "population": "full",
+        "metric": "mrr10",
+        "training_seed": "42"
+      },
+      "source_values": {
+        "value": "0.005649075768765587"
+      },
+      "old_tex": "0.006",
+      "new_tex": "5.6",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "beauty_Control_2026",
+      "column": 3,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "beauty",
+        "method": "Control",
+        "population": "full",
+        "metric": "ndcg10",
+        "training_seed": "2026"
+      },
+      "source_values": {
+        "value": "0.007926879070509945"
+      },
+      "old_tex": "0.008",
+      "new_tex": "7.9",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "beauty_Control_2026",
+      "column": 7,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "beauty",
+        "method": "Control",
+        "population": "full",
+        "metric": "mrr",
+        "training_seed": "2026"
+      },
+      "source_values": {
+        "value": "0.007215429680982929"
+      },
+      "old_tex": "0.007",
+      "new_tex": "7.2",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "beauty_Control_2026",
+      "column": 8,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "beauty",
+        "method": "Control",
+        "population": "full",
+        "metric": "mrr10",
+        "training_seed": "2026"
+      },
+      "source_values": {
+        "value": "0.005634492502327971"
+      },
+      "old_tex": "0.006",
+      "new_tex": "5.6",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "beauty_Control_3407",
+      "column": 3,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "beauty",
+        "method": "Control",
+        "population": "full",
+        "metric": "ndcg10",
+        "training_seed": "3407"
+      },
+      "source_values": {
+        "value": "0.008028377979504904"
+      },
+      "old_tex": "0.008",
+      "new_tex": "8.0",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "beauty_Control_3407",
+      "column": 7,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "beauty",
+        "method": "Control",
+        "population": "full",
+        "metric": "mrr",
+        "training_seed": "3407"
+      },
+      "source_values": {
+        "value": "0.0076921750935428765"
+      },
+      "old_tex": "0.008",
+      "new_tex": "7.7",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "beauty_Control_3407",
+      "column": 8,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "beauty",
+        "method": "Control",
+        "population": "full",
+        "metric": "mrr10",
+        "training_seed": "3407"
+      },
+      "source_values": {
+        "value": "0.0060062989007695685"
+      },
+      "old_tex": "0.006",
+      "new_tex": "6.0",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "beauty_Shuffle_42",
+      "column": 3,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "beauty",
+        "method": "Shuffle",
+        "population": "full",
+        "metric": "ndcg10",
+        "training_seed": "42"
+      },
+      "source_values": {
+        "value": "0.00931777386180053"
+      },
+      "old_tex": "0.009",
+      "new_tex": "9.3",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "beauty_Shuffle_42",
+      "column": 7,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "beauty",
+        "method": "Shuffle",
+        "population": "full",
+        "metric": "mrr",
+        "training_seed": "42"
+      },
+      "source_values": {
+        "value": "0.008659235013971861"
+      },
+      "old_tex": "0.009",
+      "new_tex": "8.7",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "beauty_Shuffle_42",
+      "column": 8,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "beauty",
+        "method": "Shuffle",
+        "population": "full",
+        "metric": "mrr10",
+        "training_seed": "42"
+      },
+      "source_values": {
+        "value": "0.0067893801710389706"
+      },
+      "old_tex": "0.007",
+      "new_tex": "6.8",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "beauty_Shuffle_2026",
+      "column": 3,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "beauty",
+        "method": "Shuffle",
+        "population": "full",
+        "metric": "ndcg10",
+        "training_seed": "2026"
+      },
+      "source_values": {
+        "value": "0.008814327107632528"
+      },
+      "old_tex": "0.009",
+      "new_tex": "8.8",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "beauty_Shuffle_2026",
+      "column": 7,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "beauty",
+        "method": "Shuffle",
+        "population": "full",
+        "metric": "mrr",
+        "training_seed": "2026"
+      },
+      "source_values": {
+        "value": "0.008389958734687413"
+      },
+      "old_tex": "0.008",
+      "new_tex": "8.4",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "beauty_Shuffle_2026",
+      "column": 8,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "beauty",
+        "method": "Shuffle",
+        "population": "full",
+        "metric": "mrr10",
+        "training_seed": "2026"
+      },
+      "source_values": {
+        "value": "0.006420249601301524"
+      },
+      "old_tex": "0.006",
+      "new_tex": "6.4",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "beauty_Shuffle_3407",
+      "column": 3,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "beauty",
+        "method": "Shuffle",
+        "population": "full",
+        "metric": "ndcg10",
+        "training_seed": "3407"
+      },
+      "source_values": {
+        "value": "0.008955507494838475"
+      },
+      "old_tex": "0.009",
+      "new_tex": "9.0",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "beauty_Shuffle_3407",
+      "column": 7,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "beauty",
+        "method": "Shuffle",
+        "population": "full",
+        "metric": "mrr",
+        "training_seed": "3407"
+      },
+      "source_values": {
+        "value": "0.00909606435701122"
+      },
+      "old_tex": "0.009",
+      "new_tex": "9.1",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "beauty_Shuffle_3407",
+      "column": 8,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "beauty",
+        "method": "Shuffle",
+        "population": "full",
+        "metric": "mrr10",
+        "training_seed": "3407"
+      },
+      "source_values": {
+        "value": "0.007133491742392619"
+      },
+      "old_tex": "0.007",
+      "new_tex": "7.1",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "beauty_Ensemble_42",
+      "column": 3,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "beauty",
+        "method": "Ensemble",
+        "population": "full",
+        "metric": "ndcg10",
+        "training_seed": "42"
+      },
+      "source_values": {
+        "value": "0.007556064977977007"
+      },
+      "old_tex": "0.008",
+      "new_tex": "7.6",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "beauty_Ensemble_42",
+      "column": 7,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "beauty",
+        "method": "Ensemble",
+        "population": "full",
+        "metric": "mrr",
+        "training_seed": "42"
+      },
+      "source_values": {
+        "value": "0.007304936557469251"
+      },
+      "old_tex": "0.007",
+      "new_tex": "7.3",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "beauty_Ensemble_42",
+      "column": 8,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "beauty",
+        "method": "Ensemble",
+        "population": "full",
+        "metric": "mrr10",
+        "training_seed": "42"
+      },
+      "source_values": {
+        "value": "0.005381840756082158"
+      },
+      "old_tex": "0.005",
+      "new_tex": "5.4",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "beauty_Ensemble_2026",
+      "column": 3,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "beauty",
+        "method": "Ensemble",
+        "population": "full",
+        "metric": "ndcg10",
+        "training_seed": "2026"
+      },
+      "source_values": {
+        "value": "0.008057383494868342"
+      },
+      "old_tex": "0.008",
+      "new_tex": "8.1",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "beauty_Ensemble_2026",
+      "column": 7,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "beauty",
+        "method": "Ensemble",
+        "population": "full",
+        "metric": "mrr",
+        "training_seed": "2026"
+      },
+      "source_values": {
+        "value": "0.007338867981675701"
+      },
+      "old_tex": "0.007",
+      "new_tex": "7.3",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "beauty_Ensemble_2026",
+      "column": 8,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "beauty",
+        "method": "Ensemble",
+        "population": "full",
+        "metric": "mrr10",
+        "training_seed": "2026"
+      },
+      "source_values": {
+        "value": "0.005577122734911002"
+      },
+      "old_tex": "0.006",
+      "new_tex": "5.6",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "beauty_Ensemble_3407",
+      "column": 3,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "beauty",
+        "method": "Ensemble",
+        "population": "full",
+        "metric": "ndcg10",
+        "training_seed": "3407"
+      },
+      "source_values": {
+        "value": "0.008354947042496525"
+      },
+      "old_tex": "0.008",
+      "new_tex": "8.4",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "beauty_Ensemble_3407",
+      "column": 7,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "beauty",
+        "method": "Ensemble",
+        "population": "full",
+        "metric": "mrr",
+        "training_seed": "3407"
+      },
+      "source_values": {
+        "value": "0.008042520044175645"
+      },
+      "old_tex": "0.008",
+      "new_tex": "8.0",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "beauty_Ensemble_3407",
+      "column": 8,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "beauty",
+        "method": "Ensemble",
+        "population": "full",
+        "metric": "mrr10",
+        "training_seed": "3407"
+      },
+      "source_values": {
+        "value": "0.006309363259801561"
+      },
+      "old_tex": "0.006",
+      "new_tex": "6.3",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "beauty_LBSP_42",
+      "column": 3,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "beauty",
+        "method": "LBSP",
+        "population": "full",
+        "metric": "ndcg10",
+        "training_seed": "42"
+      },
+      "source_values": {
+        "value": "0.007748010479564932"
+      },
+      "old_tex": "0.008",
+      "new_tex": "7.7",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "beauty_LBSP_42",
+      "column": 7,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "beauty",
+        "method": "LBSP",
+        "population": "full",
+        "metric": "mrr",
+        "training_seed": "42"
+      },
+      "source_values": {
+        "value": "0.0076037010380854775"
+      },
+      "old_tex": "0.008",
+      "new_tex": "7.6",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "beauty_LBSP_42",
+      "column": 8,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "beauty",
+        "method": "LBSP",
+        "population": "full",
+        "metric": "mrr10",
+        "training_seed": "42"
+      },
+      "source_values": {
+        "value": "0.005817920559997431"
+      },
+      "old_tex": "0.006",
+      "new_tex": "5.8",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "beauty_LBSP_2026",
+      "column": 3,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "beauty",
+        "method": "LBSP",
+        "population": "full",
+        "metric": "ndcg10",
+        "training_seed": "2026"
+      },
+      "source_values": {
+        "value": "0.00730090455977494"
+      },
+      "old_tex": "0.007",
+      "new_tex": "7.3",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "beauty_LBSP_2026",
+      "column": 7,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "beauty",
+        "method": "LBSP",
+        "population": "full",
+        "metric": "mrr",
+        "training_seed": "2026"
+      },
+      "source_values": {
+        "value": "0.00716080317192685"
+      },
+      "old_tex": "0.007",
+      "new_tex": "7.2",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "beauty_LBSP_2026",
+      "column": 8,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "beauty",
+        "method": "LBSP",
+        "population": "full",
+        "metric": "mrr10",
+        "training_seed": "2026"
+      },
+      "source_values": {
+        "value": "0.005425777863404296"
+      },
+      "old_tex": "0.005",
+      "new_tex": "5.4",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "beauty_LBSP_3407",
+      "column": 3,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "beauty",
+        "method": "LBSP",
+        "population": "full",
+        "metric": "ndcg10",
+        "training_seed": "3407"
+      },
+      "source_values": {
+        "value": "0.006014711596482316"
+      },
+      "old_tex": "0.006",
+      "new_tex": "6.0",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "beauty_LBSP_3407",
+      "column": 7,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "beauty",
+        "method": "LBSP",
+        "population": "full",
+        "metric": "mrr",
+        "training_seed": "3407"
+      },
+      "source_values": {
+        "value": "0.006151017356063286"
+      },
+      "old_tex": "0.006",
+      "new_tex": "6.2",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "beauty_LBSP_3407",
+      "column": 8,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "beauty",
+        "method": "LBSP",
+        "population": "full",
+        "metric": "mrr10",
+        "training_seed": "3407"
+      },
+      "source_values": {
+        "value": "0.004275037729184728"
+      },
+      "old_tex": "0.004",
+      "new_tex": "4.3",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "beauty_TiSASRec_42",
+      "column": 3,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "beauty",
+        "method": "TiSASRec",
+        "population": "full",
+        "metric": "ndcg10",
+        "training_seed": "42"
+      },
+      "source_values": {
+        "value": "0.008653211319959334"
+      },
+      "old_tex": "0.009",
+      "new_tex": "8.7",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "beauty_TiSASRec_42",
+      "column": 7,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "beauty",
+        "method": "TiSASRec",
+        "population": "full",
+        "metric": "mrr",
+        "training_seed": "42"
+      },
+      "source_values": {
+        "value": "0.00829553275614163"
+      },
+      "old_tex": "0.008",
+      "new_tex": "8.3",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "beauty_TiSASRec_42",
+      "column": 8,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "beauty",
+        "method": "TiSASRec",
+        "population": "full",
+        "metric": "mrr10",
+        "training_seed": "42"
+      },
+      "source_values": {
+        "value": "0.006492229393443149"
+      },
+      "old_tex": "0.006",
+      "new_tex": "6.5",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "beauty_TiSASRec_2026",
+      "column": 3,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "beauty",
+        "method": "TiSASRec",
+        "population": "full",
+        "metric": "ndcg10",
+        "training_seed": "2026"
+      },
+      "source_values": {
+        "value": "0.00694237635080604"
+      },
+      "old_tex": "0.007",
+      "new_tex": "6.9",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "beauty_TiSASRec_2026",
+      "column": 7,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "beauty",
+        "method": "TiSASRec",
+        "population": "full",
+        "metric": "mrr",
+        "training_seed": "2026"
+      },
+      "source_values": {
+        "value": "0.00677702657899781"
+      },
+      "old_tex": "0.007",
+      "new_tex": "6.8",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "beauty_TiSASRec_2026",
+      "column": 8,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "beauty",
+        "method": "TiSASRec",
+        "population": "full",
+        "metric": "mrr10",
+        "training_seed": "2026"
+      },
+      "source_values": {
+        "value": "0.004877768144794442"
+      },
+      "old_tex": "0.005",
+      "new_tex": "4.9",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "beauty_TiSASRec_3407",
+      "column": 3,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "beauty",
+        "method": "TiSASRec",
+        "population": "full",
+        "metric": "ndcg10",
+        "training_seed": "3407"
+      },
+      "source_values": {
+        "value": "0.010451652288300419"
+      },
+      "old_tex": "0.010",
+      "new_tex": "10.5",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "beauty_TiSASRec_3407",
+      "column": 7,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "beauty",
+        "method": "TiSASRec",
+        "population": "full",
+        "metric": "mrr",
+        "training_seed": "3407"
+      },
+      "source_values": {
+        "value": "0.009717309933273442"
+      },
+      "old_tex": "0.010",
+      "new_tex": "9.7",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "beauty_TiSASRec_3407",
+      "column": 8,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "beauty",
+        "method": "TiSASRec",
+        "population": "full",
+        "metric": "mrr10",
+        "training_seed": "3407"
+      },
+      "source_values": {
+        "value": "0.007872421839043553"
+      },
+      "old_tex": "0.008",
+      "new_tex": "7.9",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "sports_Control_42",
+      "column": 3,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "sports",
+        "method": "Control",
+        "population": "full",
+        "metric": "ndcg10",
+        "training_seed": "42"
+      },
+      "source_values": {
+        "value": "0.008110770095710542"
+      },
+      "old_tex": "0.008",
+      "new_tex": "8.1",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "sports_Control_42",
+      "column": 7,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "sports",
+        "method": "Control",
+        "population": "full",
+        "metric": "mrr",
+        "training_seed": "42"
+      },
+      "source_values": {
+        "value": "0.008026154557696591"
+      },
+      "old_tex": "0.008",
+      "new_tex": "8.0",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "sports_Control_42",
+      "column": 8,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "sports",
+        "method": "Control",
+        "population": "full",
+        "metric": "mrr10",
+        "training_seed": "42"
+      },
+      "source_values": {
+        "value": "0.006001611490986893"
+      },
+      "old_tex": "0.006",
+      "new_tex": "6.0",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "sports_Control_2026",
+      "column": 3,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "sports",
+        "method": "Control",
+        "population": "full",
+        "metric": "ndcg10",
+        "training_seed": "2026"
+      },
+      "source_values": {
+        "value": "0.008566425750265649"
+      },
+      "old_tex": "0.009",
+      "new_tex": "8.6",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "sports_Control_2026",
+      "column": 7,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "sports",
+        "method": "Control",
+        "population": "full",
+        "metric": "mrr",
+        "training_seed": "2026"
+      },
+      "source_values": {
+        "value": "0.008535048311537459"
+      },
+      "old_tex": "0.009",
+      "new_tex": "8.5",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "sports_Control_2026",
+      "column": 8,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "sports",
+        "method": "Control",
+        "population": "full",
+        "metric": "mrr10",
+        "training_seed": "2026"
+      },
+      "source_values": {
+        "value": "0.006388812232340886"
+      },
+      "old_tex": "0.006",
+      "new_tex": "6.4",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "sports_Control_3407",
+      "column": 3,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "sports",
+        "method": "Control",
+        "population": "full",
+        "metric": "ndcg10",
+        "training_seed": "3407"
+      },
+      "source_values": {
+        "value": "0.009272276553271529"
+      },
+      "old_tex": "0.009",
+      "new_tex": "9.3",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "sports_Control_3407",
+      "column": 7,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "sports",
+        "method": "Control",
+        "population": "full",
+        "metric": "mrr",
+        "training_seed": "3407"
+      },
+      "source_values": {
+        "value": "0.00902294845562993"
+      },
+      "old_tex": "0.009",
+      "new_tex": "9.0",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "sports_Control_3407",
+      "column": 8,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "sports",
+        "method": "Control",
+        "population": "full",
+        "metric": "mrr10",
+        "training_seed": "3407"
+      },
+      "source_values": {
+        "value": "0.007138939141514801"
+      },
+      "old_tex": "0.007",
+      "new_tex": "7.1",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "sports_Shuffle_42",
+      "column": 3,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "sports",
+        "method": "Shuffle",
+        "population": "full",
+        "metric": "ndcg10",
+        "training_seed": "42"
+      },
+      "source_values": {
+        "value": "0.00973216342813501"
+      },
+      "old_tex": "0.010",
+      "new_tex": "9.7",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "sports_Shuffle_42",
+      "column": 7,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "sports",
+        "method": "Shuffle",
+        "population": "full",
+        "metric": "mrr",
+        "training_seed": "42"
+      },
+      "source_values": {
+        "value": "0.009286601507843358"
+      },
+      "old_tex": "0.009",
+      "new_tex": "9.3",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "sports_Shuffle_42",
+      "column": 8,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "sports",
+        "method": "Shuffle",
+        "population": "full",
+        "metric": "mrr10",
+        "training_seed": "42"
+      },
+      "source_values": {
+        "value": "0.0071020588245314575"
+      },
+      "old_tex": "0.007",
+      "new_tex": "7.1",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "sports_Shuffle_2026",
+      "column": 3,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "sports",
+        "method": "Shuffle",
+        "population": "full",
+        "metric": "ndcg10",
+        "training_seed": "2026"
+      },
+      "source_values": {
+        "value": "0.007958169921748385"
+      },
+      "old_tex": "0.008",
+      "new_tex": "8.0",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "sports_Shuffle_2026",
+      "column": 7,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "sports",
+        "method": "Shuffle",
+        "population": "full",
+        "metric": "mrr",
+        "training_seed": "2026"
+      },
+      "source_values": {
+        "value": "0.008683172951647009"
+      },
+      "old_tex": "0.009",
+      "new_tex": "8.7",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "sports_Shuffle_2026",
+      "column": 8,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "sports",
+        "method": "Shuffle",
+        "population": "full",
+        "metric": "mrr10",
+        "training_seed": "2026"
+      },
+      "source_values": {
+        "value": "0.006046072288828246"
+      },
+      "old_tex": "0.006",
+      "new_tex": "6.0",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "sports_Shuffle_3407",
+      "column": 3,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "sports",
+        "method": "Shuffle",
+        "population": "full",
+        "metric": "ndcg10",
+        "training_seed": "3407"
+      },
+      "source_values": {
+        "value": "0.008874018676881836"
+      },
+      "old_tex": "0.009",
+      "new_tex": "8.9",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "sports_Shuffle_3407",
+      "column": 7,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "sports",
+        "method": "Shuffle",
+        "population": "full",
+        "metric": "mrr",
+        "training_seed": "3407"
+      },
+      "source_values": {
+        "value": "0.009036475410949709"
+      },
+      "old_tex": "0.009",
+      "new_tex": "9.0",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "sports_Shuffle_3407",
+      "column": 8,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "sports",
+        "method": "Shuffle",
+        "population": "full",
+        "metric": "mrr10",
+        "training_seed": "3407"
+      },
+      "source_values": {
+        "value": "0.006633942838063894"
+      },
+      "old_tex": "0.007",
+      "new_tex": "6.6",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "sports_Ensemble_42",
+      "column": 3,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "sports",
+        "method": "Ensemble",
+        "population": "full",
+        "metric": "ndcg10",
+        "training_seed": "42"
+      },
+      "source_values": {
+        "value": "0.009010935145745858"
+      },
+      "old_tex": "0.009",
+      "new_tex": "9.0",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "sports_Ensemble_42",
+      "column": 7,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "sports",
+        "method": "Ensemble",
+        "population": "full",
+        "metric": "mrr",
+        "training_seed": "42"
+      },
+      "source_values": {
+        "value": "0.008860975675157728"
+      },
+      "old_tex": "0.009",
+      "new_tex": "8.9",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "sports_Ensemble_42",
+      "column": 8,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "sports",
+        "method": "Ensemble",
+        "population": "full",
+        "metric": "mrr10",
+        "training_seed": "42"
+      },
+      "source_values": {
+        "value": "0.006603774227727866"
+      },
+      "old_tex": "0.007",
+      "new_tex": "6.6",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "sports_Ensemble_2026",
+      "column": 3,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "sports",
+        "method": "Ensemble",
+        "population": "full",
+        "metric": "ndcg10",
+        "training_seed": "2026"
+      },
+      "source_values": {
+        "value": "0.009267596042588892"
+      },
+      "old_tex": "0.009",
+      "new_tex": "9.3",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "sports_Ensemble_2026",
+      "column": 7,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "sports",
+        "method": "Ensemble",
+        "population": "full",
+        "metric": "mrr",
+        "training_seed": "2026"
+      },
+      "source_values": {
+        "value": "0.009282394838259187"
+      },
+      "old_tex": "0.009",
+      "new_tex": "9.3",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "sports_Ensemble_2026",
+      "column": 8,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "sports",
+        "method": "Ensemble",
+        "population": "full",
+        "metric": "mrr10",
+        "training_seed": "2026"
+      },
+      "source_values": {
+        "value": "0.006900622451169779"
+      },
+      "old_tex": "0.007",
+      "new_tex": "6.9",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "sports_Ensemble_3407",
+      "column": 3,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "sports",
+        "method": "Ensemble",
+        "population": "full",
+        "metric": "ndcg10",
+        "training_seed": "3407"
+      },
+      "source_values": {
+        "value": "0.00986737293426271"
+      },
+      "old_tex": "0.010",
+      "new_tex": "9.9",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "sports_Ensemble_3407",
+      "column": 7,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "sports",
+        "method": "Ensemble",
+        "population": "full",
+        "metric": "mrr",
+        "training_seed": "3407"
+      },
+      "source_values": {
+        "value": "0.009450925927018744"
+      },
+      "old_tex": "0.009",
+      "new_tex": "9.5",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "sports_Ensemble_3407",
+      "column": 8,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "sports",
+        "method": "Ensemble",
+        "population": "full",
+        "metric": "mrr10",
+        "training_seed": "3407"
+      },
+      "source_values": {
+        "value": "0.007289100801657144"
+      },
+      "old_tex": "0.007",
+      "new_tex": "7.3",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "sports_LBSP_42",
+      "column": 3,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "sports",
+        "method": "LBSP",
+        "population": "full",
+        "metric": "ndcg10",
+        "training_seed": "42"
+      },
+      "source_values": {
+        "value": "0.009711381682950614"
+      },
+      "old_tex": "0.010",
+      "new_tex": "9.7",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "sports_LBSP_42",
+      "column": 7,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "sports",
+        "method": "LBSP",
+        "population": "full",
+        "metric": "mrr",
+        "training_seed": "42"
+      },
+      "source_values": {
+        "value": "0.009398665609244836"
+      },
+      "old_tex": "0.009",
+      "new_tex": "9.4",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "sports_LBSP_42",
+      "column": 8,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "sports",
+        "method": "LBSP",
+        "population": "full",
+        "metric": "mrr10",
+        "training_seed": "42"
+      },
+      "source_values": {
+        "value": "0.007318826507493604"
+      },
+      "old_tex": "0.007",
+      "new_tex": "7.3",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "sports_LBSP_2026",
+      "column": 3,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "sports",
+        "method": "LBSP",
+        "population": "full",
+        "metric": "ndcg10",
+        "training_seed": "2026"
+      },
+      "source_values": {
+        "value": "0.008999773867351204"
+      },
+      "old_tex": "0.009",
+      "new_tex": "9.0",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "sports_LBSP_2026",
+      "column": 7,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "sports",
+        "method": "LBSP",
+        "population": "full",
+        "metric": "mrr",
+        "training_seed": "2026"
+      },
+      "source_values": {
+        "value": "0.008878955845533831"
+      },
+      "old_tex": "0.009",
+      "new_tex": "8.9",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "sports_LBSP_2026",
+      "column": 8,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "sports",
+        "method": "LBSP",
+        "population": "full",
+        "metric": "mrr10",
+        "training_seed": "2026"
+      },
+      "source_values": {
+        "value": "0.006584116081862379"
+      },
+      "old_tex": "0.007",
+      "new_tex": "6.6",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "sports_LBSP_3407",
+      "column": 3,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "sports",
+        "method": "LBSP",
+        "population": "full",
+        "metric": "ndcg10",
+        "training_seed": "3407"
+      },
+      "source_values": {
+        "value": "0.00971069920628375"
+      },
+      "old_tex": "0.010",
+      "new_tex": "9.7",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "sports_LBSP_3407",
+      "column": 7,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "sports",
+        "method": "LBSP",
+        "population": "full",
+        "metric": "mrr",
+        "training_seed": "3407"
+      },
+      "source_values": {
+        "value": "0.009859538001331566"
+      },
+      "old_tex": "0.010",
+      "new_tex": "9.9",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "sports_LBSP_3407",
+      "column": 8,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "sports",
+        "method": "LBSP",
+        "population": "full",
+        "metric": "mrr10",
+        "training_seed": "3407"
+      },
+      "source_values": {
+        "value": "0.007644276140734608"
+      },
+      "old_tex": "0.008",
+      "new_tex": "7.6",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "toys_Control_42",
+      "column": 3,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "toys",
+        "method": "Control",
+        "population": "full",
+        "metric": "ndcg10",
+        "training_seed": "42"
+      },
+      "source_values": {
+        "value": "0.008025289871197194"
+      },
+      "old_tex": "0.008",
+      "new_tex": "8.0",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "toys_Control_42",
+      "column": 7,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "toys",
+        "method": "Control",
+        "population": "full",
+        "metric": "mrr",
+        "training_seed": "42"
+      },
+      "source_values": {
+        "value": "0.007700136427494473"
+      },
+      "old_tex": "0.008",
+      "new_tex": "7.7",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "toys_Control_42",
+      "column": 8,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "toys",
+        "method": "Control",
+        "population": "full",
+        "metric": "mrr10",
+        "training_seed": "42"
+      },
+      "source_values": {
+        "value": "0.005833972117835487"
+      },
+      "old_tex": "0.006",
+      "new_tex": "5.8",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "toys_Control_2026",
+      "column": 3,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "toys",
+        "method": "Control",
+        "population": "full",
+        "metric": "ndcg10",
+        "training_seed": "2026"
+      },
+      "source_values": {
+        "value": "0.009210004567272702"
+      },
+      "old_tex": "0.009",
+      "new_tex": "9.2",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "toys_Control_2026",
+      "column": 7,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "toys",
+        "method": "Control",
+        "population": "full",
+        "metric": "mrr",
+        "training_seed": "2026"
+      },
+      "source_values": {
+        "value": "0.008754038444357664"
+      },
+      "old_tex": "0.009",
+      "new_tex": "8.8",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "toys_Control_2026",
+      "column": 8,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "toys",
+        "method": "Control",
+        "population": "full",
+        "metric": "mrr10",
+        "training_seed": "2026"
+      },
+      "source_values": {
+        "value": "0.006984563227201625"
+      },
+      "old_tex": "0.007",
+      "new_tex": "7.0",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "toys_Control_3407",
+      "column": 3,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "toys",
+        "method": "Control",
+        "population": "full",
+        "metric": "ndcg10",
+        "training_seed": "3407"
+      },
+      "source_values": {
+        "value": "0.007031875794790831"
+      },
+      "old_tex": "0.007",
+      "new_tex": "7.0",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "toys_Control_3407",
+      "column": 7,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "toys",
+        "method": "Control",
+        "population": "full",
+        "metric": "mrr",
+        "training_seed": "3407"
+      },
+      "source_values": {
+        "value": "0.006582143142697893"
+      },
+      "old_tex": "0.007",
+      "new_tex": "6.6",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "toys_Control_3407",
+      "column": 8,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "toys",
+        "method": "Control",
+        "population": "full",
+        "metric": "mrr10",
+        "training_seed": "3407"
+      },
+      "source_values": {
+        "value": "0.004886234038177501"
+      },
+      "old_tex": "0.005",
+      "new_tex": "4.9",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "toys_Shuffle_42",
+      "column": 3,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "toys",
+        "method": "Shuffle",
+        "population": "full",
+        "metric": "ndcg10",
+        "training_seed": "42"
+      },
+      "source_values": {
+        "value": "0.01016778451346873"
+      },
+      "old_tex": "0.010",
+      "new_tex": "10.2",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "toys_Shuffle_42",
+      "column": 7,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "toys",
+        "method": "Shuffle",
+        "population": "full",
+        "metric": "mrr",
+        "training_seed": "42"
+      },
+      "source_values": {
+        "value": "0.009224463648584216"
+      },
+      "old_tex": "0.009",
+      "new_tex": "9.2",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "toys_Shuffle_42",
+      "column": 8,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "toys",
+        "method": "Shuffle",
+        "population": "full",
+        "metric": "mrr10",
+        "training_seed": "42"
+      },
+      "source_values": {
+        "value": "0.007328260449579648"
+      },
+      "old_tex": "0.007",
+      "new_tex": "7.3",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "toys_Shuffle_2026",
+      "column": 3,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "toys",
+        "method": "Shuffle",
+        "population": "full",
+        "metric": "ndcg10",
+        "training_seed": "2026"
+      },
+      "source_values": {
+        "value": "0.009359225899508876"
+      },
+      "old_tex": "0.009",
+      "new_tex": "9.4",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "toys_Shuffle_2026",
+      "column": 7,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "toys",
+        "method": "Shuffle",
+        "population": "full",
+        "metric": "mrr",
+        "training_seed": "2026"
+      },
+      "source_values": {
+        "value": "0.008698561059867176"
+      },
+      "old_tex": "0.009",
+      "new_tex": "8.7",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "toys_Shuffle_2026",
+      "column": 8,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "toys",
+        "method": "Shuffle",
+        "population": "full",
+        "metric": "mrr10",
+        "training_seed": "2026"
+      },
+      "source_values": {
+        "value": "0.006589607443553262"
+      },
+      "old_tex": "0.007",
+      "new_tex": "6.6",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "toys_Shuffle_3407",
+      "column": 3,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "toys",
+        "method": "Shuffle",
+        "population": "full",
+        "metric": "ndcg10",
+        "training_seed": "3407"
+      },
+      "source_values": {
+        "value": "0.008497981156902118"
+      },
+      "old_tex": "0.008",
+      "new_tex": "8.5",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "toys_Shuffle_3407",
+      "column": 7,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "toys",
+        "method": "Shuffle",
+        "population": "full",
+        "metric": "mrr",
+        "training_seed": "3407"
+      },
+      "source_values": {
+        "value": "0.008451335607295878"
+      },
+      "old_tex": "0.008",
+      "new_tex": "8.5",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "toys_Shuffle_3407",
+      "column": 8,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "toys",
+        "method": "Shuffle",
+        "population": "full",
+        "metric": "mrr10",
+        "training_seed": "3407"
+      },
+      "source_values": {
+        "value": "0.006529312418593926"
+      },
+      "old_tex": "0.007",
+      "new_tex": "6.5",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "toys_Ensemble_42",
+      "column": 3,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "toys",
+        "method": "Ensemble",
+        "population": "full",
+        "metric": "ndcg10",
+        "training_seed": "42"
+      },
+      "source_values": {
+        "value": "0.00998582632967416"
+      },
+      "old_tex": "0.010",
+      "new_tex": "10.0",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "toys_Ensemble_42",
+      "column": 7,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "toys",
+        "method": "Ensemble",
+        "population": "full",
+        "metric": "mrr",
+        "training_seed": "42"
+      },
+      "source_values": {
+        "value": "0.009149804022334092"
+      },
+      "old_tex": "0.009",
+      "new_tex": "9.1",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "toys_Ensemble_42",
+      "column": 8,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "toys",
+        "method": "Ensemble",
+        "population": "full",
+        "metric": "mrr10",
+        "training_seed": "42"
+      },
+      "source_values": {
+        "value": "0.007364811387190657"
+      },
+      "old_tex": "0.007",
+      "new_tex": "7.4",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "toys_Ensemble_2026",
+      "column": 3,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "toys",
+        "method": "Ensemble",
+        "population": "full",
+        "metric": "ndcg10",
+        "training_seed": "2026"
+      },
+      "source_values": {
+        "value": "0.010135913169259117"
+      },
+      "old_tex": "0.010",
+      "new_tex": "10.1",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "toys_Ensemble_2026",
+      "column": 7,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "toys",
+        "method": "Ensemble",
+        "population": "full",
+        "metric": "mrr",
+        "training_seed": "2026"
+      },
+      "source_values": {
+        "value": "0.009511800426674426"
+      },
+      "old_tex": "0.010",
+      "new_tex": "9.5",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "toys_Ensemble_2026",
+      "column": 8,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "toys",
+        "method": "Ensemble",
+        "population": "full",
+        "metric": "mrr10",
+        "training_seed": "2026"
+      },
+      "source_values": {
+        "value": "0.007697353250945712"
+      },
+      "old_tex": "0.008",
+      "new_tex": "7.7",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "toys_Ensemble_3407",
+      "column": 3,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "toys",
+        "method": "Ensemble",
+        "population": "full",
+        "metric": "ndcg10",
+        "training_seed": "3407"
+      },
+      "source_values": {
+        "value": "0.008352411170022613"
+      },
+      "old_tex": "0.008",
+      "new_tex": "8.4",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "toys_Ensemble_3407",
+      "column": 7,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "toys",
+        "method": "Ensemble",
+        "population": "full",
+        "metric": "mrr",
+        "training_seed": "3407"
+      },
+      "source_values": {
+        "value": "0.007856291440514265"
+      },
+      "old_tex": "0.008",
+      "new_tex": "7.9",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "toys_Ensemble_3407",
+      "column": 8,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "toys",
+        "method": "Ensemble",
+        "population": "full",
+        "metric": "mrr10",
+        "training_seed": "3407"
+      },
+      "source_values": {
+        "value": "0.0060048859224359815"
+      },
+      "old_tex": "0.006",
+      "new_tex": "6.0",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "toys_LBSP_42",
+      "column": 3,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "toys",
+        "method": "LBSP",
+        "population": "full",
+        "metric": "ndcg10",
+        "training_seed": "42"
+      },
+      "source_values": {
+        "value": "0.009873298910258227"
+      },
+      "old_tex": "0.010",
+      "new_tex": "9.9",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "toys_LBSP_42",
+      "column": 7,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "toys",
+        "method": "LBSP",
+        "population": "full",
+        "metric": "mrr",
+        "training_seed": "42"
+      },
+      "source_values": {
+        "value": "0.00941845314719096"
+      },
+      "old_tex": "0.009",
+      "new_tex": "9.4",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "toys_LBSP_42",
+      "column": 8,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "toys",
+        "method": "LBSP",
+        "population": "full",
+        "metric": "mrr10",
+        "training_seed": "42"
+      },
+      "source_values": {
+        "value": "0.007719009603579687"
+      },
+      "old_tex": "0.008",
+      "new_tex": "7.7",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "toys_LBSP_2026",
+      "column": 3,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "toys",
+        "method": "LBSP",
+        "population": "full",
+        "metric": "ndcg10",
+        "training_seed": "2026"
+      },
+      "source_values": {
+        "value": "0.010163783998563717"
+      },
+      "old_tex": "0.010",
+      "new_tex": "10.2",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "toys_LBSP_2026",
+      "column": 7,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "toys",
+        "method": "LBSP",
+        "population": "full",
+        "metric": "mrr",
+        "training_seed": "2026"
+      },
+      "source_values": {
+        "value": "0.008866641043217046"
+      },
+      "old_tex": "0.009",
+      "new_tex": "8.9",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "toys_LBSP_2026",
+      "column": 8,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "toys",
+        "method": "LBSP",
+        "population": "full",
+        "metric": "mrr10",
+        "training_seed": "2026"
+      },
+      "source_values": {
+        "value": "0.007059659356479144"
+      },
+      "old_tex": "0.007",
+      "new_tex": "7.1",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "toys_LBSP_3407",
+      "column": 3,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "toys",
+        "method": "LBSP",
+        "population": "full",
+        "metric": "ndcg10",
+        "training_seed": "3407"
+      },
+      "source_values": {
+        "value": "0.009442712668951093"
+      },
+      "old_tex": "0.009",
+      "new_tex": "9.4",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "toys_LBSP_3407",
+      "column": 7,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "toys",
+        "method": "LBSP",
+        "population": "full",
+        "metric": "mrr",
+        "training_seed": "3407"
+      },
+      "source_values": {
+        "value": "0.008926525683849865"
+      },
+      "old_tex": "0.009",
+      "new_tex": "8.9",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
+    {
+      "table": "appendix_per_seed_accuracy.tex",
+      "row_id": "toys_LBSP_3407",
+      "column": 8,
+      "source_csv": "inputs/source_09_per_seed_metrics.csv",
+      "selector": {
+        "dataset": "toys",
+        "method": "LBSP",
+        "population": "full",
+        "metric": "mrr10",
+        "training_seed": "3407"
+      },
+      "source_values": {
+        "value": "0.006964464885548514"
+      },
+      "old_tex": "0.007",
+      "new_tex": "7.0",
+      "scale": 1000,
+      "places": 1,
+      "reason": [
+        "NDCG/MRR presentation uses units of 10^-3"
+      ]
+    },
     {
       "table": "appendix_x7_target_accuracy.tex",
       "row_id": "ml1m_warm_Control",
@@ -2955,6 +6681,7 @@
   ],
   "mean_rank_precision": "Integer means and SDs across all tables",
   "scaled_absolute_metric_tables": [
+    "appendix_per_seed_accuracy.tex",
     "appendix_x7_target_accuracy.tex",
     "table2_accuracy.tex",
     "table4_four_methods.tex"
@@ -2978,31 +6705,31 @@
     "appendix_calibration.tex": "22e3ece218e5f5d62d6b38d38f14b90f94119c61121cb4d9bb23e12de4b6dcfa",
     "appendix_measured_costs.tex": "036a281b422421ff4205e208abcc7578ab732a84db933380231929bc1ebfc6d9",
     "appendix_per_seed_accuracy.tex": "7781d6a3074f24b09060087b8b9c557ff8f2b84a2701045cab83c2809ae1760a",
-    "appendix_seed_pair_reference.tex": "1d83b5fd3f7b66f25c6c6ab1ed73a5a3d656e20b01a3c1a6993f906b93b2898d",
-    "appendix_table_secondary.tex": "0414e54dfc5510bb2b10bac8a50f4c35cde51febaee42a6ce97f2f76cd9f4cfe",
-    "appendix_x7_target_accuracy.tex": "33d38ccd45860474eba0d41eb549e0c3c391b1b2d5503cdfb11ebbe2de0f6a0b",
+    "appendix_seed_pair_reference.tex": "d1444a7c36abab1cf49452fbb4edb7f43a38d51c110a1f6276f4971dac092855",
+    "appendix_table_secondary.tex": "e991fde1b52bfb71520cbdeeb1621347eb09eb4cef129bc8e1360c12d1d08a3c",
+    "appendix_x7_target_accuracy.tex": "b10f700c312317234079022d8f09a644f8a76a9bff85fba8ce757b24ae4c0442",
     "appendix_x7_training.tex": "716bb67f20be5b0207cfa0f3f1b17c6b8178c725a32a64170545256355a4c245",
     "appendix_x7_warm_stability.tex": "349a3dab0bdc690e53ec3d6bce69fe26d924037984d285ade7dc56e1bf27eb75",
-    "table1_dataset_metadata.tex": "e503d593142407dc686d25dded46fc5f5395e4aa84cf201c76e5a820ced9ac51",
+    "table1_dataset_metadata.tex": "f78681164297eb6314c5cfd4b9dd5df5e546dc75d1681a0373489903b7ee51bc",
     "table2_accuracy.tex": "bab29dccaa3d11ce0972c278a6158c69d2f0fde33c3fd1be449452491f31d029",
-    "table3_sensitivity.tex": "11ceef28fdbffe9e96dfdd6177fd4389fed05c26d11daf6d899f3953173e9cd0",
+    "table3_sensitivity.tex": "6d1843db06bd4e1aadda9adaba64a2bd96a962194198030a4a4e9fe7953d2131",
     "table4_four_methods.tex": "1f9c04b5ef001cf7d6c4f60e77ab178197c9dc38616dcd9bf3aaa9c1d92367f4",
-    "table5_lbsp_subgroups.tex": "2e3afdf6cb5d6fe85b22491e7e038e4ebdb6b6151b9a6599d9f07708ce6e7ab1"
+    "table5_lbsp_subgroups.tex": "8edd4a3e92619c58ff0279c5d797331e28a8a0dc3a08766b0c1009e8fd19b4b4"
   },
   "after_table_sha256": {
     "appendix_calibration.tex": "f84a1ab075bc9792ad7d4c8426addef78ebea5f81ba3a23c422296cf2b886733",
-    "appendix_measured_costs.tex": "036a281b422421ff4205e208abcc7578ab732a84db933380231929bc1ebfc6d9",
-    "appendix_per_seed_accuracy.tex": "86b8186a21a3255cf053d413e4b954e9409de6a9eb0300f07e65d8f3f072336a",
-    "appendix_seed_pair_reference.tex": "1d83b5fd3f7b66f25c6c6ab1ed73a5a3d656e20b01a3c1a6993f906b93b2898d",
-    "appendix_table_secondary.tex": "5abd01659abf0ddeb8dabb25d06d2ebd272994bd0c2aae13e241004f6abc015d",
-    "appendix_x7_target_accuracy.tex": "5cb69c3d2752902ab59da30d914470e6a1ff0e41a47c9755804b19ec7beb7d55",
+    "appendix_measured_costs.tex": "566d437f6060b09af1d4fdb312794dc63338bf793b00f566fe0fb6c003737a77",
+    "appendix_per_seed_accuracy.tex": "99b1c2839233f451702de0839ed363fc00f4dfa72a7f9b115a7b55691de23f39",
+    "appendix_seed_pair_reference.tex": "f8f480b4e9208620362f45d7a7d73f0c9615aa50e19f9ae586e05e08eb73bd30",
+    "appendix_table_secondary.tex": "91ab304bbb35c31d9f30dd6a7930f49ac6787b26a743a8231209384aef5eabb0",
+    "appendix_x7_target_accuracy.tex": "b388d32510a8f3b9924c3c1a9de432601360f3cb3819bf04038f3c3bf56fcb21",
     "appendix_x7_training.tex": "fa4aa0a12849bdce6285d6ea441c35a6ea187e8dea21a02f759afb04330c726d",
-    "appendix_x7_warm_stability.tex": "349a3dab0bdc690e53ec3d6bce69fe26d924037984d285ade7dc56e1bf27eb75",
-    "table1_dataset_metadata.tex": "e503d593142407dc686d25dded46fc5f5395e4aa84cf201c76e5a820ced9ac51",
-    "table2_accuracy.tex": "c3ef697f50c9fa025569da7e7f019c18c95d001c17526ce242296e1340eeabf9",
-    "table3_sensitivity.tex": "11ceef28fdbffe9e96dfdd6177fd4389fed05c26d11daf6d899f3953173e9cd0",
+    "appendix_x7_warm_stability.tex": "33bb2c98fa5d111d5c3f6929846d3b0c2d23a81336bbc7ba9c6b141457c04b1a",
+    "table1_dataset_metadata.tex": "f78681164297eb6314c5cfd4b9dd5df5e546dc75d1681a0373489903b7ee51bc",
+    "table2_accuracy.tex": "022277c31a30d07f5d241958e50c39afadb0678da801c14e6f5277e1d5ed6483",
+    "table3_sensitivity.tex": "6d1843db06bd4e1aadda9adaba64a2bd96a962194198030a4a4e9fe7953d2131",
     "table4_four_methods.tex": "00c7d5a292dc8597ca2b94890e6179ca9c4aa910796ad1555b257ab3f4115049",
-    "table5_lbsp_subgroups.tex": "2e3afdf6cb5d6fe85b22491e7e038e4ebdb6b6151b9a6599d9f07708ce6e7ab1"
+    "table5_lbsp_subgroups.tex": "8edd4a3e92619c58ff0279c5d797331e28a8a0dc3a08766b0c1009e8fd19b4b4"
   },
   "pdf_visual_validation_pending": true
 }

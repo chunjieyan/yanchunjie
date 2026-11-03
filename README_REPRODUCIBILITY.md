@@ -10,7 +10,7 @@ Affiliations: School of Information Engineering, Hebei University of Architectur
 
 Corresponding author: Jingjing Fan, fjj1960@hebiace.edu.cn
 
-Prepared: 2 November 2026. Public code: https://github.com/chunjieyan/yanchunjie. Inspected public commit: 40bf70113553489d51581225a4953c76a18b8332.
+Prepared: 3 November 2026 (version 1.0.1). Public code: https://github.com/chunjieyan/yanchunjie. Archive: https://doi.org/10.5281/zenodo.23879414.
 
 # Reproduction details
 
@@ -18,7 +18,7 @@ The article reports summaries of saved model outputs. Display changes do not alt
 
 ## Public code and fixed snapshot
 
-The public repository is [chunjieyan/yanchunjie](https://github.com/chunjieyan/yanchunjie). Its inspected snapshot is commit [`40bf70113553489d51581225a4953c76a18b8332`](https://github.com/chunjieyan/yanchunjie/tree/40bf70113553489d51581225a4953c76a18b8332), checked on 2 November 2026. The repository contains model, preprocessing, training, perturbation, evaluation and statistical sources, experiment configurations, unrounded aggregate records and artwork sources. No Zenodo DOI has been verified or assigned in this revision.
+The public repository is [chunjieyan/yanchunjie](https://github.com/chunjieyan/yanchunjie). The repository contains model, preprocessing, training, perturbation, evaluation and statistical sources, experiment configurations, unrounded aggregate records and artwork sources. The archived release is https://doi.org/10.5281/zenodo.23879414 (version 1.0.1).
 
 The companion `ESM_1_Reproducibility.zip` (Online Resource 1) supplies a complete local source snapshot and the reproduction instructions below. Its 449 preserved scientific/stage files are stored in `legacy_sources.zip` to reduce the upload file count. After extracting the outer supplementary archive, first run:
 

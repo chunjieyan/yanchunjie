@@ -1,8 +1,10 @@
 # Prediction sensitivity to timestamp ties in sequential recommendation
 
-This repository contains source and reproduction materials for the KAIS manuscript. The public entry is https://github.com/chunjieyan/yanchunjie. The associated reproduction README records the inspected commit, methodological settings and scope. The original project is distributed under its owner-provided MIT LICENSE; the pinned time-aware adaptation retains its separate third-party notice. No archive DOI is claimed.
+This repository contains source and reproduction materials for the KAIS manuscript. The public entry is https://github.com/chunjieyan/yanchunjie. The associated reproduction README records the inspected commit, methodological settings and scope. The original project is distributed under its owner-provided MIT LICENSE; the pinned time-aware adaptation retains its separate third-party notice. The archived release is https://doi.org/10.5281/zenodo.23879414; this snapshot is version 1.0.1.
 
-Start with `python tools/validate_release.py` for dependency-free checks. See [the command/source guide](docs/REPRODUCING.md), and [checks actually run](VALIDATION.md). This is an independent source snapshot; the rest of the research workspace is not required for these checks.
+Version 1.0.1 (3 November 2026) updates the figure styling and table layout used in the revised manuscript. Source values, experiment code and numerical results are unchanged from version 1.0.0.
+
+First run `python unpack_sources.py` to expand and verify all 449 preserved source/stage files, then use `python tools/validate_release.py` for dependency-free checks. See [the command/source guide](docs/REPRODUCING.md), and [checks actually run](VALIDATION.md). This is an independent source snapshot; the rest of the research workspace is not required for these checks.
 
 The package contains the original preprocessing, split construction, model, training, perturbation, evaluation and statistical sources; original stage/configuration records; a 42-model matrix and 12 Control-reusing Ensemble evaluations; frozen aggregate inputs; common figure styling; and offline validation/replay entrypoints. Every copied original source is byte-identical to its recorded SHA256. No complete interaction/prediction panel or model checkpoint is included. The single published Fig. 1 example is retained with its product metadata and recorded ranks/lists so that the diagram can be redrawn.
 
@@ -90,6 +92,6 @@ See [the tested planning, registration and statistics command sequence](docs/REP
 
 Checks run for this snapshot include original-source fingerprints, Python syntax, model-design counts, six CLI help entrypoints, 11 synthetic result/reference contracts, and rebuilding/visually inspecting all seven figures. Data fingerprints and historical acquisition proofs are included as records; this packaging task did not freshly reconstruct all data or rerun all 42 GPU trainings. The separate manuscript is checked in its submission workflow. Historical evidence, CPU figure checks and new GPU execution have distinct scopes; see `VALIDATION.md`. No account action, public push, DOI registration or publication is performed by these scripts.
 
-## Reproduction README
+## Complete supplementary snapshot
 
-`README_REPRODUCIBILITY.md` accompanies the article and records the exact seed lists, event/time joins, bootstrap seeds, timing boundaries and product-metadata matching. The November 2026 documentation update also restores four missing historical source files and the hidden repository/CI configuration. It does not change the scientific source functions or add experimental results.
+This Online Resource 1 closes the four historical-source omissions identified in the inspected public commit. The original scientific sources are bundled in `legacy_sources.zip`; do not substitute a partial extraction or silently replace expected source hashes. See `README_REPRODUCIBILITY.md` for the article identity, fixed public snapshot, full implementation settings and limits of reproduction.

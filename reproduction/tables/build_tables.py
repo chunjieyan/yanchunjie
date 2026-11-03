@@ -9,8 +9,50 @@ ROOT = Path(__file__).resolve().parent
 TABLES = ROOT.parents[1] / 'tables'
 TEMPLATES = ROOT / 'templates'
 TRACE = ROOT / 'inputs/formal_numeric_cells.json'
-TARGETS = {'table2_accuracy.tex', 'table4_four_methods.tex', 'appendix_x7_target_accuracy.tex'}
+TARGETS = {'table2_accuracy.tex', 'table4_four_methods.tex', 'appendix_x7_target_accuracy.tex', 'appendix_per_seed_accuracy.tex'}
 SCALED_METRICS = {'ndcg10', 'mrr', 'mrr10'}
+# Leading label columns shown once per block; value = number of hierarchical columns.
+GROUPED_LABELS = {'appendix_measured_costs.tex': 1, 'appendix_table_secondary.tex': 1,
+                  'appendix_x7_target_accuracy.tex': 3, 'appendix_x7_warm_stability.tex': 2}
+
+
+def blank_repeated_labels(text, depth):
+    lines, previous = [], None
+    for line in text.splitlines():
+        if line.startswith(r'\midrule') or line.startswith(r'\toprule'):
+            previous = None
+        marker = re.search(r'% table-row:([^\s]+)', line)
+        if marker:
+            body, tail = line.split(r'\\ % table-row:', 1)
+            parts = body.split(' & ')
+            shown = list(parts)
+            if previous is not None:
+                for k in range(depth):
+                    if parts[:k+1] == previous[:k+1]:
+                        shown[k] = ''
+            previous = parts
+            line = ' & '.join(shown)+r'\\ % table-row:'+tail
+        lines.append(line)
+    return '\n'.join(lines)+'\n'
+
+
+def add_cost_ratio_column(text):
+    with (ROOT / 'inputs/source_05_matched_costs.csv').open(encoding='utf-8-sig', newline='') as handle:
+        ratios = {(r['dataset'], r['method']): float(r['inference_time_ratio_to_control']) for r in csv.DictReader(handle)}
+    lines = []
+    for line in text.splitlines():
+        marker = re.search(r'% table-row:([^\s]+)', line)
+        if marker:
+            dataset, method = marker[1].split('_', 1)
+            body, tail = line.split(r'\\ % table-row:', 1)
+            line = body+f' & {ratios[(dataset, method.lower())]:.2f}'+r'\\ % table-row:'+tail
+        lines.append(line)
+    text = '\n'.join(lines)+'\n'
+    text = text.replace(r'\begin{tabular}{@{}llrrrr@{}}', r'\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llrrrrr@{}}')
+    text = text.replace(r'\end{tabular}', r'\end{tabular*}')
+    text = text.replace(r'Infer peak (MiB)\\', r'Infer peak (MiB) & Infer ratio\\')
+    text = text.replace('Test $N$: 945,', "Infer ratio is the mean inference time divided by Control's, computed before rounding. Test $N$: 945,")
+    return text
 
 
 def sha(path):
@@ -83,7 +125,7 @@ def main():
                         continue
                     scale, places, bold = cell['display_scale'],cell['display_places'],cell['bold']
                     reason = []
-                    if metric in SCALED_METRICS and cell['keys'][0] != 'n':
+                    if metric in SCALED_METRICS and cell['keys'][0] not in ('n', 'training_seed'):
                         scale, places = 1000, 1
                         reason.append('NDCG/MRR presentation uses units of 10^-3')
                     if path.name == 'appendix_x7_target_accuracy.tex' and metric=='mean_rank':
@@ -140,6 +182,25 @@ def main():
         if path.name=='appendix_calibration.tex':
             assert text.count('Clean unique')==2
             text=text.replace('Clean unique','Distinct negatives')
+        if path.name=='table2_accuracy.tex':
+            text=text.replace('\\par\\smallskip\\noindent\\makebox[\\textwidth][l]{\\textbf{Full-panel accuracy}}\\par\\smallskip\n','')
+        if path.name=='appendix_per_seed_accuracy.tex':
+            text=text.replace('S[table-format=1.3]','S[table-format=2.1]')
+            text=text.replace('\\setlength{\\tabcolsep}{2pt}','\\setlength{\\tabcolsep}{5.5pt}')
+            text=text.replace('{\\shortstack{NDCG\\\\@10}}','{\\shortstack{NDCG@10\\\\($\\times10^{-3}$)}}')
+            text=text.replace('{\\shortstack{MRR\\\\@10}}','{\\shortstack{MRR@10\\\\($\\times10^{-3}$)}}')
+            text=text.replace(' & {MRR} & ',' & {\\shortstack{MRR\\\\($\\times10^{-3}$)}} & ')
+            text=text.replace('Each row is a point estimate for the indicated training seed.',
+                'Each row is a point estimate for the indicated training seed. NDCG@10, MRR and MRR@10 are in $10^{-3}$ units.')
+        if path.name=='appendix_measured_costs.tex':
+            text=add_cost_ratio_column(text)
+        if path.name=='appendix_x7_warm_stability.tex':
+            text=text.replace('{\\shortstack{Overlap@10\\\\(\\%)}}','{\\shortstack{Overlap\\\\(\\%)}}')
+            text=text.replace('{\\shortstack{Hit-flip\\\\(\\%)}}','{\\shortstack{Hit flip\\\\(\\%)}}')
+        if path.name=='appendix_seed_pair_reference.tex':
+            text=text.replace('Canonical-input Top-10 overlaps','Reference-input Top-10 overlaps')
+        if path.name in GROUPED_LABELS:
+            text=blank_repeated_labels(text,GROUPED_LABELS[path.name])
         (TABLES / path.name).write_text(text,encoding='utf-8',newline='\n')
     report={'status':'PASS_TABLE_SOURCE_AND_DISPLAY_REVISION','date':'2026-11-02',
             'items_completed':['T1','T2','T3','T4','T5','T6'],
