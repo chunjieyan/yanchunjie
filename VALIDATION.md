@@ -9,7 +9,7 @@ Prepared on 1 November 2026; figure and table builders updated on 3 November 202
 | Complete training/evaluation source plan | 42 independent training models, 54 evaluation configurations, 12 shared-Control Ensembles; source references resolved |
 | Release CLI entrypoints | Six `--help` calls returned 0 |
 | Synthetic result/reference contracts | 11 checks passed using 54 synthetic configurations and 378 generated files |
-| Figure rebuild | Figures 1�C7 rebuilt from the bundled minimum saved inputs; no raw data, predictions or checkpoints read |
+| Figure rebuild | Figures 1–7 rebuilt from the bundled minimum saved inputs; no raw data, predictions or checkpoints read |
 | Figure output inspection | All seven previews visually inspected; no clipping observed; structural figure widths verified as 174 mm |
 | Scoped release scan | No user-home paths, recognizable private-key/token formats or literal account passwords detected in the inspected text; no bundled runtime, data archive or model weights |
 

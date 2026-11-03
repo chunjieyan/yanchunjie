@@ -40,7 +40,7 @@ The public repository contains an MIT `LICENSE` added by its owner. The suppleme
 | Material | Manuscript source project | Complete supplementary source snapshot |
 | --- | --- | --- |
 | Reproduction instructions | This `README_REPRODUCIBILITY.md` | `README_REPRODUCIBILITY.md`, `README.md`, `docs/REPRODUCING.md` |
-| Figures 1�C7 | `figures/`, `reproduction/figures/` and its `inputs/` | `figures/` and `figures/inputs/` |
+| Figures 1–7 | `figures/`, `reproduction/figures/` and its `inputs/` | `figures/` and `figures/inputs/` |
 | Editable article tables | `tables/*.tex`, `reproduction/tables/` | `tables/*.tex`, the self-contained `reproduction/tables/` builder and its original-precision inputs; historical trace in `tables/frozen_numeric_cells.json` |
 | Models, splits, training and evaluation | Public repository and complete supplementary snapshot | GitHub: use the expanded `legacy_sources/`; compact ESM: expand `legacy_sources.zip` if supplied. Both use `provenance/source_index.json` and `config/pipeline_stages.json` |
 | Experiment design and runtime records | Described in the article and this README | `config/model_matrix.json`, `config/ensemble_evaluations.json`, `environment/` |
