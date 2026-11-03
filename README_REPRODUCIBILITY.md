@@ -18,19 +18,20 @@ The article reports summaries of saved model outputs. Display changes do not alt
 
 ## Public code and fixed snapshot
 
-The public repository is [chunjieyan/yanchunjie](https://github.com/chunjieyan/yanchunjie). The repository contains model, preprocessing, training, perturbation, evaluation and statistical sources, experiment configurations, unrounded aggregate records and artwork sources. The archived release is https://doi.org/10.5281/zenodo.23879414 (version 1.0.1).
+The public repository is [chunjieyan/yanchunjie](https://github.com/chunjieyan/yanchunjie). The repository contains model, preprocessing, training, perturbation, evaluation and statistical sources, experiment configurations, unrounded aggregate records and artwork sources. The project archive is https://doi.org/10.5281/zenodo.23879414. Version 1.0.1 identifies this GitHub source revision; the archive link is not confirmation that these revised files have been deposited there.
 
-The companion `ESM_1_Reproducibility.zip` (Online Resource 1) supplies a complete local source snapshot and the reproduction instructions below. Its 449 preserved scientific/stage files are stored in `legacy_sources.zip` to reduce the upload file count. After extracting the outer supplementary archive, first run:
+The GitHub checkout contains the expanded `legacy_sources/` directory, with 403 indexed scientific-source files and 46 supporting JSON records (449 preserved files), plus three directory placeholders. From the repository root, run:
 
 ```sh
-python unpack_sources.py
 python tools/validate_release.py
 python tests/test_result_contracts.py
 ```
 
-The first command restores the original source paths and verifies every source file against the release manifest. The following checks inspect source identity, Python syntax, the 42-model/54-evaluation matrix, CLI interfaces and synthetic output contracts. They do not train models, download benchmark interactions or recreate all per-user predictions. The supplementary package retains the original source fingerprints; its own release manifest covers the revised documentation and display files.
+No `unpack_sources.py` step is required for this GitHub layout. A separately supplied `ESM_1_Reproducibility.zip` (Online Resource 1) can use a compact layout to reduce the upload file count. If its extracted root contains `legacy_sources.zip` and `unpack_sources.py`, first run `python unpack_sources.py` inside that supplementary package to restore and verify the original source paths, then run the two checks above.
 
-An inspection of the public commit found four missing historical `step38_kais_retrain/scripts/` files relative to its source manifest: `38_6_beauty_sasrec_sampled100.py`, `38_7_eval_ml1m_sasrec_stability.py`, `38_8_analyze_ml1m_stability.py` and `38_9_eval_beauty_sasrec_stability.py`. All four are included, byte-identically to their recorded originals, in the supplementary snapshot. Consequently, use the complete supplementary snapshot for the integrity checks above. The public commit provides a fixed online reference, and the supplementary snapshot closes its identified file gap. No claim is made that the inspected public commit alone passes the complete file-manifest check.
+The checks inspect source identity, Python syntax, the 42-model/54-evaluation matrix, CLI interfaces and synthetic output contracts. They do not train models, download benchmark interactions or recreate all per-user predictions. Each distribution retains the original scientific-source fingerprints and a release manifest appropriate to its own documentation, display files and expanded or compact layout.
+
+An earlier public-repository inspection found four missing historical `step38_kais_retrain/scripts/` files relative to its source manifest: `38_6_beauty_sasrec_sampled100.py`, `38_7_eval_ml1m_sasrec_stability.py`, `38_8_analyze_ml1m_stability.py` and `38_9_eval_beauty_sasrec_stability.py`. The repository repair restored all four byte-identically to their recorded originals. They are present in this GitHub checkout and the complete supplementary source snapshot; use the manifest belonging to the distribution being checked.
 
 The public repository contains an MIT `LICENSE` added by its owner. The supplementary snapshot preserves that license and the separate upstream MIT notice for the pinned RecBole-TRM adaptation. Provider terms govern the benchmark datasets, which are obtained separately.
 
@@ -39,9 +40,9 @@ The public repository contains an MIT `LICENSE` added by its owner. The suppleme
 | Material | Manuscript source project | Complete supplementary source snapshot |
 | --- | --- | --- |
 | Reproduction instructions | This `README_REPRODUCIBILITY.md` | `README_REPRODUCIBILITY.md`, `README.md`, `docs/REPRODUCING.md` |
-| Figures 1–7 | `figures/`, `reproduction/figures/` and its `inputs/` | `figures/` and `figures/inputs/` |
+| Figures 1�C7 | `figures/`, `reproduction/figures/` and its `inputs/` | `figures/` and `figures/inputs/` |
 | Editable article tables | `tables/*.tex`, `reproduction/tables/` | `tables/*.tex`, the self-contained `reproduction/tables/` builder and its original-precision inputs; historical trace in `tables/frozen_numeric_cells.json` |
-| Models, splits, training and evaluation | Public repository and complete supplementary snapshot | Expand `legacy_sources.zip`; use `provenance/source_index.json` and `config/pipeline_stages.json` |
+| Models, splits, training and evaluation | Public repository and complete supplementary snapshot | GitHub: use the expanded `legacy_sources/`; compact ESM: expand `legacy_sources.zip` if supplied. Both use `provenance/source_index.json` and `config/pipeline_stages.json` |
 | Experiment design and runtime records | Described in the article and this README | `config/model_matrix.json`, `config/ensemble_evaluations.json`, `environment/` |
 | Data acquisition and fingerprints | Provider links below | `data_manifest/README.md`, `expected_sha256.csv`, `tools/download_data.py` |
 
@@ -64,7 +65,7 @@ python reproduction/figures/build_structural_figures.py --output-dir outputs/fig
 python reproduction/figures/build_quantitative_figures.py --data-root reproduction/figures/inputs --output-dir outputs/figures
 ```
 
-In the complete supplementary source snapshot, install `requirements.txt` and run `python tools/reproduce.py redraw --output-dir outputs/figures` after expanding the sources. Rebuild all 13 current editable table files with `python reproduction/tables/build_tables.py`, which uses only the Python standard library. It checks 1,124 original-precision source cells against the packaged CSV selectors before applying the documented display-unit and formatting rules. The editable LaTeX tables compile directly with the article. The unrounded aggregates and frozen numerical trace support independent inspection of their displayed cells; rebuilding figures or compiling tables does not rerun statistical estimation or training. The table builder writes a fresh path-specific validation report; a deliberate local rebuild can therefore change the report bytes even when all 13 generated table files are identical.
+In the GitHub checkout or complete supplementary source snapshot, install `requirements.txt` and run `python tools/reproduce.py redraw --output-dir outputs/figures`. The GitHub sources are already expanded; only a compact ESM distribution containing `legacy_sources.zip` and `unpack_sources.py` needs the source-unpacking step described above. Rebuild all 13 current editable table files with `python reproduction/tables/build_tables.py`, which uses only the Python standard library. It checks 1,124 original-precision source cells against the packaged CSV selectors before applying the documented display-unit and formatting rules. The editable LaTeX tables compile directly with the article. The unrounded aggregates and frozen numerical trace support independent inspection of their displayed cells; rebuilding figures or compiling tables does not rerun statistical estimation or training. The table builder writes a fresh path-specific validation report; a deliberate local rebuild can therefore change the report bytes even when all 13 generated table files are identical.
 
 Method color/marker mappings are constant: Control charcoal/circle, Shuffle blue/square, Ensemble orange/triangle, and LBSP green/diamond. Time-aware backbone comparisons use purple/filled-plus for TiSASRec. Training seeds use line styles in the learning-curve figure. Best checkpoints and stopping epochs have separate markers. Timing is reported in tables; marker area never encodes cost.
 

@@ -9,7 +9,7 @@ Prepared on 1 November 2026; figure and table builders updated on 3 November 202
 | Complete training/evaluation source plan | 42 independent training models, 54 evaluation configurations, 12 shared-Control Ensembles; source references resolved |
 | Release CLI entrypoints | Six `--help` calls returned 0 |
 | Synthetic result/reference contracts | 11 checks passed using 54 synthetic configurations and 378 generated files |
-| Figure rebuild | Figures 1–7 rebuilt from the bundled minimum saved inputs; no raw data, predictions or checkpoints read |
+| Figure rebuild | Figures 1�C7 rebuilt from the bundled minimum saved inputs; no raw data, predictions or checkpoints read |
 | Figure output inspection | All seven previews visually inspected; no clipping observed; structural figure widths verified as 174 mm |
 | Scoped release scan | No user-home paths, recognizable private-key/token formats or literal account passwords detected in the inspected text; no bundled runtime, data archive or model weights |
 
@@ -23,6 +23,8 @@ No scientific function/class implementation in `legacy_sources/` was changed. Re
 
 After intentional edits, run `python tools/update_manifest.py` to inspect changes, then `python tools/update_manifest.py --write` and `python tools/validate_release.py`. The updater changes only the release manifest; archived scientific-source hashes remain independently checked against provenance.
 
-## Compact upload edition
+## GitHub and compact supplementary layouts
 
-The 449 original source files are distributed in one ZIP and restored by `python unpack_sources.py`. The original source hashes and experiment matrix are unchanged. Run this command before the offline checks listed above. Four additional extraction contract tests cover exact reconstruction, repeat execution, refusal to overwrite edited sources, archive tampering and parent-path escape. See the external compact delivery validation for the checks executed on the final ZIP.
+This GitHub checkout already contains the expanded `legacy_sources/`: 403 indexed scientific-source files, 46 supporting JSON records and three directory placeholders. Run `python tools/validate_release.py` directly; `unpack_sources.py`, `legacy_sources.zip` and the compact-extraction tests are not part of this expanded layout.
+
+A separately supplied compact `ESM_1_Reproducibility.zip` may store the same 449 preserved files in `legacy_sources.zip`. Only when both that archive and `unpack_sources.py` are present in the extracted supplementary root, run `python unpack_sources.py` before that package's offline checks. Compact-extraction contract checks belong to that separate delivery, not to this GitHub checkout. The scientific-source fingerprints and experiment matrix are unchanged across the two layouts; each layout requires its own release manifest.
