@@ -1,0 +1,185 @@
+{
+  "version": "kais_revision_v2_contracts",
+  "training_seeds": [
+    42,
+    2026,
+    3407
+  ],
+  "permutation_seeds": [
+    101,
+    202,
+    303,
+    404,
+    505
+  ],
+  "datasets": {
+    "ml1m": {
+      "dataset": "MovieLens-1M",
+      "native_time_unit": "Unix second",
+      "sort_mode": "source_order",
+      "item_map": "manifests/item_maps/ml1m_item_id_map.csv",
+      "event_source": "processed/diagnostic_a/MovieLens-1M/file_order.csv",
+      "train": "processed/diagnostic_a_splits/MovieLens-1M/file_order/train.csv",
+      "val": "processed/recent_bucketset_r1/MovieLens-1M/val/r1_samples.csv",
+      "test": "processed/recent_bucketset_r1/MovieLens-1M/test/r1_samples.csv",
+      "perm_files": {
+        "101": "processed/strict_last_bucket_only/MovieLens-1M/perm_seed101/test.csv",
+        "202": "processed/strict_last_bucket_only/MovieLens-1M/perm_seed202/test.csv",
+        "303": "processed/strict_last_bucket_only/MovieLens-1M/perm_seed303/test.csv",
+        "404": "processed/strict_last_bucket_only/MovieLens-1M/perm_seed404/test.csv",
+        "505": "processed/strict_last_bucket_only/MovieLens-1M/perm_seed505/test.csv"
+      },
+      "expected": {
+        "num_items": 3416,
+        "train_rows": 799689,
+        "trainable_users": 5400,
+        "train_positions": 794289,
+        "val_samples": 752,
+        "test_samples": 945,
+        "last_bucket_affected": 163,
+        "warm_test_samples": 940,
+        "warm_last_bucket_affected": 163,
+        "any_multi_bucket_test": 929,
+        "any_distinct_multi_bucket_test": 929
+      },
+      "sha256": {
+        "item_map": "5eced6a0a70be8bb2fd44649ab0cf7a27db4f8b8092e15b19c56765dae685f53",
+        "event_source": "eaea95e9d4351cbf94b9edbd4d32894889ac9f6e80d0657a98fc7ea4c2196f6c",
+        "train": "6b0fa970c4b6725a32e718b43883c612624b16127122bb4d9a936eff1dade18e",
+        "val": "4c66e7a33fe1362089cf8aa4bf7144a301803eabed0c6097faa984419346fb32",
+        "test": "99bec555642aca4cd00cdfe3b5d95c7b3ac577c1c1e0457a7c6212c08b9ea303",
+        "perm_seed101": "32dfbfaedc7e79418d6283ba4fb020e7d36f56e92368bda27bb44761f0fcb84d",
+        "perm_seed202": "23fb6ef556787dc7c3174c719cac2640de015ef905141fa7d509fd11b1387be1",
+        "perm_seed303": "a3b7a6b1b8463e771843bab97d4aeb7fac3d401c0a190e0e2da35e4a2803e03e",
+        "perm_seed404": "ff39558c3805cce5990961588614a1c76c89626f0765dc26ee263a995247b29c",
+        "perm_seed505": "f863476ab258233b33081a9f476b043847a992349218db692c2b9a938f19dfb7"
+      }
+    },
+    "beauty": {
+      "dataset": "Amazon_Beauty",
+      "native_time_unit": "Unix day (timestamp // 86400)",
+      "sort_mode": "source_order",
+      "item_map": "manifests/item_maps/beauty_item_id_map.csv",
+      "event_source": "processed/diagnostic_a/Amazon_Beauty/file_order.csv",
+      "train": "processed/diagnostic_a_splits/Amazon_Beauty/file_order/train.csv",
+      "val": "processed/recent_bucketset_r1/Amazon_Beauty/val/r1_samples.csv",
+      "test": "processed/recent_bucketset_r1/Amazon_Beauty/test/r1_samples.csv",
+      "perm_files": {
+        "101": "processed/strict_last_bucket_only/Amazon_Beauty/perm_seed101/test.csv",
+        "202": "processed/strict_last_bucket_only/Amazon_Beauty/perm_seed202/test.csv",
+        "303": "processed/strict_last_bucket_only/Amazon_Beauty/perm_seed303/test.csv",
+        "404": "processed/strict_last_bucket_only/Amazon_Beauty/perm_seed404/test.csv",
+        "505": "processed/strict_last_bucket_only/Amazon_Beauty/perm_seed505/test.csv"
+      },
+      "expected": {
+        "num_items": 12101,
+        "train_rows": 159008,
+        "trainable_users": 20223,
+        "train_positions": 138167,
+        "val_samples": 2856,
+        "test_samples": 2966,
+        "last_bucket_affected": 922,
+        "warm_test_samples": 2037,
+        "warm_last_bucket_affected": 718,
+        "any_multi_bucket_test": 2464,
+        "any_distinct_multi_bucket_test": 2464
+      },
+      "sha256": {
+        "item_map": "826da840115432e0d5a1073133f07dace4fe04de0bfe02b6b57adfc84fb5083f",
+        "event_source": "2d2bc662b76400c93073b77673c7c2a1396f6b1604ea4b216461e925d7d54f47",
+        "train": "c81fd1c1dbcbbe88ed4596e0d952397d1ff74ba70a5ba9d8f9e4038e72e05971",
+        "val": "0f19f717b9c8a3230c8ce52735960fa48f4fb5e2c08c1787e0a4c52dbfbb5eb9",
+        "test": "f9362385825ed79b07e4d262cf9ac7df2591c54cd7d8e95e54ba116bdaad5009",
+        "perm_seed101": "3fd31820d36d69e4e65abc31854f52dc70665307c2f3085521f7cb8bb727a658",
+        "perm_seed202": "b9526e02f4d3ffb6efca5e7e6fcc537f604b001aa021ffc90ae54abeab664285",
+        "perm_seed303": "996369d5f666dd70cffd8a1b91650e9b18c7ee41db78073c0e04d76ce20e8aff",
+        "perm_seed404": "5cb0e388cf7c71e115589059ac05368d0ac080feaea2f1e333e36bca22c09a6f",
+        "perm_seed505": "82016273417f0e59797a3e370c181216b4c84f7c69a76c5ab0ed2d2fc4952e57"
+      }
+    },
+    "sports": {
+      "dataset": "Amazon_Sports",
+      "native_time_unit": "Unix day (timestamp // 86400)",
+      "sort_mode": "raw_line",
+      "item_map": "manifests/item_maps/sports_item_id_map.csv",
+      "event_source": "processed/diagnostic_a/Amazon_Sports/file_order.csv",
+      "train": "processed/diagnostic_a_splits/Amazon_Sports/file_order/train.csv",
+      "val": "processed/strict_diagnostic_a/Amazon_Sports/file_order/val.csv",
+      "test": "processed/strict_diagnostic_a/Amazon_Sports/file_order/test.csv",
+      "perm_files": {
+        "101": "processed/strict_last_bucket_only/Amazon_Sports/perm_seed101/test.csv",
+        "202": "processed/strict_last_bucket_only/Amazon_Sports/perm_seed202/test.csv",
+        "303": "processed/strict_last_bucket_only/Amazon_Sports/perm_seed303/test.csv",
+        "404": "processed/strict_last_bucket_only/Amazon_Sports/perm_seed404/test.csv",
+        "505": "processed/strict_last_bucket_only/Amazon_Sports/perm_seed505/test.csv"
+      },
+      "expected": {
+        "num_items": 18357,
+        "train_rows": 237423,
+        "trainable_users": 32347,
+        "train_positions": 204047,
+        "val_samples": 4082,
+        "test_samples": 4659,
+        "last_bucket_affected": 1624,
+        "warm_test_samples": 4020,
+        "warm_last_bucket_affected": 1483,
+        "any_multi_bucket_test": 3909,
+        "any_distinct_multi_bucket_test": 3909
+      },
+      "sha256": {
+        "item_map": "8f0e80ba0e996b19409cd72b3ed838242397f548cf38604ffd73d58677e29fee",
+        "event_source": "e4619ab4f9e74f98b817a6a485b8453c1519bf380bc248fd1d2238fb8bed3a9c",
+        "train": "8b78398cf350881125d04a15cd0b6181b17d1772d35f428ed61d3e9220a16539",
+        "val": "8ffe18f11957ba4229aa42d4e1b5d2ffdfbf3ef2adb4ecd0ff3b349469cbe7fb",
+        "test": "5f2f31713ee7f6c92bb6fde915500d51f1a49328f3f1fc94f146530ad54e0e89",
+        "perm_seed101": "ae1cc356e685451a400db4266f53e0cce42db12ede88f590de418a5c5a7ba3db",
+        "perm_seed202": "88d1d557a1c4f079d261aae9a01326f836caf67fa8b51ab877e87110bd42e1f0",
+        "perm_seed303": "c284d34cf4d3193826e9a489dd31943e29f1fef86be74753e497f831620ddd63",
+        "perm_seed404": "c5cf2bdf1b8b87beb1db2397038d1a546938a764c321696ab2ae6b062e5f3bf8",
+        "perm_seed505": "dadca45252214e7b94bac0c0aedf9129182c2133be875fba77b3c748d3a0bff8"
+      }
+    },
+    "toys": {
+      "dataset": "Amazon_Toys",
+      "native_time_unit": "Unix day (timestamp // 86400)",
+      "sort_mode": "raw_line",
+      "item_map": "manifests/item_maps/toys_item_id_map.csv",
+      "event_source": "processed/diagnostic_a/Amazon_Toys/file_order.csv",
+      "train": "processed/diagnostic_a_splits/Amazon_Toys/file_order/train.csv",
+      "val": "processed/strict_diagnostic_a/Amazon_Toys/file_order/val.csv",
+      "test": "processed/strict_diagnostic_a/Amazon_Toys/file_order/test.csv",
+      "perm_files": {
+        "101": "processed/strict_last_bucket_only/Amazon_Toys/perm_seed101/test.csv",
+        "202": "processed/strict_last_bucket_only/Amazon_Toys/perm_seed202/test.csv",
+        "303": "processed/strict_last_bucket_only/Amazon_Toys/perm_seed303/test.csv",
+        "404": "processed/strict_last_bucket_only/Amazon_Toys/perm_seed404/test.csv",
+        "505": "processed/strict_last_bucket_only/Amazon_Toys/perm_seed505/test.csv"
+      },
+      "expected": {
+        "num_items": 11924,
+        "train_rows": 134632,
+        "trainable_users": 17281,
+        "train_positions": 116686,
+        "val_samples": 1939,
+        "test_samples": 2547,
+        "last_bucket_affected": 842,
+        "warm_test_samples": 1740,
+        "warm_last_bucket_affected": 683,
+        "any_multi_bucket_test": 2169,
+        "any_distinct_multi_bucket_test": 2169
+      },
+      "sha256": {
+        "item_map": "d6e1135f71ad9749caa6db9743045e1e65860bd62df6f42e0b76642c08645c60",
+        "event_source": "8129322bddc716bfca6877a8c0e7cbf2b7ad3baf236fccc58ee95af1d08cf541",
+        "train": "26e4e892b1e520fdc213bddad4af3f314e865f53a1c8cbcf1a4e0f60a83ff8c0",
+        "val": "5b2187611068dbf7f384e55489d3704710387ef42bf86fcf028836ae26e8f14d",
+        "test": "3e287ca6be6c556d5abfd691666abdc4fde1eca10327d6b8329a8aa55d0df445",
+        "perm_seed101": "34810e46f839d91d33dcdc27103986ff877d717ac8d12a94010946210f51e759",
+        "perm_seed202": "49a5ca2bd1b2e03ad4401ef72680e88fd5631f85af38832f16719ca16278e1f6",
+        "perm_seed303": "a8f4073d4152f26a06493294c3177bc57ef16d6c0635834db83aedbdf57c4a9f",
+        "perm_seed404": "ecc75e447e38b60abacfbb3b5d6b5e8b055448d0014e32b8b48891548b9e5370",
+        "perm_seed505": "a16a0dc314392ba6573011ecbdb3239a83c5b9bc0c394d403580544d9a7c82c4"
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+\begin{table*}[!htbp]
+\centering
+\caption{Cross-backbone plug-in evaluation of Last-Bucket Set Pooling (\texttt{lbsp\_mean}) across five representative architectures and four datasets (20 backbone--dataset pairs; 3-seed mean $\pm$ SD)}
+\label{tab:cross-backbone-lbsp}
+\fontsize{7.8}{9.8}\selectfont
+\setlength{\tabcolsep}{2.4pt}
+\renewcommand{\arraystretch}{1.12}
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llccccccc@{}}
+\toprule
+Dataset & Backbone & \shortstack{Base Full\\NDCG@10} & \shortstack{+LBSP Full\\NDCG@10} & \shortstack{$\Delta$Full NDCG@10\\$[95\%\ t\text{-CI}]$} & \shortstack{$\Delta$Aff.\ NDCG@10\\$[95\%\ t\text{-CI}]$} & \shortstack{+LBSP Warm\\NDCG@10} & \shortstack{LB Overlap\\Base $\to$ +LBSP} & \shortstack{AB Overlap\\Base $\to$ +LBSP} \\
+\midrule
+ML-1M & SASRec & 48.8 $\pm$ 2.6 & \textbf{54.7 $\pm$ 1.3} & \textbf{+5.85$^{*}$} \scriptsize{[+1.37, +10.33]} & +8.01 \scriptsize{[-15.31, +31.33]} & 54.9 $\pm$ 1.3 & 69.3\% $\to$ \textbf{100.0\%} & 91.5\% $\to$ 96.9\% \\
+ & TiSASRec & 49.6 $\pm$ 1.6 & 48.9 $\pm$ 3.3 & -0.73 \scriptsize{[-8.62, +7.16]} & +6.58 \scriptsize{[-30.19, +43.35]} & 49.2 $\pm$ 3.3 & 70.0\% $\to$ \textbf{100.0\%} & 92.4\% $\to$ 98.0\% \\
+ & GRU4Rec & 45.6 $\pm$ 1.3 & 50.0 $\pm$ 3.1 & +4.37 \scriptsize{[-3.03, +11.77]} & +23.44 \scriptsize{[-10.12, +56.99]} & 50.3 $\pm$ 3.1 & 79.6\% $\to$ \textbf{100.0\%} & 86.7\% $\to$ 89.2\% \\
+ & BSARec & 45.4 $\pm$ 2.4 & 46.9 $\pm$ 3.1 & +1.52 \scriptsize{[-11.82, +14.86]} & +1.86 \scriptsize{[-26.04, +29.77]} & 47.1 $\pm$ 3.1 & 71.1\% $\to$ \textbf{100.0\%} & 90.7\% $\to$ 95.5\% \\
+ & TiCoSeRec & 47.7 $\pm$ 2.8 & 49.7 $\pm$ 2.2 & +1.98 \scriptsize{[-2.22, +6.19]} & +7.13 \scriptsize{[-4.14, +18.39]} & 49.9 $\pm$ 2.2 & 70.3\% $\to$ \textbf{100.0\%} & 91.8\% $\to$ 97.0\% \\
+\midrule
+Beauty & SASRec & 7.7 $\pm$ 0.5 & 7.0 $\pm$ 0.9 & -0.68 \scriptsize{[-3.92, +2.56]} & +0.21 \scriptsize{[-6.89, +7.32]} & 10.2 $\pm$ 1.3 & 44.9\% $\to$ \textbf{100.0\%} & 77.3\% $\to$ 97.5\% \\
+ & TiSASRec & 8.7 $\pm$ 1.8 & \textbf{10.5 $\pm$ 0.7} & +1.81 \scriptsize{[-3.44, +7.06]} & +2.16 \scriptsize{[-6.20, +10.52]} & 15.3 $\pm$ 1.0 & 50.0\% $\to$ \textbf{100.0\%} & 78.8\% $\to$ 97.9\% \\
+ & GRU4Rec & 4.7 $\pm$ 0.0 & 5.3 $\pm$ 0.8 & +0.58 \scriptsize{[-1.43, +2.60]} & +2.33 \scriptsize{[-5.83, +10.49]} & 7.6 $\pm$ 1.2 & 71.3\% $\to$ \textbf{100.0\%} & 73.0\% $\to$ 77.2\% \\
+ & BSARec & 9.3 $\pm$ 1.0 & 10.4 $\pm$ 0.9 & +1.09 \scriptsize{[-2.15, +4.33]} & +0.72 \scriptsize{[-5.85, +7.29]} & 15.1 $\pm$ 1.3 & 59.9\% $\to$ \textbf{100.0\%} & 79.8\% $\to$ 94.0\% \\
+ & TiCoSeRec & 7.3 $\pm$ 0.6 & 8.1 $\pm$ 0.9 & +0.74 \scriptsize{[-2.09, +3.58]} & +0.88 \scriptsize{[-3.12, +4.88]} & 11.8 $\pm$ 1.3 & 45.6\% $\to$ \textbf{100.0\%} & 77.6\% $\to$ 97.6\% \\
+\midrule
+Sports & SASRec & 8.6 $\pm$ 0.6 & 9.5 $\pm$ 0.4 & +0.82 \scriptsize{[-0.85, +2.49]} & +0.55 \scriptsize{[-2.06, +3.15]} & 11.0 $\pm$ 0.5 & 44.6\% $\to$ \textbf{100.0\%} & 74.7\% $\to$ 97.9\% \\
+ & TiSASRec & 10.1 $\pm$ 0.5 & 11.0 $\pm$ 0.3 & +0.82 \scriptsize{[-1.24, +2.88]} & \textbf{+1.16$^{*}$} \scriptsize{[+0.60, +1.73]} & 12.7 $\pm$ 0.4 & 51.8\% $\to$ \textbf{100.0\%} & 78.4\% $\to$ 98.2\% \\
+ & GRU4Rec & 6.0 $\pm$ 1.2 & 6.1 $\pm$ 2.1 & +0.11 \scriptsize{[-5.05, +5.28]} & +0.74 \scriptsize{[-6.81, +8.29]} & 7.0 $\pm$ 2.5 & 76.4\% $\to$ \textbf{100.0\%} & 76.2\% $\to$ 77.1\% \\
+ & BSARec & 11.3 $\pm$ 1.1 & \textbf{12.1 $\pm$ 1.1} & +0.79 \scriptsize{[-1.46, +3.03]} & +1.51 \scriptsize{[-1.11, +4.13]} & 14.0 $\pm$ 1.3 & 58.7\% $\to$ \textbf{100.0\%} & 77.8\% $\to$ 93.9\% \\
+ & TiCoSeRec & 8.6 $\pm$ 1.0 & 9.0 $\pm$ 0.7 & +0.45 \scriptsize{[-2.68, +3.57]} & +1.63 \scriptsize{[-4.26, +7.52]} & 10.4 $\pm$ 0.9 & 44.3\% $\to$ \textbf{100.0\%} & 74.7\% $\to$ 97.9\% \\
+\midrule
+Toys & SASRec & 8.1 $\pm$ 1.1 & 9.8 $\pm$ 0.4 & +1.74 \scriptsize{[-0.09, +3.56]} & +5.11 \scriptsize{[-2.73, +12.94]} & 14.4 $\pm$ 0.5 & 43.0\% $\to$ \textbf{100.0\%} & 75.0\% $\to$ 97.1\% \\
+ & TiSASRec & 10.6 $\pm$ 1.0 & \textbf{12.1 $\pm$ 1.9} & +1.44 \scriptsize{[-1.17, +4.05]} & +3.41 \scriptsize{[-7.69, +14.52]} & 17.6 $\pm$ 2.8 & 48.9\% $\to$ \textbf{100.0\%} & 78.0\% $\to$ 98.3\% \\
+ & GRU4Rec & 5.4 $\pm$ 0.5 & 6.2 $\pm$ 1.1 & +0.79 \scriptsize{[-2.92, +4.50]} & \textbf{+1.77$^{*}$} \scriptsize{[+0.57, +2.97]} & 9.1 $\pm$ 1.7 & 67.0\% $\to$ \textbf{100.0\%} & 70.4\% $\to$ 79.2\% \\
+ & BSARec & 11.0 $\pm$ 1.4 & 12.0 $\pm$ 1.4 & \textbf{+0.99$^{*}$} \scriptsize{[+0.29, +1.68]} & \textbf{+2.11$^{*}$} \scriptsize{[+0.74, +3.49]} & 17.5 $\pm$ 2.1 & 55.3\% $\to$ \textbf{100.0\%} & 76.4\% $\to$ 93.8\% \\
+ & TiCoSeRec & 8.5 $\pm$ 0.7 & 9.5 $\pm$ 1.7 & +1.02 \scriptsize{[-4.88, +6.93]} & +2.72 \scriptsize{[-4.58, +10.01]} & 13.9 $\pm$ 2.5 & 44.3\% $\to$ \textbf{100.0\%} & 75.4\% $\to$ 97.2\% \\
+\bottomrule
+\end{tabular*}
+\par\smallskip\noindent\begin{minipage}{\textwidth}\fontsize{8}{10}\selectfont All NDCG@10 values and paired differences ($\Delta = \text{+LBSP} - \text{Base}$) are in $10^{-3}$ units. 95\% intervals are unadjusted three-seed paired Student-$t$ intervals ($\text{df}=2$, $t_{0.975}=4.303$); $^{*}$ marks intervals strictly above zero. Across all 20 pairs, \texttt{lbsp\_mean} achieves 100.0\% last-bucket overlap and 0.0\% hit-flip rate, improves affected-user NDCG@10 in 20/20 pairs (complete-panel in 18/20 pairs) with zero significant losses, and yields the overall highest-accuracy model on all four datasets among all 72 evaluated configurations.
+\end{minipage}
+\end{table*}

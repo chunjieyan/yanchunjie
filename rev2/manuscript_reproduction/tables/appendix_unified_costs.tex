@@ -1,0 +1,45 @@
+\begin{table*}[!htbp]
+\centering
+\caption{Unified single-RTX-4090 computational profile (seed~42): parameters, mean training epoch duration, inference latency per user, and peak allocated VRAM}
+\label{tab:unified-costs}
+\fontsize{7.8}{9.6}\selectfont
+\setlength{\tabcolsep}{2.5pt}
+\renewcommand{\arraystretch}{1.08}
+\par\smallskip\noindent\makebox[\textwidth][l]{\textbf{(a) Eight unpooled backbones across four datasets}}\par\smallskip
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lrrrrrrrrrrrr@{}}
+\toprule
+ & \multicolumn{3}{c}{ML-1M ($N{=}945$)} & \multicolumn{3}{c}{Beauty ($N{=}2{,}966$)} & \multicolumn{3}{c}{Sports ($N{=}4{,}659$)} & \multicolumn{3}{c}{Toys ($N{=}2{,}547$)} \\
+\cmidrule(lr){2-4}\cmidrule(lr){5-7}\cmidrule(lr){8-10}\cmidrule(lr){11-13}
+Backbone & \shortstack{Train\\(s/ep)} & \shortstack{Infer\\(ms/u)} & \shortstack{VRAM\\(MiB)} & \shortstack{Train\\(s/ep)} & \shortstack{Infer\\(ms/u)} & \shortstack{VRAM\\(MiB)} & \shortstack{Train\\(s/ep)} & \shortstack{Infer\\(ms/u)} & \shortstack{VRAM\\(MiB)} & \shortstack{Train\\(s/ep)} & \shortstack{Infer\\(ms/u)} & \shortstack{VRAM\\(MiB)} \\
+\midrule
+SASRec & legacy$^{\dagger}$ & 0.0503 & 54.2 & legacy$^{\dagger}$ & 0.0428 & 67.6 & legacy$^{\dagger}$ & 0.0424 & 76.4 & legacy$^{\dagger}$ & 0.0426 & 66.0 \\
+TiSASRec & legacy$^{\dagger}$ & 0.0626 & 533.6 & legacy$^{\dagger}$ & 0.0546 & 546.5 & 31.3 & 0.0559 & 554.3 & 9.9 & 0.0548 & 545.5 \\
+GRU4Rec & 20.7 & 0.0485 & 80.5 & 3.6 & 0.0415 & 93.0 & 5.6 & 0.0401 & 102.2 & 3.0 & 0.0412 & 92.8 \\
+FMLP-Rec & 29.8 & 0.0516 & 76.6 & 4.9 & 0.0423 & 89.8 & 7.7 & 0.0424 & 98.3 & 4.5 & 0.0441 & 90.1 \\
+BSARec & 59.0 & 0.0550 & 88.5 & 9.5 & 0.0465 & 101.5 & 14.5 & 0.0459 & 110.0 & 7.7 & 0.0470 & 99.7 \\
+LRURec & 54.6 & 0.0533 & 58.0 & 8.3 & 0.0459 & 70.0 & 13.4 & 0.0449 & 79.1 & 7.6 & 0.0463 & 70.4 \\
+LSAB & 43.6 & 0.0526 & 82.6 & 7.8 & 0.0440 & 95.5 & 11.6 & 0.0443 & 104.8 & 6.5 & 0.0445 & 94.9 \\
+TiCoSeRec & 99.5 & 0.0505 & 54.2 & 22.7 & 0.0432 & 66.6 & 27.7 & 0.0424 & 76.4 & 18.4 & 0.0425 & 66.5 \\
+\bottomrule
+\end{tabular*}
+\par\smallskip\noindent\makebox[\textwidth][l]{\textbf{(b) Cross-backbone \texttt{+LBSP} and SASRec set-pooling operators}}\par\smallskip
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lrrrrrrrrrrrr@{}}
+\toprule
+ & \multicolumn{3}{c}{ML-1M ($N{=}945$)} & \multicolumn{3}{c}{Beauty ($N{=}2{,}966$)} & \multicolumn{3}{c}{Sports ($N{=}4{,}659$)} & \multicolumn{3}{c}{Toys ($N{=}2{,}547$)} \\
+\cmidrule(lr){2-4}\cmidrule(lr){5-7}\cmidrule(lr){8-10}\cmidrule(lr){11-13}
+Configuration & \shortstack{Train\\(s/ep)} & \shortstack{Infer\\(ms/u)} & \shortstack{VRAM\\(MiB)} & \shortstack{Train\\(s/ep)} & \shortstack{Infer\\(ms/u)} & \shortstack{VRAM\\(MiB)} & \shortstack{Train\\(s/ep)} & \shortstack{Infer\\(ms/u)} & \shortstack{VRAM\\(MiB)} & \shortstack{Train\\(s/ep)} & \shortstack{Infer\\(ms/u)} & \shortstack{VRAM\\(MiB)} \\
+\midrule
+SASRec + LBSP-Mean & legacy$^{\dagger}$ & 0.0525 & 57.3 & legacy$^{\dagger}$ & 0.0438 & 69.8 & legacy$^{\dagger}$ & 0.0442 & 79.0 & legacy$^{\dagger}$ & 0.0441 & 69.6 \\
+SASRec + LBSP-Max & 41.4 & 0.0516 & 189.4 & 7.3 & 0.0440 & 202.3 & 10.8 & 0.0441 & 211.5 & 6.2 & 0.0440 & 202.1 \\
+SASRec + LBSP-Attn & 40.3 & 0.0527 & 58.2 & 7.4 & 0.0446 & 70.6 & 11.2 & 0.0442 & 79.0 & 6.3 & 0.0451 & 69.1 \\
+SASRec + LBSP-DeepSets & 45.7 & 0.0523 & 57.3 & 8.5 & 0.0454 & 70.9 & 12.3 & 0.0445 & 79.6 & 6.7 & 0.0448 & 69.7 \\
+SASRec + ABSP-Mean & 35.6 & 0.0511 & 57.3 & 6.6 & 0.0437 & 69.9 & 9.8 & 0.0435 & 79.0 & 5.6 & 0.0439 & 69.9 \\
+TiSASRec + LBSP-Mean & 122.7 & 0.0624 & 533.6 & 19.4 & 0.0550 & 546.5 & 32.6 & 0.0545 & 554.3 & 12.8 & 0.0559 & 545.5 \\
+GRU4Rec + LBSP-Mean & 19.4 & 0.0485 & 80.5 & 3.6 & 0.0405 & 93.0 & 5.5 & 0.0402 & 102.2 & 3.3 & 0.0412 & 92.8 \\
+BSARec + LBSP-Mean & 59.1 & 0.0549 & 88.5 & 9.5 & 0.0468 & 100.9 & 13.6 & 0.0465 & 110.0 & 8.4 & 0.0473 & 99.7 \\
+TiCoSeRec + LBSP-Mean & 116.0 & 0.0529 & 57.3 & 19.5 & 0.0434 & 70.8 & 28.8 & 0.0437 & 79.1 & 16.1 & 0.0442 & 69.6 \\
+\bottomrule
+\end{tabular*}
+\par\smallskip\noindent\begin{minipage}{\textwidth}\fontsize{8}{10}\selectfont All inference timings and peak VRAM allocations were measured on the same NVIDIA GeForce RTX~4090 device (batch size 256, 5 synchronized complete-panel repetitions after warm-up). Training durations reflect wall-clock s/epoch from the 3-worker RTX~4090 suite for newly trained models; $^{\dagger}$reused frozen legacy checkpoints (for single-process SASRec Control/Shuffle/LBSP/Ensemble training and 5-view Ensemble inference costs, see Table~\ref{tab:measured-costs-appendix}). Notice that \texttt{ABSP-Mean} trains 10--22\% faster per epoch than \texttt{LBSP-Max/Attn/DeepSets} due to multi-bucket length compression, while \texttt{LBSP-Max} inflates inference peak VRAM ${\approx}3\times$ (e.g., 67.6$\to$202.3~MiB on Beauty).
+\end{minipage}
+\end{table*}

@@ -1,97 +1,84 @@
-# Prediction sensitivity to timestamp ties in sequential recommendation
+# Prediction sensitivity to timestamp ties in sequential recommendation (v2.0.0)
 
-This repository contains source and reproduction materials for the KAIS manuscript. The public entry is https://github.com/chunjieyan/yanchunjie. The associated reproduction README records the inspected commit, methodological settings and scope. The original project is distributed under its owner-provided MIT LICENSE; the pinned time-aware adaptation retains its separate third-party notice. The project archive is https://doi.org/10.5281/zenodo.23879414. This GitHub source snapshot is version 1.0.1; the archive link does not by itself establish that the archived files contain this revision.
+[![Zenodo Concept DOI](https://img.shields.io/badge/Zenodo-10.5281%2Fzenodo.23879414-blue)](https://doi.org/10.5281/zenodo.23879414)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-Version 1.0.1 (3 November 2026) updates the figure styling and table layout used in the revised manuscript. Source values, experiment code and numerical results are unchanged from version 1.0.0.
+Official source code, frozen dataset/split manifests, bit-exact invariance tests, complete 216-model aggregate records, and manuscript figure/table reproduction scripts for the substantially revised *Knowledge and Information Systems* (KAIS) manuscript:
 
-The GitHub repository already includes the expanded `legacy_sources/` directory: 403 indexed scientific-source files and 46 supporting JSON records, plus three directory placeholders. Run `python tools/validate_release.py` for dependency-free checks; no source-unpacking step is required for this checkout. See [the command/source guide](docs/REPRODUCING.md), and [checks actually run](VALIDATION.md). This is an independent source snapshot; the rest of the research workspace is not required for these checks.
+> **Prediction sensitivity to timestamp ties in sequential recommendation**  
+> Chunjie Yan, Jingjing Fan*, Yunan Zhang, Yanxiao Liu, and Wenna Zhang  
+> School of Information Engineering & Hebei Key Laboratory of Smart City Perception and Intelligent Computing, Hebei University of Architecture, China
 
-The package contains the original preprocessing, split construction, model, training, perturbation, evaluation and statistical sources; original stage/configuration records; a 42-model matrix and 12 Control-reusing Ensemble evaluations; frozen aggregate inputs; common figure styling; and offline validation/replay entrypoints. Every copied original source is byte-identical to its recorded SHA256. No complete interaction/prediction panel or model checkpoint is included. The single published Fig. 1 example is retained with its product metadata and recorded ranks/lists so that the diagram can be redrawn.
+- **Public GitHub repository:** https://github.com/chunjieyan/yanchunjie
+- **Zenodo all-version concept DOI:** https://doi.org/10.5281/zenodo.23879414 (resolves to the latest published version while retaining v1.0.x permanently)
+- **License:** MIT License (`LICENSE`); the pinned RecBole-TRM time-aware adaptation retains its upstream MIT notice in `third_party/`.
 
-## Directory map
+---
 
-| Path | Contents |
-| --- | --- |
-| `legacy_sources/` | Unmodified scientific and orchestration sources, with original relative stage structure |
-| `provenance/source_index.json` | Source category, original origin, SHA256, imports, path guards and packaged path |
-| `config/model_matrix.json` | 42 independent models: Control 12, Shuffle 12, LBSP 12, TiSASRec 6 |
-| `config/ensemble_evaluations.json` | 12 Ensemble configurations reusing Control weights |
-| `data_manifest/` | Four provider links, 76 raw/processed fingerprints and exact official raw acquisition proofs; no datasets |
-| `environment/` | Recorded Linux/server package inventory, core versions and plotting dependencies |
-| `aggregates/` | Unrounded model/seed/population summaries, bootstrap intervals, training curves and measured costs |
-| `figures/` | Two portable builders, one shared style and minimal unrounded inputs for seven figures |
-| `tables/` | Editable article tables and the frozen numeric provenance trace |
-| `tools/` | Data acquisition, source-integrity/preflight, replay and statistics entrypoints |
-| `third_party/` | Pinned RecBole-TRM attribution and its complete MIT notice |
+## What is New in Version 2.0.0 (KAIS Major Revision)
 
-`MANIFEST.sha256.json` checks the released file bytes. It excludes itself and generated `outputs/` files. The original server stage scripts are retained as evidence of the computation actually used, including their original path and manifest guards. Do not remove those guards or replace frozen hashes silently.
+Version 2.0.0 preserves **100% of the v1.0.1 legacy archive** (`legacy_sources/`, `aggregates/`, `provenance/`, `config/`, `data_manifest/`, `third_party/`) untouched and adds the complete Revision 2.0 experimental framework under **`rev2/`**, expanding the study from 42 to **216 independently fitted models** (72 dataset × backbone × pooling configurations × 3 training seeds, 0 failures, 0 invariance violations):
 
-## Environment
+1. **Eight-Backbone / Seven-Paradigm Sensitivity Audit (All 4 Datasets × 3 Seeds):**
+   - `SASRec` (ICDM'18), `TiSASRec` (WSDM'20, completed on Sports & Toys), `GRU4Rec` (ICLR'16 / CIKM'18), `FMLP-Rec` (WWW'22), `BSARec` (AAAI'24), `LRURec` (WSDM'24), `LSAB` (ACM TKDD'24), and `TiCoSeRec` (IEEE TKDE'24), all under matched capacity (`d=64`, `L=50`, 2 blocks/heads, dropout `0.2`, Adam `lr=1e-3`, full-item cross-entropy, seeds `42 / 2026 / 3407`).
+   - Prominent **Warm-target NDCG@10** reporting alongside complete strict full-catalogue evaluation.
+2. **Cross-Backbone Plug-In Generality of LBSP (20 Backbone–Dataset Pairs):**
+   - Parameter-free `LBSP-Mean` attached to `SASRec`, `TiSASRec`, `GRU4Rec`, `BSARec`, and `TiCoSeRec` across MovieLens-1M, Beauty, Sports, and Toys: **100.0% last-bucket Top-10 overlap and 0.0% hit flips across all 20 pairs**, **20/20 affected-user NDCG@10 gains**, **18/20 complete-panel gains** (0 significant losses), **#1 overall model on 4/4 datasets**, and **85–93% spillover reduction in all-bucket jitter**.
+3. **Pooling-Operator Ablations & Global All-Bucket Invariance (ABSP):**
+   - Direct comparison of `Mean`, `Max`, attention-based `PMA` (Set Transformer), and cardinality-aware `DeepSets` (`+log(1+|B|)`) on SASRec, plus global `ABSP-Mean` achieving **100.0% overlap / 0.00% hit flips under both last-bucket and all-bucket permutations** (which affect 81.7–97.8% of strict test users) with 0 extra parameters.
+4. **Unified Single-RTX-4090 Cost Profiling:**
+   - All 72 seed-42 configurations benchmarked sequentially on one NVIDIA GeForce RTX 4090 GPU (`rev2/results/unified_cost_profile.csv`).
 
-The recorded research environment is Linux x86-64, Python 3.10.22, PyTorch 2.13.0+cu132, NumPy 2.2.6, pandas 2.3.3, SciPy 1.15.3, Matplotlib 3.10.9 and tqdm 4.70.1, with an RTX 4090 and CUDA 13.2. Full sampled package versions are in `environment/server_snapshot_packages.txt`; newer core runtime measurements are separate in `recorded_environment.json`. These records are not a newly solved and GPU-tested environment lock.
+---
 
-In a Python 3.10 environment on a compatible Linux/CUDA host, the recorded PyTorch wheel is available from the [official cu132 index](https://download.pytorch.org/whl/cu132/torch/):
+## Repository Directory Map
 
-```sh
-python -m pip install torch==2.13.0+cu132 --index-url https://download.pytorch.org/whl/cu132
-python -m pip install numpy==2.2.6 pandas==2.3.3 scipy==1.15.3 matplotlib==3.10.9 tqdm==4.70.1
-python -m pip install -r environment/plotting_requirements.txt
+| Path | Scope | Contents |
+| :--- | :--- | :--- |
+| `rev2/src/` | **v2.0.0** | Unified 8-backbone PyTorch framework (`models.py`), deterministic set-pooling front-ends (`pooling.py`), frozen protocol & all-bucket evaluator (`protocol.py`), GPU-vectorized trainer (`train_eval.py`), legacy 42-checkpoint read-only evaluator (`eval_legacy_checkpoints.py`), multi-worker suite runner (`run_suite.py`), unified cost profiler (`benchmark_costs.py`), statistical aggregator (`aggregate_results.py`) |
+| `rev2/tests/` | **v2.0.0** | Bit-exact permutation invariance (`diff=0.0`), parallel LRU scan vs. sequential recurrence, causal GRU gather vs. `pack_padded_sequence`, legacy checkpoint compatibility (`test_smoke_all_models.py`, `test_legacy_compat.py`) |
+| `rev2/manifests/` | **v2.0.0** | Frozen SHA-256 dataset & split contracts (`dataset_contracts.json`), exact frozen item-ID bijections (`item_maps/*.csv`), and 42 legacy checkpoint index (`legacy_42_checkpoints.json`) |
+| `rev2/results/` | **v2.0.0** | Complete unrounded 216-model CSV ledgers (`master_summary.csv`, `paired_contrasts.csv`, `suite_ledger.csv`, `unified_cost_profile.csv`) |
+| `rev2/manuscript_reproduction/` | **v2.0.0** | Self-contained scripts (`build_rev2_tables.py`, `build_rev2_figures.py`, `audit_manuscript.py`, `paper_style.py`), generated LaTeX tables (`tables/*.tex`), vector PDF figures (`figures/Fig1.pdf`–`Fig11.pdf`), and verified 63-entry `references.bib` |
+| `rev2/scripts/` | **v2.0.0** | Reproducible Linux/AutoDL launchers (`run_existing_server.sh`, `run_autodl.sh`) and `requirements.txt` |
+| `legacy_sources/` | v1.0.1 | Preserved unmodified v1.0.x training, split, perturbation, and evaluation scripts (403 indexed files + 46 JSON records) |
+| `aggregates/`, `config/`, `data_manifest/`, `provenance/`, `third_party/`, `tools/` | v1.0.1 | Original v1.0.1 42-model provenance, data acquisition proofs, and RecBole-TRM MIT license notice |
+
+> **Data & Weight Policy:** Raw MovieLens-1M and Amazon 2014 interaction files and fitted `.pt` model checkpoints are not redistributed due to dataset provider terms and archive size limits. Acquire MovieLens-1M from [GroupLens](https://grouplens.org/datasets/movielens/1m/) and Amazon 2014 5-core subsets from [McAuley Lab](https://cseweb.ucsd.edu/~jmcauley/datasets/amazon/links.html) (see `data_manifest/README.md`).
+
+---
+
+## Quick Verification Commands
+
+### 1. Bit-Exact Invariance & Architectural Smoke Tests (CPU or GPU, no raw data required)
+```bash
+pip install -r rev2/scripts/requirements.txt
+python rev2/tests/test_smoke_all_models.py
 ```
 
-No installer or GPU job is run by the integrity/preflight commands. Plotting is CPU-only. Arial or an appropriately licensed installed font is needed to reproduce exact lettering; proprietary font files are not redistributed.
+### 2. Rebuild All Revision 2.0 LaTeX Tables & Vector PDF Figures (CPU only, no raw data required)
+```bash
+python rev2/manuscript_reproduction/scripts/build_rev2_tables.py
+python rev2/manuscript_reproduction/scripts/build_rev2_figures.py
+```
 
-## Offline validation and recorded plan
+### 3. Run the Full 216-Model Suite on a Single RTX 4090 GPU (with frozen splits in place)
+```bash
+# Reusing the 42 frozen legacy checkpoints (174 new models + 42 read-only evaluations + cost profiling):
+WORKERS=3 bash rev2/scripts/run_existing_server.sh all
 
-From the repository root:
+# Or full from-scratch 216-model execution:
+bash rev2/scripts/run_autodl.sh all
+```
 
-```sh
-python tools/reproduce.py source-integrity
-python tools/reproduce.py preflight
-python tools/reproduce.py model-plan
-python tools/reproduce.py relocation-plan --target-root /root/autodl-tmp/time_uncertainty_rec
+### 4. Legacy v1.0.1 Offline Integrity Checks (preserved)
+```bash
+python tools/validate_release.py
 python tests/test_result_contracts.py
 ```
 
-The first two commands verify file bytes and parse Python source without importing trainers. Optional package metadata is reported without claiming the local interpreter is the original server. `--strict` additionally fails for missing execution dependencies or unprovided data. The recorded experiment comprises 42 independently fitted models and 54 evaluated configurations; permutation views, Ensemble members and users are not extra training seeds.
+---
 
-## Data acquisition and preprocessing
-
-Use the [GroupLens MovieLens-1M release](https://grouplens.org/datasets/movielens/1m/) and [Amazon 2014 dataset page](https://cseweb.ucsd.edu/~jmcauley/datasets/amazon/links.html), following their terms. Exact file links, the original input layout and acquisition commands are in `data_manifest/README.md`. Use the older Amazon files, not the linked 2023 dataset.
-
-Sports and Toys official gzip files were independently reacquired and exactly matched the recorded compressed SHA256, byte counts, gzip EOF/CRC and complete row counts; only the proof metadata is included. The old local incomplete copies were not changed and are not distributed. Raw data acquisition is separate from code licensing.
-
-After raw data and preprocessing reconstruction:
-
-```sh
-python tools/reproduce.py preflight --data-root /root/autodl-tmp/time_uncertainty_rec --verify-data
-```
-
-The original preprocessing dependency order is recorded in `config/pipeline_stages.json` and the full source map. Stable source-row order, catalogue maps, timestamp buckets, 80/90-percentile global split boundaries, strict target exclusions, history truncation and event/time joins are part of the protocol. They must not be replaced by a generic split or item sort.
-
-## Reproduce the frozen figures and tables
-
-The figure builders use their compact unrounded inputs, so they need no raw interaction data, fitted checkpoints or GPU:
-
-```sh
-python tools/reproduce.py redraw --output-dir outputs/figures
-```
-
-To register licensed font files from a local directory, add `--font-dir /path/to/fonts`. All seven figures use `figures/paper_style.py`. Displayed NDCG@10 differences use units of 10^-3; the underlying summaries and interval endpoints retain their original precision. Editable table sources and the frozen numeric trace are included under `tables/`.
-
-## Replaying scientific experiments
-
-The supplied replay entrypoints assemble/inspect source-based jobs rather than executing the historical E1-only follow-up as if it were the entire experiment. E1's 19 training jobs and 18 follow-up evaluations are historical subsets; the complete design is 42 training jobs and 54 evaluations. The wrappers keep original scientific sources separate from generated runtime stages and output registration.
-
-The original scripts target `/root/autodl-tmp/time_uncertainty_rec`. Some enforce both POSIX and this exact root, and generated child scripts can check their exact stage and `__file__`. Using a `--root` parameter alone does not prove arbitrary-path portability. Use a dedicated Linux workspace/container with the documented layout, and preserve a separate output directory for a fresh run. Existing frozen manifests must remain unchanged.
-
-Fresh output registration and summary recomputation use separate records from the paper's frozen-result verification. A new training run can produce different bytes because of training stochasticity or hardware/runtime differences; a matching scientific protocol is not a guarantee of bit-identical checkpoints or published point estimates. Record checkpoint, input, user/target identity and model-source fingerprints before method/seed pairing.
-
-See [the tested planning, registration and statistics command sequence](docs/REPRODUCING.md). All six release-tool CLI help entrypoints and the complete source/matrix preflight were run successfully. The replay interfaces inspect/prepare historical scientific sources; they are not an automatic one-command fresh training/inference service. Synthetic tests also check the 54-configuration result contract and reference comparison failures.
-
-## Validation scope
-
-Checks run for this snapshot include original-source fingerprints, Python syntax, model-design counts, six CLI help entrypoints, 11 synthetic result/reference contracts, and rebuilding/visually inspecting all seven figures. Data fingerprints and historical acquisition proofs are included as records; this packaging task did not freshly reconstruct all data or rerun all 42 GPU trainings. The separate manuscript is checked in its submission workflow. Historical evidence, CPU figure checks and new GPU execution have distinct scopes; see `VALIDATION.md`. No account action, public push, DOI registration or publication is performed by these scripts.
-
-## Complete supplementary snapshot
-
-The GitHub checkout supplies the complete expanded historical sources in `legacy_sources/`, including the four files restored by the earlier repository repair. A separately supplied `ESM_1_Reproducibility.zip` may use a compact layout: only if its extracted root contains both `legacy_sources.zip` and `unpack_sources.py`, first run `python unpack_sources.py` inside that supplementary package before its offline checks. Do not substitute a partial extraction or silently replace expected source hashes. See `README_REPRODUCIBILITY.md` for the article identity, implementation settings and limits of reproduction.
+## Environment
+- **Tested Hardware:** Single NVIDIA GeForce RTX 4090 (24 GB VRAM), Linux x86-64
+- **Software Stack:** Python 3.10, PyTorch 2.13.0+cu132, NumPy 2.2+, Matplotlib 3.10+ (zero `pandas` or `RecBole` runtime dependency required for `rev2/src/`)

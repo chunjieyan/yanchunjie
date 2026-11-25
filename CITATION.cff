@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use this code, manifests, or reproduction artifacts, please cite our work as below."
+type: software
+title: "Prediction sensitivity to timestamp ties in sequential recommendation"
+version: "2.0.0"
+date-released: "2026-11-25"
+doi: "10.5281/zenodo.23879414"
+repository-code: "https://github.com/chunjieyan/yanchunjie"
+license: MIT
+authors:
+  - family-names: "Yan"
+    given-names: "Chunjie"
+    orcid: "https://orcid.org/0009-0008-8057-7788"
+    affiliation: "School of Information Engineering, Hebei University of Architecture"
+  - family-names: "Fan"
+    given-names: "Jingjing"
+    email: "fjj1960@hebiace.edu.cn"
+    affiliation: "School of Information Engineering, Hebei University of Architecture"
+  - family-names: "Zhang"
+    given-names: "Yunan"
+    affiliation: "School of Information Engineering, Hebei University of Architecture"
+  - family-names: "Liu"
+    given-names: "Yanxiao"
+    affiliation: "School of Information Engineering, Hebei University of Architecture"
+  - family-names: "Zhang"
+    given-names: "Wenna"
+    affiliation: "School of Information Engineering, Hebei University of Architecture"
+keywords:
+  - sequential recommendation
+  - timestamp ties
+  - prediction stability
+  - permutation invariance
+  - set pooling
+  - offline evaluation
